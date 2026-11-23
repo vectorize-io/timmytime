@@ -1,0 +1,132 @@
+diff --git a/hindsight-api-slim/hindsight_api/engine/memory_engine.py b/hindsight-api-slim/hindsight_api/engine/memory_engine.py
+index 9b234903f..ca4d0d594 100644
+--- a/hindsight-api-slim/hindsight_api/engine/memory_engine.py
++++ b/hindsight-api-slim/hindsight_api/engine/memory_engine.py
+@@ -18,6 +18,7 @@ import hashlib
+ import inspect
+ import itertools
+ import json
++import os
+ import logging
+ import random
+ import sys
+@@ -3151,6 +3152,11 @@ class MemoryEngine(MemoryEngineInterface):
+         # Initialize query analyzer
+         if query_analyzer is not None:
+             self.query_analyzer = query_analyzer
++        elif os.getenv("HINDSIGHT_API_QUERY_ANALYZER", "dateparser").strip().lower() == "tlm":
++            # Opt-in tiny multilingual date model; see TlmQueryAnalyzer.
++            from .query_analyzer import TlmQueryAnalyzer
++
++            self.query_analyzer = TlmQueryAnalyzer()
+         else:
+             from .query_analyzer import DateparserQueryAnalyzer
+ 
+diff --git a/hindsight-api-slim/hindsight_api/engine/query_analyzer.py b/hindsight-api-slim/hindsight_api/engine/query_analyzer.py
+index f24728d2e..7cccac371 100644
+--- a/hindsight-api-slim/hindsight_api/engine/query_analyzer.py
++++ b/hindsight-api-slim/hindsight_api/engine/query_analyzer.py
+@@ -9,7 +9,7 @@ import logging
+ import re
+ import threading
+ from abc import ABC, abstractmethod
+-from datetime import UTC, datetime, timedelta
++from datetime import UTC, datetime, time, timedelta
+ from typing import Any, cast
+ 
+ from dateparser.conf import Settings, apply_settings
+@@ -735,3 +735,38 @@ what is the weather = none
+             return None
+ 
+         return None
++
++
++class TlmQueryAnalyzer(QueryAnalyzer):
++    """Query analyzer backed by tlm: a tiny multilingual date model that runs on numpy only.
++
++    Opt in with ``HINDSIGHT_API_QUERY_ANALYZER=tlm``; dateparser stays the default. Same contract
++    as DateparserQueryAnalyzer: one window per query (tlm's first range), whole days, naive
++    datetimes. tlm returns several ranges for questions that name several ("May 2025 and June
++    2026"); recall takes one window today, so the first is used. Open ends ("before 2020") become
++    the widest dates datetime can hold.
++    """
++
++    _OPEN_START = datetime(1, 1, 1)
++    _OPEN_END = datetime(9999, 12, 31, 23, 59, 59, 999999)
++
++    def __init__(self) -> None:
++        self._parser = None
++
++    def load(self) -> None:
++        if self._parser is None:
++            from tlm.runtime import Parser
++
++            self._parser = Parser()
++
++    def analyze(self, query: str, reference_date: datetime | None = None) -> QueryAnalysis:
++        if reference_date is None:
++            reference_date = default_reference_date()
++        self.load()
++        ranges = self._parser.parse(query, reference_date)
++        if not ranges:
++            return QueryAnalysis(temporal_constraint=None)
++        first = ranges[0]
++        start = datetime.combine(first.start, time.min) if first.start else self._OPEN_START
++        end = datetime.combine(first.end, time.max) if first.end else self._OPEN_END
++        return QueryAnalysis(temporal_constraint=TemporalConstraint(start_date=start, end_date=end))
+diff --git a/hindsight-api-slim/tests/test_tlm_query_analyzer.py b/hindsight-api-slim/tests/test_tlm_query_analyzer.py
+new file mode 100644
+index 000000000..e2f342f8b
+--- /dev/null
++++ b/hindsight-api-slim/tests/test_tlm_query_analyzer.py
+@@ -0,0 +1,50 @@
++"""TlmQueryAnalyzer: the opt-in tlm date model (HINDSIGHT_API_QUERY_ANALYZER=tlm)."""
++
++from datetime import datetime
++
++import pytest
++
++pytest.importorskip("tlm")
++
++from hindsight_api.engine.query_analyzer import TlmQueryAnalyzer  # noqa: E402
++
++REF = datetime(2026, 11, 17, 14, 30)
++
++
++@pytest.fixture(scope="module")
++def tlm_analyzer():
++    a = TlmQueryAnalyzer()
++    a.load()
++    return a
++
++
++@pytest.mark.parametrize(
++    "query, expected",
++    [
++        ("what did I decide yesterday", "2026-11-16 to 2026-11-16"),
++        ("in the last 6 months", "2026-05-17 to 2026-11-17"),
++        ("¿qué hice hace 3 días?", "2026-11-14 to 2026-11-14"),
++        ("上周一", "2026-11-09 to 2026-11-09"),
++        ("letzte Woche", "2026-11-09 to 2026-11-15"),
++    ],
++)
++def test_dates(tlm_analyzer, query, expected):
++    assert str(tlm_analyzer.analyze(query, REF).temporal_constraint) == expected
++
++
++@pytest.mark.parametrize("query", ["how does the reranker work", "", "release 2.1 notes", "port 8080"])
++def test_no_date(tlm_analyzer, query):
++    assert tlm_analyzer.analyze(query, REF).temporal_constraint is None
++
++
++def test_open_end_and_whole_days(tlm_analyzer):
++    c = tlm_analyzer.analyze("before 2020", REF).temporal_constraint
++    assert c.start_date == datetime(1, 1, 1) and c.end_date == datetime(2019, 12, 31, 23, 59, 59, 999999)
++
++
++def test_engine_picks_tlm_from_env(monkeypatch):
++    from hindsight_api.engine import memory_engine
++
++    monkeypatch.setenv("HINDSIGHT_API_QUERY_ANALYZER", "tlm")
++    src = open(memory_engine.__file__).read()
++    assert 'os.getenv("HINDSIGHT_API_QUERY_ANALYZER", "dateparser")' in src and "TlmQueryAnalyzer()" in src

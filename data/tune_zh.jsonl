@@ -1,0 +1,416 @@
+{"q": "那个第三季度开始之后我感觉压力真的好大啊，记得帮我把所有关于第三季度的复习计划都整理出来，我怕到时候会忘掉。", "code": "q3", "kind": "quarter", "lang": "zh", "anchor": "2023-01-01", "ranges": [["2022-07-01", "2022-09-30"]]}
+{"q": "诶对了，帮我查一下第三季度里有没有什么比较重要的学术会议或者讲座啊，我总觉得错过了一些很有用的信息，真的很烦。", "code": "q3", "kind": "quarter", "lang": "zh", "anchor": "2027-10-14", "ranges": [["2027-07-01", "2027-09-30"]]}
+{"q": "帮我找找2015年整年的设计趋势报告，我记不清了。", "code": "2015", "kind": "year_abs", "lang": "zh", "anchor": "2026-08-03", "ranges": [["2015-01-01", "2015-12-31"]]}
+{"q": "2015年全年的项目报价单都存在哪儿了呀？", "code": "2015", "kind": "year_abs", "lang": "zh", "anchor": "2026-05-09", "ranges": [["2015-01-01", "2015-12-31"]]}
+{"q": "那个2015年全年的客户名单里，那个大项目是谁接的来着？", "code": "2015", "kind": "year_abs", "lang": "zh", "anchor": "2023-09-20", "ranges": [["2015-01-01", "2015-12-31"]]}
+{"q": "帮我记一下这个代码 snippet `print(123)` 那个逻辑。", "code": "none", "kind": "none", "lang": "zh", "anchor": "2026-08-08", "ranges": []}
+{"q": "把这个链接 `https://example.com/888` 存起来。", "code": "none", "kind": "none", "lang": "zh", "anchor": "2025-04-04", "ranges": []}
+{"q": "记得帮我查查那个 ID 为 9527 的东西。", "code": "none", "kind": "none", "lang": "zh", "anchor": "2027-05-28", "ranges": []}
+{"q": "明天早上天气", "code": "day 1", "kind": "day", "lang": "zh", "anchor": "2023-10-29", "ranges": [["2023-10-30", "2023-10-30"]]}
+{"q": "明天下午会议", "code": "day 1", "kind": "day", "lang": "zh", "anchor": "2024-10-30", "ranges": [["2024-10-31", "2024-10-31"]]}
+{"q": "明天晚上菜谱", "code": "day 1", "kind": "day", "lang": "zh", "anchor": "2026-11-29", "ranges": [["2026-11-30", "2026-11-30"]]}
+{"q": "查找我每周写的句子", "code": "none", "kind": "none", "lang": "zh", "anchor": "2026-08-03", "ranges": []}
+{"q": "过去六天里，我一共值了三个夜班。(Asking for a summary of shifts over the last six days.)", "code": "last 6 day", "kind": "last_n", "lang": "zh", "anchor": "2025-10-21", "ranges": [["2025-10-15", "2025-10-21"]]}
+{"q": "从六天前到今天，患者张先生的血压记录都在哪？(Inquiring about specific patient data from the six-day period.)", "code": "last 6 day", "kind": "last_n", "lang": "zh", "anchor": "2025-10-06", "ranges": [["2025-09-30", "2025-10-06"]]}
+{"q": "过去六天，我是否有漏掉任何药物核对记录？(Checking for errors/omissions during the last six days.)", "code": "last 6 day", "kind": "last_n", "lang": "zh", "anchor": "2025-01-10", "ranges": [["2025-01-04", "2025-01-10"]]}
+{"q": "周六周日天气", "code": "week 0 weekend", "kind": "weekend", "lang": "zh", "anchor": "2025-06-12", "ranges": [["2025-06-14", "2025-06-15"]]}
+{"q": "帮我把这个接口文档里的这个链接存一下：https://api.example.com/v1/auth/778899", "code": "none", "kind": "none", "lang": "zh", "anchor": "2025-01-03", "ranges": []}
+{"q": "这个代码片段有点乱，你帮我优化一下：const key = 'dev_9921_prod';", "code": "none", "kind": "none", "lang": "zh", "anchor": "2023-03-27", "ranges": []}
+{"q": "记录一下新项目的仓库地址：github.com/startup/core-engine-404", "code": "none", "kind": "none", "lang": "zh", "anchor": "2025-04-13", "ranges": []}
+{"q": "下周六下午两点记得提醒我跟投资人吃饭下周六下午两点", "code": "week 1 sat", "kind": "weekday", "lang": "zh", "anchor": "2023-05-27", "ranges": [["2023-06-03", "2023-06-03"]]}
+{"q": "帮我查一下下周六上午十点有没有空档下周六上午十点", "code": "week 1 sat", "kind": "weekday", "lang": "zh", "anchor": "2024-01-21", "ranges": [["2024-01-27", "2024-01-27"]]}
+{"q": "下周六晚上八点帮我订个餐厅下周六晚上八点", "code": "week 1 sat", "kind": "weekday", "lang": "zh", "anchor": "2027-07-01", "ranges": [["2027-07-10", "2027-07-10"]]}
+{"q": "2010s流行音乐", "code": "2010s", "kind": "decade", "lang": "zh", "anchor": "2027-07-07", "ranges": [["2010-01-01", "2019-12-31"]]}
+{"q": "2010-2019智能手机发展", "code": "2010s", "kind": "decade", "lang": "zh", "anchor": "2025-08-07", "ranges": [["2010-01-01", "2019-12-31"]]}
+{"q": "本月目标", "code": "month 0", "kind": "month", "lang": "zh", "anchor": "2024-12-05", "ranges": [["2024-12-01", "2024-12-31"]]}
+{"q": "本月业绩", "code": "month 0", "kind": "month", "lang": "zh", "anchor": "2023-04-14", "ranges": [["2023-04-01", "2023-04-30"]]}
+{"q": "本月计划", "code": "month 0", "kind": "month", "lang": "zh", "anchor": "2023-06-24", "ranges": [["2023-06-01", "2023-06-30"]]}
+{"q": "去年冬天我读的那本书名字是什么，去年冬天。", "code": "year -1 winter", "kind": "season", "lang": "zh", "anchor": "2026-01-01", "ranges": [["2025-12-01", "2026-02-28"]]}
+{"q": "帮我找一下去年冬天拍的照片，去年冬天。", "code": "year -1 winter", "kind": "season", "lang": "zh", "anchor": "2027-09-28", "ranges": [["2026-12-01", "2027-02-28"]]}
+{"q": "去年冬天我住过的那个酒店叫什么，去年冬天。", "code": "year -1 winter", "kind": "season", "lang": "zh", "anchor": "2024-04-27", "ranges": [["2023-12-01", "2024-02-29"]]}
+{"q": "请问这款手表的售价是1250元吗？", "code": "none", "kind": "none", "lang": "zh", "anchor": "2024-06-08", "ranges": []}
+{"q": "麻烦您帮我查询一下这个订单的总金额是否为3580元。", "code": "none", "kind": "none", "lang": "zh", "anchor": "2024-02-23", "ranges": []}
+{"q": "我想请教一下，如果购买这套家具，总共需要支付2800元吗？", "code": "none", "kind": "none", "lang": "zh", "anchor": "2026-04-03", "ranges": []}
+{"q": "这个月有哪些重要的考试日期？", "code": "month 0", "kind": "month", "lang": "zh", "anchor": "2027-09-10", "ranges": [["2027-09-01", "2027-09-30"]]}
+{"q": "帮我查一下这个月我还有哪些没交的作业。", "code": "month 0", "kind": "month", "lang": "zh", "anchor": "2024-08-12", "ranges": [["2024-08-01", "2024-08-31"]]}
+{"q": "这个月我一共花了多少钱在校外吃饭？", "code": "month 0", "kind": "month", "lang": "zh", "anchor": "2024-10-21", "ranges": [["2024-10-01", "2024-10-31"]]}
+{"q": "前天我卖掉了那台旧收音机。(I sold that old radio the day before yesterday.)", "code": "day -2", "kind": "day", "lang": "zh", "anchor": "2026-08-08", "ranges": [["2026-08-06", "2026-08-06"]]}
+{"q": "前天下午三点我收到了一批新货。(The day before yesterday at 3 PM, I received a new shipment.)", "code": "day -2", "kind": "day", "lang": "zh", "anchor": "2023-07-24", "ranges": [["2023-07-22", "2023-07-22"]]}
+{"q": "前天早上我没开门。(The day before yesterday in the morning, I didn't open the shop.)", "code": "day -2", "kind": "day", "lang": "zh", "anchor": "2024-06-25", "ranges": [["2024-06-23", "2024-06-23"]]}
+{"q": "请记录一下，上周六和上周日我由于身体不适，店里休息了两天。", "code": "week -1 weekend", "kind": "weekend", "lang": "zh", "anchor": "2026-08-03", "ranges": [["2026-08-01", "2026-08-02"]]}
+{"q": "麻烦帮我整理一下上周六和上周日的销售报表，谢谢您。", "code": "week -1 weekend", "kind": "weekend", "lang": "zh", "anchor": "2023-03-02", "ranges": [["2023-02-25", "2023-02-26"]]}
+{"q": "帮我记一下那个代码段 python def add(a, b): return a + b", "code": "none", "kind": "none", "lang": "zh", "anchor": "2023-02-24", "ranges": []}
+{"q": "那个网址 https://example.com/page/12345 记得存一下", "code": "none", "kind": "none", "lang": "zh", "anchor": "2025-12-31", "ranges": []}
+{"q": "那个用户ID是 987654321 帮我记在备忘录里", "code": "none", "kind": "none", "lang": "zh", "anchor": "2023-03-21", "ranges": []}
+{"q": "帮我找一下2017年1月17日的训练记录。", "code": "2017-01-17", "kind": "date", "lang": "zh", "anchor": "2024-10-28", "ranges": [["2017-01-17", "2017-01-17"]]}
+{"q": "显示2017年1月17日的跑步配速。", "code": "2017-01-17", "kind": "date", "lang": "zh", "anchor": "2027-09-12", "ranges": [["2017-01-17", "2017-01-17"]]}
+{"q": "查询2017年1月17日那天我跑了多少公里。", "code": "2017-01-17", "kind": "date", "lang": "zh", "anchor": "2026-12-10", "ranges": [["2017-01-17", "2017-01-17"]]}
+{"q": "帮我查一下2017年到2019年我跑过最快的马拉松成绩。", "code": "2017 .. 2019", "kind": "range", "lang": "zh", "anchor": "2027-07-23", "ranges": [["2017-01-01", "2019-12-31"]]}
+{"q": "2017年到2019年我一共参加了多少场比赛？", "code": "2017 .. 2019", "kind": "range", "lang": "zh", "anchor": "2024-09-23", "ranges": [["2017-01-01", "2019-12-31"]]}
+{"q": "记得帮我存一下2017年到2019年这段时间我所有的训练计划。", "code": "2017 .. 2019", "kind": "range", "lang": "zh", "anchor": "2025-07-30", "ranges": [["2017-01-01", "2019-12-31"]]}
+{"q": "上周四早上 (Referring to last Thursday morning)", "code": "week -1 thu", "kind": "weekday", "lang": "zh", "anchor": "2023-11-20", "ranges": [["2023-11-16", "2023-11-16"]]}
+{"q": "上周四下午 (Referring to last Thursday afternoon)", "code": "week -1 thu", "kind": "weekday", "lang": "zh", "anchor": "2023-10-09", "ranges": [["2023-10-05", "2023-10-05"]]}
+{"q": "上周四晚上 (Referring to last Thursday evening/night)", "code": "week -1 thu", "kind": "weekday", "lang": "zh", "anchor": "2026-03-01", "ranges": [["2026-02-19", "2026-02-19"]]}
+{"q": "四月到八月期间，帮我把所有在这个时间段内成交的合同都整理出来。", "code": "apr .. aug", "kind": "range", "lang": "zh", "anchor": "2026-12-07", "ranges": [["2026-04-01", "2026-08-31"]]}
+{"q": "四月到八月，我们要在这段时间内完成所有的销售目标，帮我做个进度追踪。", "code": "apr .. aug", "kind": "range", "lang": "zh", "anchor": "2026-08-03", "ranges": [["2026-04-01", "2026-08-31"]]}
+{"q": "四月到八月，记得提醒我这段时间的季度总结会议。", "code": "apr .. aug", "kind": "range", "lang": "zh", "anchor": "2025-02-15", "ranges": [["2024-04-01", "2024-08-31"]]}
+{"q": "2023-07-26和上周四，帮我把这两个日期的项目进度整理一下。", "code": "2023-07-26 ; week -1 thu", "kind": "multi", "lang": "zh", "anchor": "2023-12-30", "ranges": [["2023-07-26", "2023-07-26"], ["2023-12-21", "2023-12-21"]]}
+{"q": "2023-07-26以及上周四，我当时收到的那两份设计稿在哪？", "code": "2023-07-26 ; week -1 thu", "kind": "multi", "lang": "zh", "anchor": "2025-12-31", "ranges": [["2023-07-26", "2023-07-26"], ["2025-12-25", "2025-12-25"]]}
+{"q": "3个单位的音频采样率是多少？", "code": "none", "kind": "none", "lang": "zh", "anchor": "2027-08-23", "ranges": []}
+{"q": "5个时钟周期的延迟是多少？", "code": "none", "kind": "none", "lang": "zh", "anchor": "2024-05-04", "ranges": []}
+{"q": "帮我记下那个logo设计花了3天，别忘了", "code": "none", "kind": "none", "lang": "zh", "anchor": "2023-08-14", "ranges": []}
+{"q": "记下那个改稿花了5天，真累", "code": "none", "kind": "none", "lang": "zh", "anchor": "2023-05-20", "ranges": []}
+{"q": "帮我查一下下周一到下周日的天气怎么样。", "code": "week 1", "kind": "week", "lang": "zh", "anchor": "2025-07-01", "ranges": [["2025-07-07", "2025-07-13"]]}
+{"q": "下周一到下周日期间有没有什么重要的截止日期？", "code": "week 1", "kind": "week", "lang": "zh", "anchor": "2024-02-11", "ranges": [["2024-02-12", "2024-02-18"]]}
+{"q": "十二月的天气怎么样？", "code": "dec", "kind": "month_name", "lang": "zh", "anchor": "2026-01-01", "ranges": [["2025-12-01", "2025-12-31"]]}
+{"q": "十二月有什么值得推荐的旅游目的地吗？", "code": "dec", "kind": "month_name", "lang": "zh", "anchor": "2024-05-17", "ranges": [["2023-12-01", "2023-12-31"]]}
+{"q": "十二月的时候我需要准备哪些冬装？", "code": "dec", "kind": "month_name", "lang": "zh", "anchor": "2024-07-31", "ranges": [["2023-12-01", "2023-12-31"]]}
+{"q": "查找包含12个月数据的日志", "code": "none", "kind": "none", "lang": "zh", "anchor": "2023-10-24", "ranges": []}
+{"q": "展示5个周期的运行指标", "code": "none", "kind": "none", "lang": "zh", "anchor": "2026-11-04", "ranges": []}
+{"q": "检索3小时的错误记录", "code": "none", "kind": "none", "lang": "zh", "anchor": "2024-07-14", "ranges": []}
+{"q": "请帮我记录一下，病房302的患者在傍晚时分表现出明显的焦虑情绪。", "code": "none", "kind": "none", "lang": "zh", "anchor": "2027-08-30", "ranges": []}
+{"q": "麻烦您查询一下，目前还有哪位患者需要进行术后伤口换药。", "code": "none", "kind": "none", "lang": "zh", "anchor": "2023-03-07", "ranges": []}
+{"q": "请务必提醒我，在深夜时分需要再次确认五号床患者的静脉补液速度。", "code": "none", "kind": "none", "lang": "zh", "anchor": "2027-06-30", "ranges": []}
+{"q": "过去10周 学习笔记", "code": "last 10 week", "kind": "last_n", "lang": "zh", "anchor": "2027-08-14", "ranges": [["2027-06-05", "2027-08-14"]]}
+{"q": "最近10周 财务报表", "code": "last 10 week", "kind": "last_n", "lang": "zh", "anchor": "2026-05-22", "ranges": [["2026-03-13", "2026-05-22"]]}
+{"q": "每周会议记录", "code": "none", "kind": "none", "lang": "zh", "anchor": "2025-08-26", "ranges": []}
+{"q": "每隔一小时提醒", "code": "none", "kind": "none", "lang": "zh", "anchor": "2027-03-05", "ranges": []}
+{"q": "每周销售数据", "code": "none", "kind": "none", "lang": "zh", "anchor": "2026-08-09", "ranges": []}
+{"q": "帮我查一下3月24日和上个月的任务清单。", "code": "*-03-24 ; month -1", "kind": "multi", "lang": "zh", "anchor": "2024-09-13", "ranges": [["2024-03-24", "2024-03-24"], ["2024-08-01", "2024-08-31"]]}
+{"q": "3月24日那天我记了什么？还有上个月有什么重要的截止日期吗？", "code": "*-03-24 ; month -1", "kind": "multi", "lang": "zh", "anchor": "2025-01-25", "ranges": [["2024-03-24", "2024-03-24"], ["2024-12-01", "2024-12-31"]]}
+{"q": "我想看看3月24日和上个月的消费记录。", "code": "*-03-24 ; month -1", "kind": "multi", "lang": "zh", "anchor": "2023-12-08", "ranges": [["2023-03-24", "2023-03-24"], ["2023-11-01", "2023-11-30"]]}
+{"q": "请帮我整理一份下个月的行程安排。", "code": "month 1", "kind": "month", "lang": "zh", "anchor": "2027-06-30", "ranges": [["2027-07-01", "2027-07-31"]]}
+{"q": "请问下个月有哪些重要的节日需要注意？", "code": "month 1", "kind": "month", "lang": "zh", "anchor": "2026-09-17", "ranges": [["2026-10-01", "2026-10-31"]]}
+{"q": "麻烦您记录一下我下个月的预算支出计划。", "code": "month 1", "kind": "month", "lang": "zh", "anchor": "2027-09-06", "ranges": [["2027-10-01", "2027-10-31"]]}
+{"q": "上个月的进货单发我一下", "code": "month -1", "kind": "month", "lang": "zh", "anchor": "2025-10-15", "ranges": [["2025-09-01", "2025-09-30"]]}
+{"q": "把这5个钟头的录音转成文字，要准点", "code": "none", "kind": "none", "lang": "zh", "anchor": "2026-08-03", "ranges": []}
+{"q": "iPhone 15 维修 教程", "code": "none", "kind": "none", "lang": "zh", "anchor": "2025-10-30", "ranges": []}
+{"q": "macOS 14 报错 解决", "code": "none", "kind": "none", "lang": "zh", "anchor": "2026-08-20", "ranges": []}
+{"q": "RTX 3080 驱动 下载", "code": "none", "kind": "none", "lang": "zh", "anchor": "2024-06-16", "ranges": []}
+{"q": "帮我记录一下五个月前的那个月我总共值了多少个夜班。", "code": "month -5", "kind": "month", "lang": "zh", "anchor": "2027-06-30", "ranges": [["2027-01-01", "2027-01-31"]]}
+{"q": "五个月前的那个月里，我是否有过请假记录？", "code": "month -5", "kind": "month", "lang": "zh", "anchor": "2027-12-10", "ranges": [["2027-07-01", "2027-07-31"]]}
+{"q": "那个五个月前的月份，我领取的加班费总额是多少？", "code": "month -5", "kind": "month", "lang": "zh", "anchor": "2026-03-22", "ranges": [["2025-10-01", "2025-10-31"]]}
+{"q": "帮我记一下昨天下午跟张总谈的那个报价方案昨天下午。", "code": "day -1", "kind": "day", "lang": "zh", "anchor": "2025-01-18", "ranges": [["2025-01-17", "2025-01-17"]]}
+{"q": "记得把昨天晚上那个客户发来的邮件附件存一下昨天晚上。", "code": "day -1", "kind": "day", "lang": "zh", "anchor": "2026-03-01", "ranges": [["2026-02-28", "2026-02-28"]]}
+{"q": "提醒我查一下昨天早上的销售日报昨天早上。", "code": "day -1", "kind": "day", "lang": "zh", "anchor": "2025-11-03", "ranges": [["2025-11-02", "2025-11-02"]]}
+{"q": "帮我把2010年里那些关于急诊科护理流程的旧笔记全都整理出来，我需要仔细对比一下2010年整年期间的各种操作规范到底有什么变化。", "code": "2010", "kind": "year_abs", "lang": "zh", "anchor": "2027-07-30", "ranges": [["2010-01-01", "2010-12-31"]]}
+{"q": "你能不能帮我查一下2010年那一年里，医院里关于感控培训的所有记录，我得看看2010年从头到尾大家执行得怎么样，别漏掉任何细节。", "code": "2010", "kind": "year_abs", "lang": "zh", "anchor": "2027-02-28", "ranges": [["2010-01-01", "2010-12-31"]]}
+{"q": "我记得2010年那会儿我们换了新系统，你快把2010年全年所有的排班变更记录都找出来，我得核对一下当时那个时间段的加班情况。", "code": "2010", "kind": "year_abs", "lang": "zh", "anchor": "2023-05-05", "ranges": [["2010-01-01", "2010-12-31"]]}
+{"q": "后天晚上有个重要的演示。(There is an important demo the day after tomorrow in the evening.)", "code": "day 2", "kind": "day", "lang": "zh", "anchor": "2027-03-08", "ranges": [["2027-03-10", "2027-03-10"]]}
+{"q": "上个月初那个合同签了吗？", "code": "early month -1", "kind": "modified", "lang": "zh", "anchor": "2024-06-13", "ranges": [["2024-05-01", "2024-05-11"]]}
+{"q": "帮我翻下上周一到上周日那份报价单", "code": "week -1", "kind": "week", "lang": "zh", "anchor": "2023-10-30", "ranges": [["2023-10-23", "2023-10-29"]]}
+{"q": "上个月我学了好多词, 记得帮我记下吧", "code": "month -1", "kind": "month", "lang": "zh", "anchor": "2026-07-07", "ranges": [["2026-06-01", "2026-06-30"]]}
+{"q": "上个月那顿饭超好吃! 记得帮我存一下", "code": "month -1", "kind": "month", "lang": "zh", "anchor": "2026-02-28", "ranges": [["2026-01-01", "2026-01-31"]]}
+{"q": "帮我找一下1970年到1979年之间的流行音乐清单，就在1970年代。", "code": "1970s", "kind": "decade", "lang": "zh", "anchor": "2023-07-25", "ranges": [["1970-01-01", "1979-12-31"]]}
+{"q": "记录下当时最流行的服装风格，是1970年代。", "code": "1970s", "kind": "decade", "lang": "zh", "anchor": "2023-10-24", "ranges": [["1970-01-01", "1979-12-31"]]}
+{"q": "我想了解一下1970年至1979年间的科技发展，关于1970年代。", "code": "1970s", "kind": "decade", "lang": "zh", "anchor": "2027-04-27", "ranges": [["1970-01-01", "1979-12-31"]]}
+{"q": "记得帮我把三周前那个礼拜的课外阅读清单找出来吗", "code": "week -3", "kind": "week", "lang": "zh", "anchor": "2026-03-01", "ranges": [["2026-02-02", "2026-02-08"]]}
+{"q": "三周前那整个星期我好像买了好多书，帮我整理一下", "code": "week -3", "kind": "week", "lang": "zh", "anchor": "2026-06-15", "ranges": [["2026-05-25", "2026-05-31"]]}
+{"q": "帮我查一下 X200 投影仪的库存还有多少？", "code": "none", "kind": "none", "lang": "zh", "anchor": "2025-01-23", "ranges": []}
+{"q": "把那个型号是 Pro 9 的客户联系方式记下来。", "code": "none", "kind": "none", "lang": "zh", "anchor": "2023-05-15", "ranges": []}
+{"q": "提醒我关注一下新款 Z-500 系列的销售额。", "code": "none", "kind": "none", "lang": "zh", "anchor": "2027-08-07", "ranges": []}
+{"q": "3天课程费用", "code": "none", "kind": "none", "lang": "zh", "anchor": "2026-08-09", "ranges": []}
+{"q": "3天旅行清单", "code": "none", "kind": "none", "lang": "zh", "anchor": "2023-03-04", "ranges": []}
+{"q": "昨天下午三点那个投资人的联系方式发我一下", "code": "day -1", "kind": "day", "lang": "zh", "anchor": "2025-07-14", "ranges": [["2025-07-13", "2025-07-13"]]}
+{"q": "帮我记下昨天早上九点半开会的要点", "code": "day -1", "kind": "day", "lang": "zh", "anchor": "2024-07-01", "ranges": [["2024-06-30", "2024-06-30"]]}
+{"q": "昨天晚上十一点我随口说的那个产品idea", "code": "day -1", "kind": "day", "lang": "zh", "anchor": "2023-11-24", "ranges": [["2023-11-23", "2023-11-23"]]}
+{"q": "这个月的目标完成了多少？", "code": "month 0", "kind": "month", "lang": "zh", "anchor": "2025-10-16", "ranges": [["2025-10-01", "2025-10-31"]]}
+{"q": "帮我记一下这个月的所有客户会议。", "code": "month 0", "kind": "month", "lang": "zh", "anchor": "2027-10-07", "ranges": [["2027-10-01", "2027-10-31"]]}
+{"q": "这个月的销售业绩统计出来了吗？", "code": "month 0", "kind": "month", "lang": "zh", "anchor": "2023-01-15", "ranges": [["2023-01-01", "2023-01-31"]]}
+{"q": "下周三 补习班 (Remind me about the tutoring class next Wednesday)", "code": "week 1 wed", "kind": "weekday", "lang": "zh", "anchor": "2025-06-25", "ranges": [["2025-07-02", "2025-07-02"]]}
+{"q": "下周三 牙医预约 (Note the dentist appointment next Wednesday)", "code": "week 1 wed", "kind": "weekday", "lang": "zh", "anchor": "2025-08-08", "ranges": [["2025-08-13", "2025-08-13"]]}
+{"q": "下周三 幼儿园午餐 (Check what the preschool is serving for lunch next Wednesday)", "code": "week 1 wed", "kind": "weekday", "lang": "zh", "anchor": "2026-08-09", "ranges": [["2026-08-12", "2026-08-12"]]}
+{"q": "患者血压 140/90", "code": "none", "kind": "none", "lang": "zh", "anchor": "2023-01-24", "ranges": []}
+{"q": "下午 3 点 换药", "code": "none", "kind": "none", "lang": "zh", "anchor": "2026-05-05", "ranges": []}
+{"q": "3号床 补液速度", "code": "none", "kind": "none", "lang": "zh", "anchor": "2023-09-07", "ranges": []}
+{"q": "请帮我记录一下，从二月到六月期间，我需要参加的学习讲座清单。", "code": "feb .. jun", "kind": "range", "lang": "zh", "anchor": "2026-08-09", "ranges": [["2026-02-01", "2026-06-30"]]}
+{"q": "麻烦您查一下，在二月到六月这段时间内，有哪些适合远足的公园？", "code": "feb .. jun", "kind": "range", "lang": "zh", "anchor": "2027-06-30", "ranges": [["2027-02-01", "2027-06-30"]]}
+{"q": "我想提醒自己，请在二月到六月之间，保持每天适量的户外活动。", "code": "feb .. jun", "kind": "range", "lang": "zh", "anchor": "2026-01-01", "ranges": [["2025-02-01", "2025-06-30"]]}
+{"q": "v2.0那个bug修好了没？", "code": "none", "kind": "none", "lang": "zh", "anchor": "2026-03-01", "ranges": []}
+{"q": "查下那个order#4829号单子", "code": "none", "kind": "none", "lang": "zh", "anchor": "2024-01-14", "ranges": []}
+{"q": "帮我记下402房间的wifi密码", "code": "none", "kind": "none", "lang": "zh", "anchor": "2025-04-09", "ranges": []}
+{"q": "帮我记一下2024年全年的排班表", "code": "2024", "kind": "year_abs", "lang": "zh", "anchor": "2023-12-03", "ranges": [["2024-01-01", "2024-12-31"]]}
+{"q": "2024年一整年里我有多少个节假日", "code": "2024", "kind": "year_abs", "lang": "zh", "anchor": "2027-11-17", "ranges": [["2024-01-01", "2024-12-31"]]}
+{"q": "帮我查查2024年全年所有的轮班补助", "code": "2024", "kind": "year_abs", "lang": "zh", "anchor": "2025-06-30", "ranges": [["2024-01-01", "2024-12-31"]]}
+{"q": "请记录下林一的电话号码", "code": "none", "kind": "none", "lang": "zh", "anchor": "2024-08-14", "ranges": []}
+{"q": "记得帮我存一下王一月的地址", "code": "none", "kind": "none", "lang": "zh", "anchor": "2025-07-16", "ranges": []}
+{"q": "二月天气", "code": "feb", "kind": "month_name", "lang": "zh", "anchor": "2027-03-25", "ranges": [["2027-02-01", "2027-02-28"]]}
+{"q": "二月清单", "code": "feb", "kind": "month_name", "lang": "zh", "anchor": "2024-06-18", "ranges": [["2024-02-01", "2024-02-29"]]}
+{"q": "二月提醒", "code": "feb", "kind": "month_name", "lang": "zh", "anchor": "2023-12-19", "ranges": [["2023-02-01", "2023-02-28"]]}
+{"q": "帮我把这张海报的凌晨三点颜色调得更深一点。", "code": "none", "kind": "none", "lang": "zh", "anchor": "2025-04-27", "ranges": []}
+{"q": "那个客户在半夜十二点发来的修改意见记得记录下来。", "code": "none", "kind": "none", "lang": "zh", "anchor": "2027-12-30", "ranges": []}
+{"q": "记得把这份设计稿在傍晚六点之前存入云端。", "code": "none", "kind": "none", "lang": "zh", "anchor": "2024-01-17", "ranges": []}
+{"q": "每周学汉语", "code": "none", "kind": "none", "lang": "zh", "anchor": "2025-06-20", "ranges": []}
+{"q": "天天练听力", "code": "none", "kind": "none", "lang": "zh", "anchor": "2027-06-30", "ranges": []}
+{"q": "每次都难", "code": "none", "kind": "none", "lang": "zh", "anchor": "2023-05-24", "ranges": []}
+{"q": "记得每周帮我进货咖啡豆", "code": "none", "kind": "none", "lang": "zh", "anchor": "2023-09-29", "ranges": []}
+{"q": "这个清洁剂要每周买一次", "code": "none", "kind": "none", "lang": "zh", "anchor": "2023-07-16", "ranges": []}
+{"q": "帮我把这些账单每周整理一下", "code": "none", "kind": "none", "lang": "zh", "anchor": "2025-06-04", "ranges": []}
+{"q": "四天前天气", "code": "day -4", "kind": "day", "lang": "zh", "anchor": "2024-05-24", "ranges": [["2024-05-20", "2024-05-20"]]}
+{"q": "四天前心情", "code": "day -4", "kind": "day", "lang": "zh", "anchor": "2026-02-21", "ranges": [["2026-02-17", "2026-02-17"]]}
+{"q": "四天前记录", "code": "day -4", "kind": "day", "lang": "zh", "anchor": "2025-06-19", "ranges": [["2025-06-15", "2025-06-15"]]}
+{"q": "昨天下午课表", "code": "day -1", "kind": "day", "lang": "zh", "anchor": "2026-01-01", "ranges": [["2025-12-31", "2025-12-31"]]}
+{"q": "昨天晚上作业", "code": "day -1", "kind": "day", "lang": "zh", "anchor": "2024-05-07", "ranges": [["2024-05-06", "2024-05-06"]]}
+{"q": "昨天上午会议", "code": "day -1", "kind": "day", "lang": "zh", "anchor": "2027-07-01", "ranges": [["2027-06-30", "2027-06-30"]]}
+{"q": "2024年我一共跑了多少公里？", "code": "2024", "kind": "year_abs", "lang": "zh", "anchor": "2024-02-26", "ranges": [["2024-01-01", "2024-12-31"]]}
+{"q": "帮我记录一下2024年全年的马拉松比赛成绩。", "code": "2024", "kind": "year_abs", "lang": "zh", "anchor": "2027-06-30", "ranges": [["2024-01-01", "2024-12-31"]]}
+{"q": "2024年我的平均配速是多少？", "code": "2024", "kind": "year_abs", "lang": "zh", "anchor": "2027-02-07", "ranges": [["2024-01-01", "2024-12-31"]]}
+{"q": "帮我把明年一月到明年十二月的所有潜在客户名单都整理好，我需要提前规划好明年的整体销售策略和每个季度的具体业绩目标。", "code": "year 1", "kind": "year", "lang": "zh", "anchor": "2026-03-01", "ranges": [["2027-01-01", "2027-12-31"]]}
+{"q": "明年一月到明年十二月期间，如果我们能把销售额提升百分之二十，记得把那个具体的奖金方案提前记录在我们的年度预算文档中。", "code": "year 1", "kind": "year", "lang": "zh", "anchor": "2025-06-06", "ranges": [["2026-01-01", "2026-12-31"]]}
+{"q": "库存 咖啡豆", "code": "none", "kind": "none", "lang": "zh", "anchor": "2023-10-27", "ranges": []}
+{"q": "补货 拿铁奶", "code": "none", "kind": "none", "lang": "zh", "anchor": "2025-10-12", "ranges": []}
+{"q": "订单 凌晨", "code": "none", "kind": "none", "lang": "zh", "anchor": "2026-12-04", "ranges": []}
+{"q": "查找2017年所有的销售合同。", "code": "2017", "kind": "year_abs", "lang": "zh", "anchor": "2025-07-13", "ranges": [["2017-01-01", "2017-12-31"]]}
+{"q": "列出2017年全年表现最好的三个客户。", "code": "2017", "kind": "year_abs", "lang": "zh", "anchor": "2023-01-28", "ranges": [["2017-01-01", "2017-12-31"]]}
+{"q": "给我看上周一到上周日的购物清单。", "code": "week -1", "kind": "week", "lang": "zh", "anchor": "2027-09-28", "ranges": [["2027-09-20", "2027-09-26"]]}
+{"q": "找出上周一到上周日我提到的所有药品。", "code": "week -1", "kind": "week", "lang": "zh", "anchor": "2023-07-01", "ranges": [["2023-06-19", "2023-06-25"]]}
+{"q": "查找上周一到上周日的医生预约记录。", "code": "week -1", "kind": "week", "lang": "zh", "anchor": "2023-10-16", "ranges": [["2023-10-09", "2023-10-15"]]}
+{"q": "帮我搜一下那个 X200 投影仪的参数", "code": "none", "kind": "none", "lang": "zh", "anchor": "2023-09-22", "ranges": []}
+{"q": "那个 7-Core 芯片的供货商联系方式发我一下", "code": "none", "kind": "none", "lang": "zh", "anchor": "2026-10-22", "ranges": []}
+{"q": "帮我记录一下这款 Apollo 9 产品的核心卖点", "code": "none", "kind": "none", "lang": "zh", "anchor": "2026-09-07", "ranges": []}
+{"q": "明年记得提醒我考驾照，不然要忘啦", "code": "year 1", "kind": "year", "lang": "zh", "anchor": "2024-06-24", "ranges": [["2025-01-01", "2025-12-31"]]}
+{"q": "把明年的年假计划存到备忘录里", "code": "year 1", "kind": "year", "lang": "zh", "anchor": "2027-06-05", "ranges": [["2028-01-01", "2028-12-31"]]}
+{"q": "上个月销售额", "code": "month -1", "kind": "month", "lang": "zh", "anchor": "2027-10-25", "ranges": [["2027-09-01", "2027-09-30"]]}
+{"q": "上个月客户名单", "code": "month -1", "kind": "month", "lang": "zh", "anchor": "2023-03-20", "ranges": [["2023-02-01", "2023-02-28"]]}
+{"q": "上个月会议记录", "code": "month -1", "kind": "month", "lang": "zh", "anchor": "2023-06-07", "ranges": [["2023-05-01", "2023-05-31"]]}
+{"q": "买点春天的花", "code": "none", "kind": "none", "lang": "zh", "anchor": "2023-11-09", "ranges": []}
+{"q": "记得买药", "code": "none", "kind": "none", "lang": "zh", "anchor": "2024-08-04", "ranges": []}
+{"q": "换个秋天色", "code": "none", "kind": "none", "lang": "zh", "anchor": "2026-05-21", "ranges": []}
+{"q": "这个 URL https://example.com/api/v1/98765 里的代码怎么写？", "code": "none", "kind": "none", "lang": "zh", "anchor": "2025-10-22", "ranges": []}
+{"q": "帮我看看这段代码 snippet `print(12345)` 哪里错了？", "code": "none", "kind": "none", "lang": "zh", "anchor": "2023-02-21", "ranges": []}
+{"q": "把这个编号 889900 的数据存进我的数据库里。", "code": "none", "kind": "none", "lang": "zh", "anchor": "2027-06-30", "ranges": []}
+{"q": "8月7日，帮我查一下今天的天气预报。", "code": "*-08-07", "kind": "date", "lang": "zh", "anchor": "2027-04-05", "ranges": [["2026-08-07", "2026-08-07"]]}
+{"q": "8月7日，记得提醒我今天下午要去图书馆。", "code": "*-08-07", "kind": "date", "lang": "zh", "anchor": "2026-03-21", "ranges": [["2025-08-07", "2025-08-07"]]}
+{"q": "8月7日，今天有什么值得纪念的节日吗？", "code": "*-08-07", "kind": "date", "lang": "zh", "anchor": "2024-09-24", "ranges": [["2024-08-07", "2024-08-07"]]}
+{"q": "帮我记一下，傍晚时分，那个供应商的电话号码。", "code": "none", "kind": "none", "lang": "zh", "anchor": "2026-12-08", "ranges": []}
+{"q": "那个蓝色的花瓶，清晨时分，放在货架左边。", "code": "none", "kind": "none", "lang": "zh", "anchor": "2026-02-18", "ranges": []}
+{"q": "记得提醒我，午夜时分，把店门锁好。", "code": "none", "kind": "none", "lang": "zh", "anchor": "2023-01-23", "ranges": []}
+{"q": "帮我找一下前年的年度销路报告", "code": "year -2", "kind": "year", "lang": "zh", "anchor": "2023-04-29", "ranges": [["2021-01-01", "2021-12-31"]]}
+{"q": "能不能每周帮我复习一下这个单词", "code": "none", "kind": "none", "lang": "zh", "anchor": "2026-03-01", "ranges": []}
+{"q": "这个词我每周都会用到，帮我存起来", "code": "none", "kind": "none", "lang": "zh", "anchor": "2026-04-11", "ranges": []}
+{"q": "把这个项目的最后一步记录一下", "code": "none", "kind": "none", "lang": "zh", "anchor": "2024-07-28", "ranges": []}
+{"q": "帮我查一下下一个任务的细节", "code": "none", "kind": "none", "lang": "zh", "anchor": "2025-10-02", "ranges": []}
+{"q": "把这个错误的最后一个解决方法记下来", "code": "none", "kind": "none", "lang": "zh", "anchor": "2025-12-31", "ranges": []}
+{"q": "30岁怎么养", "code": "none", "kind": "none", "lang": "zh", "anchor": "2025-12-31", "ranges": []}
+{"q": "30岁理财建议", "code": "none", "kind": "none", "lang": "zh", "anchor": "2025-03-22", "ranges": []}
+{"q": "30岁体检项目", "code": "none", "kind": "none", "lang": "zh", "anchor": "2023-11-01", "ranges": []}
+{"q": "帮我找一下1980年代1980年到1989年之间流行的电子游戏有哪些。", "code": "1980s", "kind": "decade", "lang": "zh", "anchor": "2024-12-20", "ranges": [["1980-01-01", "1989-12-31"]]}
+{"q": "1980年代1980年到1989年流行什么样风格的流行音乐？", "code": "1980s", "kind": "decade", "lang": "zh", "anchor": "2026-08-03", "ranges": [["1980-01-01", "1989-12-31"]]}
+{"q": "记得把1980年代1980年到1989年里我提到的所有科技突破都记录下来。", "code": "1980s", "kind": "decade", "lang": "zh", "anchor": "2026-09-27", "ranges": [["1980-01-01", "1989-12-31"]]}
+{"q": "记下这组配色方案，一共24个色值", "code": "none", "kind": "none", "lang": "zh", "anchor": "2023-05-28", "ranges": []}
+{"q": "本月训练计划", "code": "month 0", "kind": "month", "lang": "zh", "anchor": "2026-08-09", "ranges": [["2026-08-01", "2026-08-31"]]}
+{"q": "本月马拉松比赛", "code": "month 0", "kind": "month", "lang": "zh", "anchor": "2026-09-08", "ranges": [["2026-09-01", "2026-09-30"]]}
+{"q": "本月补剂摄入", "code": "month 0", "kind": "month", "lang": "zh", "anchor": "2027-01-14", "ranges": [["2027-01-01", "2027-01-31"]]}
+{"q": "提醒我下周一到下周日安排长距离训练。", "code": "week 1", "kind": "week", "lang": "zh", "anchor": "2025-09-15", "ranges": [["2025-09-22", "2025-09-28"]]}
+{"q": "帮我查一下下周一到下周日的天气情况。", "code": "week 1", "kind": "week", "lang": "zh", "anchor": "2024-01-16", "ranges": [["2024-01-22", "2024-01-28"]]}
+{"q": "帮我订好下周一到下周日的补给跑鞋。", "code": "week 1", "kind": "week", "lang": "zh", "anchor": "2026-08-09", "ranges": [["2026-08-10", "2026-08-16"]]}
+{"q": "本月排班", "code": "month 0", "kind": "month", "lang": "zh", "anchor": "2025-11-24", "ranges": [["2025-11-01", "2025-11-30"]]}
+{"q": "本月 预算", "code": "month 0", "kind": "month", "lang": "zh", "anchor": "2027-10-11", "ranges": [["2027-10-01", "2027-10-31"]]}
+{"q": "帮我查一下上个礼拜一到上个礼拜日我跟王总谈的那笔大订单具体的进展情况还有他最后给出的报价是多少钱？", "code": "week -1", "kind": "week", "lang": "zh", "anchor": "2025-11-14", "ranges": [["2025-11-03", "2025-11-09"]]}
+{"q": "上个礼拜一到上个礼拜日的销售数据有点不对劲，你赶紧把那段时间所有的客户拜访记录和成交金额都整理成表给我看。", "code": "week -1", "kind": "week", "lang": "zh", "anchor": "2027-09-28", "ranges": [["2027-09-20", "2027-09-26"]]}
+{"q": "记得把上个礼拜一到上个礼拜日我提到的那几个潜在客户的联系方式全都存进系统里，尤其是那个新开发的重点项目客户。", "code": "week -1", "kind": "week", "lang": "zh", "anchor": "2026-08-09", "ranges": [["2026-07-27", "2026-08-02"]]}
+{"q": "帮我查一下二零二零年里那些关于新冠病毒爆发初期，我们在医院里处理的第一批防护物资的具体采购清单和到货时间记录。", "code": "2020", "kind": "year_abs", "lang": "zh", "anchor": "2027-10-27", "ranges": [["2020-01-01", "2020-12-31"]]}
+{"q": "记得把二零二零年整年里我每天值班时记录的那些特别严重的呼吸道病例的临床观察笔记，全都按照日期顺序整理到文件夹里。", "code": "2020", "kind": "year_abs", "lang": "zh", "anchor": "2025-03-13", "ranges": [["2020-01-01", "2020-12-31"]]}
+{"q": "能不能把二零二零年这段时间里，我们科室因为疫情管控导致排班计划频繁变动的所有历史记录，都帮我汇总成一个详细表格？", "code": "2020", "kind": "year_abs", "lang": "zh", "anchor": "2026-08-09", "ranges": [["2020-01-01", "2020-12-31"]]}
+{"q": "上周日配速", "code": "sun", "kind": "weekday", "lang": "zh", "anchor": "2026-12-19", "ranges": [["2026-12-13", "2026-12-13"]]}
+{"q": "周日马拉松天气", "code": "sun", "kind": "weekday", "lang": "zh", "anchor": "2024-02-06", "ranges": [["2024-02-04", "2024-02-04"]]}
+{"q": "上周日补剂", "code": "sun", "kind": "weekday", "lang": "zh", "anchor": "2027-06-19", "ranges": [["2027-06-13", "2027-06-13"]]}
+{"q": "2025年7月左右的那个项目进度到哪了？？", "code": "around 2025-07", "kind": "modified", "lang": "zh", "anchor": "2026-08-03", "ranges": [["2025-06-16", "2025-08-15"]]}
+{"q": "下次训练记得带上那件绿色外套，有点凉了", "code": "none", "kind": "none", "lang": "zh", "anchor": "2026-12-20", "ranges": []}
+{"q": "我买的那个长跑鞋底好像有点松了，帮我记一下", "code": "none", "kind": "none", "lang": "zh", "anchor": "2024-09-15", "ranges": []}
+{"q": "前天上午我发给你的那个配色方案记得存一下", "code": "day -2", "kind": "day", "lang": "zh", "anchor": "2026-01-01", "ranges": [["2025-12-30", "2025-12-30"]]}
+{"q": "前天下午那个客户改稿的要求你帮我记一下", "code": "day -2", "kind": "day", "lang": "zh", "anchor": "2025-12-31", "ranges": [["2025-12-29", "2025-12-29"]]}
+{"q": "记得把前天晚上那个参考图文件夹找出来", "code": "day -2", "kind": "day", "lang": "zh", "anchor": "2025-12-31", "ranges": [["2025-12-29", "2025-12-29"]]}
+{"q": "找一下前几天那笔欠款的记录", "code": "otherday", "kind": "fuzzy", "lang": "zh", "anchor": "2025-06-08", "ranges": [["2025-06-01", "2025-06-07"]]}
+{"q": "查一下前几天那个客户说的话", "code": "otherday", "kind": "fuzzy", "lang": "zh", "anchor": "2026-01-01", "ranges": [["2025-12-25", "2025-12-31"]]}
+{"q": "昨天早上我跑了20公里，感觉膝盖有点疼，帮我记下。", "code": "day -1", "kind": "day", "lang": "zh", "anchor": "2024-02-29", "ranges": [["2024-02-28", "2024-02-28"]]}
+{"q": "昨天下午吃的那个能量棒过期了，记得提醒我以后别乱买。", "code": "day -1", "kind": "day", "lang": "zh", "anchor": "2026-08-19", "ranges": [["2026-08-18", "2026-08-18"]]}
+{"q": "昨天晚上我拉伸的时间太短了，记一下，下次要多练一会儿。", "code": "day -1", "kind": "day", "lang": "zh", "anchor": "2023-01-10", "ranges": [["2023-01-09", "2023-01-09"]]}
+{"q": "30岁跑者", "code": "none", "kind": "none", "lang": "zh", "anchor": "2024-08-09", "ranges": []}
+{"q": "存30岁数据", "code": "none", "kind": "none", "lang": "zh", "anchor": "2024-02-29", "ranges": []}
+{"q": "记30岁步频", "code": "none", "kind": "none", "lang": "zh", "anchor": "2027-05-09", "ranges": []}
+{"q": "每周都要提醒我检查王医生的嘱托。", "code": "none", "kind": "none", "lang": "zh", "anchor": "2025-11-12", "ranges": []}
+{"q": "每班次都要记录病人的血压变化。", "code": "none", "kind": "none", "lang": "zh", "anchor": "2025-05-14", "ranges": []}
+{"q": "每天都要核对新入科病人的过敏史。", "code": "none", "kind": "none", "lang": "zh", "anchor": "2025-04-21", "ranges": []}
+{"q": "帮我记一下，2021年8月19日那天要给大娃买生日礼物。", "code": "2021-08-19", "kind": "date", "lang": "zh", "anchor": "2026-08-08", "ranges": [["2021-08-19", "2021-08-19"]]}
+{"q": "2021年8月19日那天，记得提醒我带两个孩子去参加那个野餐聚会。", "code": "2021-08-19", "kind": "date", "lang": "zh", "anchor": "2023-03-12", "ranges": [["2021-08-19", "2021-08-19"]]}
+{"q": "查询一下，2021年8月19日那天家里的收据都在哪。", "code": "2021-08-19", "kind": "date", "lang": "zh", "anchor": "2024-12-25", "ranges": [["2021-08-19", "2021-08-19"]]}
+{"q": "能不能提醒我一下，林月说要带的文件放在哪了？", "code": "none", "kind": "none", "lang": "zh", "anchor": "2026-08-09", "ranges": []}
+{"q": "三天的时间，帮我把这个Logo的配色方案整理出来。", "code": "none", "kind": "none", "lang": "zh", "anchor": "2024-01-21", "ranges": []}
+{"q": "三个小时的会议记录，帮我整理成要点。", "code": "none", "kind": "none", "lang": "zh", "anchor": "2024-02-24", "ranges": []}
+{"q": "找一下去年所有的考试成绩。", "code": "year -1", "kind": "year", "lang": "zh", "anchor": "2023-06-10", "ranges": [["2022-01-01", "2022-12-31"]]}
+{"q": "找一下这周内所有的家长会通知。", "code": "week 0", "kind": "week", "lang": "zh", "anchor": "2026-08-09", "ranges": [["2026-08-03", "2026-08-09"]]}
+{"q": "帮我列出这周内孩子们需要交的作业清单。", "code": "week 0", "kind": "week", "lang": "zh", "anchor": "2026-05-20", "ranges": [["2026-05-18", "2026-05-24"]]}
+{"q": "记得每周都帮我汇总一下销售额，别漏了", "code": "none", "kind": "none", "lang": "zh", "anchor": "2023-08-23", "ranges": []}
+{"q": "帮我设置个每周复盘，不用太早，下午就行", "code": "none", "kind": "none", "lang": "zh", "anchor": "2026-10-12", "ranges": []}
+{"q": "帮我查一下过去七年里所有的系统故障记录。(Ask to check system failure logs from the last seven years.)", "code": "last 7 year", "kind": "last_n", "lang": "zh", "anchor": "2027-04-10", "ranges": [["2020-04-10", "2027-04-10"]]}
+{"q": "帮我记下那个30岁的小伙子的联系方式，名字叫王伟", "code": "none", "kind": "none", "lang": "zh", "anchor": "2024-05-13", "ranges": []}
+{"q": "记得把那个30岁的投资人提到的那个idea存到笔记里", "code": "none", "kind": "none", "lang": "zh", "anchor": "2025-03-06", "ranges": []}
+{"q": "那个30岁的老板叫什么来着，我想不起来了，帮我查查", "code": "none", "kind": "none", "lang": "zh", "anchor": "2027-04-29", "ranges": []}
+{"q": "我最新的配速是多少，没陷阱，只是个普通问题。", "code": "none", "kind": "none", "lang": "zh", "anchor": "2023-06-15", "ranges": []}
+{"q": "2016年8月有哪些重大新闻？", "code": "2016-08", "kind": "month_name", "lang": "zh", "anchor": "2027-05-26", "ranges": [["2016-08-01", "2016-08-31"]]}
+{"q": "帮我记录一下2016年8月的情绪变化", "code": "2016-08", "kind": "month_name", "lang": "zh", "anchor": "2023-01-26", "ranges": [["2016-08-01", "2016-08-31"]]}
+{"q": "2016年8月那会儿的天气怎么样？", "code": "2016-08", "kind": "month_name", "lang": "zh", "anchor": "2024-03-21", "ranges": [["2016-08-01", "2016-08-31"]]}
+{"q": "去年那个融资计划书里的数据记得存一下", "code": "year -1", "kind": "year", "lang": "zh", "anchor": "2023-11-24", "ranges": [["2022-01-01", "2022-12-31"]]}
+{"q": "请帮我回顾一下五个月前的整个月份中，所有的线上故障报告。", "code": "month -5", "kind": "month", "lang": "zh", "anchor": "2027-06-30", "ranges": [["2027-01-01", "2027-01-31"]]}
+{"q": "能否整理出五个月前的整个月份里，我们完成的所有代码审查记录？", "code": "month -5", "kind": "month", "lang": "zh", "anchor": "2027-01-19", "ranges": [["2026-08-01", "2026-08-31"]]}
+{"q": "请列出五个月前的整个月份中，所有被标记为高优先级的待办事项。", "code": "month -5", "kind": "month", "lang": "zh", "anchor": "2027-09-09", "ranges": [["2027-04-01", "2027-04-30"]]}
+{"q": "六天前早上我跑了二十公里。(I ran 20km six days ago in the morning.)", "code": "day -6", "kind": "day", "lang": "zh", "anchor": "2025-08-06", "ranges": [["2025-07-31", "2025-07-31"]]}
+{"q": "记得六天前下午我买的那双跑鞋。(Remember the running shoes I bought six days ago in the afternoon.)", "code": "day -6", "kind": "day", "lang": "zh", "anchor": "2025-08-15", "ranges": [["2025-08-09", "2025-08-09"]]}
+{"q": "六天前晚上我感觉膝盖有点疼。(My knee felt a bit sore six days ago in the evening.)", "code": "day -6", "kind": "day", "lang": "zh", "anchor": "2027-04-15", "ranges": [["2027-04-09", "2027-04-09"]]}
+{"q": "5月6日那天我们要去哪儿玩？", "code": "*-05-06", "kind": "date", "lang": "zh", "anchor": "2026-05-31", "ranges": [["2026-05-06", "2026-05-06"]]}
+{"q": "记得5月6日早上和下午都有课。", "code": "*-05-06", "kind": "date", "lang": "zh", "anchor": "2023-09-10", "ranges": [["2023-05-06", "2023-05-06"]]}
+{"q": "帮我查一下5月6日有什么节日。", "code": "*-05-06", "kind": "date", "lang": "zh", "anchor": "2024-02-29", "ranges": [["2023-05-06", "2023-05-06"]]}
+{"q": "帮我查下那个春天的意思啥意思? 🤔", "code": "none", "kind": "none", "lang": "zh", "anchor": "2026-07-29", "ranges": []}
+{"q": "那个app的春色滤镜咋用呀?", "code": "none", "kind": "none", "lang": "zh", "anchor": "2024-02-18", "ranges": []}
+{"q": "救命, 那个春色怎么调得这么假😭", "code": "none", "kind": "none", "lang": "zh", "anchor": "2026-01-01", "ranges": []}
+{"q": "显示昨天晚上八点半的购物清单", "code": "day -1", "kind": "day", "lang": "zh", "anchor": "2025-08-01", "ranges": [["2025-07-31", "2025-07-31"]]}
+{"q": "上个月我学了好多新词儿", "code": "month -1", "kind": "month", "lang": "zh", "anchor": "2026-10-24", "ranges": [["2026-09-01", "2026-09-30"]]}
+{"q": "记得上个月那个单词吗??", "code": "month -1", "kind": "month", "lang": "zh", "anchor": "2024-03-21", "ranges": [["2024-02-01", "2024-02-29"]]}
+{"q": "上个月的内容太难了😭", "code": "month -1", "kind": "month", "lang": "zh", "anchor": "2026-01-01", "ranges": [["2025-12-01", "2025-12-31"]]}
+{"q": "我打算在2026年7月和这周末安排旅行。", "code": "2026-07 ; week 0 weekend", "kind": "multi", "lang": "zh", "anchor": "2026-03-01", "ranges": [["2026-07-01", "2026-07-31"], ["2026-02-28", "2026-03-01"]]}
+{"q": "请帮我记录2026年7月以及这周末的课程计划。", "code": "2026-07 ; week 0 weekend", "kind": "multi", "lang": "zh", "anchor": "2026-08-08", "ranges": [["2026-07-01", "2026-07-31"], ["2026-08-08", "2026-08-09"]]}
+{"q": "记得提醒我2026年7月和这周末要交的账单。", "code": "2026-07 ; week 0 weekend", "kind": "multi", "lang": "zh", "anchor": "2026-12-07", "ranges": [["2026-07-01", "2026-07-31"], ["2026-12-12", "2026-12-13"]]}
+{"q": "请帮我记录一下这个设计稿的版本号是 v2.0。", "code": "none", "kind": "none", "lang": "zh", "anchor": "2026-06-16", "ranges": []}
+{"q": "请查阅一下这个项目的订单编号是多少。", "code": "none", "kind": "none", "lang": "zh", "anchor": "2023-01-30", "ranges": []}
+{"q": "请将这个程序的端口号设置为 8080。", "code": "none", "kind": "none", "lang": "zh", "anchor": "2023-07-29", "ranges": []}
+{"q": "关于那件外套，一共是1250元吗？", "code": "none", "kind": "none", "lang": "zh", "anchor": "2024-03-19", "ranges": []}
+{"q": "帮我记录一下，这次会议的预算是8800元。", "code": "none", "kind": "none", "lang": "zh", "anchor": "2025-02-28", "ranges": []}
+{"q": "这台电脑的价格是5400元，帮我存好。", "code": "none", "kind": "none", "lang": "zh", "anchor": "2026-12-23", "ranges": []}
+{"q": "显示未来九周的课程表。", "code": "next 9 week", "kind": "last_n", "lang": "zh", "anchor": "2026-08-03", "ranges": [["2026-08-03", "2026-10-05"]]}
+{"q": "找一下接下来的九周内所有的会议安排。", "code": "next 9 week", "kind": "last_n", "lang": "zh", "anchor": "2023-03-21", "ranges": [["2023-03-21", "2023-05-23"]]}
+{"q": "1996年9-11月货", "code": "1996-09 .. 1996-11", "kind": "range", "lang": "zh", "anchor": "2026-11-25", "ranges": [["1996-09-01", "1996-11-30"]]}
+{"q": "上周一早上和下午的时候，我好像跟你说过了大娃那天下午练习钢琴的情况，你帮我记一下那天到底练了多久，我有点记不清了。", "code": "week -1 mon", "kind": "weekday", "lang": "zh", "anchor": "2024-07-18", "ranges": [["2024-07-08", "2024-07-08"]]}
+{"q": "帮我找一下上周一的时候我提到的那个关于小二过敏的注意事项，我记得那天早上和晚上都跟你提到了，真的很麻烦我了。", "code": "week -1 mon", "kind": "weekday", "lang": "zh", "anchor": "2024-10-13", "ranges": [["2024-09-30", "2024-09-30"]]}
+{"q": "那个，上周一的时候我跟你说的小三要换季买衣服的事情，你能不能帮我把那天下午提到的那几个尺寸信息再整理出来给我看一眼？", "code": "week -1 mon", "kind": "weekday", "lang": "zh", "anchor": "2027-10-31", "ranges": [["2027-10-18", "2027-10-18"]]}
+{"q": "那个关于马拉松训练心率的数据分析代码片段，就是那个包含12345数字的python脚本，你帮我存一下，我怕下次训练时找不到了。", "code": "none", "kind": "none", "lang": "zh", "anchor": "2026-08-08", "ranges": []}
+{"q": "记得帮我把这个包含88888数字的训练计划网页链接保存好，我总是在需要查看详细的配速建议时，突然想不起那个具体的网址。", "code": "none", "kind": "none", "lang": "zh", "anchor": "2025-06-16", "ranges": []}
+{"q": "帮我记录一下那个带有99999编号的专业跑鞋测评文档，我得对比一下不同型号的缓震效果，免得下次买错影响我的长距离训练。", "code": "none", "kind": "none", "lang": "zh", "anchor": "2024-05-01", "ranges": []}
+{"q": "那个关于新版本更新的文档里好像漏掉了一些关于数据库迁移的具体逻辑说明，你能不能帮我把那个版本号记录在项目的文档库里？", "code": "none", "kind": "none", "lang": "zh", "anchor": "2025-05-12", "ranges": []}
+{"q": "我刚才在看那个订单号为ABC12345的物流状态，感觉系统显示的端口连接好像有点异常，你帮我把这个异常情况标记一下。", "code": "none", "kind": "none", "lang": "zh", "anchor": "2027-04-30", "ranges": []}
+{"q": "帮我记一下那个会议室的房间号是302，还有那个技术交流会用的门票编号是9982，我怕一会儿开会的时候突然想不起来了。", "code": "none", "kind": "none", "lang": "zh", "anchor": "2026-09-01", "ranges": []}
+{"q": "帮我记一下2025年3月的进货清单", "code": "2025-03", "kind": "month_name", "lang": "zh", "anchor": "2027-05-18", "ranges": [["2025-03-01", "2025-03-31"]]}
+{"q": "2025年3月我们要打折吗？", "code": "2025-03", "kind": "month_name", "lang": "zh", "anchor": "2026-08-03", "ranges": [["2025-03-01", "2025-03-31"]]}
+{"q": "把2025年3月的销售额存一下", "code": "2025-03", "kind": "month_name", "lang": "zh", "anchor": "2023-08-02", "ranges": [["2025-03-01", "2025-03-31"]]}
+{"q": "请帮我记录下我最喜欢的春天里的那首诗。", "code": "none", "kind": "none", "lang": "zh", "anchor": "2025-01-01", "ranges": []}
+{"q": "麻烦您把刚才提到的关于园艺的建议存入我的笔记中。", "code": "none", "kind": "none", "lang": "zh", "anchor": "2024-04-09", "ranges": []}
+{"q": "我想请您提醒我，记得在整理书架时注意保护那些旧书。", "code": "none", "kind": "none", "lang": "zh", "anchor": "2024-04-21", "ranges": []}
+{"q": "显示凌晨两点我提到的那个项目点子", "code": "none", "kind": "none", "lang": "zh", "anchor": "2025-07-04", "ranges": []}
+{"q": "搜一下傍晚六点我录入的备忘录", "code": "none", "kind": "none", "lang": "zh", "anchor": "2024-10-15", "ranges": []}
+{"q": "本周排班 (This week's schedule)", "code": "week 0", "kind": "week", "lang": "zh", "anchor": "2024-10-27", "ranges": [["2024-10-21", "2024-10-27"]]}
+{"q": "本周药品库存 (This week's medicine inventory)", "code": "week 0", "kind": "week", "lang": "zh", "anchor": "2027-07-30", "ranges": [["2027-07-26", "2027-08-01"]]}
+{"q": "本周会议记录 (This week's meeting notes)", "code": "week 0", "kind": "week", "lang": "zh", "anchor": "2024-02-14", "ranges": [["2024-02-12", "2024-02-18"]]}
+{"q": "去年那几个项目的代码逻辑记得帮我存一下", "code": "year -1", "kind": "year", "lang": "zh", "anchor": "2025-05-11", "ranges": [["2024-01-01", "2024-12-31"]]}
+{"q": "记录一下今天的配速，现在是下午三点。", "code": "none", "kind": "none", "lang": "zh", "anchor": "2027-01-14", "ranges": []}
+{"q": "提醒我补充电解质，现在是晚上八点。", "code": "none", "kind": "none", "lang": "zh", "anchor": "2024-02-13", "ranges": []}
+{"q": "请帮我整理一下2016年整年的项目进度报告。", "code": "2016", "kind": "year_abs", "lang": "zh", "anchor": "2025-03-06", "ranges": [["2016-01-01", "2016-12-31"]]}
+{"q": "您能检索出我在2016年期间记录的所有技术笔记吗？", "code": "2016", "kind": "year_abs", "lang": "zh", "anchor": "2027-10-14", "ranges": [["2016-01-01", "2016-12-31"]]}
+{"q": "请详细列出2016年全年发生的重大软件架构变革。", "code": "2016", "kind": "year_abs", "lang": "zh", "anchor": "2025-01-26", "ranges": [["2016-01-01", "2016-12-31"]]}
+{"q": "帮我存一下这个代码片段: const ID = 9527; 记得保存", "code": "none", "kind": "none", "lang": "zh", "anchor": "2024-09-25", "ranges": []}
+{"q": "那个链接是 https://example.com/item/882211 记一下", "code": "none", "kind": "none", "lang": "zh", "anchor": "2025-01-12", "ranges": []}
+{"q": "刚才看到的序列号 007654 帮我记一下", "code": "none", "kind": "none", "lang": "zh", "anchor": "2025-02-09", "ranges": []}
+{"q": "帮我记下Nike Air Max 270的折扣价", "code": "none", "kind": "none", "lang": "zh", "anchor": "2027-09-27", "ranges": []}
+{"q": "记下Adidas Ultraboost 20的尺码是42", "code": "none", "kind": "none", "lang": "zh", "anchor": "2027-06-22", "ranges": []}
+{"q": "帮我存下Gatorade Zero的成分表", "code": "none", "kind": "none", "lang": "zh", "anchor": "2024-04-22", "ranges": []}
+{"q": "记得给小周查一下血钾", "code": "none", "kind": "none", "lang": "zh", "anchor": "2027-11-22", "ranges": []}
+{"q": "帮我备注一下小周的病历", "code": "none", "kind": "none", "lang": "zh", "anchor": "2026-01-01", "ranges": []}
+{"q": "记住李月说的话，她说我们的产品定位需要调整。", "code": "none", "kind": "none", "lang": "zh", "anchor": "2025-12-04", "ranges": []}
+{"q": "库存 1029384756 链接", "code": "none", "kind": "none", "lang": "zh", "anchor": "2023-07-20", "ranges": []}
+{"q": "订单号 550e8400-e29b", "code": "none", "kind": "none", "lang": "zh", "anchor": "2027-01-13", "ranges": []}
+{"q": "补货 44920384 网址", "code": "none", "kind": "none", "lang": "zh", "anchor": "2026-10-01", "ranges": []}
+{"q": "找那个30岁的客户联系方式", "code": "none", "kind": "none", "lang": "zh", "anchor": "2027-09-04", "ranges": []}
+{"q": "显示所有30岁以上的订单列表", "code": "none", "kind": "none", "lang": "zh", "anchor": "2027-10-24", "ranges": []}
+{"q": "查询那个30岁销售员的业绩", "code": "none", "kind": "none", "lang": "zh", "anchor": "2023-12-01", "ranges": []}
+{"q": "今年八月有哪些适合带孩子去的室内游乐场？", "code": "year 0 aug", "kind": "month_name", "lang": "zh", "anchor": "2026-09-21", "ranges": [["2026-08-01", "2026-08-31"]]}
+{"q": "帮我查一下今年八月暑假的课程表。", "code": "year 0 aug", "kind": "month_name", "lang": "zh", "anchor": "2026-03-01", "ranges": [["2026-08-01", "2026-08-31"]]}
+{"q": "今年八月的时候，我们需要准备哪些防晒用品？", "code": "year 0 aug", "kind": "month_name", "lang": "zh", "anchor": "2024-05-12", "ranges": [["2024-08-01", "2024-08-31"]]}
+{"q": "9天前 客户反馈", "code": "day -9", "kind": "day", "lang": "zh", "anchor": "2027-07-14", "ranges": [["2027-07-05", "2027-07-05"]]}
+{"q": "9天前 报价单", "code": "day -9", "kind": "day", "lang": "zh", "anchor": "2027-04-22", "ranges": [["2027-04-13", "2027-04-13"]]}
+{"q": "9天前 设计稿", "code": "day -9", "kind": "day", "lang": "zh", "anchor": "2024-05-26", "ranges": [["2024-05-17", "2024-05-17"]]}
+{"q": "最后终点", "code": "none", "kind": "none", "lang": "zh", "anchor": "2027-11-19", "ranges": []}
+{"q": "下次配速", "code": "none", "kind": "none", "lang": "zh", "anchor": "2024-02-29", "ranges": []}
+{"q": "帮我记一下那个为期两周的课程内容。", "code": "none", "kind": "none", "lang": "zh", "anchor": "2027-06-04", "ranges": []}
+{"q": "我记得那本书花了三天时间读完。", "code": "none", "kind": "none", "lang": "zh", "anchor": "2027-09-28", "ranges": []}
+{"q": "现在帮我记录这个跑步配速，感觉身体很沉，压力很大。", "code": "none", "kind": "none", "lang": "zh", "anchor": "2025-11-06", "ranges": []}
+{"q": "现在帮我找一下那种比较适合长距离跑的运动饮料。", "code": "none", "kind": "none", "lang": "zh", "anchor": "2023-07-20", "ranges": []}
+{"q": "现在帮我搜索一下关于预防运动损伤的专业建议。", "code": "none", "kind": "none", "lang": "zh", "anchor": "2023-05-20", "ranges": []}
+{"q": "最近那家咖啡店的logo设计案，记得存一下。", "code": "recent", "kind": "fuzzy", "lang": "zh", "anchor": "2024-04-16", "ranges": [["2024-03-17", "2024-04-16"]]}
+{"q": "帮我找找最近几天找过的配色方案，好像用不到了。", "code": "recent", "kind": "fuzzy", "lang": "zh", "anchor": "2023-02-12", "ranges": [["2023-01-13", "2023-02-12"]]}
+{"q": "麻烦您将这份关于林月（Lin Yue）客户的配色方案保存到我的项目文件夹中。", "code": "none", "kind": "none", "lang": "zh", "anchor": "2026-04-12", "ranges": []}
+{"q": "请记下，客户要求在设计稿中加入周日（Zhou Ri）提到的那种极简主义风格。", "code": "none", "kind": "none", "lang": "zh", "anchor": "2023-08-17", "ranges": []}
+{"q": "去年12月的那个旅行计划帮我找一下。", "code": "year -1 dec", "kind": "month_name", "lang": "zh", "anchor": "2025-10-30", "ranges": [["2024-12-01", "2024-12-31"]]}
+{"q": "记得把去年12月的超市收据存起来，别丢了。", "code": "year -1 dec", "kind": "month_name", "lang": "zh", "anchor": "2027-07-01", "ranges": [["2026-12-01", "2026-12-31"]]}
+{"q": "去年12月的孩子们礼物清单，我还没买完呢。", "code": "year -1 dec", "kind": "month_name", "lang": "zh", "anchor": "2026-08-03", "ranges": [["2025-12-01", "2025-12-31"]]}
+{"q": "上周二那个会的笔记存一下", "code": "week -1 tue", "kind": "weekday", "lang": "zh", "anchor": "2023-08-19", "ranges": [["2023-08-08", "2023-08-08"]]}
+{"q": "帮我查下上周二下午两点那个电话的记录", "code": "week -1 tue", "kind": "weekday", "lang": "zh", "anchor": "2026-04-17", "ranges": [["2026-04-07", "2026-04-07"]]}
+{"q": "上周二早上的demo怎么说来着", "code": "week -1 tue", "kind": "weekday", "lang": "zh", "anchor": "2023-01-09", "ranges": [["2023-01-03", "2023-01-03"]]}
+{"q": "请记录一下，我在2025年4月28日需要处理紧急的系统维护任务。", "code": "2025-04-28", "kind": "date", "lang": "zh", "anchor": "2026-03-01", "ranges": [["2025-04-28", "2025-04-28"]]}
+{"q": "能否提醒我，2025年4月28日当天有一个关于架构设计的会议？", "code": "2025-04-28", "kind": "date", "lang": "zh", "anchor": "2025-02-23", "ranges": [["2025-04-28", "2025-04-28"]]}
+{"q": "请帮我归档这份在2025年4月28日生成的日志分析报告。", "code": "2025-04-28", "kind": "date", "lang": "zh", "anchor": "2026-01-01", "ranges": [["2025-04-28", "2025-04-28"]]}
+{"q": "帮我查一下2021年第一季度有哪些重要的历史事件。(Ask for historical events)", "code": "2021 q1", "kind": "quarter", "lang": "zh", "anchor": "2026-01-08", "ranges": [["2021-01-01", "2021-03-31"]]}
+{"q": "记得把2021年第一季度的账单存到我的文件夹里。(Record a bill)", "code": "2021 q1", "kind": "quarter", "lang": "zh", "anchor": "2025-05-28", "ranges": [["2021-01-01", "2021-03-31"]]}
+{"q": "我2021年第一季度读过的书有哪些。(List read books)", "code": "2021 q1", "kind": "quarter", "lang": "zh", "anchor": "2026-06-22", "ranges": [["2021-01-01", "2021-03-31"]]}
+{"q": "请记录一下，上周一到上周日的销售数据已经整理完毕了。", "code": "week -1", "kind": "week", "lang": "zh", "anchor": "2027-06-27", "ranges": [["2027-06-14", "2027-06-20"]]}
+{"q": "麻烦帮我归档上周周一至上周周日期间的所有会议纪要。", "code": "week -1", "kind": "week", "lang": "zh", "anchor": "2025-01-03", "ranges": [["2024-12-23", "2024-12-29"]]}
+{"q": "我想确认一下，上周周一到上周周日我们是否完成了第三阶段的测试？", "code": "week -1", "kind": "week", "lang": "zh", "anchor": "2024-02-29", "ranges": [["2024-02-19", "2024-02-25"]]}
+{"q": "关于那个项目的进度，记得把文档存在云端。", "code": "none", "kind": "none", "lang": "zh", "anchor": "2024-12-25", "ranges": []}
+{"q": "下次开会记得提醒我，那个软件的报错信息很关键。", "code": "none", "kind": "none", "lang": "zh", "anchor": "2025-06-27", "ranges": []}
+{"q": "把这篇代码的逻辑记录下来，别让它秋后算账。", "code": "none", "kind": "none", "lang": "zh", "anchor": "2025-02-15", "ranges": []}
+{"q": "你还记得三周前那整个星期，也就是从周一到周日，我有没有在你的笔记里提到过关于那个品牌重塑项目的初步预算想法吗？", "code": "week -3", "kind": "week", "lang": "zh", "anchor": "2024-06-01", "ranges": [["2024-05-06", "2024-05-12"]]}
+{"q": "请把三周前那段从周一持续到周日的一周时间里，所有涉及到排版设计和字体选择的草稿文件都整理成一个清单发给我。", "code": "week -3", "kind": "week", "lang": "zh", "anchor": "2026-08-03", "ranges": [["2026-07-13", "2026-07-19"]]}
+{"q": "下周末周六和周日我有三个客户约见，记得提醒我带上合同。", "code": "week 1 weekend", "kind": "weekend", "lang": "zh", "anchor": "2027-09-06", "ranges": [["2027-09-18", "2027-09-19"]]}
+{"q": "下周末周六和周日我有空，帮我把那两个销售方案整理出来。", "code": "week 1 weekend", "kind": "weekend", "lang": "zh", "anchor": "2027-07-02", "ranges": [["2027-07-10", "2027-07-11"]]}
+{"q": "下周末周六和周日我不在办公室，帮我把所有紧急邮件标记一下。", "code": "week 1 weekend", "kind": "weekend", "lang": "zh", "anchor": "2023-03-07", "ranges": [["2023-03-18", "2023-03-19"]]}
+{"q": "请帮我记录一下，在2016年2月14日，我收到了一束红玫瑰。", "code": "2016-02-14", "kind": "date", "lang": "zh", "anchor": "2023-05-18", "ranges": [["2016-02-14", "2016-02-14"]]}
+{"q": "麻烦查一下，在2016年2月14日那天，我有没有写过关于友谊的随笔？", "code": "2016-02-14", "kind": "date", "lang": "zh", "anchor": "2023-04-26", "ranges": [["2016-02-14", "2016-02-14"]]}
+{"q": "请问您能记得，2016年2月14日那天我提到的那位老同学的名字吗？", "code": "2016-02-14", "kind": "date", "lang": "zh", "anchor": "2025-07-05", "ranges": [["2016-02-14", "2016-02-14"]]}
+{"q": "上周五下午两点，帮我把那篇关于社会学的论文草稿存一下。", "code": "week -1 fri", "kind": "weekday", "lang": "zh", "anchor": "2026-08-03", "ranges": [["2026-07-31", "2026-07-31"]]}
+{"q": "上周五晚上八点，记得提醒我把上次课的笔记复习一遍。", "code": "week -1 fri", "kind": "weekday", "lang": "zh", "anchor": "2025-04-19", "ranges": [["2025-04-11", "2025-04-11"]]}
+{"q": "上周五上午十点，我跟导师见面的时间记录在哪了？", "code": "week -1 fri", "kind": "weekday", "lang": "zh", "anchor": "2027-09-24", "ranges": [["2027-09-17", "2027-09-17"]]}
+{"q": "这个句子每个月都要复习吗", "code": "none", "kind": "none", "lang": "zh", "anchor": "2027-10-04", "ranges": []}
+{"q": "请帮我每三天发一次听力练习", "code": "none", "kind": "none", "lang": "zh", "anchor": "2024-07-07", "ranges": []}
+{"q": "帮我看看这个代码报错了：print(f\"{i*2}\") 怎么回事", "code": "none", "kind": "none", "lang": "zh", "anchor": "2024-05-06", "ranges": []}
+{"q": "搜一下这个链接里的数据：https://example.com/api/v1/99283", "code": "none", "kind": "none", "lang": "zh", "anchor": "2026-03-01", "ranges": []}
+{"q": "这个 1024 进制的算法怎么写，发个 snippet 给我", "code": "none", "kind": "none", "lang": "zh", "anchor": "2025-02-05", "ranges": []}
+{"q": "2018年10月11日交班记录已存", "code": "2018-10-11", "kind": "date", "lang": "zh", "anchor": "2023-03-15", "ranges": [["2018-10-11", "2018-10-11"]]}
+{"q": "帮我记下2018年10月11日晚班的备品清单", "code": "2018-10-11", "kind": "date", "lang": "zh", "anchor": "2027-04-30", "ranges": [["2018-10-11", "2018-10-11"]]}
+{"q": "2018年10月11日早班那位3床病人的用药改了", "code": "2018-10-11", "kind": "date", "lang": "zh", "anchor": "2026-07-01", "ranges": [["2018-10-11", "2018-10-11"]]}
+{"q": "去年那个大客户的合同签了吗", "code": "year -1", "kind": "year", "lang": "zh", "anchor": "2024-10-31", "ranges": [["2023-01-01", "2023-12-31"]]}
+{"q": "帮我搜下iPhone 15的测评", "code": "none", "kind": "none", "lang": "zh", "anchor": "2023-01-26", "ranges": []}
+{"q": "这款小米14好用吗", "code": "none", "kind": "none", "lang": "zh", "anchor": "2024-04-22", "ranges": []}
+{"q": "看看华为Mate60评价", "code": "none", "kind": "none", "lang": "zh", "anchor": "2027-06-30", "ranges": []}
+{"q": "帮我查一下1984年7月25日左右发生了什么大事。", "code": "around 1984-07-25", "kind": "modified", "lang": "zh", "anchor": "2025-12-29", "ranges": [["1984-07-22", "1984-07-28"]]}
+{"q": "记录一下，1984年7月25日左右我正在处理那个旧系统的迁移任务。", "code": "around 1984-07-25", "kind": "modified", "lang": "zh", "anchor": "2027-06-20", "ranges": [["1984-07-22", "1984-07-28"]]}
+{"q": "1984年7月25日左右的天气怎么样？", "code": "around 1984-07-25", "kind": "modified", "lang": "zh", "anchor": "2023-12-04", "ranges": [["1984-07-22", "1984-07-28"]]}
+{"q": "请记录昨天和五月四日我跑完马拉松后的心率数据。", "code": "day -1 ; *-05-04", "kind": "multi", "lang": "zh", "anchor": "2025-04-07", "ranges": [["2025-04-06", "2025-04-06"], ["2024-05-04", "2024-05-04"]]}
+{"q": "麻烦帮我查一下昨天以及五月四日这两天的训练里程总和。", "code": "day -1 ; *-05-04", "kind": "multi", "lang": "zh", "anchor": "2027-12-03", "ranges": [["2027-12-02", "2027-12-02"], ["2027-05-04", "2027-05-04"]]}
+{"q": "请问昨天和五月四日我是否有安排长距离耐力跑训练？", "code": "day -1 ; *-05-04", "kind": "multi", "lang": "zh", "anchor": "2023-02-24", "ranges": [["2023-02-23", "2023-02-23"], ["2022-05-04", "2022-05-04"]]}
+{"q": "每周都要进一次新鲜牛奶，记得提醒我。", "code": "none", "kind": "none", "lang": "zh", "anchor": "2026-01-25", "ranges": []}
+{"q": "这个补货清单是每周一次吗？", "code": "none", "kind": "none", "lang": "zh", "anchor": "2024-01-29", "ranges": []}
+{"q": "店里每周都要检查一遍库存。", "code": "none", "kind": "none", "lang": "zh", "anchor": "2025-04-19", "ranges": []}
+{"q": "这个订单号是多少？", "code": "none", "kind": "none", "lang": "zh", "anchor": "2026-10-26", "ranges": []}
+{"q": "请帮我找一下那个房间的钥匙。", "code": "none", "kind": "none", "lang": "zh", "anchor": "2023-01-01", "ranges": []}
+{"q": "这个软件的版本号是多少？", "code": "none", "kind": "none", "lang": "zh", "anchor": "2023-09-13", "ranges": []}
+{"q": "帮我记一下，那个包包卖1250块钱，有点贵了", "code": "none", "kind": "none", "lang": "zh", "anchor": "2023-05-05", "ranges": []}
+{"q": "记得帮我存下，那本专业书的价格是1085元", "code": "none", "kind": "none", "lang": "zh", "anchor": "2023-12-12", "ranges": []}
+{"q": "帮我记下，要把那1500块钱存进银行卡里", "code": "none", "kind": "none", "lang": "zh", "anchor": "2024-02-02", "ranges": []}
+{"q": "玩具 1250元", "code": "none", "kind": "none", "lang": "zh", "anchor": "2023-01-05", "ranges": []}
+{"q": "学费 5600元", "code": "none", "kind": "none", "lang": "zh", "anchor": "2024-04-12", "ranges": []}
+{"q": "超市 3280元", "code": "none", "kind": "none", "lang": "zh", "anchor": "2025-03-03", "ranges": []}
+{"q": "帮我搜一下这周里有没有什么比较划算的餐厅优惠活动，我想趁着这周的时间和朋友们一起去聚个餐，你快帮我看看。", "code": "week 0", "kind": "week", "lang": "zh", "anchor": "2027-07-12", "ranges": [["2027-07-12", "2027-07-18"]]}
+{"q": "帮我记一下，2019年3月8日进了一批新货。", "code": "2019-03-08", "kind": "date", "lang": "zh", "anchor": "2024-12-15", "ranges": [["2019-03-08", "2019-03-08"]]}
+{"q": "2019年3月8日的营业额是多少？", "code": "2019-03-08", "kind": "date", "lang": "zh", "anchor": "2027-06-30", "ranges": [["2019-03-08", "2019-03-08"]]}
+{"q": "提醒我，2019年3月8日要给供应商打电话。", "code": "2019-03-08", "kind": "date", "lang": "zh", "anchor": "2023-08-05", "ranges": [["2019-03-08", "2019-03-08"]]}
+{"q": "这周日记得提醒我整理下本周的设计稿", "code": "week 0 sun", "kind": "weekday", "lang": "zh", "anchor": "2023-03-06", "ranges": [["2023-03-12", "2023-03-12"]]}
+{"q": "帮我记一下这周日要去见那个客户", "code": "week 0 sun", "kind": "weekday", "lang": "zh", "anchor": "2025-12-31", "ranges": [["2026-01-04", "2026-01-04"]]}
+{"q": "这周日晚上的活动取消了吗", "code": "week 0 sun", "kind": "weekday", "lang": "zh", "anchor": "2027-02-27", "ranges": [["2027-02-28", "2027-02-28"]]}
+{"q": "帮我记一下，2022年7月到12月期间，那批进口茶叶的进货价是多少？", "code": "2022-07 .. 2022-12", "kind": "range", "lang": "zh", "anchor": "2027-05-26", "ranges": [["2022-07-01", "2022-12-31"]]}
+{"q": "查一下2022年7月到2022年12月，我们的月平均销售额是多少？", "code": "2022-07 .. 2022-12", "kind": "range", "lang": "zh", "anchor": "2027-11-18", "ranges": [["2022-07-01", "2022-12-31"]]}
+{"q": "把2022年7月到12月所有没卖出去的库存列个清单。", "code": "2022-07 .. 2022-12", "kind": "range", "lang": "zh", "anchor": "2026-12-16", "ranges": [["2022-07-01", "2022-12-31"]]}
+{"q": "五天前的那个下午，我记录了哪些实验数据？", "code": "day -5", "kind": "day", "lang": "zh", "anchor": "2026-08-09", "ranges": [["2026-08-04", "2026-08-04"]]}
+{"q": "五天前的深夜，我提到的那个关于量子力学的假设是什么？", "code": "day -5", "kind": "day", "lang": "zh", "anchor": "2024-04-04", "ranges": [["2024-03-30", "2024-03-30"]]}
+{"q": "找最后一段话", "code": "none", "kind": "none", "lang": "zh", "anchor": "2024-10-09", "ranges": []}
+{"q": "显示下一个单词", "code": "none", "kind": "none", "lang": "zh", "anchor": "2023-06-23", "ranges": []}
+{"q": "查找最后一个词组", "code": "none", "kind": "none", "lang": "zh", "anchor": "2023-11-09", "ranges": []}
+{"q": "找一下过去5天到今天的报警日志", "code": "last 5 day", "kind": "last_n", "lang": "zh", "anchor": "2024-02-25", "ranges": [["2024-02-20", "2024-02-25"]]}
+{"q": "列出从5天前开始到今天的所有生产环境异常", "code": "last 5 day", "kind": "last_n", "lang": "zh", "anchor": "2024-05-01", "ranges": [["2024-04-26", "2024-05-01"]]}

@@ -1,0 +1,127 @@
+# Hand-written English cases: message <TAB> code. Asked on Tue 2026-11-17. Traps first.
+the may report	none
+may I ask a question	none
+she may have been right	none
+we march on the capital	none
+the march madness bracket	none
+notes about April's promotion	none
+ask June about the invoice	none
+August is my manager	none
+the sunday times article	none
+friday the dog needs a vet	none
+release 2.1 notes	none
+what changed in v2024.3	none
+the server listens on port 8080	none
+ticket #2023 is still open	none
+it costs $2019	none
+office 2019 license key	none
+room 2024 booking	none
+1999 main street address	none
+a 3-day workshop on rust	none
+it took 2 weeks to fix	none
+every monday standup notes	none
+the weekly report template	none
+my day job	none
+day one of the project	none
+the second draft	none
+my 30 year old brother	none
+the 3pm meeting	none
+12 months of data	none
+a year's supply of coffee	none
+my date with Sam	none
+dates and figs recipe	none
+the current architecture	none
+what is the status now	none
+the last slide of the deck	none
+the next step in the plan	none
+a spring in the mattress	none
+the hot spring we visited	none
+don't fall off the ladder	none
+the fall of rome	none
+a monthly budget	none
+annual review template	none
+the daily standup format	none
+hourly rate for contractors	none
+the summer intern's name	none
+winter tires for the car	none
+my top 5 films	none
+wat staat hier	none
+the quarterly okr template	none
+how many days of vacation do I have	none
+when is my next dentist appointment	none
+what did I decide yesterday	day -1
+yesterday	day -1
+today	day 0
+tomorrow	day 1
+what happened the day before yesterday	day -2
+3 days ago	day -3
+three days ago	day -3
+notes from last week	week -1
+last wk	week -1
+this week	week 0
+the week before last	week -2
+last month	month -1
+this month	month 0
+last year	year -1
+this year	year 0
+next year	year 1
+last quarter	quarter -1
+in the last 6 months	last 6 month
+past two weeks	last 2 week
+over the last 30 days	last 30 day
+the last 3 years	last 3 year
+last monday	mon
+on friday	fri
+what did I do on tuesday	tue
+monday last week	week -1 mon
+this friday	week 0 fri
+last weekend	week -1 weekend
+this weekend	week 0 weekend
+in march	mar
+in may	may
+in may 2025	2025-05
+march 2023	2023-03
+march of last year	year -1 mar
+in 2019	2019
+back in 2019	2019
+during 2021	2021
+2024-03-12	2024-03-12
+march 12 2024	2024-03-12
+12 march 2024	2024-03-12
+3/12/2024	2024-03-12
+on june 4th	*-06-04
+christmas day 2025	2025-12-25
+summer 2024	2024 summer
+last summer	summer
+q3 2024	2024 q3
+the 90s	1990s
+in the 1980s	1980s
+since january	jan .. now
+since 2022	2022 .. now
+since last week	week -1 .. now
+between may and july	may .. jul
+from 2019 to 2021	2019 .. 2021
+before 2020	before 2020
+after 2023	after 2023
+recently	recent
+lately	recent
+the other day	otherday
+a while ago	while
+a long time ago	longago
+a couple of days ago	couple day
+a few weeks ago	few week
+a couple of months ago	couple month
+a few years ago	few year
+early last year	early year -1
+late 2024	late 2024
+mid march 2025	mid 2025-03
+first half of 2023	h1 2023
+around march 12 2024	around 2024-03-12
+may 2025 and june 2026	2025-05 ; 2026-06
+yesterday and last friday	day -1 ; fri
+what did I decide about the database schema last week	week -1
+did the migration run yesterday	day -1
+we discussed the api last month	month -1
+may I see the notes from yesterday	day -1
+release 2.1 notes from last week	week -1
+the weekly report from last month	month -1

@@ -1,0 +1,420 @@
+{"q": "Hey, kannst du mir vielleicht kurz sagen, was genau eigentlich in diesem Q3 alles an wichtigen Fristen ansteht, damit ich meine ganze Planung nicht total verhaue?", "code": "q3", "kind": "quarter", "lang": "de", "anchor": "2025-12-31", "ranges": [["2025-07-01", "2025-09-30"]]}
+{"q": "Ich muss unbedingt wissen, ob die neuen Unterlagen für das dritte Quartal und das Q3 auch wirklich schon alle vollständig in meinem Ordner hier drin liegen.", "code": "q3", "kind": "quarter", "lang": "de", "anchor": "2026-03-01", "ranges": [["2025-07-01", "2025-09-30"]]}
+{"q": "Vergiss bitte bloß nicht, mir Bescheid zu geben, wenn die Ergebnisse für das Q3 und das dritte Quartal endlich da sind, weil ich das echt wichtig finde.", "code": "q3", "kind": "quarter", "lang": "de", "anchor": "2026-08-12", "ranges": [["2026-07-01", "2026-09-30"]]}
+{"q": "Erinner mich an die Kundenprojekte aus dem Jahr 2015.", "code": "2015", "kind": "year_abs", "lang": "de", "anchor": "2025-12-31", "ranges": [["2015-01-01", "2015-12-31"]]}
+{"q": "Speichre die Design-Trends von 2015 bis Ende 2015 in die Liste.", "code": "2015", "kind": "year_abs", "lang": "de", "anchor": "2023-03-03", "ranges": [["2015-01-01", "2015-12-31"]]}
+{"q": "Wie viel hab ich im ganzen Jahr 2015 eigentlich verdient?", "code": "2015", "kind": "year_abs", "lang": "de", "anchor": "2026-11-25", "ranges": [["2015-01-01", "2015-12-31"]]}
+{"q": "Vergiss nicht den Link https://example.com/92837 mit auf die Liste zu setzen.", "code": "none", "kind": "none", "lang": "de", "anchor": "2026-03-01", "ranges": []}
+{"q": "Schreib mir den Code snippet `print(x[456])` in meine Notizen.", "code": "none", "kind": "none", "lang": "de", "anchor": "2026-08-08", "ranges": []}
+{"q": "Speichere die Nummer 01765554433 bitte in den Kontakten ab.", "code": "none", "kind": "none", "lang": "de", "anchor": "2026-03-29", "ranges": []}
+{"q": "Finde jede Woche ein deutsches Lied.", "code": "none", "kind": "none", "lang": "de", "anchor": "2025-10-20", "ranges": []}
+{"q": "Zeig mir monatlich meine Fehlerliste.", "code": "none", "kind": "none", "lang": "de", "anchor": "2026-08-23", "ranges": []}
+{"q": "In den letzten sechs Tagen habe ich dreimal Überstunden gemacht.", "code": "last 6 day", "kind": "last_n", "lang": "de", "anchor": "2026-08-09", "ranges": [["2026-08-03", "2026-08-09"]]}
+{"q": "Wetter Wochenende", "code": "week 0 weekend", "kind": "weekend", "lang": "de", "anchor": "2025-09-18", "ranges": [["2025-09-20", "2025-09-21"]]}
+{"q": "Kannst du die API-Dokumentation unter https://api.service.com/v1/auth/99283 speichern?", "code": "none", "kind": "none", "lang": "de", "anchor": "2023-02-19", "ranges": []}
+{"q": "Erinnere mich an den Code-Snippet: const x = 4402;", "code": "none", "kind": "none", "lang": "de", "anchor": "2026-01-01", "ranges": []}
+{"q": "Schreib das URL-Schema für die neue Testumgebung auf: https://dev.app.io/404", "code": "none", "kind": "none", "lang": "de", "anchor": "2026-08-03", "ranges": []}
+{"q": "Erinnere mich an den Termin mit dem Investor am Samstag nächsten Woche.", "code": "week 1 sat", "kind": "weekday", "lang": "de", "anchor": "2025-06-17", "ranges": [["2025-06-28", "2025-06-28"]]}
+{"q": "Ich brauche Hilfe bei der Planung für Samstag nächsten Woche.", "code": "week 1 sat", "kind": "weekday", "lang": "de", "anchor": "2027-10-11", "ranges": [["2027-10-23", "2027-10-23"]]}
+{"q": "Notiere, dass ich am Samstag nächsten Woche frei habe.", "code": "week 1 sat", "kind": "weekday", "lang": "de", "anchor": "2026-06-24", "ranges": [["2026-07-04", "2026-07-04"]]}
+{"q": "Hits 2010-2019", "code": "2010s", "kind": "decade", "lang": "de", "anchor": "2023-03-23", "ranges": [["2010-01-01", "2019-12-31"]]}
+{"q": "Memes 2010 bis 2019", "code": "2010s", "kind": "decade", "lang": "de", "anchor": "2025-12-03", "ranges": [["2010-01-01", "2019-12-31"]]}
+{"q": "iPhone Modelle 2010-2019", "code": "2010s", "kind": "decade", "lang": "de", "anchor": "2026-03-01", "ranges": [["2010-01-01", "2019-12-31"]]}
+{"q": "Ich habe den ganzen Winter vom letzten Jahr extrem viel gelernt.", "code": "year -1 winter", "kind": "season", "lang": "de", "anchor": "2024-02-29", "ranges": [["2023-12-01", "2024-02-29"]]}
+{"q": "Wo war nochmal das Café, in dem ich im Winter vom letzten Jahres besucht habe?", "code": "year -1 winter", "kind": "season", "lang": "de", "anchor": "2026-08-09", "ranges": [["2025-12-01", "2026-02-28"]]}
+{"q": "Das Wetter war im Winter vom letzten Jahr echt furchtbar.", "code": "year -1 winter", "kind": "season", "lang": "de", "anchor": "2027-06-30", "ranges": [["2026-12-01", "2027-02-28"]]}
+{"q": "Könnten Sie mir bitte sagen, wie man den Preis von 1250 Euro auf Deutsch ausspricht?", "code": "none", "kind": "none", "lang": "de", "anchor": "2023-07-29", "ranges": []}
+{"q": "Ich würde gerne wissen, ob der Betrag von 4320 Yen in Ihrer Datenbank korrekt hinterlegt ist.", "code": "none", "kind": "none", "lang": "de", "anchor": "2026-09-12", "ranges": []}
+{"q": "Bitte notieren Sie, dass die Kosten für die Reparatur genau 2850 Dollar betragen.", "code": "none", "kind": "none", "lang": "de", "anchor": "2023-07-27", "ranges": []}
+{"q": "Kannst du mir den Plan für diesen Monat schicken?", "code": "month 0", "kind": "month", "lang": "de", "anchor": "2025-10-03", "ranges": [["2025-10-01", "2025-10-31"]]}
+{"q": "Was steht diesen Monat alles in meinem Kalender?", "code": "month 0", "kind": "month", "lang": "de", "anchor": "2025-01-21", "ranges": [["2025-01-01", "2025-01-31"]]}
+{"q": "Vorgestern war der Lieferant da, bitte notieren.", "code": "day -2", "kind": "day", "lang": "de", "anchor": "2024-03-08", "ranges": [["2024-03-06", "2024-03-06"]]}
+{"q": "Vorgestern am Nachmittag haben wir zu viel Milch bestellt.", "code": "day -2", "kind": "day", "lang": "de", "anchor": "2026-03-01", "ranges": [["2026-02-27", "2026-02-27"]]}
+{"q": "Könnten Sie bitte die Verkaufszahlen vom letzten Samstag und Sonntag protokollieren?", "code": "week -1 weekend", "kind": "weekend", "lang": "de", "anchor": "2024-08-12", "ranges": [["2024-08-10", "2024-08-11"]]}
+{"q": "Ich möchte Sie bitten, die Lieferungen vom letzten Samstag und Sonntag zu vermerken.", "code": "week -1 weekend", "kind": "weekend", "lang": "de", "anchor": "2024-03-22", "ranges": [["2024-03-16", "2024-03-17"]]}
+{"q": "Bitte speichern Sie die Notiz über die Kundenbeschwerden vom letzten Samstag und Sonntag.", "code": "week -1 weekend", "kind": "weekend", "lang": "de", "anchor": "2026-12-14", "ranges": [["2026-12-12", "2026-12-13"]]}
+{"q": "Kannst du den Link https://shop.de/item/92837 speichern?", "code": "none", "kind": "none", "lang": "de", "anchor": "2026-08-09", "ranges": []}
+{"q": "Merke dir das Passwort für die eltern-app: code_9921_x", "code": "none", "kind": "none", "lang": "de", "anchor": "2027-10-16", "ranges": []}
+{"q": "Schreib auf, dass die kinder neue schuhe brauchen: art.nr 4452", "code": "none", "kind": "none", "lang": "de", "anchor": "2025-09-15", "ranges": []}
+{"q": "Zeig mir meine Laufleistung am 17. Januar 2017.", "code": "2017-01-17", "kind": "date", "lang": "de", "anchor": "2024-08-02", "ranges": [["2017-01-17", "2017-01-17"]]}
+{"q": "Finde meine Trainingsnotizen vom 17. Januar 2017.", "code": "2017-01-17", "kind": "date", "lang": "de", "anchor": "2023-10-05", "ranges": [["2017-01-17", "2017-01-17"]]}
+{"q": "Speichere: Wetter war sehr kalt am 17. Januar 2017.", "code": "2017-01-17", "kind": "date", "lang": "de", "anchor": "2025-12-31", "ranges": [["2017-01-17", "2017-01-17"]]}
+{"q": "wie war mein durchschnittliches tempo von 2017 bis 2019?", "code": "2017 .. 2019", "kind": "range", "lang": "de", "anchor": "2024-12-26", "ranges": [["2017-01-01", "2019-12-31"]]}
+{"q": "erinnere dich an meine bestzeit zwischen 2017 und 2019.", "code": "2017 .. 2019", "kind": "range", "lang": "de", "anchor": "2026-03-01", "ranges": [["2017-01-01", "2019-12-31"]]}
+{"q": "hast du meine trainingsprotokolle von 2017 bis 2019 gespeichert?", "code": "2017 .. 2019", "kind": "range", "lang": "de", "anchor": "2023-05-09", "ranges": [["2017-01-01", "2019-12-31"]]}
+{"q": "Donnerstag letzte Woche Abend", "code": "week -1 thu", "kind": "weekday", "lang": "de", "anchor": "2025-11-26", "ranges": [["2025-11-20", "2025-11-20"]]}
+{"q": "Von April bis August müssen wir die Vertriebsziele anpassen.", "code": "apr .. aug", "kind": "range", "lang": "de", "anchor": "2025-08-01", "ranges": [["2025-04-01", "2025-08-31"]]}
+{"q": "Zwischen April und August habe ich keine Termine im Büro.", "code": "apr .. aug", "kind": "range", "lang": "de", "anchor": "2024-11-06", "ranges": [["2024-04-01", "2024-08-31"]]}
+{"q": "April bis August ist die Hochsaison für unsere Neukunden.", "code": "apr .. aug", "kind": "range", "lang": "de", "anchor": "2026-08-03", "ranges": [["2026-04-01", "2026-08-31"]]}
+{"q": "Speichere die Rechnung vom 2023-07-26 und die Notizen vom letzten Donnerstag ab.", "code": "2023-07-26 ; week -1 thu", "kind": "multi", "lang": "de", "anchor": "2027-05-19", "ranges": [["2023-07-26", "2023-07-26"], ["2027-05-13", "2027-05-13"]]}
+{"q": "12 Monate Daten analysieren, was sind die Trends?", "code": "none", "kind": "none", "lang": "de", "anchor": "2025-11-15", "ranges": []}
+{"q": "5 Stunden Audio transkribieren und zusammenfassen.", "code": "none", "kind": "none", "lang": "de", "anchor": "2025-12-31", "ranges": []}
+{"q": "kannst du mir die info zu dem 2-wöchigen kurs speichern?", "code": "none", "kind": "none", "lang": "de", "anchor": "2026-07-25", "ranges": []}
+{"q": "pls merk dir: die gestaltung hat 3 tage gedauert", "code": "none", "kind": "none", "lang": "de", "anchor": "2026-03-01", "ranges": []}
+{"q": "speicher mal: d bsp für das 1-monatige projekt", "code": "none", "kind": "none", "lang": "de", "anchor": "2025-04-09", "ranges": []}
+{"q": "Erstelle mir einen Essensplan für die gesamte nächste Woche.", "code": "week 1", "kind": "week", "lang": "de", "anchor": "2025-12-31", "ranges": [["2026-01-05", "2026-01-11"]]}
+{"q": "Wie ist das Wetter für die nächste Woche von Montag bis Sonntag?", "code": "week 1", "kind": "week", "lang": "de", "anchor": "2025-12-31", "ranges": [["2026-01-05", "2026-01-11"]]}
+{"q": "Im Dezember, wie ist das Wetter heute?", "code": "dec", "kind": "month_name", "lang": "de", "anchor": "2023-01-06", "ranges": [["2022-12-01", "2022-12-31"]]}
+{"q": "Im Dezember, denk bitte an meine Termine.", "code": "dec", "kind": "month_name", "lang": "de", "anchor": "2024-02-14", "ranges": [["2023-12-01", "2023-12-31"]]}
+{"q": "Finde 2 Stunden an Fehlermeldungen.", "code": "none", "kind": "none", "lang": "de", "anchor": "2024-02-29", "ranges": []}
+{"q": "Zeig mir 4 Wochen an Metriken.", "code": "none", "kind": "none", "lang": "de", "anchor": "2023-08-06", "ranges": []}
+{"q": "Könnten Sie bitte vermerken, dass der Blutdruck von Patient Müller um 14:30 Uhr gemessen wurde?", "code": "none", "kind": "none", "lang": "de", "anchor": "2026-04-06", "ranges": []}
+{"q": "Bitte protokollieren Sie, dass die Infusion um 03:15 Uhr gewechselt wurde.", "code": "none", "kind": "none", "lang": "de", "anchor": "2024-09-01", "ranges": []}
+{"q": "Ich möchte mitteilen, dass die Schmerzmittelgabe um 21:00 Uhr erfolgt ist.", "code": "none", "kind": "none", "lang": "de", "anchor": "2027-01-28", "ranges": []}
+{"q": "Projekte letzte 10 Wochen", "code": "last 10 week", "kind": "last_n", "lang": "de", "anchor": "2026-08-03", "ranges": [["2026-05-25", "2026-08-03"]]}
+{"q": "Termine letzten 10 Wochen", "code": "last 10 week", "kind": "last_n", "lang": "de", "anchor": "2024-03-26", "ranges": [["2024-01-16", "2024-03-26"]]}
+{"q": "Letzte Woche Windeln", "code": "week -1", "kind": "week", "lang": "de", "anchor": "2027-08-31", "ranges": [["2027-08-23", "2027-08-29"]]}
+{"q": "Letzte Woche Zahnarzt", "code": "week -1", "kind": "week", "lang": "de", "anchor": "2024-06-02", "ranges": [["2024-05-20", "2024-05-26"]]}
+{"q": "Letzte Woche Spielplatz", "code": "week -1", "kind": "week", "lang": "de", "anchor": "2027-11-19", "ranges": [["2027-11-08", "2027-11-14"]]}
+{"q": "Pitchdeck monatlich", "code": "none", "kind": "none", "lang": "de", "anchor": "2024-01-09", "ranges": []}
+{"q": "Wöchentlich Feedback", "code": "none", "kind": "none", "lang": "de", "anchor": "2023-06-05", "ranges": []}
+{"q": "Meeting-Notizen täglich", "code": "none", "kind": "none", "lang": "de", "anchor": "2026-08-03", "ranges": []}
+{"q": "Was habe ich am 24. März und letzten Monat über meine Hausarbeit notiert?", "code": "*-03-24 ; month -1", "kind": "multi", "lang": "de", "anchor": "2027-03-07", "ranges": [["2026-03-24", "2026-03-24"], ["2027-02-01", "2027-02-28"]]}
+{"q": "Kannst du mir sagen, welche Termine am 24. März und im letzten Monat anstanden?", "code": "*-03-24 ; month -1", "kind": "multi", "lang": "de", "anchor": "2026-01-01", "ranges": [["2025-03-24", "2025-03-24"], ["2025-12-01", "2025-12-31"]]}
+{"q": "Könnten Sie bitte alle Termine für den nächsten Monat in meinen Kalender eintragen?", "code": "month 1", "kind": "month", "lang": "de", "anchor": "2025-07-29", "ranges": [["2025-08-01", "2025-08-31"]]}
+{"q": "Ich möchte Sie bitten, eine Zusammenfassung meiner Ziele für den nächsten Monat zu erstellen.", "code": "month 1", "kind": "month", "lang": "de", "anchor": "2026-10-14", "ranges": [["2026-11-01", "2026-11-30"]]}
+{"q": "Bitte reservieren Sie mir für den nächsten Monat Zeit für meine Forschungsarbeit.", "code": "month 1", "kind": "month", "lang": "de", "anchor": "2023-03-18", "ranges": [["2023-04-01", "2023-04-30"]]}
+{"q": "Was hab ich letzten Monat alles einkaufte?", "code": "month -1", "kind": "month", "lang": "de", "anchor": "2026-12-03", "ranges": [["2026-11-01", "2026-11-30"]]}
+{"q": "Schreib auf: letschten Monat war der Umsatz echt niedrig.", "code": "month -1", "kind": "month", "lang": "de", "anchor": "2027-06-24", "ranges": [["2027-05-01", "2027-05-31"]]}
+{"q": "hast du die 5 stunden an aufnahmen gespeichert?", "code": "none", "kind": "none", "lang": "de", "anchor": "2027-05-26", "ranges": []}
+{"q": "Vergiss bitte nicht, die On-Call-Übergabe vom vorletzten Monat nachzutragen.", "code": "month -2", "kind": "month", "lang": "de", "anchor": "2026-01-28", "ranges": [["2025-11-01", "2025-11-30"]]}
+{"q": "Wie war der Status der Incident-Reports im vorletzten Monat?", "code": "month -2", "kind": "month", "lang": "de", "anchor": "2023-11-09", "ranges": [["2023-09-01", "2023-09-30"]]}
+{"q": "Kannst du mir die Deployment-Logs vom vorletzten Monat raussuchen? Hab echt viel zu tun.", "code": "month -2", "kind": "month", "lang": "de", "anchor": "2027-02-05", "ranges": [["2026-12-01", "2026-12-31"]]}
+{"q": "Logitech MX 3 Maus Fehler", "code": "none", "kind": "none", "lang": "de", "anchor": "2024-11-15", "ranges": []}
+{"q": "iPhone 15 Akku Status", "code": "none", "kind": "none", "lang": "de", "anchor": "2023-05-30", "ranges": []}
+{"q": "PlayStation 5 Controller Verbindung", "code": "none", "kind": "none", "lang": "de", "anchor": "2027-06-30", "ranges": []}
+{"q": "Notier den Deal mit Müller aus dem gestrigen Vormittag und Nachmittag.", "code": "day -1", "kind": "day", "lang": "de", "anchor": "2023-08-27", "ranges": [["2023-08-26", "2023-08-26"]]}
+{"q": "Vergiss nicht, die Zahlen vom gestrigen Abend zu prüfen.", "code": "day -1", "kind": "day", "lang": "de", "anchor": "2026-08-08", "ranges": [["2026-08-07", "2026-08-07"]]}
+{"q": "Erinnere mich an das Telefonat von gestern in der Nacht.", "code": "day -1", "kind": "day", "lang": "de", "anchor": "2026-06-29", "ranges": [["2026-06-28", "2026-06-28"]]}
+{"q": "Erinnere mich bitte daran, dass ich für die gesamte Schicht im Jahr 2010 die alten Protokolle aus dem Archiv für die Patientenversorgung finden muss.", "code": "2010", "kind": "year_abs", "lang": "de", "anchor": "2024-06-06", "ranges": [["2010-01-01", "2010-12-31"]]}
+{"q": "Kannst du mir sagen, ob die Dokumentation für das gesamte Jahr 2010 bereits vollständig abgeschlossen ist oder ob noch Berichte von der Frühschicht fehlen?", "code": "2010", "kind": "year_abs", "lang": "de", "anchor": "2025-12-31", "ranges": [["2010-01-01", "2010-12-31"]]}
+{"q": "Ich brauche unbedingt eine Liste aller medizinischen Fortbildungen, die während des kompletten Zeitraums vom Jahr 2010 stattgefunden haben, damit ich meine Unterlagen ordnen kann.", "code": "2010", "kind": "year_abs", "lang": "de", "anchor": "2027-06-30", "ranges": [["2010-01-01", "2010-12-31"]]}
+{"q": "Ich muss übermorgen Vormittag und Nachmittag den Pitch vorbereiten.", "code": "day 2", "kind": "day", "lang": "de", "anchor": "2027-06-30", "ranges": [["2027-07-02", "2027-07-02"]]}
+{"q": "Lösche bitte alle Termine für übermorgen früh.", "code": "day 2", "kind": "day", "lang": "de", "anchor": "2026-03-01", "ranges": [["2026-03-03", "2026-03-03"]]}
+{"q": "Erinnere mich an den Deal von Anfang letzten Monats.", "code": "early month -1", "kind": "modified", "lang": "de", "anchor": "2025-12-31", "ranges": [["2025-11-01", "2025-11-10"]]}
+{"q": "was hab ich letzten Monat eigentlich alles gelernt?", "code": "month -1", "kind": "month", "lang": "de", "anchor": "2026-07-25", "ranges": [["2026-06-01", "2026-06-30"]]}
+{"q": "war letzten Monat echt stressig, Hilfe!", "code": "month -1", "kind": "month", "lang": "de", "anchor": "2024-03-10", "ranges": [["2024-02-01", "2024-02-29"]]}
+{"q": "kannst du die Vokabeln vom letzten Monat wiederholen?", "code": "month -1", "kind": "month", "lang": "de", "anchor": "2026-08-08", "ranges": [["2026-07-01", "2026-07-31"]]}
+{"q": "Schreib die Liste der besten Rockbands aus den 1970er Jahren auf.", "code": "1970s", "kind": "decade", "lang": "de", "anchor": "2027-04-26", "ranges": [["1970-01-01", "1979-12-31"]]}
+{"q": "Wie war die politische Stimmung in den 1970er bis 1979 Jahren?", "code": "1970s", "kind": "decade", "lang": "de", "anchor": "2027-08-07", "ranges": [["1970-01-01", "1979-12-31"]]}
+{"q": "Erinnere mich an die Modetrends der 1970er Jahre.", "code": "1970s", "kind": "decade", "lang": "de", "anchor": "2024-10-30", "ranges": [["1970-01-01", "1979-12-31"]]}
+{"q": "ich brauche heute morgen und heute abend eine erinnerung", "code": "day 0", "kind": "day", "lang": "de", "anchor": "2023-09-06", "ranges": [["2023-09-06", "2023-09-06"]]}
+{"q": "notiere bitte dass es heute regnet", "code": "day 0", "kind": "day", "lang": "de", "anchor": "2026-01-09", "ranges": [["2026-01-09", "2026-01-09"]]}
+{"q": "was habe ich in der woche vor drei wochen alles gemacht?", "code": "week -3", "kind": "week", "lang": "de", "anchor": "2026-01-01", "ranges": [["2025-12-08", "2025-12-14"]]}
+{"q": "schreib mir mal auf, was wir in der woche vor drei wochen besprochen haben.", "code": "week -3", "kind": "week", "lang": "de", "anchor": "2026-02-04", "ranges": [["2026-01-12", "2026-01-18"]]}
+{"q": "Kannst du mir die Details zum Model X500 zeigen?", "code": "none", "kind": "none", "lang": "de", "anchor": "2026-08-03", "ranges": []}
+{"q": "Schreib bitte auf, dass der Kunde das Pro-Kit 2024 gekauft hat.", "code": "none", "kind": "none", "lang": "de", "anchor": "2025-12-31", "ranges": []}
+{"q": "Wie hoch ist der Lagerbestand für den SuperMax 9?", "code": "none", "kind": "none", "lang": "de", "anchor": "2023-08-23", "ranges": []}
+{"q": "3-Tage-Kurs Anmeldung", "code": "none", "kind": "none", "lang": "de", "anchor": "2024-10-10", "ranges": []}
+{"q": "Dauer 2 Wochen Kurs", "code": "none", "kind": "none", "lang": "de", "anchor": "2027-06-12", "ranges": []}
+{"q": "3 Tage Reisekosten", "code": "none", "kind": "none", "lang": "de", "anchor": "2024-08-24", "ranges": []}
+{"q": "erinner mich an das meeting von gestern vormittag", "code": "day -1", "kind": "day", "lang": "de", "anchor": "2027-01-05", "ranges": [["2027-01-04", "2027-01-04"]]}
+{"q": "was war gestern abend nochmal der name von dem investor", "code": "day -1", "kind": "day", "lang": "de", "anchor": "2027-07-02", "ranges": [["2027-07-01", "2027-07-01"]]}
+{"q": "schreib die zahlen von gestern nachmittag auf", "code": "day -1", "kind": "day", "lang": "de", "anchor": "2025-05-05", "ranges": [["2025-05-04", "2025-05-04"]]}
+{"q": "Termin Mittwoch nächste Woche", "code": "week 1 wed", "kind": "weekday", "lang": "de", "anchor": "2026-06-26", "ranges": [["2026-07-01", "2026-07-01"]]}
+{"q": "Mittwoch nächste Woche Zahnarzt", "code": "week 1 wed", "kind": "weekday", "lang": "de", "anchor": "2027-03-04", "ranges": [["2027-03-10", "2027-03-10"]]}
+{"q": "Mittwoch nächste Woche Elternabend", "code": "week 1 wed", "kind": "weekday", "lang": "de", "anchor": "2025-06-24", "ranges": [["2025-07-02", "2025-07-02"]]}
+{"q": "Blutdruckmittelwerte", "code": "none", "kind": "none", "lang": "de", "anchor": "2023-11-09", "ranges": []}
+{"q": "Patientenallergien", "code": "none", "kind": "none", "lang": "de", "anchor": "2023-02-06", "ranges": []}
+{"q": "Schicht 03:00", "code": "none", "kind": "none", "lang": "de", "anchor": "2025-09-25", "ranges": []}
+{"q": "Könnten Sie mir bitte die Wettervorhersage für den Zeitraum von Februar bis Juni heraussuchen?", "code": "feb .. jun", "kind": "range", "lang": "de", "anchor": "2026-08-09", "ranges": [["2026-02-01", "2026-06-30"]]}
+{"q": "Bitte notieren Sie, dass ich von Februar bis Juni meine jährliche Reise planen möchte.", "code": "feb .. jun", "kind": "range", "lang": "de", "anchor": "2027-08-17", "ranges": [["2027-02-01", "2027-06-30"]]}
+{"q": "Ich würde gerne wissen, welche Blumen sich von Februar bis Juni in meinem Garten am besten entfalten.", "code": "feb .. jun", "kind": "range", "lang": "de", "anchor": "2027-10-31", "ranges": [["2027-02-01", "2027-06-30"]]}
+{"q": "v2.4 hat bug im port, check mal", "code": "none", "kind": "none", "lang": "de", "anchor": "2023-01-17", "ranges": []}
+{"q": "zimmer nr 402 is belegt, schick mir den ticket code", "code": "none", "kind": "none", "lang": "de", "anchor": "2024-06-07", "ranges": []}
+{"q": "bestellnr 8829 fehlt noch im system", "code": "none", "kind": "none", "lang": "de", "anchor": "2024-06-16", "ranges": []}
+{"q": "merk dir bitte, dass ich im jahr 2024 meine schichtzulagen prüfen muss", "code": "2024", "kind": "year_abs", "lang": "de", "anchor": "2026-04-25", "ranges": [["2024-01-01", "2024-12-31"]]}
+{"q": "habe für das jahr 2024 meine fortbildungen eingetragen", "code": "2024", "kind": "year_abs", "lang": "de", "anchor": "2023-12-21", "ranges": [["2024-01-01", "2024-12-31"]]}
+{"q": "wie viele dienststunden habe ich im jahr 2024 insgesamt gemacht?", "code": "2024", "kind": "year_abs", "lang": "de", "anchor": "2025-11-03", "ranges": [["2024-01-01", "2024-12-31"]]}
+{"q": "Schreib auf dass Montag heute gesagt hat", "code": "none", "kind": "none", "lang": "de", "anchor": "2027-06-18", "ranges": []}
+{"q": "Februar Wetter prüfen", "code": "feb", "kind": "month_name", "lang": "de", "anchor": "2027-03-30", "ranges": [["2027-02-01", "2027-02-28"]]}
+{"q": "Februar Termine notieren", "code": "feb", "kind": "month_name", "lang": "de", "anchor": "2025-11-02", "ranges": [["2025-02-01", "2025-02-28"]]}
+{"q": "Ich muss das Logo um Mittag fertigstellen.", "code": "none", "kind": "none", "lang": "de", "anchor": "2025-01-03", "ranges": []}
+{"q": "jeden Tag Deutsch", "code": "none", "kind": "none", "lang": "de", "anchor": "2027-11-14", "ranges": []}
+{"q": "immer kurz antworten", "code": "none", "kind": "none", "lang": "de", "anchor": "2025-02-27", "ranges": []}
+{"q": "Kontrolliere die Inventur monatlich", "code": "none", "kind": "none", "lang": "de", "anchor": "2026-03-01", "ranges": []}
+{"q": "Sende die Abrechnung regelmäßig", "code": "none", "kind": "none", "lang": "de", "anchor": "2024-09-17", "ranges": []}
+{"q": "Vor vier Tagen", "code": "day -4", "kind": "day", "lang": "de", "anchor": "2024-02-11", "ranges": [["2024-02-07", "2024-02-07"]]}
+{"q": "Dienstag, vor vier Tagen", "code": "day -4", "kind": "day", "lang": "de", "anchor": "2027-03-18", "ranges": [["2027-03-14", "2027-03-14"]]}
+{"q": "Alles vor vier Tagen", "code": "day -4", "kind": "day", "lang": "de", "anchor": "2027-01-17", "ranges": [["2027-01-13", "2027-01-13"]]}
+{"q": "Erinnere mich an die Liste der Bücher, die ich um Mitternacht lesen wolte.", "code": "none", "kind": "none", "lang": "de", "anchor": "2027-12-09", "ranges": []}
+{"q": "Was war der Name von der Frau, die ich am Nachmittag im Park getroffen habe?", "code": "none", "kind": "none", "lang": "de", "anchor": "2027-01-15", "ranges": []}
+{"q": "Schreib die Rezepte auf, die ich am Abend kochen möchte, bitte.", "code": "none", "kind": "none", "lang": "de", "anchor": "2025-09-01", "ranges": []}
+{"q": "gestern morgen chemie", "code": "day -1", "kind": "day", "lang": "de", "anchor": "2023-10-31", "ranges": [["2023-10-30", "2023-10-30"]]}
+{"q": "gestern nachmittag termin", "code": "day -1", "kind": "day", "lang": "de", "anchor": "2024-09-08", "ranges": [["2024-09-07", "2024-09-07"]]}
+{"q": "Wie viele Kilometer habe ich im Jahr 2024 insgesamt gelaufen?", "code": "2024", "kind": "year_abs", "lang": "de", "anchor": "2023-06-11", "ranges": [["2024-01-01", "2024-12-31"]]}
+{"q": "Speichere bitte meine Bestzeit für das Jahr 2024.", "code": "2024", "kind": "year_abs", "lang": "de", "anchor": "2024-08-14", "ranges": [["2024-01-01", "2024-12-31"]]}
+{"q": "Habe ich 2024 alle meine geplanten Marathons absolviert?", "code": "2024", "kind": "year_abs", "lang": "de", "anchor": "2023-04-21", "ranges": [["2024-01-01", "2024-12-31"]]}
+{"q": "Kaffee nachmittags nachfüllen", "code": "none", "kind": "none", "lang": "de", "anchor": "2024-11-03", "ranges": []}
+{"q": "Inventar abendlich prüfen", "code": "none", "kind": "none", "lang": "de", "anchor": "2024-02-12", "ranges": []}
+{"q": "Hast du schon die Wettervorhersage für den Freitagnachmittag und -abend?", "code": "fri 1", "kind": "weekday", "lang": "de", "anchor": "2023-12-02", "ranges": [["2023-12-08", "2023-12-08"]]}
+{"q": "Zeig mir alle Umsätze aus dem Jahr 2017.", "code": "2017", "kind": "year_abs", "lang": "de", "anchor": "2026-08-09", "ranges": [["2017-01-01", "2017-12-31"]]}
+{"q": "Suche nach dem Kundenmeeting im Jahr 2017.", "code": "2017", "kind": "year_abs", "lang": "de", "anchor": "2026-09-12", "ranges": [["2017-01-01", "2017-12-31"]]}
+{"q": "Liste mir die Top-Verkäufer für das Jahr 2017 auf.", "code": "2017", "kind": "year_abs", "lang": "de", "anchor": "2025-05-12", "ranges": [["2017-01-01", "2017-12-31"]]}
+{"q": "Zeig mir die Notizen von letzter Woche Montag bis Sonntag.", "code": "week -1", "kind": "week", "lang": "de", "anchor": "2025-01-13", "ranges": [["2025-01-06", "2025-01-12"]]}
+{"q": "Finde alle Rezepte, die ich letzte Woche von Montag bis Sonntag gespeichert habe.", "code": "week -1", "kind": "week", "lang": "de", "anchor": "2024-02-29", "ranges": [["2024-02-19", "2024-02-25"]]}
+{"q": "Liste alle Termine der letzten Woche Montag bis Sonntag auf.", "code": "week -1", "kind": "week", "lang": "de", "anchor": "2026-05-07", "ranges": [["2026-04-27", "2026-05-03"]]}
+{"q": "Kannst du mir die Specs vom Hyperion 2000 raussuchen?", "code": "none", "kind": "none", "lang": "de", "anchor": "2023-02-07", "ranges": []}
+{"q": "Merke dir bitte, dass die User Experience bei der App Nexus 7 entscheidend ist.", "code": "none", "kind": "none", "lang": "de", "anchor": "2023-08-25", "ranges": []}
+{"q": "Wie hoch ist der aktuelle Preis für das Modul Alpha 9?", "code": "none", "kind": "none", "lang": "de", "anchor": "2025-03-20", "ranges": []}
+{"q": "Erinnere mich nächstes Jahr an den On-Call Dienst.", "code": "year 1", "kind": "year", "lang": "de", "anchor": "2025-05-12", "ranges": [["2026-01-01", "2026-12-31"]]}
+{"q": "Pruefe mal, ob nächstes Jahr im nächsten Jahr alle Urlaube eingetragen sind.", "code": "year 1", "kind": "year", "lang": "de", "anchor": "2027-06-30", "ranges": [["2028-01-01", "2028-12-31"]]}
+{"q": "Umsatz letzten Monat", "code": "month -1", "kind": "month", "lang": "de", "anchor": "2026-11-19", "ranges": [["2026-10-01", "2026-10-31"]]}
+{"q": "letzter Monat Kundenliste", "code": "month -1", "kind": "month", "lang": "de", "anchor": "2024-11-15", "ranges": [["2024-10-01", "2024-10-31"]]}
+{"q": "letzter Monat Pipeline", "code": "month -1", "kind": "month", "lang": "de", "anchor": "2026-08-03", "ranges": [["2026-07-01", "2026-07-31"]]}
+{"q": "März ist gelb", "code": "none", "kind": "none", "lang": "de", "anchor": "2027-09-23", "ranges": []}
+{"q": "Mai ist schläfrig", "code": "none", "kind": "none", "lang": "de", "anchor": "2027-06-16", "ranges": []}
+{"q": "Juni ist weich", "code": "none", "kind": "none", "lang": "de", "anchor": "2024-03-24", "ranges": []}
+{"q": "Kannst du mir diesen code snippet `print(1024)` bitte mal erklären?", "code": "none", "kind": "none", "lang": "de", "anchor": "2025-09-01", "ranges": []}
+{"q": "Ich brauche die info zu https://api.service.de/v1/9987/details", "code": "none", "kind": "none", "lang": "de", "anchor": "2027-11-02", "ranges": []}
+{"q": "Speichere bitte den link https://example.com/data/55012/ in meinen notizen.", "code": "none", "kind": "none", "lang": "de", "anchor": "2025-05-07", "ranges": []}
+{"q": "Diese Woche ist mein Regenerationswoche.", "code": "week 0", "kind": "week", "lang": "de", "anchor": "2025-04-14", "ranges": [["2025-04-14", "2025-04-20"]]}
+{"q": "7. August, bitte die Einkaufsliste für diesen Tag speichern.", "code": "*-08-07", "kind": "date", "lang": "de", "anchor": "2027-12-17", "ranges": [["2027-08-07", "2027-08-07"]]}
+{"q": "Am 7. August, erinnere mich an den Termin mit meiner Schwester.", "code": "*-08-07", "kind": "date", "lang": "de", "anchor": "2026-12-17", "ranges": [["2026-08-07", "2026-08-07"]]}
+{"q": "hast du die notizen von den letzten elf wochen gespeichert?", "code": "last 11 week", "kind": "last_n", "lang": "de", "anchor": "2026-01-01", "ranges": [["2025-10-16", "2026-01-01"]]}
+{"q": "die schichtübergaben der letzten elf wochen waren echt anstrengend.", "code": "last 11 week", "kind": "last_n", "lang": "de", "anchor": "2027-11-08", "ranges": [["2027-08-23", "2027-11-08"]]}
+{"q": "bitte die veränderungen der patientenwerte der letzten elf wochen auflisten.", "code": "last 11 week", "kind": "last_n", "lang": "de", "anchor": "2027-06-30", "ranges": [["2027-04-14", "2027-06-30"]]}
+{"q": "Notieren: um Mitternacht ist die Lieferung fertig.", "code": "none", "kind": "none", "lang": "de", "anchor": "2023-04-23", "ranges": []}
+{"q": "Schreib auf: um Mittag ist die Kasse leer.", "code": "none", "kind": "none", "lang": "de", "anchor": "2027-10-09", "ranges": []}
+{"q": "Update: um Abend ist der Laden zu.", "code": "none", "kind": "none", "lang": "de", "anchor": "2023-02-22", "ranges": []}
+{"q": "Wie viel haben wir vor zwei Jahren im gesamten Jahr verkauft?", "code": "year -2", "kind": "year", "lang": "de", "anchor": "2023-08-16", "ranges": [["2021-01-01", "2021-12-31"]]}
+{"q": "wie sagt man 'weekly' auf deutsch?", "code": "none", "kind": "none", "lang": "de", "anchor": "2025-04-17", "ranges": []}
+{"q": "kannst du mir öfter helfen? am besten wöchentlich", "code": "none", "kind": "none", "lang": "de", "anchor": "2026-08-09", "ranges": []}
+{"q": "erinnere mich bitte an die abgabe für die seminararbeit in der zweiten hälfte des monats.", "code": "h2 month 0", "kind": "modified", "lang": "de", "anchor": "2023-10-06", "ranges": [["2023-10-17", "2023-10-31"]]}
+{"q": "wie war eigentlich das wetter in der zweiten hälfte des monats?", "code": "h2 month 0", "kind": "modified", "lang": "de", "anchor": "2026-08-01", "ranges": [["2026-08-17", "2026-08-31"]]}
+{"q": "ich hab in der zweiten hälfte des monats echt viel zu tun, merk dir das bitte.", "code": "h2 month 0", "kind": "modified", "lang": "de", "anchor": "2024-10-13", "ranges": [["2024-10-17", "2024-10-31"]]}
+{"q": "Zeig mir die nächste Version des Codes", "code": "none", "kind": "none", "lang": "de", "anchor": "2026-10-01", "ranges": []}
+{"q": "Das ist die letzte Zeile im Skript", "code": "none", "kind": "none", "lang": "de", "anchor": "2025-10-18", "ranges": []}
+{"q": "Lies den nächsten Schritt aus der Dokumentation", "code": "none", "kind": "none", "lang": "de", "anchor": "2027-05-20", "ranges": []}
+{"q": "Er ist 30.", "code": "none", "kind": "none", "lang": "de", "anchor": "2026-04-18", "ranges": []}
+{"q": "Ich bin 25.", "code": "none", "kind": "none", "lang": "de", "anchor": "2025-09-27", "ranges": []}
+{"q": "Sie wird 40.", "code": "none", "kind": "none", "lang": "de", "anchor": "2026-08-03", "ranges": []}
+{"q": "Erinnere mich an die besten Synthie-Hits aus den 1980er Jahren.", "code": "1980s", "kind": "decade", "lang": "de", "anchor": "2024-03-08", "ranges": [["1980-01-01", "1989-12-31"]]}
+{"q": "Welche Filme waren in den 1980 bis 1989 besonders populär?", "code": "1980s", "kind": "decade", "lang": "de", "anchor": "2027-06-30", "ranges": [["1980-01-01", "1989-12-31"]]}
+{"q": "Notiere die Trends der 1980er Jahre für mein nächstes Projekt.", "code": "1980s", "kind": "decade", "lang": "de", "anchor": "2025-12-10", "ranges": [["1980-01-01", "1989-12-31"]]}
+{"q": "nächster Montag Termin", "code": "mon 1", "kind": "weekday", "lang": "de", "anchor": "2025-11-28", "ranges": [["2025-12-01", "2025-12-01"]]}
+{"q": "kommender Montag Urlaub", "code": "mon 1", "kind": "weekday", "lang": "de", "anchor": "2023-08-29", "ranges": [["2023-09-04", "2023-09-04"]]}
+{"q": "speicher die 10 stunden an feedback für später ab", "code": "none", "kind": "none", "lang": "de", "anchor": "2026-08-08", "ranges": []}
+{"q": "Erinnere mich an das Stretching für den langen Lauf nächste Woche Montag bis Sonntag.", "code": "week 1", "kind": "week", "lang": "de", "anchor": "2023-10-19", "ranges": [["2023-10-23", "2023-10-29"]]}
+{"q": "Erinnere mich bitte unbedingt daran, dass ich letzte Woche von Montag bis Sonntag die gesamte Quartalsanalyse für das Team fertigstellen und abschicken musste, okay?", "code": "week -1", "kind": "week", "lang": "de", "anchor": "2026-03-01", "ranges": [["2026-02-16", "2026-02-22"]]}
+{"q": "Schreib mal auf, dass wir letzte Woche von Montag bis Sonntag diesen riesigen Deal mit der Firma Müller endlich unter Dach und Fach gebracht haben.", "code": "week -1", "kind": "week", "lang": "de", "anchor": "2024-01-23", "ranges": [["2024-01-15", "2024-01-21"]]}
+{"q": "Du musst unbedingt speichern, dass ich letzte Woche von Montag bis Sonntag viel zu viele Meetings hatte und kaum Zeit für die eigentliche Akquise fand.", "code": "week -1", "kind": "week", "lang": "de", "anchor": "2026-03-01", "ranges": [["2026-02-16", "2026-02-22"]]}
+{"q": "Erinnere mich bitte daran, dass ich im Jahr 2020 meine gesamte Ausbildung abgeschlossen habe und dann direkt angefangen habe, auf der Intensivstation zu arbeiten.", "code": "2020", "kind": "year_abs", "lang": "de", "anchor": "2026-09-28", "ranges": [["2020-01-01", "2020-12-31"]]}
+{"q": "Ich glaube, ich habe im Jahr 2020 wirklich extrem viel Stress gehabt, weil die Pandemie damals alles so kompliziert und für uns alle so schwierig gemacht hat.", "code": "2020", "kind": "year_abs", "lang": "de", "anchor": "2023-03-31", "ranges": [["2020-01-01", "2020-12-31"]]}
+{"q": "Kannst du bitte speichern, dass ich im Jahr 2020 zum ersten Mal diese spezielle Software für die digitale Patientenakte benutzt habe, die wir jetzt nutzen?", "code": "2020", "kind": "year_abs", "lang": "de", "anchor": "2026-03-10", "ranges": [["2020-01-01", "2020-12-31"]]}
+{"q": "Sonntag Schmerzen Knie", "code": "sun", "kind": "weekday", "lang": "de", "anchor": "2026-03-15", "ranges": [["2026-03-08", "2026-03-08"]]}
+{"q": "Vergiss nicht, meine Pace beim Intervalltraining zu speichern.", "code": "none", "kind": "none", "lang": "de", "anchor": "2026-04-04", "ranges": []}
+{"q": "Ich muss noch die neue Playlist für den Marathontraining erstellen.", "code": "none", "kind": "none", "lang": "de", "anchor": "2026-07-30", "ranges": []}
+{"q": "merk dir bitte das feedback vom vorgestern morgen und nachmittag", "code": "day -2", "kind": "day", "lang": "de", "anchor": "2026-03-07", "ranges": [["2026-03-05", "2026-03-05"]]}
+{"q": "die farben vom vorgestern abend und nacht waren echt schrecklich", "code": "day -2", "kind": "day", "lang": "de", "anchor": "2025-09-12", "ranges": [["2025-09-10", "2025-09-10"]]}
+{"q": "schreib auf, dass ich vorgestern mittag und nachmittag beschäftigt war", "code": "day -2", "kind": "day", "lang": "de", "anchor": "2026-03-03", "ranges": [["2026-03-01", "2026-03-01"]]}
+{"q": "denk dran, dass die kinder im april immer so viel energie haben", "code": "apr", "kind": "month_name", "lang": "de", "anchor": "2023-06-20", "ranges": [["2023-04-01", "2023-04-30"]]}
+{"q": "kannst du mir eine liste mit aktivitäten für den april erstellen?", "code": "apr", "kind": "month_name", "lang": "de", "anchor": "2026-05-14", "ranges": [["2026-04-01", "2026-04-30"]]}
+{"q": "wir müssen im april unbedingt den frühling feiern", "code": "apr", "kind": "month_name", "lang": "de", "anchor": "2027-10-09", "ranges": [["2027-04-01", "2027-04-30"]]}
+{"q": "Wir hatten am Freitag um 14 Uhr diesen Kunden im Laden.", "code": "fri", "kind": "weekday", "lang": "de", "anchor": "2024-10-30", "ranges": [["2024-10-25", "2024-10-25"]]}
+{"q": "Gestern morgen hab ich meine Laufschuhe verloren.", "code": "day -1", "kind": "day", "lang": "de", "anchor": "2027-12-16", "ranges": [["2027-12-15", "2027-12-15"]]}
+{"q": "Vergiss nicht, dass ich gestern nachmittag zu sehr gelauft bin.", "code": "day -1", "kind": "day", "lang": "de", "anchor": "2027-08-05", "ranges": [["2027-08-04", "2027-08-04"]]}
+{"q": "Gestern abend und nacht war mein Beinn echt schmerzhaft.", "code": "day -1", "kind": "day", "lang": "de", "anchor": "2027-08-27", "ranges": [["2027-08-26", "2027-08-26"]]}
+{"q": "30 Jahre alt", "code": "none", "kind": "none", "lang": "de", "anchor": "2026-01-01", "ranges": []}
+{"q": "Tempo 4:30", "code": "none", "kind": "none", "lang": "de", "anchor": "2027-11-10", "ranges": []}
+{"q": "Schuhe Größe 44", "code": "none", "kind": "none", "lang": "de", "anchor": "2026-08-08", "ranges": []}
+{"q": "Erinnere mich an den Ausflug im August vom letzten Jahr.", "code": "year -1 aug", "kind": "month_name", "lang": "de", "anchor": "2023-06-06", "ranges": [["2022-08-01", "2022-08-31"]]}
+{"q": "Was habe ich im August letzten Jahres über das Wetter geschriben?", "code": "year -1 aug", "kind": "month_name", "lang": "de", "anchor": "2023-09-20", "ranges": [["2022-08-01", "2022-08-31"]]}
+{"q": "Suchen Sie die Fotos von August letztes Jahr herus.", "code": "year -1 aug", "kind": "month_name", "lang": "de", "anchor": "2025-08-16", "ranges": [["2024-08-01", "2024-08-31"]]}
+{"q": "Regelmäßig den Vorrat an Verbandsmaterial kontrollieren.", "code": "none", "kind": "none", "lang": "de", "anchor": "2023-02-07", "ranges": []}
+{"q": "Erinnere mich an den Zahnarzttermin am Aug 19 2021.", "code": "2021-08-19", "kind": "date", "lang": "de", "anchor": "2026-08-05", "ranges": [["2021-08-19", "2021-08-19"]]}
+{"q": "Vergiss nicht, dass wir am Aug 19 2021 den Geburtstag von Oma feiern müssen.", "code": "2021-08-19", "kind": "date", "lang": "de", "anchor": "2026-03-23", "ranges": [["2021-08-19", "2021-08-19"]]}
+{"q": "Schreib auf, dass wir am Aug 19 2021 die gesamte Wohnung renovieren wollen.", "code": "2021-08-19", "kind": "date", "lang": "de", "anchor": "2026-08-08", "ranges": [["2021-08-19", "2021-08-19"]]}
+{"q": "Kannst du mir sagen, wie die Adresse von Montag Müller lautet?", "code": "none", "kind": "none", "lang": "de", "anchor": "2027-03-22", "ranges": []}
+{"q": "Habe ich dir schon die Telefonnummer von Dienstag Schmidt gegeben?", "code": "none", "kind": "none", "lang": "de", "anchor": "2026-11-13", "ranges": []}
+{"q": "Zeig mir morgen Vormittag den Wetterbericht.", "code": "day 1", "kind": "day", "lang": "de", "anchor": "2023-04-26", "ranges": [["2023-04-27", "2023-04-27"]]}
+{"q": "Finde morgen Abend Termine.", "code": "day 1", "kind": "day", "lang": "de", "anchor": "2026-08-28", "ranges": [["2026-08-29", "2026-08-29"]]}
+{"q": "Erinnere mich morgen früh an den Termin.", "code": "day 1", "kind": "day", "lang": "de", "anchor": "2023-12-23", "ranges": [["2023-12-24", "2023-12-24"]]}
+{"q": "hast du die quittung vom dienstag gespeichert?", "code": "tue", "kind": "weekday", "lang": "de", "anchor": "2024-10-24", "ranges": [["2024-10-22", "2024-10-22"]]}
+{"q": "Drei Tage hat das Logo-Design gedauert, bitte in die Projektliste eintragen.", "code": "none", "kind": "none", "lang": "de", "anchor": "2024-03-17", "ranges": []}
+{"q": "Zwei Wochen dauerte der Online-Kurs, merk dir das für mein Budget.", "code": "none", "kind": "none", "lang": "de", "anchor": "2027-06-06", "ranges": []}
+{"q": "Drei Stunden habe ich an der Typografie gearbeitet, schreib es unter Arbeitszeit.", "code": "none", "kind": "none", "lang": "de", "anchor": "2024-10-29", "ranges": []}
+{"q": "Zeig mir meine Noten vom letzten Jahr.", "code": "year -1", "kind": "year", "lang": "de", "anchor": "2026-04-06", "ranges": [["2025-01-01", "2025-12-31"]]}
+{"q": "Zeig mir den Terminkalender für diese Woche.", "code": "week 0", "kind": "week", "lang": "de", "anchor": "2023-06-06", "ranges": [["2023-06-05", "2023-06-11"]]}
+{"q": "Find die Einkaufsliste für diese Woche.", "code": "week 0", "kind": "week", "lang": "de", "anchor": "2026-08-09", "ranges": [["2026-08-03", "2026-08-09"]]}
+{"q": "Merke dir, dass wir wöchentlich ein Meeting mit dem Team muchen.", "code": "none", "kind": "none", "lang": "de", "anchor": "2024-03-19", "ranges": []}
+{"q": "Erinnere mich an alle On-Call-Vorfälle der letzten sieben Jahre.", "code": "last 7 year", "kind": "last_n", "lang": "de", "anchor": "2027-08-16", "ranges": [["2020-08-16", "2027-08-16"]]}
+{"q": "Wie viele Deployments haben wir in den letzten sieben Jahren gemacht?", "code": "last 7 year", "kind": "last_n", "lang": "de", "anchor": "2023-11-25", "ranges": [["2016-11-25", "2023-11-25"]]}
+{"q": "Liste alle kritischen Bugs auf, die in den letzten sieben Jahren aufgetreten sind.", "code": "last 7 year", "kind": "last_n", "lang": "de", "anchor": "2027-06-30", "ranges": [["2020-06-30", "2027-06-30"]]}
+{"q": "Mein Investor ist 45 Jahre alt, merk dir das.", "code": "none", "kind": "none", "lang": "de", "anchor": "2026-11-01", "ranges": []}
+{"q": "Schreib auf: Der neue CEO ist 30 Jahre alt.", "code": "none", "kind": "none", "lang": "de", "anchor": "2026-03-01", "ranges": []}
+{"q": "Erinnere mich daran, dass die Konkurrenz 25 jahre alt ist und sehr agil ist.", "code": "none", "kind": "none", "lang": "de", "anchor": "2024-04-07", "ranges": []}
+{"q": "Erstelle eine Liste mit 12 Monaten Daten aus der Sales-Pipeline", "code": "none", "kind": "none", "lang": "de", "anchor": "2026-02-12", "ranges": []}
+{"q": "Analysiere diese 24 Stunden Logs auf Fehler", "code": "none", "kind": "none", "lang": "de", "anchor": "2025-12-31", "ranges": []}
+{"q": "Speichere die 6 Monate Erfahrung aus dem letzten Projekt", "code": "none", "kind": "none", "lang": "de", "anchor": "2026-11-15", "ranges": []}
+{"q": "Ist das ein Fallstrick oder nur eine einfache Frage?", "code": "none", "kind": "none", "lang": "de", "anchor": "2027-09-19", "ranges": []}
+{"q": "Keine Falle, nur eine ganz normale Frage: Wie ist mein Puls?", "code": "none", "kind": "none", "lang": "de", "anchor": "2026-08-09", "ranges": []}
+{"q": "War das ein Trap oder nur eine plain question zu meinen Schuhen?", "code": "none", "kind": "none", "lang": "de", "anchor": "2026-12-24", "ranges": []}
+{"q": "erinnerst du dich an die wetterdaten vom august 2016?", "code": "2016-08", "kind": "month_name", "lang": "de", "anchor": "2026-03-01", "ranges": [["2016-08-01", "2016-08-31"]]}
+{"q": "schreib mal auf, was ich im august 2016 alles gelesen habe.", "code": "2016-08", "kind": "month_name", "lang": "de", "anchor": "2027-12-20", "ranges": [["2016-08-01", "2016-08-31"]]}
+{"q": "was waren die wichtigsten news im august 2016?", "code": "2016-08", "kind": "month_name", "lang": "de", "anchor": "2026-08-08", "ranges": [["2016-08-01", "2016-08-31"]]}
+{"q": "Ich habe vor genau 6 Tagen am Vormittag meine neuen Laufschuhe verloren.", "code": "day -6", "kind": "day", "lang": "de", "anchor": "2026-03-01", "ranges": [["2026-02-23", "2026-02-23"]]}
+{"q": "Erinnere mich an das Training vor genau 6 Tagen am Nachmittag.", "code": "day -6", "kind": "day", "lang": "de", "anchor": "2025-03-26", "ranges": [["2025-03-20", "2025-03-20"]]}
+{"q": "Meine Muskelkrämpfe vor genau 6 Tagen in der Nacht waren extrem.", "code": "day -6", "kind": "day", "lang": "de", "anchor": "2026-08-03", "ranges": [["2026-07-28", "2026-07-28"]]}
+{"q": "Was müssen wir am 6. Mai alles erledigen?", "code": "*-05-06", "kind": "date", "lang": "de", "anchor": "2026-01-04", "ranges": [["2025-05-06", "2025-05-06"]]}
+{"q": "Erinnere mich bitte am 6. Mai an den Termin beim Kinderarzt.", "code": "*-05-06", "kind": "date", "lang": "de", "anchor": "2024-02-29", "ranges": [["2023-05-06", "2023-05-06"]]}
+{"q": "Haben wir am 6. Mai schon die Geburtstagsparty geplant?", "code": "*-05-06", "kind": "date", "lang": "de", "anchor": "2026-01-11", "ranges": [["2025-05-06", "2025-05-06"]]}
+{"q": "kannst du mir den text von dem artikel schicken? danke!", "code": "none", "kind": "none", "lang": "de", "anchor": "2026-08-03", "ranges": []}
+{"q": "habe die infos zu den fällen gespeichert, schau mal drüber.", "code": "none", "kind": "none", "lang": "de", "anchor": "2027-03-23", "ranges": []}
+{"q": "findest du den grund für die kälte in der begriffswelt?", "code": "none", "kind": "none", "lang": "de", "anchor": "2026-08-03", "ranges": []}
+{"q": "Zeig mir die Einkaufsliste von gestern Nachmittag.", "code": "day -1", "kind": "day", "lang": "de", "anchor": "2024-02-29", "ranges": [["2024-02-28", "2024-02-28"]]}
+{"q": "Finde die Telefonnummer, die ich gestern Abend angerufen habe.", "code": "day -1", "kind": "day", "lang": "de", "anchor": "2025-01-22", "ranges": [["2025-01-21", "2025-01-21"]]}
+{"q": "Notiere: Die Kinder hatten gestern Morgen gute Laune.", "code": "day -1", "kind": "day", "lang": "de", "anchor": "2026-04-14", "ranges": [["2026-04-13", "2026-04-13"]]}
+{"q": "letzten Monat war echt anstrengend, ne?", "code": "month -1", "kind": "month", "lang": "de", "anchor": "2027-06-03", "ranges": [["2027-05-01", "2027-05-31"]]}
+{"q": "kannst du meine vordr. Vokabeln vom letzten Monat speichern?", "code": "month -1", "kind": "month", "lang": "de", "anchor": "2024-05-19", "ranges": [["2024-04-01", "2024-04-30"]]}
+{"q": "Ich plane im Juli 2026 und dieses Wochenende eine Reise.", "code": "2026-07 ; week 0 weekend", "kind": "multi", "lang": "de", "anchor": "2027-09-01", "ranges": [["2026-07-01", "2026-07-31"], ["2027-09-04", "2027-09-05"]]}
+{"q": "Denk bitte daran, dass im Juli 2026 und dieses Wochenende die Gartenparty stattfindet.", "code": "2026-07 ; week 0 weekend", "kind": "multi", "lang": "de", "anchor": "2025-11-17", "ranges": [["2026-07-01", "2026-07-31"], ["2025-11-22", "2025-11-23"]]}
+{"q": "Kannst du mir sagen, was im Juli 2026 und dieses Wochenende ansteht?", "code": "2026-07 ; week 0 weekend", "kind": "multi", "lang": "de", "anchor": "2025-01-13", "ranges": [["2026-07-01", "2026-07-31"], ["2025-01-18", "2025-01-19"]]}
+{"q": "Könnten Sie bitte die aktuelle Version des Logos in meinem Archiv speichern?", "code": "none", "kind": "none", "lang": "de", "anchor": "2026-04-10", "ranges": []}
+{"q": "Ich möchte gerne die Details zur Order-Nummer 8842 in unseren Notizen ergänzen.", "code": "none", "kind": "none", "lang": "de", "anchor": "2026-08-09", "ranges": []}
+{"q": "Bitte hinterlegen Sie die Zugangsdaten für den Port im Kundenprofil.", "code": "none", "kind": "none", "lang": "de", "anchor": "2027-06-11", "ranges": []}
+{"q": "Heute kostet der neue Laptop genau 1250 Euro.", "code": "none", "kind": "none", "lang": "de", "anchor": "2027-06-30", "ranges": []}
+{"q": "In diesem Restaurant liegt die Rechnung bei 2490 Euro.", "code": "none", "kind": "none", "lang": "de", "anchor": "2025-07-17", "ranges": []}
+{"q": "Dort drüben steht ein Schild mit einem Preis von 8800 Euro.", "code": "none", "kind": "none", "lang": "de", "anchor": "2023-05-29", "ranges": []}
+{"q": "Zeig mir alle Termine für die nächsten 9 Wochen.", "code": "next 9 week", "kind": "last_n", "lang": "de", "anchor": "2024-03-27", "ranges": [["2024-03-27", "2024-05-29"]]}
+{"q": "Finde meine Reisepläne für die nächsten 9 Wochen.", "code": "next 9 week", "kind": "last_n", "lang": "de", "anchor": "2023-05-13", "ranges": [["2023-05-13", "2023-07-15"]]}
+{"q": "Erstelle eine Liste mit Aufgaben für die nächsten 9 Wochen.", "code": "next 9 week", "kind": "last_n", "lang": "de", "anchor": "2026-12-09", "ranges": [["2026-12-09", "2027-02-10"]]}
+{"q": "Sept-Nov 1996 Inventur", "code": "1996-09 .. 1996-11", "kind": "range", "lang": "de", "anchor": "2024-08-06", "ranges": [["1996-09-01", "1996-11-30"]]}
+{"q": "Sept-Nov 1996 Bestellung", "code": "1996-09 .. 1996-11", "kind": "range", "lang": "de", "anchor": "2023-07-26", "ranges": [["1996-09-01", "1996-11-30"]]}
+{"q": "1996 Sept-Nov Einnahmen", "code": "1996-09 .. 1996-11", "kind": "range", "lang": "de", "anchor": "2024-10-05", "ranges": [["1996-09-01", "1996-11-30"]]}
+{"q": "Erinnere mich bitte unbedingt daran, dass wir am letzten Montag um 14:30 Uhr diesen Termin beim Kinderarzt für die Kleinsten ganz dringend hatten.", "code": "week -1 mon", "kind": "weekday", "lang": "de", "anchor": "2023-02-24", "ranges": [["2023-02-13", "2023-02-13"]]}
+{"q": "Vergiss bitte nicht, dass ich dir am letzten Montag gegen 18:00 Uhr gesagt habe, dass wir unbedingt neues Bio-Obst für die drei Kinder kaufen müssen.", "code": "week -1 mon", "kind": "weekday", "lang": "de", "anchor": "2024-09-30", "ranges": [["2024-09-23", "2024-09-23"]]}
+{"q": "Kannst du bitte nachschauen, was ich am letzten Montag um 09:00 Uhr morgens als Einkaufsliste für die Schule und das Training in die App geschrieben habe?", "code": "week -1 mon", "kind": "weekday", "lang": "de", "anchor": "2026-03-01", "ranges": [["2026-02-16", "2026-02-16"]]}
+{"q": "Du musst unbedingt speichern, dass meine neuen Laufschuhe bei https://marathon-shop.de/item/99283 extrem gut gedämpft sind, damit ich das für mein nächstes Training nicht vergesse.", "code": "none", "kind": "none", "lang": "de", "anchor": "2024-04-17", "ranges": []}
+{"q": "Bitte merk dir, dass meine Herzfrequenz beim schnellen Tempo bei der Einstellung user_id_44556 oft zu hoch schießt, ich muss das unbedingt mal genauer mit dem Coach besprechen.", "code": "none", "kind": "none", "lang": "de", "anchor": "2027-01-18", "ranges": []}
+{"q": "Hey, kannst du bitte die neue Version der API-Dokumentation speichern, damit ich sie später schnell wiederfinde, wenn ich das nächste Mal am Debugging sitze?", "code": "none", "kind": "none", "lang": "de", "anchor": "2023-05-29", "ranges": []}
+{"q": "Ich glaube, wir müssen diesen Port in der Konfiguration ändern, weil der aktuelle Dienst ständig versucht, eine Verbindung über die falsche Schnittstelle aufzubauen, total nervig.", "code": "none", "kind": "none", "lang": "de", "anchor": "2025-07-28", "ranges": []}
+{"q": "Könntest du mir bitte die Ticket-Nummer von dem Bug in der Benutzerverwaltung notieren, damit ich beim nächsten Standup nicht nach der ID suchen muss?", "code": "none", "kind": "none", "lang": "de", "anchor": "2024-03-03", "ranges": []}
+{"q": "merk dir bitte die liefertermine für märz 2025", "code": "2025-03", "kind": "month_name", "lang": "de", "anchor": "2026-03-24", "ranges": [["2025-03-01", "2025-03-31"]]}
+{"q": "wie viel umsatz hab ich im märz 2025 gemacht?", "code": "2025-03", "kind": "month_name", "lang": "de", "anchor": "2026-03-19", "ranges": [["2025-03-01", "2025-03-31"]]}
+{"q": "schreib auf, dass im märz 2025 der frühjahrsverkauf stattfindet", "code": "2025-03", "kind": "month_name", "lang": "de", "anchor": "2025-08-26", "ranges": [["2025-03-01", "2025-03-31"]]}
+{"q": "Könnten Sie mir bitte die Telefonnummer meines alten Schülers Herrn Schmidt notieren?", "code": "none", "kind": "none", "lang": "de", "anchor": "2026-02-10", "ranges": []}
+{"q": "Ich möchte Sie bitten, den Namen meines Lieblingsbuchs, 'Der Mai', in der Liste der Literatur zu speichern.", "code": "none", "kind": "none", "lang": "de", "anchor": "2026-09-05", "ranges": []}
+{"q": "Bitte merken Sie sich, dass mein Garten mit vielen Rosen geschmückt ist.", "code": "none", "kind": "none", "lang": "de", "anchor": "2025-08-24", "ranges": []}
+{"q": "find investor pitch deck", "code": "none", "kind": "none", "lang": "de", "anchor": "2024-01-07", "ranges": []}
+{"q": "show me contact details max mustermann", "code": "none", "kind": "none", "lang": "de", "anchor": "2024-03-10", "ranges": []}
+{"q": "show me meeting notes midnight", "code": "none", "kind": "none", "lang": "de", "anchor": "2024-09-15", "ranges": []}
+{"q": "Dienstplan diese Woche", "code": "week 0", "kind": "week", "lang": "de", "anchor": "2024-02-29", "ranges": [["2024-02-26", "2024-03-03"]]}
+{"q": "Urlaub diese Woche", "code": "week 0", "kind": "week", "lang": "de", "anchor": "2026-08-08", "ranges": [["2026-08-03", "2026-08-09"]]}
+{"q": "weisst du noch, was mein liebstes essen letztes jahr war?", "code": "year -1", "kind": "year", "lang": "de", "anchor": "2024-06-18", "ranges": [["2023-01-01", "2023-12-31"]]}
+{"q": "schreib mal auf, wie viel ich letztes jahr für die cloud ausgegeben habe", "code": "year -1", "kind": "year", "lang": "de", "anchor": "2026-08-09", "ranges": [["2025-01-01", "2025-12-31"]]}
+{"q": "hast du die notizen von meinem urlaub letztes jahr gespeichert?", "code": "year -1", "kind": "year", "lang": "de", "anchor": "2027-04-16", "ranges": [["2026-01-01", "2026-12-31"]]}
+{"q": "Notiere meine neue Bestzeit beim Intervalltraining um 06:15 Uhr", "code": "none", "kind": "none", "lang": "de", "anchor": "2024-09-06", "ranges": []}
+{"q": "Meine neuen Laufschuhe sind endlich angekommen um 20:00 Uhr", "code": "none", "kind": "none", "lang": "de", "anchor": "2024-12-15", "ranges": []}
+{"q": "Bitte protokollieren Sie alle kritischen Systemausfälle, die im Jahr 2016 aufgetreten sind.", "code": "2016", "kind": "year_abs", "lang": "de", "anchor": "2026-08-03", "ranges": [["2016-01-01", "2016-12-31"]]}
+{"q": "Könnten Sie mir bitte eine Zusammenfassung der wichtigsten Software-Releases aus dem Jahr 2016 erstellen?", "code": "2016", "kind": "year_abs", "lang": "de", "anchor": "2026-08-03", "ranges": [["2016-01-01", "2016-12-31"]]}
+{"q": "Ich möchte gerne die Performance-Metriken für das gesamte Jahr 2016 in der Datenbank archivieren.", "code": "2016", "kind": "year_abs", "lang": "de", "anchor": "2026-08-09", "ranges": [["2016-01-01", "2016-12-31"]]}
+{"q": "Kannst du mir den Link zu dieser Seite mit den Zahlen speichern? https://example.com/id/92837", "code": "none", "kind": "none", "lang": "de", "anchor": "2027-03-13", "ranges": []}
+{"q": "Merke dir bitte diesen Code für mein Projekt: const x = 42;", "code": "none", "kind": "none", "lang": "de", "anchor": "2024-02-29", "ranges": []}
+{"q": "Speicher das hier für mich ab: 88293-abc-xyz", "code": "none", "kind": "none", "lang": "de", "anchor": "2026-09-15", "ranges": []}
+{"q": "kannst du meine bestellung für die Nike Air Max 2024 speichern?", "code": "none", "kind": "none", "lang": "de", "anchor": "2026-08-09", "ranges": []}
+{"q": "schreib auf: neue Laufschuhe Sony WH-1000XM5 bestellt", "code": "none", "kind": "none", "lang": "de", "anchor": "2024-12-02", "ranges": []}
+{"q": "notiz: hydration gel pack 5er set kaufen", "code": "none", "kind": "none", "lang": "de", "anchor": "2025-07-20", "ranges": []}
+{"q": "sag mir mal, was die patientin monika über ihre schmerzen gesagt hat", "code": "none", "kind": "none", "lang": "de", "anchor": "2024-07-15", "ranges": []}
+{"q": "notiz: die pflegekraft lena hat die infusion schon gewechselt", "code": "none", "kind": "none", "lang": "de", "anchor": "2026-08-03", "ranges": []}
+{"q": "In der Küche: Kauf bitte Milch und frisches Brot für den neuen Mitarbeiter namens Sonntag.", "code": "none", "kind": "none", "lang": "de", "anchor": "2027-05-14", "ranges": []}
+{"q": "Im Auto: Erinnere mich daran, dass ich das Konzept für Claudia fertigstellen muss.", "code": "none", "kind": "none", "lang": "de", "anchor": "2026-08-03", "ranges": []}
+{"q": "Lieferant Rechnung 4829-XJ", "code": "none", "kind": "none", "lang": "de", "anchor": "2027-11-19", "ranges": []}
+{"q": "Bestellung URL https://shop.de/p/90210", "code": "none", "kind": "none", "lang": "de", "anchor": "2026-03-01", "ranges": []}
+{"q": "Lagerbestand Code 7734-B", "code": "none", "kind": "none", "lang": "de", "anchor": "2026-08-03", "ranges": []}
+{"q": "Zeig mir alle Kunden, die über 30 Jahre alt sind.", "code": "none", "kind": "none", "lang": "de", "anchor": "2024-05-17", "ranges": []}
+{"q": "Find den Kunden mit dem Alter von 30 Jahren.", "code": "none", "kind": "none", "lang": "de", "anchor": "2027-08-11", "ranges": []}
+{"q": "Suche nach dem Account, der 30 Jahre alt ist.", "code": "none", "kind": "none", "lang": "de", "anchor": "2024-09-14", "ranges": []}
+{"q": "Wann im August dieses Jahres haben wir die Sommerferien?", "code": "year 0 aug", "kind": "month_name", "lang": "de", "anchor": "2025-06-13", "ranges": [["2025-08-01", "2025-08-31"]]}
+{"q": "Kannst du mir die Termine für den August dieses Jahres heraussuchen?", "code": "year 0 aug", "kind": "month_name", "lang": "de", "anchor": "2027-12-30", "ranges": [["2027-08-01", "2027-08-31"]]}
+{"q": "Wie war das Wetter im August dieses Jahres?", "code": "year 0 aug", "kind": "month_name", "lang": "de", "anchor": "2026-08-08", "ranges": [["2026-08-01", "2026-08-31"]]}
+{"q": "Logo Entwurf vor 9 Tagen", "code": "day -9", "kind": "day", "lang": "de", "anchor": "2025-06-05", "ranges": [["2025-05-27", "2025-05-27"]]}
+{"q": "Rechnung 9 Tage zurück", "code": "day -9", "kind": "day", "lang": "de", "anchor": "2027-06-06", "ranges": [["2027-05-28", "2027-05-28"]]}
+{"q": "Meeting Notizen vor 9 Tagen", "code": "day -9", "kind": "day", "lang": "de", "anchor": "2025-11-02", "ranges": [["2025-10-24", "2025-10-24"]]}
+{"q": "Nächster Lauf fertig?", "code": "none", "kind": "none", "lang": "de", "anchor": "2023-07-24", "ranges": []}
+{"q": "Letzter Marathon Sieg", "code": "none", "kind": "none", "lang": "de", "anchor": "2023-05-15", "ranges": []}
+{"q": "Nächste Pace Check", "code": "none", "kind": "none", "lang": "de", "anchor": "2027-09-16", "ranges": []}
+{"q": "Ich habe diesen zweiwöchigen Kurs abgeschlossen.", "code": "none", "kind": "none", "lang": "de", "anchor": "2023-07-10", "ranges": []}
+{"q": "Das Buch hat drei Tage gedauert.", "code": "none", "kind": "none", "lang": "de", "anchor": "2023-05-25", "ranges": []}
+{"q": "Diese einmonatige Reise war sehr schön.", "code": "none", "kind": "none", "lang": "de", "anchor": "2027-12-14", "ranges": []}
+{"q": "Morgen, bitte meine neuen Laufschuhe bestellen.", "code": "none", "kind": "none", "lang": "de", "anchor": "2026-04-29", "ranges": []}
+{"q": "Nach dem Training, speichere meine Durchschnittsgeschwindigkeit.", "code": "none", "kind": "none", "lang": "de", "anchor": "2026-08-03", "ranges": []}
+{"q": "Beim Laufen, erinnere mich an meine Herzfrequenz-Ziele.", "code": "none", "kind": "none", "lang": "de", "anchor": "2024-04-27", "ranges": []}
+{"q": "Erinner mich an das Telefonat von vor kurzem", "code": "recent", "kind": "fuzzy", "lang": "de", "anchor": "2026-05-01", "ranges": [["2026-04-01", "2026-05-01"]]}
+{"q": "Bitte speichern Sie die Telefonnummer von Herrn Montag in meinem Kontaktverzeichnis.", "code": "none", "kind": "none", "lang": "de", "anchor": "2026-01-01", "ranges": []}
+{"q": "Könnten Sie bitte die Rechnungsdetails für den Kunden namens Mai in das Projektarchiv übertragen?", "code": "none", "kind": "none", "lang": "de", "anchor": "2026-03-01", "ranges": []}
+{"q": "Ich möchte gerne die Vorliebe von Frau Dienstag für minimalistisches Design für zukünftige Entwürfe notieren.", "code": "none", "kind": "none", "lang": "de", "anchor": "2024-05-24", "ranges": []}
+{"q": "Erinnere mich an den Termin beim Zahnarzt im Dezember letzten Jahres.", "code": "year -1 dec", "kind": "month_name", "lang": "de", "anchor": "2026-03-01", "ranges": [["2025-12-01", "2025-12-31"]]}
+{"q": "Wo hab ich die Quittung vom Weihnachtsmarkt im Dezember letzten Jahres hinlegt??", "code": "year -1 dec", "kind": "month_name", "lang": "de", "anchor": "2023-06-05", "ranges": [["2022-12-01", "2022-12-31"]]}
+{"q": "Notiz: Die Kinder hatten im Dezember letzten Jahres im Adventskalender so viel Schok*!", "code": "year -1 dec", "kind": "month_name", "lang": "de", "anchor": "2026-06-03", "ranges": [["2025-12-01", "2025-12-31"]]}
+{"q": "erinner mich an den termin beim kinderarzt vor genau 7 tagen", "code": "day -7", "kind": "day", "lang": "de", "anchor": "2026-08-24", "ranges": [["2026-08-17", "2026-08-17"]]}
+{"q": "was haben wir vor 7 tagen abends gegessen?", "code": "day -7", "kind": "day", "lang": "de", "anchor": "2024-04-13", "ranges": [["2024-04-06", "2024-04-06"]]}
+{"q": "schreib auf, dass wir vor 7 tagen am nachmittag im park waren", "code": "day -7", "kind": "day", "lang": "de", "anchor": "2025-12-07", "ranges": [["2025-11-30", "2025-11-30"]]}
+{"q": "erinner mich an den call am dienstag letzte woche 14:00", "code": "week -1 tue", "kind": "weekday", "lang": "de", "anchor": "2024-05-28", "ranges": [["2024-05-21", "2024-05-21"]]}
+{"q": "was hab ich am dienstag letzte woche um 10:30 gesagt?", "code": "week -1 tue", "kind": "weekday", "lang": "de", "anchor": "2024-05-27", "ranges": [["2024-05-21", "2024-05-21"]]}
+{"q": "check mal die notes vom dienstag letzte woche 16:00 bis 17:00", "code": "week -1 tue", "kind": "weekday", "lang": "de", "anchor": "2025-02-28", "ranges": [["2025-02-18", "2025-02-18"]]}
+{"q": "Könnten Sie bitte alle meine Termine für den 28. April 2025 zusammenfassen?", "code": "2025-04-28", "kind": "date", "lang": "de", "anchor": "2026-11-05", "ranges": [["2025-04-28", "2025-04-28"]]}
+{"q": "Bitte stellen Sie sicher, dass ich am 28. April 2025 keine wichtigen Wartungsfenster verpasse.", "code": "2025-04-28", "kind": "date", "lang": "de", "anchor": "2026-03-01", "ranges": [["2025-04-28", "2025-04-28"]]}
+{"q": "Ich möchte gerne eine Erinnerung für den 28. April 2025 einrichten.", "code": "2025-04-28", "kind": "date", "lang": "de", "anchor": "2023-08-06", "ranges": [["2025-04-28", "2025-04-28"]]}
+{"q": "Erinnere mich an den Namen der Enkelin, die im ersten Quartal 2021 geboren wurde.", "code": "2021 q1", "kind": "quarter", "lang": "de", "anchor": "2026-05-31", "ranges": [["2021-01-01", "2021-03-31"]]}
+{"q": "Wie war das Wetter im ersten Quartal 2021 eigentlich?", "code": "2021 q1", "kind": "quarter", "lang": "de", "anchor": "2026-01-18", "ranges": [["2021-01-01", "2021-03-31"]]}
+{"q": "Schreib auf, dass ich im ersten Quartal 2021 angefangen habe, Spanisch zu lernen.", "code": "2021 q1", "kind": "quarter", "lang": "de", "anchor": "2026-02-19", "ranges": [["2021-01-01", "2021-03-31"]]}
+{"q": "Könnten Sie bitte die Feedback-Notizen aus unserem Meeting von letzter Woche Montag bis Sonntag protokollieren?", "code": "week -1", "kind": "week", "lang": "de", "anchor": "2027-01-21", "ranges": [["2027-01-11", "2027-01-17"]]}
+{"q": "Bitte speichern Sie die Umsatzdaten der letzten Woche, von Montag bis Sonntag, in der Finanzübersicht.", "code": "week -1", "kind": "week", "lang": "de", "anchor": "2026-08-03", "ranges": [["2026-07-27", "2026-08-02"]]}
+{"q": "Ich möchte Sie bitten, die gesamte Aufgabenliste für die vergangene Woche, Montag bis Sonntag, zu archivieren.", "code": "week -1", "kind": "week", "lang": "de", "anchor": "2027-09-11", "ranges": [["2027-08-30", "2027-09-05"]]}
+{"q": "Aktuell ist die Mai-Konfiguration fehlerhaft.", "code": "none", "kind": "none", "lang": "de", "anchor": "2027-06-06", "ranges": []}
+{"q": "Ich versuche gerade mich zu erinnern, was ich eigentlich die ganze Woche vor drei Wochen, also von Montag bis Sonntag, an Feedback von diesem Kunden bekommen habe.", "code": "week -3", "kind": "week", "lang": "de", "anchor": "2023-12-20", "ranges": [["2023-11-27", "2023-12-03"]]}
+{"q": "Schreib mal bitte eine Liste mit allen Terminen auf, die ich in der gesamten Woche vor drei Wochen, also von Montag bis Sonntag, in meinem Kalender hatte.", "code": "week -3", "kind": "week", "lang": "de", "anchor": "2026-03-01", "ranges": [["2026-02-02", "2026-02-08"]]}
+{"q": "Nächstes Wochenende Samstag und Sonntag einen Termin mit Kunden für das Follow-up blocken.", "code": "week 1 weekend", "kind": "weekend", "lang": "de", "anchor": "2023-09-29", "ranges": [["2023-10-07", "2023-10-08"]]}
+{"q": "Nächstes Wochenende Samstag und Sonntag ist meine Deadline für den Quartalsbericht.", "code": "week 1 weekend", "kind": "weekend", "lang": "de", "anchor": "2026-10-07", "ranges": [["2026-10-17", "2026-10-18"]]}
+{"q": "Nächstes Wochenende Samstag und Sonntag habe ich keine Zeit für Meetings, bitte nicht eintragen.", "code": "week 1 weekend", "kind": "weekend", "lang": "de", "anchor": "2027-09-29", "ranges": [["2027-10-09", "2027-10-10"]]}
+{"q": "Bitte notieren Sie, dass ich mich am 2.14.2016 in einer sehr guten Stimmung befunden habe.", "code": "2016-02-14", "kind": "date", "lang": "de", "anchor": "2025-01-31", "ranges": [["2016-02-14", "2016-02-14"]]}
+{"q": "Könnten Sie bitte festhalten, dass der 2.14.2016 ein recht regnerischer Tag war?", "code": "2016-02-14", "kind": "date", "lang": "de", "anchor": "2026-01-01", "ranges": [["2016-02-14", "2016-02-14"]]}
+{"q": "Ich möchte Sie bitten, zu vermerken, dass ich am 2.14.2016 meine alten Unterrichtspläne sortiert habe.", "code": "2016-02-14", "kind": "date", "lang": "de", "anchor": "2025-11-10", "ranges": [["2016-02-14", "2016-02-14"]]}
+{"q": "Zeig mir die Termine von Dienstag.", "code": "tue", "kind": "weekday", "lang": "de", "anchor": "2026-08-09", "ranges": [["2026-08-04", "2026-08-04"]]}
+{"q": "Kannst du mir jeden Tag ein Quiz schicken?", "code": "none", "kind": "none", "lang": "de", "anchor": "2024-02-10", "ranges": []}
+{"q": "Ich übe monatlich mit einem Tutor.", "code": "none", "kind": "none", "lang": "de", "anchor": "2027-06-30", "ranges": []}
+{"q": "hier ist der link: https://example.com/item/5502", "code": "none", "kind": "none", "lang": "de", "anchor": "2024-02-05", "ranges": []}
+{"q": "kannst du diesen code prüfen? `print(99)`", "code": "none", "kind": "none", "lang": "de", "anchor": "2026-11-21", "ranges": []}
+{"q": "speichere bitte die id 4829 für mich", "code": "none", "kind": "none", "lang": "de", "anchor": "2026-08-09", "ranges": []}
+{"q": "Vergiss nich: 11. Okt 2018 Patient in 402 hat Schmerzen.", "code": "2018-10-11", "kind": "date", "lang": "de", "anchor": "2023-05-14", "ranges": [["2018-10-11", "2018-10-11"]]}
+{"q": "11.10.2018 Schichtende um 22:00 Uhr notieren pls.", "code": "2018-10-11", "kind": "date", "lang": "de", "anchor": "2026-08-03", "ranges": [["2018-10-11", "2018-10-11"]]}
+{"q": "Check mal die Dosis vom 11. Oktober 2018, war das 5mg?", "code": "2018-10-11", "kind": "date", "lang": "de", "anchor": "2025-11-07", "ranges": [["2018-10-11", "2018-10-11"]]}
+{"q": "liste mir alle abgeschlossenen deals vom letzten jahr und im letzten jahr auf", "code": "year -1", "kind": "year", "lang": "de", "anchor": "2023-09-16", "ranges": [["2022-01-01", "2022-12-31"]]}
+{"q": "Die Inventurliste vom Mai letzten Jahres.", "code": "year -1 may", "kind": "month_name", "lang": "de", "anchor": "2026-12-02", "ranges": [["2025-05-01", "2025-05-31"]]}
+{"q": "Wie viel Umsatz haben wir im Mai letzten Jahres gemacht?", "code": "year -1 may", "kind": "month_name", "lang": "de", "anchor": "2023-03-26", "ranges": [["2022-05-01", "2022-05-31"]]}
+{"q": "Bitte die Lieferantenrechnungen aus dem Mai letzten Jahres speichern.", "code": "year -1 may", "kind": "month_name", "lang": "de", "anchor": "2023-07-21", "ranges": [["2022-05-01", "2022-05-31"]]}
+{"q": "hast du Infos zum iPhone 15?", "code": "none", "kind": "none", "lang": "de", "anchor": "2023-02-02", "ranges": []}
+{"q": "check mal die Specs von der RTX 4080", "code": "none", "kind": "none", "lang": "de", "anchor": "2026-04-24", "ranges": []}
+{"q": "schick mir mal Details zum Sony WH-1000XM5", "code": "none", "kind": "none", "lang": "de", "anchor": "2024-07-06", "ranges": []}
+{"q": "Könnten Sie bitte meine Laufdaten von gestern und vom 4. Mai speichern?", "code": "day -1 ; *-05-04", "kind": "multi", "lang": "de", "anchor": "2026-10-21", "ranges": [["2026-10-20", "2026-10-20"], ["2026-05-04", "2026-05-04"]]}
+{"q": "Ich möchte meine Herzfrequenzwerte von gestern sowie vom 4. Mai protokollieren.", "code": "day -1 ; *-05-04", "kind": "multi", "lang": "de", "anchor": "2026-03-17", "ranges": [["2026-03-16", "2026-03-16"], ["2025-05-04", "2025-05-04"]]}
+{"q": "Bitte notieren Sie, dass ich gestern und am 4. Mai meine Trainingsplanung angepasst habe.", "code": "day -1 ; *-05-04", "kind": "multi", "lang": "de", "anchor": "2025-03-27", "ranges": [["2025-03-26", "2025-03-26"], ["2024-05-04", "2024-05-04"]]}
+{"q": "Kannst du mir sagen, wie oft ich wöchentlich Milch bestellen muss?", "code": "none", "kind": "none", "lang": "de", "anchor": "2027-01-18", "ranges": []}
+{"q": "Schreib bitte auf, dass ich jede Woche die Inventur mache.", "code": "none", "kind": "none", "lang": "de", "anchor": "2026-08-08", "ranges": []}
+{"q": "Wie oft muss ich monatlich die Regale auffüllen?", "code": "none", "kind": "none", "lang": "de", "anchor": "2024-07-31", "ranges": []}
+{"q": "Wo ist mein Ticket für den Zug?", "code": "none", "kind": "none", "lang": "de", "anchor": "2024-02-29", "ranges": []}
+{"q": "Können Sie mir die neue Version der Software zeigen?", "code": "none", "kind": "none", "lang": "de", "anchor": "2025-07-30", "ranges": []}
+{"q": "Wie lautet meine Bestellnummer für die Bücher?", "code": "none", "kind": "none", "lang": "de", "anchor": "2027-02-23", "ranges": []}
+{"q": "Kannst du mir sagen, wie viel die neue Miete kostet? Snd das 1250 Euro?", "code": "none", "kind": "none", "lang": "de", "anchor": "2026-06-25", "ranges": []}
+{"q": "Ich muss noch 2450 Euro fūr das Semestergebühr rüberweisen, merk dir das mal.", "code": "none", "kind": "none", "lang": "de", "anchor": "2026-12-16", "ranges": []}
+{"q": "Haste gesehen, das Buch kostet 1085 Euro?? Das ist viel zu teur!", "code": "none", "kind": "none", "lang": "de", "anchor": "2024-12-07", "ranges": []}
+{"q": "Schuhgröße Kind 1250 Euro", "code": "none", "kind": "none", "lang": "de", "anchor": "2027-08-15", "ranges": []}
+{"q": "Spielzeug kaufen 1100 Euro", "code": "none", "kind": "none", "lang": "de", "anchor": "2026-11-16", "ranges": []}
+{"q": "Rechnung 2450 Euro", "code": "none", "kind": "none", "lang": "de", "anchor": "2023-01-22", "ranges": []}
+{"q": "Ich hab total vergessen, dass ich diese Woche von Montag bis Sonntag eigentlich diesen dicken Bericht für das Seminar schreiben sollte, also merk dir das bitte mal!", "code": "week 0", "kind": "week", "lang": "de", "anchor": "2025-04-06", "ranges": [["2025-03-31", "2025-04-06"]]}
+{"q": "Sag mal, weißt du eigentlich noch, was ich für diese Woche von Montag bis Sonntag alles geplant hatte, weil ich gerade echt den Überblick über alles verliere?", "code": "week 0", "kind": "week", "lang": "de", "anchor": "2026-08-08", "ranges": [["2026-08-03", "2026-08-09"]]}
+{"q": "Vergiss nicht, die Rechnung für die neue Kaffeemaschine am 8. März 2019 zu bezahlen.", "code": "2019-03-08", "kind": "date", "lang": "de", "anchor": "2024-03-21", "ranges": [["2019-03-08", "2019-03-08"]]}
+{"q": "Wie war das Wetter am 8. März 2019?", "code": "2019-03-08", "kind": "date", "lang": "de", "anchor": "2023-10-16", "ranges": [["2019-03-08", "2019-03-08"]]}
+{"q": "Notiere bitte, dass wir am 8. März 2019 die Inventur gemacht haben.", "code": "2019-03-08", "kind": "date", "lang": "de", "anchor": "2024-02-29", "ranges": [["2019-03-08", "2019-03-08"]]}
+{"q": "erinnere mich sonntag an den termin um 14 uhr", "code": "week 0 sun", "kind": "weekday", "lang": "de", "anchor": "2024-07-24", "ranges": [["2024-07-28", "2024-07-28"]]}
+{"q": "Kannst du die Verkäufe von Juli 2022 bis Dezember 2022 zusammenfassen?", "code": "2022-07 .. 2022-12", "kind": "range", "lang": "de", "anchor": "2025-12-24", "ranges": [["2022-07-01", "2022-12-31"]]}
+{"q": "Wie war mein Lagerbestand zwischen Juli 2022 und Dezember 2022?", "code": "2022-07 .. 2022-12", "kind": "range", "lang": "de", "anchor": "2027-06-10", "ranges": [["2022-07-01", "2022-12-31"]]}
+{"q": "Erstelle eine Liste aller Lieferanten, die von Juli 2022 bis Dezember 2022 geliefert haben.", "code": "2022-07 .. 2022-12", "kind": "range", "lang": "de", "anchor": "2025-10-24", "ranges": [["2022-07-01", "2022-12-31"]]}
+{"q": "Vor fünf Tagen um 14:30 Uhr habe ich dir das Foto vom Meeting geschickt.", "code": "day -5", "kind": "day", "lang": "de", "anchor": "2025-01-21", "ranges": [["2025-01-16", "2025-01-16"]]}
+{"q": "Vor fünf Tagen um 09:15 Uhr war der Termin mit dem Kunden.", "code": "day -5", "kind": "day", "lang": "de", "anchor": "2024-02-29", "ranges": [["2024-02-24", "2024-02-24"]]}
+{"q": "Vor fünf Tagen um 22:00 Uhr habe ich die Notizen zum Projekt gespeichert.", "code": "day -5", "kind": "day", "lang": "de", "anchor": "2024-10-27", "ranges": [["2024-10-22", "2024-10-22"]]}
+{"q": "Zeig mir das nächste Wort.", "code": "none", "kind": "none", "lang": "de", "anchor": "2024-11-15", "ranges": []}
+{"q": "Finde den letzten Satz.", "code": "none", "kind": "none", "lang": "de", "anchor": "2024-06-17", "ranges": []}
+{"q": "Zeig mir die nächste Liste.", "code": "none", "kind": "none", "lang": "de", "anchor": "2024-01-27", "ranges": []}
+{"q": "Suche nach Deployments von vor 5 Tagen bis heute.", "code": "last 5 day", "kind": "last_n", "lang": "de", "anchor": "2027-04-15", "ranges": [["2027-04-10", "2027-04-15"]]}
