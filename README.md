@@ -19,7 +19,7 @@ tlm.parse("what is my wifi password")
 ## Install
 
 ```sh
-pip install git+https://github.com/<owner>/tlm      # not on PyPI yet
+pip install git+https://github.com/nicoloboschi/tlm      # not on PyPI yet
 ```
 
 Needs Python 3.11+, `numpy` and `tzdata`. No torch, no network, no LLM at run time.
