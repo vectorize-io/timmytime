@@ -19,7 +19,7 @@ tlm.parse("what is my wifi password")
 ## Install
 
 ```sh
-pip install https://github.com/nicoloboschi/tlm/releases/download/v0.1.0/tlm-0.1.0-py3-none-any.whl
+pip install https://github.com/vectorize-io/tlm/releases/download/v0.1.0/tlm-0.1.0-py3-none-any.whl
 ```
 
 The package carries its weights (10 MB) inside, so nothing is downloaded at run time. Not on PyPI yet;
