@@ -29,6 +29,8 @@ jobs:
           cd /tmp && /tmp/clean/bin/python -c "
           import tlm, datetime
           assert tlm.parse('what did I do last week', datetime.date(2026, 11, 18)) == [(datetime.date(2026, 11, 9), datetime.date(2026, 11, 15))]"
-      - run: gh release create "$GITHUB_REF_NAME" dist/* --title "tlm $GITHUB_REF_NAME" --notes "Weights: $(cut -d' ' -f1 weights.lock)"
+      - name: attach to a release
+        run: |
+          gh release create "$GITHUB_REF_NAME" dist/* --title "tlm $GITHUB_REF_NAME" --notes "Weights: $(cut -d' ' -f1 weights.lock)"
         env:
           GH_TOKEN: ${{ github.token }}
