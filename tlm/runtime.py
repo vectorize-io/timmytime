@@ -103,6 +103,9 @@ def _conv(x, w, b, k, stride):
 
 class Parser:
     def __init__(self, weights: Path | str = WEIGHTS):
+        if not Path(weights).exists():
+            raise FileNotFoundError(f"no weights at {weights}. In a git checkout, run scripts/get_weights.sh; "
+                                    "the installed package ships them.")
         z = np.load(weights)
         # Row-major float32 copies: column-major weights make each matmul ~8x slower.
         self.w = {k: np.ascontiguousarray(z[k], dtype=np.float32) for k in z.files if k != "config"}

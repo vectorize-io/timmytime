@@ -19,8 +19,11 @@ tlm.parse("what is my wifi password")
 ## Install
 
 ```sh
-pip install git+https://github.com/nicoloboschi/tlm      # not on PyPI yet
+pip install https://github.com/nicoloboschi/tlm/releases/download/v0.1.0/tlm-0.1.0-py3-none-any.whl
 ```
+
+The package carries its weights (10 MB) inside, so nothing is downloaded at run time. Not on PyPI yet;
+`pip install git+…` does not work, because the weights are not in git (see TRAINING.md).
 
 Needs Python 3.11+, `numpy` and `tzdata`. No torch, no network, no LLM at run time.
 
@@ -228,8 +231,9 @@ by an LLM and checked automatically. See [TRAINING.md](TRAINING.md) to retrain o
 
 ```sh
 uv sync
+scripts/get_weights.sh            # the weights are on a GitHub release, pinned by weights.lock
 PYTEST_ADDOPTS= uv run pytest -q
 ```
 
-The repo also holds the training code, test sets and the hindsight integration patch
-(`integration/`). Only the runtime goes into the package.
+`tlm/` is the package. `training/` holds data generation, the torch model and scoring (see
+TRAINING.md); `integration/` the hindsight patch.

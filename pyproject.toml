@@ -1,34 +1,32 @@
 [project]
 name = "tlm"
-version = "0.0.1"
+version = "0.1.0"
 description = "Finds the date ranges in a question (\"last week\", \"early 2024\") with a 9 MB numpy model"
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = ["numpy>=1.26", "tzdata"]
 
 [dependency-groups]
-# Today's hindsight path, kept only to score against. Deleted with the baseline.
-baseline = ["dateparser>=1.5.0", "pydantic>=2.0.0", "regex>=2025.11.3"]
 dev = ["pytest>=8"]
-train = [
-    "numpy>=2.4.6",
-    "torch>=2.15.0",
-]
+# Everything under training/: torch for the model, and hindsight's old dateparser path to score against.
+training = ["torch>=2.15.0", "dateparser>=1.5.0", "pydantic>=2.0.0", "regex>=2025.11.3"]
 
 [tool.uv]
-default-groups = ["dev", "baseline"]
+default-groups = ["dev", "training"]
 
 [tool.pytest.ini_options]
-testpaths = ["tests"]
+testpaths = ["tests", "training/tests"]
 
 [build-system]
 requires = ["hatchling"]
 build-backend = "hatchling.build"
 
-# The wheel is the runtime only: numpy model, calendar code and one weights file.
-# Training, data generation and scoring stay in the repo (see TRAINING.md).
+# The package is tlm/ only. The weights are not in git (see weights.lock): they are fetched
+# before building, and `artifacts` puts the git-ignored file into the package.
 [tool.hatch.build.targets.wheel]
-only-include = ["tlm/__init__.py", "tlm/runtime.py", "tlm/resolve.py", "tlm/hindsight.py", "tlm/holidays.json", "tlm/weights/tlm.npz"]
+packages = ["tlm"]
+artifacts = ["tlm/weights/tlm.npz"]
 
 [tool.hatch.build.targets.sdist]
-only-include = ["tlm/__init__.py", "tlm/runtime.py", "tlm/resolve.py", "tlm/hindsight.py", "tlm/holidays.json", "tlm/weights/tlm.npz", "README.md"]
+include = ["/tlm", "/README.md", "/weights.lock"]
+artifacts = ["tlm/weights/tlm.npz"]

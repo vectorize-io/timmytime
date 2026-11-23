@@ -1,0 +1,37 @@
+name: ci
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  runtime:
+    # The package as users get it: numpy only, the pinned weights, README table included.
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python: ["3.11", "3.13"]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v6
+        with:
+          python-version: ${{ matrix.python }}
+      - run: scripts/get_weights.sh
+        env:
+          GH_TOKEN: ${{ github.token }}
+      - run: uv sync --no-default-groups --group dev
+      - run: uv run pytest -q tests
+
+  training:
+    # Numpy/torch parity, the code round trip and hindsight's old rules. CPU torch keeps it small.
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v6
+        with:
+          python-version: "3.11"
+      - run: uv sync --no-default-groups --group dev
+      - run: uv pip install --torch-backend cpu torch dateparser pydantic regex
+      - run: uv run --no-sync pytest -q training/tests

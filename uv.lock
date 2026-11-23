@@ -989,7 +989,7 @@ wheels = [
 
 [[package]]
 name = "tlm"
-version = "0.0.1"
+version = "0.1.0"
 source = { editable = "." }
 dependencies = [
     { name = "numpy", version = "2.4.6", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version < '3.12'" },
@@ -998,17 +998,13 @@ dependencies = [
 ]
 
 [package.dev-dependencies]
-baseline = [
-    { name = "dateparser" },
-    { name = "pydantic" },
-    { name = "regex" },
-]
 dev = [
     { name = "pytest" },
 ]
-train = [
-    { name = "numpy", version = "2.4.6", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version < '3.12'" },
-    { name = "numpy", version = "2.5.5", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version >= '3.12'" },
+training = [
+    { name = "dateparser" },
+    { name = "pydantic" },
+    { name = "regex" },
     { name = "torch" },
 ]
 
@@ -1019,14 +1015,11 @@ requires-dist = [
 ]
 
 [package.metadata.requires-dev]
-baseline = [
+dev = [{ name = "pytest", specifier = ">=8" }]
+training = [
     { name = "dateparser", specifier = ">=1.5.0" },
     { name = "pydantic", specifier = ">=2.0.0" },
     { name = "regex", specifier = ">=2025.11.3" },
-]
-dev = [{ name = "pytest", specifier = ">=8" }]
-train = [
-    { name = "numpy", specifier = ">=2.4.6" },
     { name = "torch", specifier = ">=2.15.0" },
 ]
 

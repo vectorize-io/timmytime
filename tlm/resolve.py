@@ -42,7 +42,7 @@ WEEKDAYS = ("mon", "tue", "wed", "thu", "fri", "sat", "sun")
 QUARTERS = ("q1", "q2", "q3", "q4")
 # First month of each season, northern hemisphere; the south is six months off.
 SEASONS = {"spring": 3, "summer": 6, "autumn": 9, "winter": 12}
-# Lunar holidays per year, from scripts/make_holidays.py (1950-2076).
+# Lunar holidays per year, from training/scripts/make_holidays.py (1950-2076).
 LUNAR = json.loads(resources.files("tlm").joinpath("holidays.json").read_text())
 HOLIDAYS = ("easter", "thanksgiving", *LUNAR)
 MODS = ("early", "mid", "late", "h1", "h2", "around")
