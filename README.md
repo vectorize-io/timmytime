@@ -1,6 +1,6 @@
 # tlm
 
-Finds the date ranges a question talks about. A 9 MB model, numpy only, about 1.5 ms per question.
+**tlm** = temporal language model. Finds the date ranges a question talks about. A 9 MB model, numpy only, about 1.5 ms per question.
 
 ```python
 from datetime import date
