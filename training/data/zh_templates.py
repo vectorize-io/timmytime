@@ -8,6 +8,7 @@ dropped later by training.data.clean, like every training file.
 """
 
 import argparse
+import calendar
 import json
 import random
 from datetime import date, datetime, timedelta
@@ -260,7 +261,7 @@ def t_from_on(r):
 def t_before_after(r):
     y = r.randint(2010, 2030)
     m = r.randint(1, 12)
-    d = r.randint(1, 28)
+    d = r.randint(1, calendar.monthrange(y, m)[1])
     w, c = r.choice([(year_word(y, r), str(y)), (year_word(y, r) + month_word(m, r), f"{y}-{m:02d}"),
                      (year_word(y, r) + month_word(m, r) + "份", f"{y}-{m:02d}"),
                      (year_word(y, r) + month_word(m, r) + day_word(d, r), f"{y}-{m:02d}-{d:02d}"),
@@ -284,8 +285,9 @@ def t_dayrange(r):
             return wd_word(b, r) + r.choice(["到", "至"]) + wd_word(a, r) + r.choice(FUTURE), f"week 0 {WD_CODE[b]} .. week 1 {WD_CODE[a]}"
         return wd_word(a, r) + r.choice(["到", "至"]) + wd_word(b, r) + r.choice(FUTURE), f"week 0 {WD_CODE[a]} .. week 0 {WD_CODE[b]}"
     y, m = r.randint(2015, 2027), r.randint(1, 12)
-    d1 = r.randint(1, 20)
-    d2 = r.randint(d1 + 1, 28)
+    last = calendar.monthrange(2023, m)[1]  # a non-leap year: the no-year form never asks for Feb 29
+    d1 = r.randint(1, last - 8)
+    d2 = r.randint(d1 + 1, last)
     sep = r.choice(["到", "至", "-", "~"])
     tail = r.choice(["日", "号", ""])
     head = month_word(m, r) + str(d1) + r.choice(["", "日", "号"]) + sep + str(d2) + tail

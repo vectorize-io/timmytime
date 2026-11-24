@@ -5,6 +5,7 @@ Tuesday"), year 0000 (no date), 100+ days ago, far ISO dates (1890-03-05, 2150-0
 """
 
 import argparse
+import calendar
 import json
 import random
 from datetime import date, datetime, timedelta
@@ -36,7 +37,8 @@ def row(r):
         return r.choice(["in {} days", "{} days from now", "the plan for {} days from now"]).format(n), f"day {n}"
     if k < 0.8:
         y = r.choice([r.randint(1800, 1979), r.randint(2030, 2199), r.choice(range(2030, 2200, 10))])
-        m, d = r.randint(1, 12), r.randint(1, 28)
+        m = r.randint(1, 12)
+        d = r.randint(1, calendar.monthrange(y, m)[1])
         p = r.choice(["notes from {}", "the roadmap milestone on {}", "what happened on {}", "the record dated {}", "{} entry", "events of {}",
                       "{}", "deadline {}", "the launch on {}", "plan for {}", "due {}", "meeting on {}"])
         return p.format(f"{y}-{m:02d}-{d:02d}"), f"{y}-{m:02d}-{d:02d}"
