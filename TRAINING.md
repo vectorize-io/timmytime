@@ -2,10 +2,10 @@
 
 Everything here is for people changing the model. Users only need README.md.
 
-## Status (2026-11-24, shipped weights `weights-g16p`, next: g20/g21, not released)
+## Status (2026-11-24, shipped weights `weights-g16p`, next: g22/g23, not released)
 
 6.4M weights before pruning, 9 MB after. Bytes in, shortened 4x by a conv, 6 encoder layers,
-1 decoder layer, a 739-word output vocabulary (years 1800-2199). 16 languages from g17 on;
+1 decoder layer, a 1271-word output vocabulary (years 1800-2199, numbers -365..365). 16 languages from g17 on;
 per-language results are in README.md. Test sets: `data/test_<lang>_big.jsonl` (~3k rows each,
 every kind) plus the older, smaller sets, and `data/test_hindsight.jsonl`: hindsight's own
 query-analyzer tests and golden corpus as timmytime codes (`score timmytime --lang hindsight`).
@@ -28,7 +28,9 @@ How we got here (exact match on the English sets; each step fine-tunes the one b
 | g17 | + it, fr, ru, pt, zh-hant; gap data for all 16 (same day last year, the 3rd of last month, day ranges, since, half a month, far years, name/idiom/config traps, Chinese numerals) | hindsight set 63.9% -> 82.2%; new languages 94-96% |
 | g18, g19 | Chinese since / within / spoken offsets; short search-box queries; far years for real (`gen --far-share`) | hindsight set 86.6%, then 88.8% |
 | g20 | template data, no LLM (`training/data/zh_templates.py`, `en_templates.py`) | hindsight set 97.2%; hindsight's unit tests 438/452 |
-| g21 | fixed templates (这两天, 中了奖, 前两天, 100+ days ago) | training |
+| g21 | fixed templates (这两天, 中了奖, 前两天) | hindsight set 97.7%; unit tests 447/451 |
+| g22 | month name + 初/中旬/底, longer tails, more far ISO dates | hindsight set 98.3%; unit tests 448/451; 15 of 16 languages up |
+| g23 | vocabulary grows to 100..365 ("100 days ago" could not be written); round far years | training |
 
 Tried and dropped: averaging two models' weights, more rounds of blind data, 5 layers, folding the
 first conv into a lookup table, a lower confidence cut-off per language picked on test data.

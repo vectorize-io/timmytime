@@ -1,6 +1,8 @@
 # timmytime
 
-**timmytime** (tiny time semantic parser) finds the dates and periods a question talks about ("last week", "上上周", "since March"), whole days only. A 9 MB model, numpy only, about 1.5 ms per question. Every model needs its timmy time.
+**timmytime** (tiny time semantic parser) finds the dates a question talks about: "last week",
+"上上周", "since March", "the 3rd of last month". A 10 MB model, numpy only, about 1 ms per question,
+16 languages. Every model needs its timmy time.
 
 ```python
 from datetime import date
@@ -16,45 +18,74 @@ timmytime.parse("what is my wifi password")
 # []   no date
 ```
 
+## vs. dateparser
+
+Hindsight finds dates with dateparser plus hand-written rules today. Both were run on the same
+held-out questions (about 3,000 per language, every kind of date). **Exact** = every range right.
+**False dates** = a date found in a question that has none.
+
+| Language | dateparser exact | timmytime exact | dateparser false dates | timmytime false dates |
+|---|---|---|---|---|
+| English | 55.9% | **98.1%** | 24.4% | **1.3%** |
+| Chinese | 66.9% | **97.9%** | 3.1% | **0.7%** |
+| Chinese (traditional) | 63.4% | **97.0%** | 1.8% | **0.5%** |
+| Spanish | 50.3% | **97.7%** | 19.6% | **0.3%** |
+| German | 48.1% | **97.1%** | 18.4% | **2.0%** |
+| Arabic | 42.2% | **97.0%** | 4.3% | **1.1%** |
+| Japanese | 47.0% | **97.0%** | 8.9% | **1.0%** |
+| Korean | 46.4% | **96.8%** | 5.4% | **1.6%** |
+| Italian | 49.9% | **96.8%** | 10.4% | **0.6%** |
+| Portuguese | 41.4% | **96.4%** | 18.3% | **0.9%** |
+| French | 54.2% | **96.2%** | 14.2% | **0.7%** |
+| Vietnamese | 40.4% | **95.8%** | 11.3% | **0.7%** |
+| Indonesian | 40.0% | **95.6%** | 21.9% | **1.2%** |
+| Thai | 43.2% | **95.5%** | 10.0% | **1.5%** |
+| Hindi | 46.9% | **95.3%** | 16.9% | **0.8%** |
+| Russian | 53.3% | **94.7%** | 16.9% | **1.3%** |
+| hindsight's own tests (834) | 91.0% | **98.3%** | 5.2% | **3.0%** |
+
+The last row is hindsight's query-analyzer tests and golden corpus (`data/test_hindsight.jsonl`).
+They were written for dateparser, so it does well there. Time per question: dateparser 0.1-16 ms
+(p95 up to 57 ms), timmytime about 1 ms (p95 1.5 ms).
+
+timmytime numbers are round g22, trained but not released yet. The shipped weights (`weights-g16p`)
+are 1-2 points lower, cover 11 languages, and get 64% on hindsight's tests.
+
 ## Install
 
-Not released under the name timmytime yet (the last release, v0.1.0, is still called `tlm`). Until
-then, build it from a checkout:
+Not on PyPI yet. Build it from a checkout (the weights live on a GitHub release, not in git):
 
 ```sh
 scripts/get_weights.sh && uv build && pip install dist/timmytime-*.whl
 ```
 
-The package carries its weights (10 MB) inside, so nothing is downloaded at run time.
-`pip install git+…` does not work, because the weights are not in git (see TRAINING.md).
-
-Needs Python 3.11+, `numpy` and `tzdata`. No torch, no network, no LLM at run time.
+Python 3.11+, `numpy` and `tzdata`. No torch, no network, no LLM at run time.
 
 ## API
 
 `timmytime.parse(text, anchor=None, tz="UTC") -> list[DateRange]`
 
-- `anchor`: when the question was asked. A `date` is that calendar day in `tz`. A `datetime`
-  without a timezone is taken as UTC. Leave it out to use now.
-- `tz`: an IANA name like `"Europe/Rome"`. It decides what "today" is, and the hemisphere for
-  seasons ("last summer" in Buenos Aires is Dec to Feb). An unknown name raises.
-- Returns whole-day ranges in the order the question names them. `start` or `end` is `None` for
-  open ranges ("before 2020", "since May"). `[]` means no date. It never raises on odd text.
-- `DateRange` is a named tuple `(start, end)` of `datetime.date`, both days included.
-- Long text is read in sentence pieces of up to 256 bytes; the ranges of all pieces are returned,
-  each once.
+- `anchor`: when the question was asked. A `date` is that day in `tz`; a naive `datetime` is UTC;
+  `None` is now.
+- `tz`: an IANA name like `"Europe/Rome"`. It sets what "today" is and the hemisphere for seasons.
+- Returns whole-day ranges `(start, end)` of `datetime.date`, both included, in the order the
+  question names them. `None` is an open end ("before 2020"). `[]` = no date. Never raises on odd text.
+- Answers below `TIMMYTIME_MIN_CONFIDENCE` (default 0.5) become `[]`: a wrong date hides the right
+  results, no date just searches everything.
 
-Low-confidence answers become `[]`: a wrong date filters out the right results, while no date
-just searches everything. The cut-off is `TIMMYTIME_MIN_CONFIDENCE` (default 0.5).
-
-`timmytime.Parser(weights_path)` loads other weights. `timmytime.hindsight.extract_temporal_constraint`
-has the shape hindsight's recall expects: the first range as naive datetimes, or `None`.
+`timmytime.Parser(path)` loads other weights. `timmytime.hindsight.extract_temporal_constraint` has
+the shape hindsight's recall expects.
 
 ## What it understands
 
-Every row below is run against the shipped model by `tests/test_readme.py`, so this table is what
-the library does today. "Today" is Wednesday 2026-11-18; time zone UTC unless given. Both dates are
-included; `…` is an open end.
+"Last week" and "this month" are whole calendar periods; weeks start on Monday. "N units ago" is
+that whole unit ("two months ago" = all of that month). "Last Friday" or "in March" is the latest
+one that has started. Early / mid / late are thirds. Fuzzy words have fixed windows ("recently" =
+the last 30 days). Seasons follow the time zone's hemisphere. Holidays: fixed-date ones, Easter, US
+Thanksgiving, Lunar New Year, Mid-Autumn, Dragon Boat, Ramadan, the Eids, Golden Week, Songkran, Obon.
+
+<details>
+<summary>Over 100 examples, each one checked by the tests (today = Wednesday 2026-11-18)</summary>
 
 <!-- examples:start -->
 | Kind | Question | Time zone | Dates |
@@ -166,97 +197,29 @@ included; `…` is an open end.
 | Other languages | ¿qué hice en Semana Santa? | Europe/Madrid | 2026-04-03 → 2026-04-06 |
 <!-- examples:end -->
 
-The rules behind the table:
-
-- Weeks run Monday to Sunday. "Last week", "this month" and "next year" are whole calendar periods.
-- "Last Friday", "last summer", "last Christmas" and a month with no year ("in March") mean the most
-  recent one that has started. "This coming Friday" is the next one.
-- "In two weeks" is that whole calendar week; "in 3 days" is that single day.
-- "Early", "mid" and "late" are the first, middle and last third of the period; "first / second
-  half" are halves; "around" a date is 3 days either side.
-- Fuzzy words have fixed windows: "recently" = the last 30 days, "the other day" = 1 to 7 days ago,
-  "a while ago" = 1 to 6 months ago, "a couple / a few weeks ago" = 1-3 / 2-5 weeks ago,
-  "a long time ago" = more than a year ago.
-- Seasons follow the hemisphere of the time zone ("last summer" in Buenos Aires is Dec to Feb).
-- Holidays: fixed-date ones are that day; Easter is Good Friday to Easter Monday; Chinese New Year
-  is its 7-day holiday; Ramadan is the whole month; Eid al-Fitr 3 days, Eid al-Adha 4 days.
-
-Languages: English, Spanish, German, Chinese, Arabic (including Arabizi), Japanese, Korean, Hindi
-(including Hinglish), Indonesian, Vietnamese and Thai. The next weights add Italian, French, Russian,
-Portuguese and traditional Chinese (see Accuracy). It reads raw bytes, so other languages don't crash,
-but they were not trained or tested.
-
-## Accuracy
-
-Exact match on held-out test questions, about 2,900-3,100 per language, covering every kind below
-(written with prompts never used for training). "False dates" = questions with no date that got one,
-leaving out no-date questions where the LLM that checked the labels itself reads a date.
-
-"Shipped" is the pinned weights (`weights-g16p`). "Next" is round g20, trained and scored but not
-released yet.
-
-| Language | Shipped exact | Shipped false dates | Next exact | Next false dates |
-|---|---|---|---|---|
-| English | 98.1% | 0.8% | 98.5% | 1.0% |
-| Chinese | 97.0% | 0.4% | 97.5% | 0.9% |
-| Spanish | 96.8% | 0.7% | 97.8% | 0.4% |
-| German | 96.9% | 1.4% | 97.0% | 1.7% |
-| Arabic | 96.2% | 0.9% | 96.8% | 1.1% |
-| Korean | 96.4% | 1.6% | 96.8% | 1.6% |
-| Japanese | 95.3% | 1.0% | 96.5% | 1.7% |
-| Thai | 94.3% | 0.5% | 95.5% | 1.2% |
-| Hindi | 94.2% | 0.7% | 95.4% | 0.9% |
-| Indonesian | 94.3% | 2.0% | 95.4% | 1.8% |
-| Vietnamese | 94.1% | 1.2% | 95.4% | 1.1% |
-| Italian | - | - | 96.3% | 1.0% |
-| Portuguese | - | - | 96.3% | 0.7% |
-| Chinese (traditional) | - | - | 96.0% | 0.6% |
-| French | - | - | 95.2% | 0.7% |
-| Russian | - | - | 94.1% | 1.5% |
-
-For comparison, dateparser-based extraction gets about 44% exact with 24% false dates in English,
-and 5-48% exact in the other languages.
-
-Hindsight's own query-analyzer tests and golden corpus, as timmytime codes, are in
-`data/test_hindsight.jsonl` (835 questions, mostly short Chinese ones): 64% exact with the shipped
-weights, 97.2% with the next ones.
-
-## How it works
-
-1. The model reads the question's UTF-8 bytes and writes a short code: `week -1`,
-   `last 6 month`, `2025-05 ; 2026-06`, `none`.
-2. Plain Python (`timmytime/resolve.py`) turns that code, the anchor and the timezone into dates.
-
-The model never does calendar math, so leap years, week starts and month lengths are always
-right. The code grammar is at the top of `timmytime/resolve.py`.
-
-The model is a small byte-level encoder-decoder transformer (6.4M weights, fewer after pruning):
-technically a semantic parser, distilled from an LLM. It was trained on about 1.1M questions, written
-by an LLM and checked automatically, plus short template-made ones. Fixes and new languages come
-from more training data, never from rules in the code. See [TRAINING.md](TRAINING.md) to retrain
-or extend it.
+</details>
 
 ## Limits
 
 - Whole days only: "yesterday at 3pm" gives yesterday.
-- Weeks start on Monday.
-- Holidays: fixed-date ones (Christmas, New Year, Halloween, national days), Easter, US Thanksgiving,
-  Lunar New Year (Chinese New Year, Seollal, Tet), Mid-Autumn / Chuseok, Dragon Boat, Ramadan, the two
-  Eids (1950-2076), Golden Week, Songkran and Obon. Not yet: Diwali, Holi and other Hindu-calendar days.
-  Personal events ("my birthday") give no date.
-- Known weak spots (2026-11-24): two-date questions are weaker outside English; very short Chinese
-  queries were the main gap until the next weights; "N units ago" is that whole unit ("two months
-  ago" = all of that month), not a single day.
-- The examples in this README were run against the shipped weights. The table above is the
-  measured accuracy; single phrasings can still miss.
+- No Diwali, Holi or other Hindu-calendar days yet; personal events ("my birthday") give no date.
+- Other languages don't crash (it reads raw bytes), but they are not trained or tested.
+- Accuracy is measured on test sets; any single phrasing can still miss.
+
+## How it works
+
+The model reads the question's bytes and writes a short code (`week -1`, `last 6 month`,
+`2025-05 ; 2026-06`, `none`). Plain Python (`timmytime/resolve.py`) turns the code into dates, so
+leap years, week starts and month lengths are always right.
+
+The model is a byte-level encoder-decoder transformer with 5.2M weights: a semantic parser distilled
+from an LLM, trained on about 1.1M checked questions. Fixes and new languages come from training
+data, never from rules in the code. See [TRAINING.md](TRAINING.md).
 
 ## Development
 
 ```sh
 uv sync
-scripts/get_weights.sh            # the weights are on a GitHub release, pinned by weights.lock
+scripts/get_weights.sh
 PYTEST_ADDOPTS= uv run pytest -q
 ```
-
-`timmytime/` is the package. `training/` holds data generation, the torch model and scoring (see
-TRAINING.md).

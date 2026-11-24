@@ -23,7 +23,7 @@ def test_codes_round_trip_through_tokens():
 def test_numpy_matches_torch(tmp_path):
     from training.model.model import TimmyTime, greedy
 
-    torch.manual_seed(0)
+    torch.manual_seed(1)
     model = TimmyTime().eval()
     for p in model.parameters():  # random weights, scaled so decoding picks varied tokens
         p.data.normal_(0, 0.3)

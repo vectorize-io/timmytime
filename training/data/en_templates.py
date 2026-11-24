@@ -1,5 +1,5 @@
 """Short English queries from templates: an id number next to a real date ("port 9077 and also last
-Tuesday"), year 0000 (no date), far ISO dates (1890-03-05, 2150-07-01). Training data only.
+Tuesday"), year 0000 (no date), 100+ days ago, far ISO dates (1890-03-05, 2150-07-01). Training data only.
 
     python -m training.data.en_templates --n 6000 --seed 1 --out data/train_en_tpl.jsonl
 """
@@ -29,10 +29,16 @@ def row(r):
     if k < 0.4:
         m = r.randrange(12)
         return r.choice(["what happened in {} 0000", "notes from {} 0000", "{} 0000 report", "cosa accadde a {} 0000"]).format(MONTHS[m]), "none"
+    if k < 0.5:
+        n = r.choice([100, 100, 120, 150, 180, 200, 250, 300, 365, r.randint(100, 365)])
+        if r.random() < 0.5:
+            return r.choice(["{} days ago", "what happened {} days ago", "notes from {} days ago", "{} days back"]).format(n), f"day -{n}"
+        return r.choice(["in {} days", "{} days from now", "the plan for {} days from now"]).format(n), f"day {n}"
     if k < 0.8:
-        y = r.choice([r.randint(1800, 1979), r.randint(2030, 2199)])
+        y = r.choice([r.randint(1800, 1979), r.randint(2030, 2199), r.choice(range(2030, 2200, 10))])
         m, d = r.randint(1, 12), r.randint(1, 28)
-        p = r.choice(["notes from {}", "the roadmap milestone on {}", "what happened on {}", "the record dated {}", "{} entry", "events of {}"])
+        p = r.choice(["notes from {}", "the roadmap milestone on {}", "what happened on {}", "the record dated {}", "{} entry", "events of {}",
+                      "{}", "deadline {}", "the launch on {}", "plan for {}", "due {}", "meeting on {}"])
         return p.format(f"{y}-{m:02d}-{d:02d}"), f"{y}-{m:02d}-{d:02d}"
     y = r.choice([r.randint(1800, 1979), r.randint(2030, 2199)])
     m = r.randint(1, 12)

@@ -19,4 +19,4 @@ uv run python -m training.guard --max-gb 6 --gpu-ratio 0.2 --kill-below 15 -- uv
   --out timmytime/weights/timmytime-g21.npz --epochs 3 --batch 128 --stride 4 --n-dec 1 --n-enc 6 --resume timmytime/weights/timmytime-g20.pt
 uv run python -m training.guard --threads 2 --max-gb 2 -- uv run python -m training.model.prune timmytime/weights/timmytime-g21.npz timmytime/weights/timmytime-g21p.npz data/train_*.jsonl
 for L in hindsight $ALL_L; do TIMMYTIME_WEIGHTS=timmytime/weights/timmytime-g21p.npz uv run python -m training.guard --threads 1 --max-gb 2 -- uv run python -m training.eval.score timmytime --lang $L -v > data/score_g21_$L.txt 2>&1; done
-echo G20-DONE
+echo G21-DONE

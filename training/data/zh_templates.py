@@ -39,7 +39,8 @@ def cn(n: int, r: random.Random, two: bool = True) -> str:
     return NUM[t] + "十" + (NUM[u] if u else "")
 
 
-PAST = ["的记录", "做了什么", "的笔记", "提到的事", "讨论了什么", "的会议", "发生了什么", "买了什么", "的费用", "聊了什么", "的照片", ""]
+PAST = ["的记录", "做了什么", "的笔记", "提到的事", "讨论了什么", "的会议", "发生了什么", "买了什么", "的费用", "聊了什么", "的照片",
+        "讨论了这个", "的活动", "提到的东西是什么", "说了什么", "吃了什么", "见了谁", ""]
 FUTURE = ["的计划", "安排", "要做什么", "去哪", "提醒我", "的会议", "的行程", "有什么事", ""]
 ANY = PAST + FUTURE
 WD = ["一", "二", "三", "四", "五", "六", "日"]
@@ -170,6 +171,21 @@ def t_ago(r):
     if r.random() < 0.5:
         return word + r.choice(["前", "以前", "之前"]) + r.choice(PAST), f"{unit} -{n}"
     return word + r.choice(["后", "以后", "之后"]) + r.choice(FUTURE), f"{unit} {n}"
+
+
+def t_ago_big(r):
+    n = r.choice([100, 100, 120, 150, 180, 200, 300, r.randint(100, 365), r.randint(100, 365)])
+    if r.random() < 0.5:
+        return cn(n, r) + "天" + r.choice(["前", "以前", "之前"]) + r.choice(PAST), f"day -{n}"
+    return cn(n, r) + "天" + r.choice(["后", "以后", "之后"]) + r.choice(FUTURE), f"day {n}"
+
+
+def t_month_name_part(r):
+    m = r.randint(1, 12)
+    mod, w = r.choice([("early", "初"), ("early", "上旬"), ("early", "初期"), ("mid", "中旬"), ("late", "底"), ("late", "末"),
+                       ("late", "下旬"), ("late", "尾")])
+    mon = ["jan", "feb", "mar", "apr", "may", "jun", "jul", "aug", "sep", "oct", "nov", "dec"][m - 1]
+    return month_word(m, r) + w + r.choice(ANY), f"{mod} {mon}"
 
 
 def t_half(r):
@@ -330,7 +346,7 @@ def t_trap(r):
 
 
 FAMILIES = [(t_day, 5), (t_week, 7), (t_bare_weekday, 3), (t_weekend, 2), (t_month, 6), (t_month_part, 2), (t_year, 6),
-            (t_bare_year_end, 1), (t_quarter, 3), (t_ago, 6), (t_half, 2), (t_fuzzy, 4), (t_rolling, 8), (t_since, 5),
+            (t_bare_year_end, 1), (t_quarter, 3), (t_ago, 6), (t_ago_big, 3), (t_half, 2), (t_fuzzy, 6), (t_month_name_part, 4), (t_rolling, 8), (t_since, 5),
             (t_from_on, 3), (t_before_after, 5), (t_dayrange, 7), (t_explicit, 4), (t_zhong, 2), (t_sameday, 2), (t_trap, 7)]
 
 HANT = str.maketrans({"这": "這", "个": "個", "过": "過", "来": "來", "后": "後", "内": "內", "记": "記", "录": "錄", "计": "計",

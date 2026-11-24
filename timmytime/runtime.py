@@ -32,7 +32,8 @@ VOCAB = (["<pad>", "<bos>", "<eos>", "<unk>"] + _WORDS + [str(n) for n in range(
          + [f"M{m:02d}" for m in range(1, 13)] + [f"D{d:02d}" for d in range(1, 32)]
          # Added later: new words go at the end so older weights keep their ids.
          + "easter thanksgiving cny midautumn dragonboat ramadan eidfitr eidadha".split()
-         + [str(y) for y in (*range(1800, 1900), *range(2100, 2200))] + [f"{y}s" for y in (*range(1800, 1900, 10), 2100)])
+         + [str(y) for y in (*range(1800, 1900), *range(2100, 2200))] + [f"{y}s" for y in (*range(1800, 1900, 10), 2100)]
+         + [str(n) for n in (*range(-365, -99), *range(100, 366))])  # "100 days ago"
 TOKEN = {t: i for i, t in enumerate(VOCAB)}
 PAD, BOS, EOS, UNK = 0, 1, 2, 3
 _DATE = re.compile(r"(\d{4}|\*)(?:-(\d{2})(?:-(\d{2}))?)?$")
