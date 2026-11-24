@@ -1,35 +1,38 @@
-# tlm
+# timmytime
 
-**tlm** = temporal language model. Finds the date ranges a question talks about. A 9 MB model, numpy only, about 1.5 ms per question.
+**timmytime** (tiny time semantic parser) finds the dates and periods a question talks about ("last week", "上上周", "since March"), whole days only. A 9 MB model, numpy only, about 1.5 ms per question. Every model needs its timmy time.
 
 ```python
 from datetime import date
-import tlm
+import timmytime
 
-tlm.parse("what did I decide last week", anchor=date(2026, 11, 20))
+timmytime.parse("what did I decide last week", anchor=date(2026, 11, 20))
 # [DateRange(start=date(2026, 11, 9), end=date(2026, 11, 15))]
 
-tlm.parse("trips in May 2025 and June 2026", anchor=date(2026, 11, 20))
+timmytime.parse("trips in May 2025 and June 2026", anchor=date(2026, 11, 20))
 # [DateRange(2025-05-01, 2025-05-31), DateRange(2026-06-01, 2026-06-30)]
 
-tlm.parse("what is my wifi password")
+timmytime.parse("what is my wifi password")
 # []   no date
 ```
 
 ## Install
 
+Not released under the name timmytime yet (the last release, v0.1.0, is still called `tlm`). Until
+then, build it from a checkout:
+
 ```sh
-pip install https://github.com/vectorize-io/tlm/releases/download/v0.1.0/tlm-0.1.0-py3-none-any.whl
+scripts/get_weights.sh && uv build && pip install dist/timmytime-*.whl
 ```
 
-The package carries its weights (10 MB) inside, so nothing is downloaded at run time. Not on PyPI yet;
+The package carries its weights (10 MB) inside, so nothing is downloaded at run time.
 `pip install git+…` does not work, because the weights are not in git (see TRAINING.md).
 
 Needs Python 3.11+, `numpy` and `tzdata`. No torch, no network, no LLM at run time.
 
 ## API
 
-`tlm.parse(text, anchor=None, tz="UTC") -> list[DateRange]`
+`timmytime.parse(text, anchor=None, tz="UTC") -> list[DateRange]`
 
 - `anchor`: when the question was asked. A `date` is that calendar day in `tz`. A `datetime`
   without a timezone is taken as UTC. Leave it out to use now.
@@ -38,11 +41,13 @@ Needs Python 3.11+, `numpy` and `tzdata`. No torch, no network, no LLM at run ti
 - Returns whole-day ranges in the order the question names them. `start` or `end` is `None` for
   open ranges ("before 2020", "since May"). `[]` means no date. It never raises on odd text.
 - `DateRange` is a named tuple `(start, end)` of `datetime.date`, both days included.
+- Long text is read in sentence pieces of up to 256 bytes; the ranges of all pieces are returned,
+  each once.
 
 Low-confidence answers become `[]`: a wrong date filters out the right results, while no date
-just searches everything. The cut-off is `TLM_MIN_CONFIDENCE` (default 0.5).
+just searches everything. The cut-off is `TIMMYTIME_MIN_CONFIDENCE` (default 0.5).
 
-`tlm.Parser(weights_path)` loads other weights. `tlm.hindsight.extract_temporal_constraint`
+`timmytime.Parser(weights_path)` loads other weights. `timmytime.hindsight.extract_temporal_constraint`
 has the shape hindsight's recall expects: the first range as naive datetimes, or `None`.
 
 ## What it understands
@@ -177,42 +182,59 @@ The rules behind the table:
   is its 7-day holiday; Ramadan is the whole month; Eid al-Fitr 3 days, Eid al-Adha 4 days.
 
 Languages: English, Spanish, German, Chinese, Arabic (including Arabizi), Japanese, Korean, Hindi
-(including Hinglish), Indonesian, Vietnamese and Thai. It reads raw bytes, so other languages don't
-crash, but they were not trained or tested.
+(including Hinglish), Indonesian, Vietnamese and Thai. The next weights add Italian, French, Russian,
+Portuguese and traditional Chinese (see Accuracy). It reads raw bytes, so other languages don't crash,
+but they were not trained or tested.
 
 ## Accuracy
 
 Exact match on held-out test questions, about 2,900-3,100 per language, covering every kind below
-(written with prompts never used for training). "False dates" = questions with no date that got one;
-in brackets, leaving out no-date questions where the LLM that checked the labels itself reads a date.
+(written with prompts never used for training). "False dates" = questions with no date that got one,
+leaving out no-date questions where the LLM that checked the labels itself reads a date.
 
-| Language | Exact | False dates | Holidays | "in 2 weeks" |
+"Shipped" is the pinned weights (`weights-g16p`). "Next" is round g20, trained and scored but not
+released yet.
+
+| Language | Shipped exact | Shipped false dates | Next exact | Next false dates |
 |---|---|---|---|---|
-| English | 98.1% | 1.1% (0.8%) | 99% | 98% |
-| Chinese | 97.0% | 0.9% (0.4%) | 96% | 100% |
-| German | 96.9% | 2.2% (1.4%) | 99% | 92% |
-| Spanish | 96.8% | 1.1% (0.7%) | 97% | 92% |
-| Korean | 96.4% | 2.1% (1.6%) | 98% | 100% |
-| Arabic | 96.2% | 1.2% (0.9%) | 95% | 95% |
-| Japanese | 95.3% | 1.8% (1.0%) | 98% | 100% |
-| Indonesian | 94.3% | 2.6% (2.0%) | 86% | 100% |
-| Thai | 94.3% | 1.1% (0.5%) | 74% | 98% |
-| Hindi | 94.2% | 1.1% (0.7%) | 97% | 93% |
-| Vietnamese | 94.1% | 1.8% (1.2%) | 95% | 92% |
+| English | 98.1% | 0.8% | 98.5% | 1.0% |
+| Chinese | 97.0% | 0.4% | 97.5% | 0.9% |
+| Spanish | 96.8% | 0.7% | 97.8% | 0.4% |
+| German | 96.9% | 1.4% | 97.0% | 1.7% |
+| Arabic | 96.2% | 0.9% | 96.8% | 1.1% |
+| Korean | 96.4% | 1.6% | 96.8% | 1.6% |
+| Japanese | 95.3% | 1.0% | 96.5% | 1.7% |
+| Thai | 94.3% | 0.5% | 95.5% | 1.2% |
+| Hindi | 94.2% | 0.7% | 95.4% | 0.9% |
+| Indonesian | 94.3% | 2.0% | 95.4% | 1.8% |
+| Vietnamese | 94.1% | 1.2% | 95.4% | 1.1% |
+| Italian | - | - | 96.3% | 1.0% |
+| Portuguese | - | - | 96.3% | 0.7% |
+| Chinese (traditional) | - | - | 96.0% | 0.6% |
+| French | - | - | 95.2% | 0.7% |
+| Russian | - | - | 94.1% | 1.5% |
 
-For comparison, dateparser-based extraction gets about 54% exact with 28% false dates in English.
+For comparison, dateparser-based extraction gets about 44% exact with 24% false dates in English,
+and 5-48% exact in the other languages.
+
+Hindsight's own query-analyzer tests and golden corpus, as timmytime codes, are in
+`data/test_hindsight.jsonl` (835 questions, mostly short Chinese ones): 64% exact with the shipped
+weights, 97.2% with the next ones.
 
 ## How it works
 
 1. The model reads the question's UTF-8 bytes and writes a short code: `week -1`,
    `last 6 month`, `2025-05 ; 2026-06`, `none`.
-2. Plain Python (`tlm/resolve.py`) turns that code, the anchor and the timezone into dates.
+2. Plain Python (`timmytime/resolve.py`) turns that code, the anchor and the timezone into dates.
 
 The model never does calendar math, so leap years, week starts and month lengths are always
-right. The code grammar is at the top of `tlm/resolve.py`.
+right. The code grammar is at the top of `timmytime/resolve.py`.
 
-The model is a small transformer (5.2M weights). It was trained on about 330k questions written
-by an LLM and checked automatically. See [TRAINING.md](TRAINING.md) to retrain or extend it.
+The model is a small byte-level encoder-decoder transformer (6.4M weights, fewer after pruning):
+technically a semantic parser, distilled from an LLM. It was trained on about 1.1M questions, written
+by an LLM and checked automatically, plus short template-made ones. Fixes and new languages come
+from more training data, never from rules in the code. See [TRAINING.md](TRAINING.md) to retrain
+or extend it.
 
 ## Limits
 
@@ -222,8 +244,9 @@ by an LLM and checked automatically. See [TRAINING.md](TRAINING.md) to retrain o
   Lunar New Year (Chinese New Year, Seollal, Tet), Mid-Autumn / Chuseok, Dragon Boat, Ramadan, the two
   Eids (1950-2076), Golden Week, Songkran and Obon. Not yet: Diwali, Holi and other Hindu-calendar days.
   Personal events ("my birthday") give no date.
-- Known weak spots (2026-11-21): amounts like "2019 usd" can be read as the year; two-date questions
-  are 65-88% outside English; the six newest languages (one training round so far) are at 94-96%.
+- Known weak spots (2026-11-24): two-date questions are weaker outside English; very short Chinese
+  queries were the main gap until the next weights; "N units ago" is that whole unit ("two months
+  ago" = all of that month), not a single day.
 - The examples in this README were run against the shipped weights. The table above is the
   measured accuracy; single phrasings can still miss.
 
@@ -235,5 +258,5 @@ scripts/get_weights.sh            # the weights are on a GitHub release, pinned 
 PYTEST_ADDOPTS= uv run pytest -q
 ```
 
-`tlm/` is the package. `training/` holds data generation, the torch model and scoring (see
-TRAINING.md); `integration/` the hindsight patch.
+`timmytime/` is the package. `training/` holds data generation, the torch model and scoring (see
+TRAINING.md).

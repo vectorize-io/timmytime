@@ -12,8 +12,8 @@ import sys
 from collections import Counter
 from datetime import date, datetime
 
-from tlm.resolve import resolve
-from tlm.runtime import Parser
+from timmytime.resolve import resolve
+from timmytime.runtime import Parser
 
 
 def main() -> None:

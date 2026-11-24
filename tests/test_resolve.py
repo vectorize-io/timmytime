@@ -2,7 +2,7 @@ from datetime import UTC, date, datetime
 
 import pytest
 
-from tlm.resolve import DateRange, resolve
+from timmytime.resolve import DateRange, resolve
 
 TUE = datetime(2026, 11, 17, 12, 0)  # the spec's examples are asked on this Tuesday
 
@@ -63,6 +63,15 @@ def one(code, anchor=TUE, tz="UTC"):
         ("around 2026-05-10", "2026-05-07", "2026-05-13"),
         ("recent", "2026-10-18", "2026-11-17"),
         ("longago", None, "2025-11-17"),
+        ("year 0 *-06-05", "2026-06-05", "2026-06-05"),  # "June 5 this year"
+        ("year 1 *-02-03", "2027-02-03", "2027-02-03"),
+        ("year -1 now", "2025-11-17", "2025-11-17"),  # "this day last year"
+        ("year -1 now .. now", "2025-11-17", "2026-11-17"),  # "since this day last year"
+        ("1890-03-05", "1890-03-05", "1890-03-05"),
+        ("2150", "2150-01-01", "2150-12-31"),
+        ("1880s", "1880-01-01", "1889-12-31"),
+        ("month -1 day 3", "2026-10-03", "2026-10-03"),  # "the 3rd of last month"
+        ("month 1 day 31", "2026-12-31", "2026-12-31"),
     ],
 )
 def test_codes(code, start, end):
@@ -124,3 +133,11 @@ def test_holidays_and_parts(code, want):
 
 def test_lunar_table_ends_cleanly():
     assert resolve("2090 cny", datetime(2026, 11, 20)) == []
+
+
+def test_this_day_last_year_on_feb_29():
+    assert one("year -1 now", datetime(2024, 2, 29)) == ("2023-02-28", "2023-02-28")
+
+
+def test_day_past_month_end_is_unreadable():
+    assert resolve("month 1 day 31", datetime(2026, 1, 15)) == []  # February has no 31st

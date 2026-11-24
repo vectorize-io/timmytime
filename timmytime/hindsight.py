@@ -1,6 +1,6 @@
 """Drop-in for hindsight's temporal extraction.
 
-    from tlm.hindsight import extract_temporal_constraint
+    from timmytime.hindsight import extract_temporal_constraint
     extract_temporal_constraint("what did I decide last week", reference_date)  # -> (start, end) | None
 
 Same shape as hindsight_api.engine.search.temporal_extraction.extract_temporal_constraint: naive
@@ -13,8 +13,8 @@ import logging
 from datetime import UTC, datetime, time
 from functools import lru_cache
 
-from tlm.resolve import DateRange
-from tlm.runtime import Parser
+from timmytime.resolve import DateRange
+from timmytime.runtime import Parser
 
 logger = logging.getLogger(__name__)
 
@@ -40,7 +40,7 @@ def extract_all(query: str, reference_date: datetime | None = None, tz: str = "U
         anchor = reference_date or datetime.now(UTC).replace(tzinfo=None)
         return [_window(r) for r in _parser().parse(query, anchor, tz)]
     except Exception as e:  # recall must never fail because of date parsing
-        logger.warning("tlm temporal extraction failed (%s): %s", type(e).__name__, e)
+        logger.warning("timmytime temporal extraction failed (%s): %s", type(e).__name__, e)
         return []
 
 

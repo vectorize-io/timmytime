@@ -7,7 +7,7 @@ data/*.progress
 data/*.log
 data/train_en_early.jsonl
 # Weights live on a GitHub release, pinned by weights.lock (scripts/get_weights.sh).
-tlm/weights/
+timmytime/weights/
 # Run artifacts: pools, mined rows, logs, scores and one-off run scripts. Test, tuning and
 # hand-written sets stay in git; training data is regenerated (see TRAINING.md).
 data/*

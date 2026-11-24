@@ -1,6 +1,6 @@
 """Tiny client for the OpenAI-style chat endpoint (hindsight dev inference, Gemma).
 
-Reads TLM_LLM_URL, TLM_LLM_MODEL and TLM_LLM_KEY (falls back to
+Reads TIMMYTIME_LLM_URL, TIMMYTIME_LLM_MODEL and TIMMYTIME_LLM_KEY (falls back to
 HINDSIGHT_INFERENCE_DEV_API_KEY). Stdlib only: this is dev tooling.
 """
 
@@ -12,12 +12,12 @@ import urllib.error
 import urllib.request
 from concurrent.futures import ThreadPoolExecutor
 
-URL = os.environ.get("TLM_LLM_URL", "https://inference.dev.hindsight.vectorize.io/v1/chat/completions")
-MODEL = os.environ.get("TLM_LLM_MODEL", "gemma-4-26b-a4b")
+URL = os.environ.get("TIMMYTIME_LLM_URL", "https://inference.dev.hindsight.vectorize.io/v1/chat/completions")
+MODEL = os.environ.get("TIMMYTIME_LLM_MODEL", "gemma-4-26b-a4b")
 
 
 def chat(prompt: str, system: str | None = None, temperature: float = 1.0, max_tokens: int = 1500) -> str:
-    key = os.environ.get("TLM_LLM_KEY") or os.environ["HINDSIGHT_INFERENCE_DEV_API_KEY"]
+    key = os.environ.get("TIMMYTIME_LLM_KEY") or os.environ["HINDSIGHT_INFERENCE_DEV_API_KEY"]
     messages = ([{"role": "system", "content": system}] if system else []) + [{"role": "user", "content": prompt}]
     body = json.dumps({"model": MODEL, "messages": messages, "temperature": temperature, "max_tokens": max_tokens})
     for attempt in range(6):

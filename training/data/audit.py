@@ -1,11 +1,11 @@
-"""Mark no-date test rows the LLM itself reads a date in ('disputed'), without looking at tlm.
+"""Mark no-date test rows the LLM itself reads a date in ('disputed'), without looking at timmytime.
 
     python -m training.data.audit data/test_en_2.jsonl ...
 
 Rows labelled 'none' by the lenient yes/no check (all but data/test_en.jsonl, whose no-date rows
 passed the stricter round trip) get "disputed": true when the LLM, reading the message cold,
 writes a date code. The scorer reports false dates with and without them. Model-independent, so
-it can't tilt the test toward tlm; it does also drop traps the LLM misreads.
+it can't tilt the test toward timmytime; it does also drop traps the LLM misreads.
 """
 
 import json

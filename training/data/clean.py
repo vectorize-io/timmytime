@@ -2,7 +2,7 @@
 
     python -m training.data.clean data/train_*.jsonl
 
-Rules (the conventions in tlm/meanings.py; the LLM reads these phrases both ways):
+Rules (the conventions in timmytime/meanings.py; the LLM reads these phrases both ways):
 Drops no-date rows with a weekday + part of day ("Friday Night Lights"): real users mean a day.
 "last Monday" (no "week" in the message) = mon, not week -1 mon; "last summer" = summer, not year -1 summer.
 """
@@ -57,6 +57,7 @@ DROP_MONTH_TRAPS = "--keep-month-traps" not in sys.argv
 def main() -> None:
     from training.data.gen import LANGS
     sets = load_sets() | {k: v for lang in LANGS if lang != "en" for k, v in load_lang_set(lang).items()}
+    sets["hindsight"] = [json.loads(line) for line in open("data/test_hindsight.jsonl")]
     test = {r["q"].lower().strip() for rows in sets.values() for r in rows}
     for path in [a for a in sys.argv[1:] if not a.startswith("--")]:
         rows = [json.loads(line) for line in open(path)]

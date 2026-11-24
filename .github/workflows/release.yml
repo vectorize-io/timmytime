@@ -8,7 +8,7 @@ permissions:
 
 jobs:
   package:
-    # Builds tlm with the weights pinned in weights.lock inside, checks a clean install, and
+    # Builds timmytime with the weights pinned in weights.lock inside, checks a clean install, and
     # attaches the wheel and sdist to a GitHub release named after the tag.
     runs-on: ubuntu-latest
     steps:
@@ -24,13 +24,13 @@ jobs:
       - run: uv build
       - name: wheel has the weights and works on its own
         run: |
-          unzip -l dist/*.whl | grep -q tlm/weights/tlm.npz
+          unzip -l dist/*.whl | grep -q timmytime/weights/timmytime.npz
           uv venv /tmp/clean && VIRTUAL_ENV=/tmp/clean uv pip install dist/*.whl
           cd /tmp && /tmp/clean/bin/python -c "
-          import tlm, datetime
-          assert tlm.parse('what did I do last week', datetime.date(2026, 11, 18)) == [(datetime.date(2026, 11, 9), datetime.date(2026, 11, 15))]"
+          import timmytime, datetime
+          assert timmytime.parse('what did I do last week', datetime.date(2026, 11, 18)) == [(datetime.date(2026, 11, 9), datetime.date(2026, 11, 15))]"
       - name: attach to a release
         run: |
-          gh release create "$GITHUB_REF_NAME" dist/* --title "tlm $GITHUB_REF_NAME" --notes "Weights: $(cut -d' ' -f1 weights.lock)"
+          gh release create "$GITHUB_REF_NAME" dist/* --title "timmytime $GITHUB_REF_NAME" --notes "Weights: $(cut -d' ' -f1 weights.lock)"
         env:
           GH_TOKEN: ${{ github.token }}

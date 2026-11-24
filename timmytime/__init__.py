@@ -1,15 +1,15 @@
-"""tlm: finds the date ranges a question talks about.
+"""timmytime: finds the date ranges a question talks about.
 
-    import tlm
-    tlm.parse("what did I decide last week", anchor=date(2026, 11, 20))
+    import timmytime
+    timmytime.parse("what did I decide last week", anchor=date(2026, 11, 20))
     # [DateRange(start=date(2026, 11, 9), end=date(2026, 11, 15))]
 """
 
 from datetime import date, datetime
 from functools import lru_cache
 
-from tlm.resolve import DateRange
-from tlm.runtime import Parser
+from timmytime.resolve import DateRange
+from timmytime.runtime import Parser
 
 __all__ = ["DateRange", "Parser", "parse"]
 

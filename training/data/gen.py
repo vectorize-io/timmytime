@@ -18,11 +18,12 @@ from pathlib import Path
 
 from training.data import llm
 from training.data.meanings import sample
-from tlm.resolve import resolve
+from timmytime.resolve import resolve
 
 LANGS = {"en": "English", "es": "Spanish", "de": "German", "zh": "Chinese (simplified)", "ar": "Arabic",
          "ja": "Japanese", "ko": "Korean", "hi": "Hindi (Devanagari, or sometimes Hinglish in Latin letters)",
-         "id": "Indonesian", "vi": "Vietnamese", "th": "Thai"}
+         "id": "Indonesian", "vi": "Vietnamese", "th": "Thai", "it": "Italian", "fr": "French", "ru": "Russian",
+         "pt": "Portuguese (Brazilian or European)", "zh-hant": "Chinese (traditional characters, as written in Taiwan or Hong Kong)"}
 
 TOPICS = ["work meetings", "a project at work", "health and doctor visits", "workouts", "travel", "family",
           "friends", "money and bills", "shopping", "cooking", "a side project", "code and deployments",
@@ -53,7 +54,11 @@ TRAPS_EN = ["the modal verb 'may'", "the verb 'march' (to walk)", "a person name
             "a room, bed, patient, order or invoice number, like 'pt in 205', 'bed 12', 'order 2023'",
             "a model or product number, like 'Forerunner 955', 'iPhone 15', 'RTX 4090'",
             "a person named May, June, April or August doing something in the sentence", "'spring' as in a metal spring or a water spring",
-            "'fall' meaning to fall down", "a street or room number like '1999 Main St' or 'room 2024'", "no trap, just a plain question"]
+            "'fall' meaning to fall down", "a street or room number like '1999 Main St' or 'room 2024'",
+            "a config value, size or limit in a technical note, like 'chunk size of 2000 tokens', 'timeout 1990 ms' or 'max 2048 rows'",
+            "an idiom with a time word that points to no date, like 'yesterday's news' or 'not born yesterday'",
+            "a brand, app, game, song or show named with a time word, like 'Today show', 'Tomorrowland' or 'Monday.com'",
+            "no trap, just a plain question"]
 
 # Trap types for other languages: the English list is full of English-only words.
 TRAPS_ANY = ["a word in {lang} that also names a month, weekday or season but is used in another sense here",
@@ -62,7 +67,17 @@ TRAPS_ANY = ["a word in {lang} that also names a month, weekday or season but is
              "a frequency, like 'every Monday' or 'weekly'", "a time of day with no day", "an age, like '30 years old'",
              "a product name with a year or number in it", "'last' meaning final, or 'next' meaning following",
              "a quantity of time units that is not a period, like '12 months of data'", "a code snippet or URL with numbers",
+             "a config value, size or limit in a technical note, like a chunk size of 2000 tokens or a 1990 ms timeout",
+             "an idiom or set phrase in {lang} that contains a time word but points to no date (like 'yesterday's news' meaning old news)",
+             "a brand, app, game, song, show or person's name in {lang} that contains a time word",
              "no trap, just a plain question"]
+# Chinese words that contain date characters but are no date.
+TRAPS_ZH = ["a famous person's name starting with 周, like 周杰伦 or 周星驰, right after 上/下/这 (上周杰伦的歌)",
+            "food or things with 月 or 年 in the name, like 月饼, 月亮, 年糕, 年货, 月票, 年终奖",
+            "a game, app or show named with 明日/今日/后天, like 明日方舟, 明日之后, 今日头条, 后天 (a film)",
+            "a word with 后天/先天 meaning acquired/innate, like 后天免疫 or 先天不足",
+            "a frequency like 每年, 每周, 每天, 每个月, 每年上半年 (every year, every week)",
+            "a duration like 三天时间, 两周的课程, 一年的数据", "a price, amount or count with a 4-digit number like 2024元 or 1990步"]
 
 # Two prompt families: train and test never share wording.
 WRITE = {
@@ -98,13 +113,15 @@ WRITE_NONE = {
     ),
 }
 # The check: the LLM reads the message cold and writes the code; the row stays only
-# if that code gives the same dates as the label. Rules match tlm/meanings.py.
+# if that code gives the same dates as the label. Rules match timmytime/meanings.py.
 READ = """Read a message someone sent to their memory assistant and write the time period it refers to, as one line of a tiny code.
 
 Codes (N is a signed whole number; 0 = the current one, -1 = the previous one, 1 = the next one):
   none                      no date or time period at all. Durations ("took 2 weeks"), frequencies ("every Monday",
                             "weekly"), times of day alone ("3pm"), versions, prices, ages, "last" meaning final,
                             "next" meaning following, words like may/march/fall/spring/second in other senses: none
+                            names, brands, games, songs and idioms that contain a time word (周杰伦, 月饼, 明日方舟,
+                            "yesterday's news"), config values ("chunk size of 2000"), frequencies (每年 = every year): none
   day N                     today = day 0, yesterday = day -1, day before yesterday = day -2, 5 days ago = day -5, tomorrow = day 1,
                             "in 3 days" = day 3
   week N / month N / quarter N / year N    calendar periods: last week = week -1, this month = month 0,
@@ -135,8 +152,15 @@ Codes (N is a signed whole number; 0 = the current one, -1 = the previous one, 1
                             Lebaran = eidfitr. Multi-day fixed festivals: Golden Week = around *-05-02,
                             Songkran = around *-04-14, Obon = around *-08-14. Birthdays and personal events: none
   X .. Y                    a range: "between May and July" = may .. jul, "from 2019 to 2021" = 2019 .. 2021
-  X .. now                  since: "since March" = mar .. now, "since last week" = week -1 .. now
-  before X / after X        "before 2020" = before 2020
+  X .. now                  since: "since March" = mar .. now, "since last week" = week -1 .. now, "since 3 days ago" = day -3 .. now,
+                            "since this day last year" = year -1 now .. now; "from tomorrow on" = day 1 .. (open end)
+  year N now / year N *-MM-DD   "this day last year" = year -1 now, "June 5 this year" = year 0 *-06-05 (even if still ahead)
+  month N day D             "the 3rd of last month" = month -1 day 3, "the 10th of next month" = month 1 day 10
+  more examples             "the week after next" = week 2, "the day after the day after tomorrow" = day 3,
+                            "the past 24 hours" = last 1 day, "half a month ago" = day -15, "a year and a half ago" = month -18,
+                            "half a year ago" = month -6, "June 5 to 8, 2024" = 2024-06-05 .. 2024-06-08,
+                            "yesterday and today" = day -1 .. now, "from last Friday to this Monday" = week -1 fri .. week 0 mon
+  before X / after X        "before 2020" = before 2020, "before last week" = before week -1, "after this month" = after month 0
   X ; Y                     two separate periods: "May 2025 and June 2026" = 2025-05 ; 2026-06
 
 Message: {q}
@@ -176,6 +200,8 @@ def make_jobs(split: str, lang: str, n: int, seed: int, k: int, none_share: floa
               kinds: set[str] | None = None, trap_filter: str = "") -> list[dict]:
     r = random.Random(seed)
     base = TRAPS_EN if lang == "en" else [t.format(lang=LANGS[lang]) for t in TRAPS_ANY]
+    if lang.startswith("zh"):
+        base = base + TRAPS_ZH * 2
     traps = [t for t in base if re.search(trap_filter, t, re.I)] if trap_filter else base
     jobs = []
     for _ in range(-(-n // k)):
@@ -198,7 +224,7 @@ def make_jobs(split: str, lang: str, n: int, seed: int, k: int, none_share: floa
 
 # An English note in brackets inside a non-English message: "明日… (I'm asking the app where …)"
 _GLOSS = re.compile(r"\((?:[A-Za-z']+[\s,.?!:;/-]+){3,}")
-_NON_LATIN = re.compile(r"[\u0600-\u06FF\u0900-\u097F\u0E00-\u0E7F\u3040-\u30FF\u3400-\u9FFF\uAC00-\uD7AF]")
+_NON_LATIN = re.compile(r"[\u0400-\u04FF\u0600-\u06FF\u0900-\u097F\u0E00-\u0E7F\u3040-\u30FF\u3400-\u9FFF\uAC00-\uD7AF]")
 
 
 def has_gloss(t: str) -> bool:
@@ -240,8 +266,12 @@ def main() -> None:
     ap.add_argument("--none-share", type=float, default=1 / 3)
     ap.add_argument("--style", default="", help="force this writing style for every call")
     ap.add_argument("--trap-filter", default="", help="regex: only trap ideas matching it (no-date rows)")
-    ap.add_argument("--kinds", default="", help="comma list: only these meaning kinds (see tlm/meanings.py)")
+    ap.add_argument("--kinds", default="", help="comma list: only these meaning kinds (see timmytime/meanings.py)")
+    ap.add_argument("--far-share", type=float, default=None, help="share of years far from today (default 0.08)")
     a = ap.parse_args()
+    if a.far_share is not None:
+        import training.data.meanings as meanings
+        meanings.FAR_SHARE = a.far_share
     k = a.k or (3 if a.split == "test" else 5)
 
     jobs = make_jobs(a.split, a.lang, a.n, a.seed, k, a.none_share, set(filter(None, a.kinds.split(","))), a.trap_filter)

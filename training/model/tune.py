@@ -3,15 +3,15 @@
     python -m training.model.tune
 
 Score = exact - 3 x false-date rate: a wrong window hurts recall, a missing one changes nothing.
-Prints the table per language and the chosen value for MIN_CONFIDENCE in tlm/runtime.py.
+Prints the table per language and the chosen value for MIN_CONFIDENCE in timmytime/runtime.py.
 """
 
 import json
 from datetime import date, datetime
 from pathlib import Path
 
-from tlm.resolve import resolve
-from tlm.runtime import Parser
+from timmytime.resolve import resolve
+from timmytime.runtime import Parser
 
 DATA = Path(__file__).resolve().parents[2] / "data"
 THRESHOLDS = [0.0, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8]

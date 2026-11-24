@@ -9,7 +9,7 @@ the latest summer already started.
 
 import random
 
-from tlm.resolve import MONTHS, WEEKDAYS
+from timmytime.resolve import MONTHS, WEEKDAYS
 
 MONTH_NAMES = ["January", "February", "March", "April", "May", "June", "July",
                "August", "September", "October", "November", "December"]
@@ -19,7 +19,15 @@ UNIT_WORDS = {"day": "days", "week": "weeks", "month": "months", "quarter": "qua
 NUM_WORDS = ["zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten", "eleven", "twelve"]
 
 
+FAR_SHARE = 0.08  # share of years far from today (gen --far-share)
+
+
 def _year(r: random.Random) -> int:
+    k = r.random()
+    if k < FAR_SHARE / 2:  # far from today: history, old records, long-term plans
+        return r.randint(1800, 1979)
+    if k < FAR_SHARE:
+        return r.randint(2028, 2199)
     return r.choice([r.randint(2015, 2027)] * 4 + [r.randint(1980, 2014)])
 
 
@@ -55,22 +63,22 @@ def _th(d: int) -> str:
 
 # Each family returns (code, description). Weights roughly follow how often people ask.
 def f_day(r):
-    n = r.choice([-1] * 8 + [0] * 3 + [-2] * 2 + list(range(-10, -2)) + [1, 1, 2])
+    n = r.choice([-1] * 8 + [0] * 3 + [-2] * 2 + list(range(-10, -2)) + [1, 1, 2, 3, 4, -4, -15, -20, -30, -45, -60, -99])
     return f"day {n}", _rel("day", n)
 
 
 def f_week(r):
-    n = r.choice([-1] * 6 + [0] * 3 + [-2] * 2 + [-3, -4, -5, -6, 1, 1])
+    n = r.choice([-1] * 6 + [0] * 3 + [-2] * 2 + [-3, -4, -5, -6, -8, 1, 1, 2, 2, 3])
     return f"week {n}", _rel("week", n)
 
 
 def f_month(r):
-    n = r.choice([-1] * 6 + [0] * 3 + [-2] * 2 + [-3, -4, -5, -6, -8, -12, 1])
+    n = r.choice([-1] * 6 + [0] * 3 + [-2] * 2 + [-3, -4, -5, -6, -8, -12, -18, -22, 1, 2, 2, 3])
     return f"month {n}", _rel("month", n)
 
 
 def f_year(r):
-    n = r.choice([-1] * 6 + [0] * 3 + [-2] * 2 + [-3, -5, 1])
+    n = r.choice([-1] * 6 + [0] * 3 + [-2] * 2 + [-3, -3, -4, -5, -10, 1, 2, 2, 3])
     return f"year {n}", _rel("year", n)
 
 
@@ -110,8 +118,9 @@ def f_month_name(r):
     if k < 0.4:
         return MONTHS[m], f"in {MONTH_NAMES[m]}, no year given (the most recent {MONTH_NAMES[m]} that has started)"
     if k < 0.7:
-        n = r.choice([-1, -1, 0])
-        return f"year {n} {MONTHS[m]}", f"{MONTH_NAMES[m]} of {'last' if n else 'this'} year"
+        n = r.choice([-1, -1, 0, 0, 1, -2, 2])
+        which = {-1: "last year", 0: "this year", 1: "next year", -2: "two years ago", 2: "the year after next"}[n]
+        return f"year {n} {MONTHS[m]}", f"{MONTH_NAMES[m]} of {which}"
     y = _year(r)
     return f"{y}-{m + 1:02d}", f"{MONTH_NAMES[m]} {y} (the whole month)"
 
@@ -148,8 +157,16 @@ def f_decade(r):
 
 def f_last_n(r):
     unit = r.choice(["day"] * 3 + ["week"] * 3 + ["month"] * 3 + ["year"])
-    n = r.randint(2, 12)
-    word = r.choice([str(n), NUM_WORDS[n]])
+    if r.random() < 0.2:  # one unit counted back from today, or "half a month" (15 days)
+        n, unit = r.choice([(1, "day"), (1, "week"), (1, "month"), (1, "year"), (15, "day"), (14, "day"), (30, "day")])
+        way = r.choice(["last", "last", "next"])
+        when = "ago up to today" if way == "last" else "from now, starting today"
+        desc = {(1, "day"): f"the {'past' if way == 'last' else 'next'} 24 hours (one day {when})",
+                (15, "day"): f"the {way} half month (15 days {when})"}.get(
+            (n, unit), f"the {way} {n} {unit if n == 1 else UNIT_WORDS[unit]} counted from today ({n} {unit if n == 1 else UNIT_WORDS[unit]} {when}, not the calendar {unit})")
+        return f"{way} {n} {unit}", desc
+    n = r.randint(2, 12) if r.random() < 0.85 else r.randint(13, 30)
+    word = r.choice([str(n), NUM_WORDS[n]]) if n <= 12 else str(n)
     if r.random() < 0.85:
         return f"last {n} {unit}", f"the last {word} {UNIT_WORDS[unit]} (from {n} {UNIT_WORDS[unit]} ago up to today)"
     return f"next {n} {unit}", f"the next {word} {UNIT_WORDS[unit]} (from today up to {n} {UNIT_WORDS[unit]} from now)"
@@ -282,9 +299,25 @@ def f_range(r):
         n = r.choice([-1, 0])
         which = "last week" if n else "this week"
         return f"week {n} {WEEKDAYS[a]} .. week {n} {WEEKDAYS[b]}", f"from {DAY_NAMES[a]} to {DAY_NAMES[b]} {which}"
-    y, m = _year(r), r.randint(1, 11)
-    m2 = r.randint(m + 1, 12)
-    return f"{y}-{m:02d} .. {y}-{m2:02d}", f"from {MONTH_NAMES[m - 1]} {y} to {MONTH_NAMES[m2 - 1]} {y}"
+    if k < 0.75:
+        y, m = _year(r), r.randint(1, 11)
+        m2 = r.randint(m + 1, 12)
+        return f"{y}-{m:02d} .. {y}-{m2:02d}", f"from {MONTH_NAMES[m - 1]} {y} to {MONTH_NAMES[m2 - 1]} {y}"
+    if k < 0.85:  # day to day: "June 5 to June 8, 2024", "June 5-8"
+        y, m, d = _year(r), r.randint(1, 12), r.randint(1, 24)
+        d2 = r.randint(d + 1, 28)
+        if r.random() < 0.3:
+            return f"*-{m:02d}-{d:02d} .. *-{m:02d}-{d2:02d}", f"from {MONTH_NAMES[m - 1]} {d} to {MONTH_NAMES[m - 1]} {d2}, no year given (those days)"
+        return f"{y}-{m:02d}-{d:02d} .. {y}-{m:02d}-{d2:02d}", f"from {MONTH_NAMES[m - 1]} {d} to {d2}, {y} (those days, both ends included)"
+    code, desc = r.choice([
+        ("day -1 .. now", "yesterday and today (both days)"), ("day 1 .. day 2", "tomorrow and the day after tomorrow (both days)"),
+        ("day 0 .. day 1", "today and tomorrow (both days)"), ("year -1 .. year 0", "from last year to this year (both whole years)"),
+        ("week -1 fri .. week 0 mon", "from last Friday to this Monday (crossing the weekend)"),
+        ("week 0 fri .. week 1 mon", "from this Friday to next Monday (crossing the weekend)"),
+        ("week 1 fri .. week 2 mon", "from Friday next week to the Monday after it"),
+        ("week -1 fri .. week -1 sun", "from Friday to Sunday last week"), ("month -1 .. month 0", "from last month to this month"),
+    ])
+    return code, desc
 
 
 def f_open(r):
@@ -295,17 +328,61 @@ def f_open(r):
             lambda: (str(y := _year(r)), f"{y}"),
             lambda: ("week -1", "last week"), lambda: ("month -1", "last month"), lambda: ("year -1", "last year"),
             lambda: (f"{(y := _year(r))}-{(m := r.randint(1, 12)):02d}", f"{MONTH_NAMES[m - 1]} {y}"),
+            lambda: ("year 0", "the start of this year"), lambda: ("quarter 0", "the start of this quarter"),
+            lambda: ("week 0", "the start of this week (Monday)"), lambda: ("week -1 weekend", "last weekend"),
+            lambda: ("year -1 now", "this same day last year"), lambda: ("day -1", "yesterday / last night"),
+            lambda: (f"day -{(n := r.randint(2, 10))}", f"{n} days ago"),
+            lambda: (f"{(y := _year(r))}-{(m := r.randint(1, 12)):02d}-{(d := r.randint(1, 28)):02d}", _date_text(r, y, m, d)),
         ])()
         return f"{code} .. now", f"since {desc} (from its start up to today)"
+    if k < 0.6:  # from a point on, with no end: "starting tomorrow", "from next week on"
+        code, desc = r.choice([("day 1 ..", "from tomorrow on (no end)"), ("week 1 ..", "from next week on (no end)"),
+                               ("month 1 ..", "from next month on (no end)"), (f"day {(n := r.randint(2, 7))} ..", f"from {n} days from now on (no end)")])
+        return code, desc
+    if k < 0.65:
+        code, desc = r.choice([("before year 0", "before this year (any time up to the end of last year)"),
+                               ("before week -1", "before last week (any time up to the end of the week before last)"),
+                               ("after month 0", "after this month (any time from the start of next month)"),
+                               (f"before {(y := _year(r))}-{(m := r.randint(1, 12)):02d}", f"before {MONTH_NAMES[m - 1]} {y} (up to the end of the month before)")])
+        return code, desc
     y = _year(r)
     if k < 0.75:
         return f"before {y}", f"before {y} (any time up to the end of {y - 1})"
     return f"after {y}", f"after {y} (any time from the start of {y + 1})"
 
 
+def f_sameday(r):
+    """A day pinned inside a relative year or month: 'this day last year', 'June 5 this year', 'the 3rd of last month'."""
+    k = r.random()
+    if k < 0.35:
+        n = r.choice([-1, -1, -1, 1, -2])
+        which = {-1: "last year", 1: "next year", -2: "two years ago"}[n]
+        return f"year {n} now", f"this same day {which} (today's date, {which}; that single day)"
+    if k < 0.7:
+        n, m, d = r.choice([0, 0, -1, 1]), r.randint(1, 12), r.randint(1, 28)
+        which = {0: "this year", -1: "last year", 1: "next year"}[n]
+        return f"year {n} *-{m:02d}-{d:02d}", f"{MONTH_NAMES[m - 1]} {d} {which} (that single day, even if it is still ahead)"
+    n, d = r.choice([-1, -1, 0, 1]), r.randint(1, 28)
+    which = {-1: "last month", 0: "this month", 1: "next month"}[n]
+    return f"month {n} day {d}", f"the {d}{_th(d)} of {which} (that single day)"
+
+
+def f_half(r):
+    """'half a month ago', 'in a year and a half': as days or calendar months."""
+    code, desc = r.choice([("day -15", "half a month ago (that single day, 15 days ago)"),
+                           ("day 15", "in half a month (that single day, 15 days from now)"),
+                           ("month -6", "half a year ago (that calendar month, six months back)"),
+                           ("month 6", "in half a year (that calendar month, six months ahead)"),
+                           ("month -18", "a year and a half ago (that calendar month, 18 months back)"),
+                           ("month 18", "in a year and a half (that calendar month, 18 months ahead)"),
+                           ("month -30", "two and a half years ago (that calendar month, 30 months back)"),
+                           ("month 30", "in two and a half years (that calendar month, 30 months ahead)")])
+    return code, desc
+
+
 SINGLE = [(f_day, 14), (f_week, 10), (f_month, 8), (f_year, 6), (f_quarter, 3), (f_weekday, 8), (f_weekend, 4),
           (f_month_name, 9), (f_date, 7), (f_year_abs, 5), (f_season, 3), (f_decade, 1), (f_last_n, 7),
-          (f_fuzzy, 6), (f_modified, 4), (f_range, 4), (f_open, 4), (f_future, 3), (f_holiday, 4)]
+          (f_fuzzy, 6), (f_modified, 4), (f_range, 4), (f_open, 4), (f_future, 3), (f_holiday, 4), (f_sameday, 2), (f_half, 1)]
 
 
 def f_multi(r):

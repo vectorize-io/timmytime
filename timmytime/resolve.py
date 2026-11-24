@@ -1,4 +1,4 @@
-"""Meaning code -> date ranges. The calendar half of tlm; it knows no language.
+"""Meaning code -> date ranges. The calendar half of timmytime; it knows no language.
 
 The model writes one line in this code; this module turns it into dates.
 Whole days only. Weeks start on Monday. Tokens are split on spaces.
@@ -9,6 +9,8 @@ Whole days only. Weeks start on Monday. Tokens are split on spaces.
   period := [early|mid|late|h1|h2|around] base
   base   := now | unit N | YYYY | YYYY-MM | YYYY-MM-DD | *-MM-DD | YYYYs
           | sel [N] | (year N | YYYY) (month|season|quarter) | week N (weekday|weekend)
+          | year N (*-MM-DD | now)      "June 5 this year" = year 0 *-06-05, "this day last year" = year -1 now
+          | month N day D               "the 3rd of last month" = month -1 day 3
   unit   := day | week | month | quarter | year            N = signed int, 0 = current
   sel    := jan..dec | mon..sun | spring summer autumn winter | q1..q4 | weekend | holiday
   holiday := easter (Good Friday to Easter Monday) | thanksgiving (US) | cny (7 days) | midautumn
@@ -43,7 +45,7 @@ QUARTERS = ("q1", "q2", "q3", "q4")
 # First month of each season, northern hemisphere; the south is six months off.
 SEASONS = {"spring": 3, "summer": 6, "autumn": 9, "winter": 12}
 # Lunar holidays per year, from training/scripts/make_holidays.py (1950-2076).
-LUNAR = json.loads(resources.files("tlm").joinpath("holidays.json").read_text())
+LUNAR = json.loads(resources.files("timmytime").joinpath("holidays.json").read_text())
 HOLIDAYS = ("easter", "thanksgiving", *LUNAR)
 MODS = ("early", "mid", "late", "h1", "h2", "around")
 MAX_N = 10_000
@@ -153,6 +155,10 @@ class _Line:
             return self.absolute(t[0])
         if len(t) == 2 and _is_sel(t[0]) and _N.match(t[1]):
             return self.cycle(t[0], _n(t[1]))
+        if len(t) == 4 and t[0] == "month" and t[2] == "day" and re.fullmatch(r"\d{1,2}", t[3]):
+            first = _unit_span(self.today, "month", _n(t[1]))[0]
+            d = first.replace(day=int(t[3]))
+            return d, d
         if len(t) == 3 and t[0] in ("year", "week"):
             return self.within(_unit_span(self.today, t[0], _n(t[1])), t[0], t[2])
         if len(t) == 2 and re.fullmatch(r"\d{4}", t[0]):
@@ -207,6 +213,12 @@ class _Line:
     def within(self, span: tuple[date, date], unit: str, sel: str) -> tuple[date, date]:
         if unit == "year" and (sel in MONTHS or sel in SEASONS or sel in QUARTERS or sel in HOLIDAYS):
             return self._in_year(sel, span[0].year)
+        if unit == "year" and (sel == "now" or re.fullmatch(r"\*-\d{2}-\d{2}", sel)):
+            month, day = (self.today.month, self.today.day) if sel == "now" else (int(sel[2:4]), int(sel[5:7]))
+            if (month, day) == (2, 29) and not calendar.isleap(span[0].year):
+                day = 28  # this day last year, asked on Feb 29
+            d = date(span[0].year, month, day)
+            return d, d
         if unit == "week" and sel in WEEKDAYS:
             d = span[0] + timedelta(days=WEEKDAYS.index(sel))
             return d, d

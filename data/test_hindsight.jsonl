@@ -1,0 +1,834 @@
+{"q": "june 2024", "code": "2024-06", "kind": "hs:june_2024", "lang": "xx", "anchor": "2025-01-15", "ranges": [["2024-06-01", "2024-06-30"]]}
+{"q": "dogs in June 2023", "code": "2023-06", "kind": "hs:dogs_june_2023", "lang": "xx", "anchor": "2025-01-15", "ranges": [["2023-06-01", "2023-06-30"]]}
+{"q": "March 2023", "code": "2023 mar", "kind": "hs:march_2023", "lang": "xx", "anchor": "2025-01-15", "ranges": [["2023-03-01", "2023-03-31"]]}
+{"q": "last year", "code": "year -1", "kind": "hs:last_year", "lang": "xx", "anchor": "2025-01-15", "ranges": [["2024-01-01", "2024-12-31"]]}
+{"q": "what is the weather", "code": "none", "kind": "none", "lang": "xx", "anchor": "2025-01-15", "ranges": []}
+{"q": "melanie activities in june 2024", "code": "2024-06", "kind": "hs:activities_june_2024", "lang": "xx", "anchor": "2025-01-15", "ranges": [["2024-06-01", "2024-06-30"]]}
+{"q": "I received a piece of jewelry last Saturday from whom?", "code": "sat", "kind": "hs:last_saturday", "lang": "xx", "anchor": "2025-01-15", "ranges": [["2025-01-11", "2025-01-11"]]}
+{"q": "what did I do yesterday?", "code": "day -1", "kind": "hs:yesterday", "lang": "xx", "anchor": "2025-01-15", "ranges": [["2025-01-14", "2025-01-14"]]}
+{"q": "what meetings did I have last week?", "code": "week -1", "kind": "hs:last_week", "lang": "xx", "anchor": "2025-01-15", "ranges": [["2025-01-06", "2025-01-12"]]}
+{"q": "expenses from last month", "code": "month -1", "kind": "hs:last_month", "lang": "xx", "anchor": "2025-01-15", "ranges": [["2024-12-01", "2024-12-31"]]}
+{"q": "who did I meet last Friday?", "code": "fri", "kind": "hs:last_friday", "lang": "xx", "anchor": "2025-01-15", "ranges": [["2025-01-10", "2025-01-10"]]}
+{"q": "what did I do last weekend?", "code": "week -1 weekend", "kind": "hs:last_weekend", "lang": "xx", "anchor": "2025-01-15", "ranges": [["2025-01-11", "2025-01-12"]]}
+{"q": "what did I do last weekend?", "code": "week -1 weekend", "kind": "hs:last_weekend_on_a_weekend_day", "lang": "xx", "anchor": "2025-01-18", "ranges": [["2025-01-11", "2025-01-12"]]}
+{"q": "what did I do last weekend?", "code": "week -1 weekend", "kind": "hs:last_weekend_on_a_weekend_day", "lang": "xx", "anchor": "2025-01-19", "ranges": [["2025-01-11", "2025-01-12"]]}
+{"q": "上周末去了哪里", "code": "week -1 weekend", "kind": "hs:chinese_last_weekend_on_a_weekend_day", "lang": "zh", "anchor": "2025-01-18", "ranges": [["2025-01-11", "2025-01-12"]]}
+{"q": "上周末去了哪里", "code": "week -1 weekend", "kind": "hs:chinese_last_weekend_on_a_weekend_day", "lang": "zh", "anchor": "2025-01-19", "ranges": [["2025-01-11", "2025-01-12"]]}
+{"q": "I mentioned cooking something for my friend a couple of days ago. What was it?", "code": "couple day", "kind": "hs:couple_days_ago", "lang": "xx", "anchor": "2025-01-15", "ranges": [["2025-01-12", "2025-01-14"]]}
+{"q": "What did I do a few days ago?", "code": "few day", "kind": "hs:few_days_ago", "lang": "xx", "anchor": "2025-01-15", "ranges": [["2025-01-10", "2025-01-13"]]}
+{"q": "今天做了什么", "code": "day 0", "kind": "hs:chinese_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-01-15", "2025-01-15"]]}
+{"q": "本日记录", "code": "day 0", "kind": "hs:chinese_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-01-15", "2025-01-15"]]}
+{"q": "今天清晨的记录", "code": "day 0", "kind": "hs:chinese_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-01-15", "2025-01-15"]]}
+{"q": "今天能做什么", "code": "day 0", "kind": "hs:chinese_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-01-15", "2025-01-15"]]}
+{"q": "今天下雨了吗", "code": "day 0", "kind": "hs:chinese_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-01-15", "2025-01-15"]]}
+{"q": "昨天做了什么", "code": "day -1", "kind": "hs:chinese_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-01-14", "2025-01-14"]]}
+{"q": "昨天还说过什么", "code": "day -1", "kind": "hs:chinese_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-01-14", "2025-01-14"]]}
+{"q": "昨天紀錄", "code": "day -1", "kind": "hs:chinese_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-01-14", "2025-01-14"]]}
+{"q": "昨天傍晚发生了什么", "code": "day -1", "kind": "hs:chinese_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-01-14", "2025-01-14"]]}
+{"q": "昨天說了什麼", "code": "day -1", "kind": "hs:chinese_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-01-14", "2025-01-14"]]}
+{"q": "昨天帮我做了什么", "code": "day -1", "kind": "hs:chinese_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-01-14", "2025-01-14"]]}
+{"q": "这周有哪些会议", "code": "week 0", "kind": "hs:chinese_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-01-13", "2025-01-19"]]}
+{"q": "這週有哪些會議", "code": "week 0", "kind": "hs:chinese_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-01-13", "2025-01-19"]]}
+{"q": "這週以內的記錄", "code": "week 0", "kind": "hs:chinese_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-01-13", "2025-01-19"]]}
+{"q": "本周有哪些会议", "code": "week 0", "kind": "hs:chinese_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-01-13", "2025-01-19"]]}
+{"q": "这个月的费用", "code": "month 0", "kind": "hs:chinese_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-01-01", "2025-01-31"]]}
+{"q": "這個月的費用", "code": "month 0", "kind": "hs:chinese_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-01-01", "2025-01-31"]]}
+{"q": "這個月期間的費用", "code": "month 0", "kind": "hs:chinese_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-01-01", "2025-01-31"]]}
+{"q": "这一个月的费用", "code": "month 0", "kind": "hs:chinese_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-01-01", "2025-01-31"]]}
+{"q": "本月的费用", "code": "month 0", "kind": "hs:chinese_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-01-01", "2025-01-31"]]}
+{"q": "本月中了奖", "code": "month 0", "kind": "hs:chinese_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-01-01", "2025-01-31"]]}
+{"q": "本月经费", "code": "month 0", "kind": "hs:chinese_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-01-01", "2025-01-31"]]}
+{"q": "本月資料", "code": "month 0", "kind": "hs:chinese_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-01-01", "2025-01-31"]]}
+{"q": "本月報告", "code": "month 0", "kind": "hs:chinese_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-01-01", "2025-01-31"]]}
+{"q": "本月工资", "code": "month 0", "kind": "hs:chinese_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-01-01", "2025-01-31"]]}
+{"q": "本月收入多少", "code": "month 0", "kind": "hs:chinese_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-01-01", "2025-01-31"]]}
+{"q": "月初的事", "code": "early month 0", "kind": "hs:chinese_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-01-01", "2025-01-11"]]}
+{"q": "上旬的记录", "code": "early month 0", "kind": "hs:chinese_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-01-01", "2025-01-11"]]}
+{"q": "中旬的记录", "code": "mid month 0", "kind": "hs:chinese_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-01-12", "2025-01-22"]]}
+{"q": "月底的安排", "code": "late month 0", "kind": "hs:chinese_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-01-23", "2025-01-31"]]}
+{"q": "月尾的安排", "code": "late month 0", "kind": "hs:chinese_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-01-23", "2025-01-31"]]}
+{"q": "今年讨论过什么", "code": "year 0", "kind": "hs:chinese_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-01-01", "2025-12-31"]]}
+{"q": "今年初的计划", "code": "early year 0", "kind": "hs:chinese_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-01-01", "2025-04-30"]]}
+{"q": "当日安排", "code": "day 0", "kind": "hs:chinese_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-01-15", "2025-01-15"]]}
+{"q": "当天安排", "code": "day 0", "kind": "hs:chinese_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-01-15", "2025-01-15"]]}
+{"q": "當天記錄", "code": "day 0", "kind": "hs:chinese_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-01-15", "2025-01-15"]]}
+{"q": "当年计划", "code": "year 0", "kind": "hs:chinese_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-01-01", "2025-12-31"]]}
+{"q": "年初的计划", "code": "early year 0", "kind": "hs:chinese_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-01-01", "2025-04-30"]]}
+{"q": "年底的计划", "code": "late year 0", "kind": "hs:chinese_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-09-01", "2025-12-31"]]}
+{"q": "年尾计划", "code": "late year 0", "kind": "hs:chinese_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-09-01", "2025-12-31"]]}
+{"q": "下周有哪些会议", "code": "week 1", "kind": "hs:chinese_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-01-20", "2025-01-26"]]}
+{"q": "下周拜访客户", "code": "week 1", "kind": "hs:chinese_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-01-20", "2025-01-26"]]}
+{"q": "下周再安排", "code": "week 1", "kind": "hs:chinese_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-01-20", "2025-01-26"]]}
+{"q": "下一个星期有哪些会议", "code": "week 1", "kind": "hs:chinese_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-01-20", "2025-01-26"]]}
+{"q": "上周一的会议", "code": "week -1 mon", "kind": "hs:chinese_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-01-06", "2025-01-06"]]}
+{"q": "上周星期一的会议", "code": "week -1 mon", "kind": "hs:chinese_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-01-06", "2025-01-06"]]}
+{"q": "上星期天去了哪里", "code": "week -1 sun", "kind": "hs:chinese_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-01-12", "2025-01-12"]]}
+{"q": "这周五聊了什么", "code": "week 0 fri", "kind": "hs:chinese_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-01-17", "2025-01-17"]]}
+{"q": "下周三的安排", "code": "week 1 wed", "kind": "hs:chinese_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-01-22", "2025-01-22"]]}
+{"q": "下周星期三的安排", "code": "week 1 wed", "kind": "hs:chinese_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-01-22", "2025-01-22"]]}
+{"q": "周一的会议", "code": "mon", "kind": "hs:chinese_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-01-13", "2025-01-13"]]}
+{"q": "星期天去哪", "code": "sun 1", "kind": "hs:chinese_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-01-19", "2025-01-19"]]}
+{"q": "礼拜五安排", "code": "fri 1", "kind": "hs:chinese_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-01-17", "2025-01-17"]]}
+{"q": "下周末去哪", "code": "week 1 weekend", "kind": "hs:chinese_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-01-25", "2025-01-26"]]}
+{"q": "下一个周末去哪", "code": "week 1 weekend", "kind": "hs:chinese_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-01-25", "2025-01-26"]]}
+{"q": "下下周有哪些会议", "code": "week 2", "kind": "hs:chinese_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-01-27", "2025-02-02"]]}
+{"q": "下下周末去哪", "code": "week 2 weekend", "kind": "hs:chinese_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-02-01", "2025-02-02"]]}
+{"q": "大下周有哪些会议", "code": "week 2", "kind": "hs:chinese_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-01-27", "2025-02-02"]]}
+{"q": "下个月的费用", "code": "month 1", "kind": "hs:chinese_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-02-01", "2025-02-28"]]}
+{"q": "下下个月的费用", "code": "month 2", "kind": "hs:chinese_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-03-01", "2025-03-31"]]}
+{"q": "大下个月的费用", "code": "month 2", "kind": "hs:chinese_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-03-01", "2025-03-31"]]}
+{"q": "下一个月的费用", "code": "month 1", "kind": "hs:chinese_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-02-01", "2025-02-28"]]}
+{"q": "明年讨论什么", "code": "year 1", "kind": "hs:chinese_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2026-01-01", "2026-12-31"]]}
+{"q": "下一个年度计划", "code": "year 1", "kind": "hs:chinese_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2026-01-01", "2026-12-31"]]}
+{"q": "后年讨论什么", "code": "year 2", "kind": "hs:chinese_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2027-01-01", "2027-12-31"]]}
+{"q": "大后年计划", "code": "year 3", "kind": "hs:chinese_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2028-01-01", "2028-12-31"]]}
+{"q": "周末去哪", "code": "week 0 weekend", "kind": "hs:chinese_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-01-18", "2025-01-19"]]}
+{"q": "这周末去哪", "code": "week 0 weekend", "kind": "hs:chinese_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-01-18", "2025-01-19"]]}
+{"q": "本周末去哪", "code": "week 0 weekend", "kind": "hs:chinese_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-01-18", "2025-01-19"]]}
+{"q": "上周有哪些会议", "code": "week -1", "kind": "hs:chinese_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-01-06", "2025-01-12"]]}
+{"q": "上周代码改动", "code": "week -1", "kind": "hs:chinese_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-01-06", "2025-01-12"]]}
+{"q": "上周又改了什么", "code": "week -1", "kind": "hs:chinese_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-01-06", "2025-01-12"]]}
+{"q": "上周部署了什么", "code": "week -1", "kind": "hs:chinese_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-01-06", "2025-01-12"]]}
+{"q": "上周转账记录", "code": "week -1", "kind": "hs:chinese_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-01-06", "2025-01-12"]]}
+{"q": "上週開會說了什麼", "code": "week -1", "kind": "hs:chinese_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-01-06", "2025-01-12"]]}
+{"q": "上週紀錄", "code": "week -1", "kind": "hs:chinese_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-01-06", "2025-01-12"]]}
+{"q": "當週記錄", "code": "week 0", "kind": "hs:chinese_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-01-13", "2025-01-19"]]}
+{"q": "上一个星期有哪些会议", "code": "week -1", "kind": "hs:chinese_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-01-06", "2025-01-12"]]}
+{"q": "前一周有哪些会议", "code": "week -1", "kind": "hs:chinese_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-01-06", "2025-01-12"]]}
+{"q": "前一个星期有哪些会议", "code": "week -1", "kind": "hs:chinese_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-01-06", "2025-01-12"]]}
+{"q": "上上周有哪些会议", "code": "week -2", "kind": "hs:chinese_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2024-12-30", "2025-01-05"]]}
+{"q": "上上个星期有哪些会议", "code": "week -2", "kind": "hs:chinese_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2024-12-30", "2025-01-05"]]}
+{"q": "大上周有哪些会议", "code": "week -2", "kind": "hs:chinese_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2024-12-30", "2025-01-05"]]}
+{"q": "上週有哪些會議", "code": "week -1", "kind": "hs:chinese_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-01-06", "2025-01-12"]]}
+{"q": "上个月的费用", "code": "month -1", "kind": "hs:chinese_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2024-12-01", "2024-12-31"]]}
+{"q": "上个月3号的事", "code": "month -1 day 3", "kind": "hs:chinese_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2024-12-03", "2024-12-03"]]}
+{"q": "本月5日的记录", "code": "month 0 day 5", "kind": "hs:chinese_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-01-05", "2025-01-05"]]}
+{"q": "下个月10号安排", "code": "month 1 day 10", "kind": "hs:chinese_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-02-10", "2025-02-10"]]}
+{"q": "當月計劃", "code": "month 0", "kind": "hs:chinese_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-01-01", "2025-01-31"]]}
+{"q": "上月底的事", "code": "late month -1", "kind": "hs:chinese_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2024-12-23", "2024-12-31"]]}
+{"q": "这个月初的事", "code": "early month 0", "kind": "hs:chinese_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-01-01", "2025-01-11"]]}
+{"q": "上一个月的费用", "code": "month -1", "kind": "hs:chinese_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2024-12-01", "2024-12-31"]]}
+{"q": "前一个月的费用", "code": "month -1", "kind": "hs:chinese_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2024-12-01", "2024-12-31"]]}
+{"q": "上上个月的费用", "code": "month -2", "kind": "hs:chinese_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2024-11-01", "2024-11-30"]]}
+{"q": "上個月的費用", "code": "month -1", "kind": "hs:chinese_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2024-12-01", "2024-12-31"]]}
+{"q": "去年讨论过什么", "code": "year -1", "kind": "hs:chinese_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2024-01-01", "2024-12-31"]]}
+{"q": "今年曾经做过什么", "code": "year 0", "kind": "hs:chinese_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-01-01", "2025-12-31"]]}
+{"q": "去年申请了什么", "code": "year -1", "kind": "hs:chinese_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2024-01-01", "2024-12-31"]]}
+{"q": "去年總結", "code": "year -1", "kind": "hs:chinese_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2024-01-01", "2024-12-31"]]}
+{"q": "去年报销记录", "code": "year -1", "kind": "hs:chinese_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2024-01-01", "2024-12-31"]]}
+{"q": "去年底的事", "code": "late year -1", "kind": "hs:chinese_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2024-09-01", "2024-12-31"]]}
+{"q": "去年年末的事", "code": "late year -1", "kind": "hs:chinese_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2024-09-01", "2024-12-31"]]}
+{"q": "本年度计划", "code": "year 0", "kind": "hs:chinese_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-01-01", "2025-12-31"]]}
+{"q": "上一年度计划", "code": "year -1", "kind": "hs:chinese_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2024-01-01", "2024-12-31"]]}
+{"q": "前一年讨论过什么", "code": "year -1", "kind": "hs:chinese_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2024-01-01", "2024-12-31"]]}
+{"q": "前年讨论过什么", "code": "year -2", "kind": "hs:chinese_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2023-01-01", "2023-12-31"]]}
+{"q": "大前年讨论过什么", "code": "year -3", "kind": "hs:chinese_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2022-01-01", "2022-12-31"]]}
+{"q": "本季度计划", "code": "quarter 0", "kind": "hs:chinese_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-01-01", "2025-03-31"]]}
+{"q": "今年第一季计划", "code": "q1 0", "kind": "hs:chinese_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-01-01", "2025-03-31"]]}
+{"q": "这一个季度计划", "code": "quarter 0", "kind": "hs:chinese_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-01-01", "2025-03-31"]]}
+{"q": "上季度计划", "code": "quarter -1", "kind": "hs:chinese_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2024-10-01", "2024-12-31"]]}
+{"q": "上一季计划", "code": "quarter -1", "kind": "hs:chinese_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2024-10-01", "2024-12-31"]]}
+{"q": "上一个季度计划", "code": "quarter -1", "kind": "hs:chinese_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2024-10-01", "2024-12-31"]]}
+{"q": "上一季度计划", "code": "quarter -1", "kind": "hs:chinese_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2024-10-01", "2024-12-31"]]}
+{"q": "上上季度计划", "code": "quarter -2", "kind": "hs:chinese_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2024-07-01", "2024-09-30"]]}
+{"q": "下季度计划", "code": "quarter 1", "kind": "hs:chinese_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-04-01", "2025-06-30"]]}
+{"q": "下一季计划", "code": "quarter 1", "kind": "hs:chinese_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-04-01", "2025-06-30"]]}
+{"q": "下一个季度计划", "code": "quarter 1", "kind": "hs:chinese_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-04-01", "2025-06-30"]]}
+{"q": "下下季度计划", "code": "quarter 2", "kind": "hs:chinese_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-07-01", "2025-09-30"]]}
+{"q": "第一季度计划", "code": "q1", "kind": "hs:chinese_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-01-01", "2025-03-31"]]}
+{"q": "去年第四季度计划", "code": "year -1 q4", "kind": "hs:chinese_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2024-10-01", "2024-12-31"]]}
+{"q": "上一年度第二季度计划", "code": "year -1 q2", "kind": "hs:chinese_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2024-04-01", "2024-06-30"]]}
+{"q": "下一年度第三季度计划", "code": "year 1 q3", "kind": "hs:chinese_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2026-07-01", "2026-09-30"]]}
+{"q": "2024年第二季度计划", "code": "2024 q2", "kind": "hs:chinese_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2024-04-01", "2024-06-30"]]}
+{"q": "2024年第二季计划", "code": "2024 q2", "kind": "hs:chinese_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2024-04-01", "2024-06-30"]]}
+{"q": "二零二四年第三季度计划", "code": "2024 q3", "kind": "hs:chinese_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2024-07-01", "2024-09-30"]]}
+{"q": "2024年上半年计划", "code": "h1 2024", "kind": "hs:chinese_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2024-01-01", "2024-06-30"]]}
+{"q": "2024年下半年计划", "code": "h2 2024", "kind": "hs:chinese_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2024-07-01", "2024-12-31"]]}
+{"q": "二零二四年上半年计划", "code": "h1 2024", "kind": "hs:chinese_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2024-01-01", "2024-06-30"]]}
+{"q": "去年上半年计划", "code": "h1 year -1", "kind": "hs:chinese_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2024-01-01", "2024-06-30"]]}
+{"q": "去年下半年计划", "code": "h2 year -1", "kind": "hs:chinese_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2024-07-01", "2024-12-31"]]}
+{"q": "今年下半年计划", "code": "h2 year 0", "kind": "hs:chinese_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-07-01", "2025-12-31"]]}
+{"q": "明年上半年计划", "code": "h1 year 1", "kind": "hs:chinese_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2026-01-01", "2026-06-30"]]}
+{"q": "上半年计划", "code": "h1 year 0", "kind": "hs:chinese_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-01-01", "2025-06-30"]]}
+{"q": "下半年计划", "code": "h2 year 0", "kind": "hs:chinese_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-07-01", "2025-12-31"]]}
+{"q": "今年六月中旬的活动", "code": "mid year 0 jun", "kind": "hs:chinese_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-06-11", "2025-06-20"]]}
+{"q": "2024年6月下旬的活动", "code": "late 2024-06", "kind": "hs:chinese_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2024-06-21", "2024-06-30"]]}
+{"q": "2024年6月底的活动", "code": "late 2024-06", "kind": "hs:chinese_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2024-06-21", "2024-06-30"]]}
+{"q": "六月初的活动", "code": "early jun", "kind": "hs:chinese_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2024-06-01", "2024-06-10"]]}
+{"q": "6月底的活动", "code": "late jun", "kind": "hs:chinese_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2024-06-21", "2024-06-30"]]}
+{"q": "前年六月的活动", "code": "year -2 jun", "kind": "hs:chinese_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2023-06-01", "2023-06-30"]]}
+{"q": "去年六月的活动", "code": "year -1 jun", "kind": "hs:chinese_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2024-06-01", "2024-06-30"]]}
+{"q": "今年六月的活动", "code": "year 0 jun", "kind": "hs:chinese_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-06-01", "2025-06-30"]]}
+{"q": "明年六月的活动", "code": "year 1 jun", "kind": "hs:chinese_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2026-06-01", "2026-06-30"]]}
+{"q": "后年六月的活动", "code": "year 2 jun", "kind": "hs:chinese_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2027-06-01", "2027-06-30"]]}
+{"q": "上周末去了哪里", "code": "week -1 weekend", "kind": "hs:chinese_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-01-11", "2025-01-12"]]}
+{"q": "上一个周末去了哪里", "code": "week -1 weekend", "kind": "hs:chinese_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-01-11", "2025-01-12"]]}
+{"q": "上上周末去了哪里", "code": "week -2 weekend", "kind": "hs:chinese_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-01-04", "2025-01-05"]]}
+{"q": "上星期末去了哪里", "code": "week -1 weekend", "kind": "hs:chinese_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-01-11", "2025-01-12"]]}
+{"q": "上礼拜末去了哪里", "code": "week -1 weekend", "kind": "hs:chinese_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-01-11", "2025-01-12"]]}
+{"q": "上週末去了哪裡", "code": "week -1 weekend", "kind": "hs:chinese_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-01-11", "2025-01-12"]]}
+{"q": "上年讨论过什么", "code": "year -1", "kind": "hs:chinese_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2024-01-01", "2024-12-31"]]}
+{"q": "2024年6月的活动", "code": "2024-06", "kind": "hs:chinese_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2024-06-01", "2024-06-30"]]}
+{"q": "2024年6月份的活动", "code": "2024-06", "kind": "hs:chinese_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2024-06-01", "2024-06-30"]]}
+{"q": "２０２４年６月的活动", "code": "2024-06", "kind": "hs:chinese_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2024-06-01", "2024-06-30"]]}
+{"q": "2024年０６月的活动", "code": "2024-06", "kind": "hs:chinese_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2024-06-01", "2024-06-30"]]}
+{"q": "2024年六月的活动", "code": "2024-06", "kind": "hs:chinese_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2024-06-01", "2024-06-30"]]}
+{"q": "六月中了奖", "code": "jun", "kind": "hs:chinese_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2024-06-01", "2024-06-30"]]}
+{"q": "二零二四年六月的活动", "code": "2024-06", "kind": "hs:chinese_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2024-06-01", "2024-06-30"]]}
+{"q": "二Ｏ二四年六月的活动", "code": "2024-06", "kind": "hs:chinese_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2024-06-01", "2024-06-30"]]}
+{"q": "二○二四年六月的活动", "code": "2024-06", "kind": "hs:chinese_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2024-06-01", "2024-06-30"]]}
+{"q": "二〇二四年十一月的活动", "code": "2024-11", "kind": "hs:chinese_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2024-11-01", "2024-11-30"]]}
+{"q": "2024年六月五日的活动", "code": "2024-06-05", "kind": "hs:chinese_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2024-06-05", "2024-06-05"]]}
+{"q": "2024年6月廿一日的活动", "code": "2024-06-21", "kind": "hs:chinese_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2024-06-21", "2024-06-21"]]}
+{"q": "二零二四年十二月卅一日的活动", "code": "2024-12-31", "kind": "hs:chinese_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2024-12-31", "2024-12-31"]]}
+{"q": "今年6月5日的活动", "code": "year 0 *-06-05", "kind": "hs:chinese_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-06-05", "2025-06-05"]]}
+{"q": "六月五日的活动", "code": "*-06-05", "kind": "hs:chinese_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2024-06-05", "2024-06-05"]]}
+{"q": "2024年6月5號的活动", "code": "2024-06-05", "kind": "hs:chinese_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2024-06-05", "2024-06-05"]]}
+{"q": "去年今天做了什么", "code": "year -1 now", "kind": "hs:chinese_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2024-01-15", "2024-01-15"]]}
+{"q": "明年今日安排", "code": "year 1 now", "kind": "hs:chinese_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2026-01-15", "2026-01-15"]]}
+{"q": "去年本日做了什么", "code": "year -1 now", "kind": "hs:chinese_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2024-01-15", "2024-01-15"]]}
+{"q": "明年今晚安排", "code": "year 1 now", "kind": "hs:chinese_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2026-01-15", "2026-01-15"]]}
+{"q": "两天前提到的菜是什么", "code": "day -2", "kind": "hs:chinese_exact_relative_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-01-13", "2025-01-13"]]}
+{"q": "明天要做什么", "code": "day 1", "kind": "hs:chinese_exact_relative_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-01-16", "2025-01-16"]]}
+{"q": "明天才开会", "code": "day 1", "kind": "hs:chinese_exact_relative_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-01-16", "2025-01-16"]]}
+{"q": "明天開會提醒我", "code": "day 1", "kind": "hs:chinese_exact_relative_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-01-16", "2025-01-16"]]}
+{"q": "明天半夜提醒我", "code": "day 1", "kind": "hs:chinese_exact_relative_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-01-16", "2025-01-16"]]}
+{"q": "明日要做什么", "code": "day 1", "kind": "hs:chinese_exact_relative_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-01-16", "2025-01-16"]]}
+{"q": "后天要做什么", "code": "day 2", "kind": "hs:chinese_exact_relative_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-01-17", "2025-01-17"]]}
+{"q": "大后天要做什么", "code": "day 3", "kind": "hs:chinese_exact_relative_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-01-18", "2025-01-18"]]}
+{"q": "大後天要做什么", "code": "day 3", "kind": "hs:chinese_exact_relative_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-01-18", "2025-01-18"]]}
+{"q": "大大后天要做什么", "code": "day 4", "kind": "hs:chinese_exact_relative_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-01-19", "2025-01-19"]]}
+{"q": "前天提到的菜是什么", "code": "day -2", "kind": "hs:chinese_exact_relative_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-01-13", "2025-01-13"]]}
+{"q": "大前天提到的菜是什么", "code": "day -3", "kind": "hs:chinese_exact_relative_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-01-12", "2025-01-12"]]}
+{"q": "大大前天提到的菜是什么", "code": "day -4", "kind": "hs:chinese_exact_relative_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-01-11", "2025-01-11"]]}
+{"q": "三天前提到的菜是什么", "code": "day -3", "kind": "hs:chinese_exact_relative_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-01-12", "2025-01-12"]]}
+{"q": "三日前的记录", "code": "day -3", "kind": "hs:chinese_exact_relative_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-01-12", "2025-01-12"]]}
+{"q": "十天前提到的菜是什么", "code": "day -10", "kind": "hs:chinese_exact_relative_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-01-05", "2025-01-05"]]}
+{"q": "十二天前提到的菜是什么", "code": "day -12", "kind": "hs:chinese_exact_relative_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-01-03", "2025-01-03"]]}
+{"q": "一百天前提到的菜是什么", "code": "day -100", "kind": "hs:chinese_exact_relative_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2024-10-07", "2024-10-07"]]}
+{"q": "两周前讨论了这个", "code": "week -2", "kind": "hs:chinese_exact_relative_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2024-12-30", "2025-01-05"]]}
+{"q": "一周前讨论了这个", "code": "week -1", "kind": "hs:chinese_exact_relative_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-01-06", "2025-01-12"]]}
+{"q": "一个星期前讨论了这个", "code": "week -1", "kind": "hs:chinese_exact_relative_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-01-06", "2025-01-12"]]}
+{"q": "兩週前討論了這個", "code": "week -2", "kind": "hs:chinese_exact_relative_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2024-12-30", "2025-01-05"]]}
+{"q": "两个月前的计划", "code": "month -2", "kind": "hs:chinese_exact_relative_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2024-11-01", "2024-11-30"]]}
+{"q": "俩月前的计划", "code": "month -2", "kind": "hs:chinese_exact_relative_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2024-11-01", "2024-11-30"]]}
+{"q": "倆月前的計畫", "code": "month -2", "kind": "hs:chinese_exact_relative_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2024-11-01", "2024-11-30"]]}
+{"q": "一个月前的计划", "code": "month -1", "kind": "hs:chinese_exact_relative_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2024-12-01", "2024-12-31"]]}
+{"q": "三个月前的计划", "code": "month -3", "kind": "hs:chinese_exact_relative_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2024-10-01", "2024-10-31"]]}
+{"q": "二十二个月前的计划", "code": "month -22", "kind": "hs:chinese_exact_relative_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2023-03-01", "2023-03-31"]]}
+{"q": "两年前的计划", "code": "year -2", "kind": "hs:chinese_exact_relative_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2023-01-01", "2023-12-31"]]}
+{"q": "三天后提醒我", "code": "day 3", "kind": "hs:chinese_exact_relative_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-01-18", "2025-01-18"]]}
+{"q": "三天之后提醒我", "code": "day 3", "kind": "hs:chinese_exact_relative_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-01-18", "2025-01-18"]]}
+{"q": "一个月以后提醒我", "code": "month 1", "kind": "hs:chinese_exact_relative_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-02-01", "2025-02-28"]]}
+{"q": "两年后提醒我", "code": "year 2", "kind": "hs:chinese_exact_relative_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2027-01-01", "2027-12-31"]]}
+{"q": "半个月后提醒我", "code": "day 15", "kind": "hs:chinese_exact_relative_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-01-30", "2025-01-30"]]}
+{"q": "一年半后提醒我", "code": "month 18", "kind": "hs:chinese_exact_relative_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2026-07-01", "2026-07-31"]]}
+{"q": "两年半以后提醒我", "code": "month 30", "kind": "hs:chinese_exact_relative_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2027-07-01", "2027-07-31"]]}
+{"q": "昨晚吃了什么", "code": "day -1", "kind": "hs:chinese_exact_relative_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-01-14", "2025-01-14"]]}
+{"q": "今晚安排", "code": "day 0", "kind": "hs:chinese_exact_relative_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-01-15", "2025-01-15"]]}
+{"q": "明早安排", "code": "day 1", "kind": "hs:chinese_exact_relative_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-01-16", "2025-01-16"]]}
+{"q": "半个月前的计划", "code": "day -15", "kind": "hs:chinese_exact_relative_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2024-12-31", "2024-12-31"]]}
+{"q": "半年前的计划", "code": "month -6", "kind": "hs:chinese_exact_relative_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2024-07-01", "2024-07-31"]]}
+{"q": "一年半前的计划", "code": "month -18", "kind": "hs:chinese_exact_relative_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2023-07-01", "2023-07-31"]]}
+{"q": "两年半前的计划", "code": "month -30", "kind": "hs:chinese_exact_relative_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2022-07-01", "2022-07-31"]]}
+{"q": "兩個月前的計畫", "code": "month -2", "kind": "hs:chinese_exact_relative_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2024-11-01", "2024-11-30"]]}
+{"q": "前两天提到的菜是什么", "code": "couple day", "kind": "hs:chinese_fuzzy_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-01-12", "2025-01-14"]]}
+{"q": "三两天前提到的菜是什么", "code": "couple day", "kind": "hs:chinese_fuzzy_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-01-12", "2025-01-14"]]}
+{"q": "几天前我做了什么", "code": "few day", "kind": "hs:chinese_fuzzy_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-01-10", "2025-01-13"]]}
+{"q": "前幾天我做了什麼", "code": "few day", "kind": "hs:chinese_fuzzy_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-01-10", "2025-01-13"]]}
+{"q": "一两周前讨论了这个", "code": "couple week", "kind": "hs:chinese_fuzzy_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2024-12-25", "2025-01-08"]]}
+{"q": "两三周前讨论了这个", "code": "couple week", "kind": "hs:chinese_fuzzy_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2024-12-25", "2025-01-08"]]}
+{"q": "几周前讨论了这个", "code": "few week", "kind": "hs:chinese_fuzzy_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2024-12-11", "2025-01-01"]]}
+{"q": "几个星期前讨论了这个", "code": "few week", "kind": "hs:chinese_fuzzy_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2024-12-11", "2025-01-01"]]}
+{"q": "几个礼拜前讨论了这个", "code": "few week", "kind": "hs:chinese_fuzzy_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2024-12-11", "2025-01-01"]]}
+{"q": "一两个月前的计划", "code": "couple month", "kind": "hs:chinese_fuzzy_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2024-10-17", "2024-12-16"]]}
+{"q": "两三个月前的计划", "code": "couple month", "kind": "hs:chinese_fuzzy_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2024-10-17", "2024-12-16"]]}
+{"q": "几个月前的计划", "code": "few month", "kind": "hs:chinese_fuzzy_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2024-08-18", "2024-11-16"]]}
+{"q": "一两年前的计划", "code": "couple year", "kind": "hs:chinese_fuzzy_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2022-01-16", "2024-01-16"]]}
+{"q": "數天前的記錄", "code": "few day", "kind": "hs:chinese_fuzzy_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-01-10", "2025-01-13"]]}
+{"q": "过去一周的记录", "code": "last 1 week", "kind": "hs:chinese_rolling_windows", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-01-08", "2025-01-15"]]}
+{"q": "過去一週的記錄", "code": "last 1 week", "kind": "hs:chinese_rolling_windows", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-01-08", "2025-01-15"]]}
+{"q": "過去一週以內的記錄", "code": "last 1 week", "kind": "hs:chinese_rolling_windows", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-01-08", "2025-01-15"]]}
+{"q": "今年以来的记录", "code": "month 0 .. now", "kind": "hs:chinese_rolling_windows", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-01-01", "2025-01-15"]]}
+{"q": "本周以来的记录", "code": "week 0 .. now", "kind": "hs:chinese_rolling_windows", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-01-13", "2025-01-15"]]}
+{"q": "去年至今的记录", "code": "year -1 .. now", "kind": "hs:chinese_rolling_windows", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2024-01-01", "2025-01-15"]]}
+{"q": "2024年以来的记录", "code": "2024 .. now", "kind": "hs:chinese_rolling_windows", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2024-01-01", "2025-01-15"]]}
+{"q": "2024年6月5日以来的记录", "code": "2024-06-05 .. now", "kind": "hs:chinese_rolling_windows", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2024-06-05", "2025-01-15"]]}
+{"q": "本周一以来的进展", "code": "week 0 mon .. now", "kind": "hs:chinese_rolling_windows", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-01-13", "2025-01-15"]]}
+{"q": "昨晚以来的记录", "code": "day -1 .. now", "kind": "hs:chinese_rolling_windows", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-01-14", "2025-01-15"]]}
+{"q": "上周末以来的记录", "code": "week -1 weekend .. now", "kind": "hs:chinese_rolling_windows", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-01-11", "2025-01-15"]]}
+{"q": "去年今天以来的记录", "code": "year -1 now .. now", "kind": "hs:chinese_rolling_windows", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2024-01-15", "2025-01-15"]]}
+{"q": "本季度以来的记录", "code": "quarter 0 .. now", "kind": "hs:chinese_rolling_windows", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-01-01", "2025-01-15"]]}
+{"q": "去年第四季度以来的记录", "code": "year -1 q4 .. now", "kind": "hs:chinese_rolling_windows", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2024-10-01", "2025-01-15"]]}
+{"q": "去年底以来的记录", "code": "late year -1 .. now", "kind": "hs:chinese_rolling_windows", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2024-09-01", "2025-01-15"]]}
+{"q": "2024年6月下旬以来的活动", "code": "late 2024-06 .. now", "kind": "hs:chinese_rolling_windows", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2024-06-21", "2025-01-15"]]}
+{"q": "三天前以来的记录", "code": "day -3 .. now", "kind": "hs:chinese_rolling_windows", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-01-12", "2025-01-15"]]}
+{"q": "三天前到現在的记录", "code": "day -3 .. now", "kind": "hs:chinese_rolling_windows", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-01-12", "2025-01-15"]]}
+{"q": "三天前开始的记录", "code": "day -3 .. now", "kind": "hs:chinese_rolling_windows", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-01-12", "2025-01-15"]]}
+{"q": "三天前開始的記錄", "code": "day -3 .. now", "kind": "hs:chinese_rolling_windows", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-01-12", "2025-01-15"]]}
+{"q": "2024年6月開始的記錄", "code": "2024-06 .. now", "kind": "hs:chinese_rolling_windows", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2024-06-01", "2025-01-15"]]}
+{"q": "近三日的记录", "code": "last 3 day", "kind": "hs:chinese_rolling_windows", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-01-12", "2025-01-15"]]}
+{"q": "去年迄今的记录", "code": "year -1 .. now", "kind": "hs:chinese_rolling_windows", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2024-01-01", "2025-01-15"]]}
+{"q": "这两天的记录", "code": "last 2 day", "kind": "hs:chinese_rolling_windows", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-01-13", "2025-01-15"]]}
+{"q": "最近半个月记录", "code": "last 15 day", "kind": "hs:chinese_rolling_windows", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2024-12-31", "2025-01-15"]]}
+{"q": "最近两三天的记录", "code": "last 3 day", "kind": "hs:chinese_rolling_windows", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-01-12", "2025-01-15"]]}
+{"q": "这两三天的记录", "code": "last 3 day", "kind": "hs:chinese_rolling_windows", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-01-12", "2025-01-15"]]}
+{"q": "近半年记录", "code": "last 6 month", "kind": "hs:chinese_rolling_windows", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2024-07-15", "2025-01-15"]]}
+{"q": "三天内的记录", "code": "last 3 day", "kind": "hs:chinese_rolling_windows", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-01-12", "2025-01-15"]]}
+{"q": "一週內的記錄", "code": "last 1 week", "kind": "hs:chinese_rolling_windows", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-01-08", "2025-01-15"]]}
+{"q": "半个月内的记录", "code": "last 15 day", "kind": "hs:chinese_rolling_windows", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2024-12-31", "2025-01-15"]]}
+{"q": "过去24小时记录", "code": "last 1 day", "kind": "hs:chinese_rolling_windows", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-01-14", "2025-01-15"]]}
+{"q": "過去24小時的記錄", "code": "last 1 day", "kind": "hs:chinese_rolling_windows", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-01-14", "2025-01-15"]]}
+{"q": "過去24鐘頭的記錄", "code": "last 1 day", "kind": "hs:chinese_rolling_windows", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-01-14", "2025-01-15"]]}
+{"q": "未来24小时计划", "code": "next 1 day", "kind": "hs:chinese_rolling_windows", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-01-15", "2025-01-16"]]}
+{"q": "前三天的记录", "code": "last 3 day", "kind": "hs:chinese_rolling_windows", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-01-12", "2025-01-15"]]}
+{"q": "前5天的记录", "code": "last 5 day", "kind": "hs:chinese_rolling_windows", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-01-10", "2025-01-15"]]}
+{"q": "前两周的记录", "code": "last 2 week", "kind": "hs:chinese_rolling_windows", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-01-01", "2025-01-15"]]}
+{"q": "前两个月的记录", "code": "last 2 month", "kind": "hs:chinese_rolling_windows", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2024-11-15", "2025-01-15"]]}
+{"q": "最近一个月的记录", "code": "last 1 month", "kind": "hs:chinese_rolling_windows", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2024-12-15", "2025-01-15"]]}
+{"q": "近三个月的记录", "code": "last 3 month", "kind": "hs:chinese_rolling_windows", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2024-10-15", "2025-01-15"]]}
+{"q": "过去一年做了什么", "code": "last 1 year", "kind": "hs:chinese_rolling_windows", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2024-01-15", "2025-01-15"]]}
+{"q": "未来一周的计划", "code": "next 1 week", "kind": "hs:chinese_rolling_windows", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-01-15", "2025-01-22"]]}
+{"q": "未來三天計劃", "code": "next 3 day", "kind": "hs:chinese_rolling_windows", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-01-15", "2025-01-18"]]}
+{"q": "未来两三天计划", "code": "next 3 day", "kind": "hs:chinese_rolling_windows", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-01-15", "2025-01-18"]]}
+{"q": "未来半年计划", "code": "next 6 month", "kind": "hs:chinese_rolling_windows", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-01-15", "2025-07-15"]]}
+{"q": "接下来一个月的计划", "code": "next 1 month", "kind": "hs:chinese_rolling_windows", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-01-15", "2025-02-15"]]}
+{"q": "未来一年做什么", "code": "next 1 year", "kind": "hs:chinese_rolling_windows", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-01-15", "2026-01-15"]]}
+{"q": "明后天安排", "code": "day 1 .. day 2", "kind": "hs:chinese_rolling_windows", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-01-16", "2025-01-17"]]}
+{"q": "明后两天安排", "code": "day 1 .. day 2", "kind": "hs:chinese_rolling_windows", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-01-16", "2025-01-17"]]}
+{"q": "今明两天的记录", "code": "day 0 .. day 1", "kind": "hs:chinese_rolling_windows", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-01-15", "2025-01-16"]]}
+{"q": "昨今两天的记录", "code": "day -1 .. now", "kind": "hs:chinese_rolling_windows", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-01-14", "2025-01-15"]]}
+{"q": "本周六和周日的安排", "code": "week 0 weekend", "kind": "hs:chinese_rolling_windows", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-01-18", "2025-01-19"]]}
+{"q": "上周六、周日做了什么", "code": "week -1 weekend", "kind": "hs:chinese_rolling_windows", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-01-11", "2025-01-12"]]}
+{"q": "周六日安排", "code": "week 0 weekend", "kind": "hs:chinese_rolling_windows", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-01-18", "2025-01-19"]]}
+{"q": "昨天到今天的记录", "code": "day -1 .. now", "kind": "hs:chinese_rolling_windows", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-01-14", "2025-01-15"]]}
+{"q": "本周一到周三的会议", "code": "week 0 mon .. week 0 wed", "kind": "hs:chinese_rolling_windows", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-01-13", "2025-01-15"]]}
+{"q": "上周一到周三的会议", "code": "week -1 mon .. wed", "kind": "hs:chinese_rolling_windows", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-01-06", "2025-01-08"]]}
+{"q": "上周五到周日的会议", "code": "week -1 fri .. week -1 sun", "kind": "hs:chinese_rolling_windows", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-01-10", "2025-01-12"]]}
+{"q": "下周五到周一的安排", "code": "week 1 fri .. week 2 mon", "kind": "hs:chinese_rolling_windows", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-01-24", "2025-01-27"]]}
+{"q": "上周五到这周一的会议", "code": "week -1 fri .. week 0 mon", "kind": "hs:chinese_rolling_windows", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-01-10", "2025-01-13"]]}
+{"q": "上周周五到本周周一的会议", "code": "week -1 fri .. week 0 mon", "kind": "hs:chinese_rolling_windows", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-01-10", "2025-01-13"]]}
+{"q": "本周五到下周一的会议", "code": "week 0 fri .. week 1 mon", "kind": "hs:chinese_rolling_windows", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-01-17", "2025-01-20"]]}
+{"q": "周五到周一的安排", "code": "week 0 fri .. week 1 mon", "kind": "hs:chinese_rolling_windows", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-01-17", "2025-01-20"]]}
+{"q": "2024年6月至8月的活动", "code": "2024-06 .. 2024-08", "kind": "hs:chinese_rolling_windows", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2024-06-01", "2024-08-31"]]}
+{"q": "2024年6月5日到6月8日的活动", "code": "2024-06-05 .. 2024-06-08", "kind": "hs:chinese_rolling_windows", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2024-06-05", "2024-06-08"]]}
+{"q": "2024年6月5日至8日的活动", "code": "2024-06-05 .. 2024-06-08", "kind": "hs:chinese_rolling_windows", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2024-06-05", "2024-06-08"]]}
+{"q": "2024年6月5至8日的活动", "code": "2024-06-05 .. 2024-06-08", "kind": "hs:chinese_rolling_windows", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2024-06-05", "2024-06-08"]]}
+{"q": "2024年6月5-8日的活动", "code": "2024-06-05 .. 2024-06-08", "kind": "hs:chinese_rolling_windows", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2024-06-05", "2024-06-08"]]}
+{"q": "6月5日到6月8日的活动", "code": "*-06-05 .. *-06-08", "kind": "hs:chinese_rolling_windows", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2024-06-05", "2024-06-08"]]}
+{"q": "6月5到8号的活动", "code": "*-06-05 .. *-06-08", "kind": "hs:chinese_rolling_windows", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2024-06-05", "2024-06-08"]]}
+{"q": "去年到今年的记录", "code": "year -1 .. year 0", "kind": "hs:chinese_rolling_windows", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2024-01-01", "2025-12-31"]]}
+{"q": "上周杰伦的歌", "code": "none", "kind": "none", "lang": "zh", "anchor": "2025-01-15", "ranges": []}
+{"q": "下周星驰电影", "code": "none", "kind": "none", "lang": "zh", "anchor": "2025-01-15", "ranges": []}
+{"q": "今年糕点", "code": "none", "kind": "none", "lang": "zh", "anchor": "2025-01-15", "ranges": []}
+{"q": "上个月亮很圆", "code": "none", "kind": "none", "lang": "zh", "anchor": "2025-01-15", "ranges": []}
+{"q": "下个月亮很圆", "code": "none", "kind": "none", "lang": "zh", "anchor": "2025-01-15", "ranges": []}
+{"q": "本月饼很好吃", "code": "none", "kind": "none", "lang": "zh", "anchor": "2025-01-15", "ranges": []}
+{"q": "周末端项目", "code": "none", "kind": "none", "lang": "zh", "anchor": "2025-01-15", "ranges": []}
+{"q": "明日方舟攻略", "code": "none", "kind": "none", "lang": "zh", "anchor": "2025-01-15", "ranges": []}
+{"q": "明日之后攻略", "code": "none", "kind": "none", "lang": "zh", "anchor": "2025-01-15", "ranges": []}
+{"q": "今日头条新闻", "code": "none", "kind": "none", "lang": "zh", "anchor": "2025-01-15", "ranges": []}
+{"q": "庆余年第一季剧情", "code": "none", "kind": "none", "lang": "zh", "anchor": "2025-01-15", "ranges": []}
+{"q": "后天免疫因素", "code": "none", "kind": "none", "lang": "zh", "anchor": "2025-01-15", "ranges": []}
+{"q": "会议之后三天发生了什么", "code": "none", "kind": "none", "lang": "zh", "anchor": "2025-01-15", "ranges": []}
+{"q": "每周末做什么", "code": "none", "kind": "none", "lang": "zh", "anchor": "2025-01-15", "ranges": []}
+{"q": "每个周末做什么", "code": "none", "kind": "none", "lang": "zh", "anchor": "2025-01-15", "ranges": []}
+{"q": "每年上半年计划", "code": "none", "kind": "none", "lang": "zh", "anchor": "2025-01-15", "ranges": []}
+{"q": "2024年6月前的记录", "code": "before 2024-06", "kind": "hs:chinese_compound_word_false_positives", "lang": "zh", "anchor": "2025-01-15", "ranges": [[null, "2024-05-31"]]}
+{"q": "2024年6月份前的记录", "code": "before 2024-06", "kind": "hs:chinese_compound_word_false_positives", "lang": "zh", "anchor": "2025-01-15", "ranges": [[null, "2024-05-31"]]}
+{"q": "2024年6月5日之前的记录", "code": "before 2024-06-05", "kind": "hs:chinese_compound_word_false_positives", "lang": "zh", "anchor": "2025-01-15", "ranges": [[null, "2024-06-04"]]}
+{"q": "2024年前的记录", "code": "before 2024", "kind": "hs:chinese_compound_word_false_positives", "lang": "zh", "anchor": "2025-01-15", "ranges": [[null, "2023-12-31"]]}
+{"q": "2026年后的计划", "code": "after 2026", "kind": "hs:chinese_compound_word_false_positives", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2027-01-01", null]]}
+{"q": "今年之前的记录", "code": "before year 0", "kind": "hs:chinese_compound_word_false_positives", "lang": "zh", "anchor": "2025-01-15", "ranges": [[null, "2024-12-31"]]}
+{"q": "上周之前的记录", "code": "before week -1", "kind": "hs:chinese_compound_word_false_positives", "lang": "zh", "anchor": "2025-01-15", "ranges": [[null, "2025-01-05"]]}
+{"q": "这个月以后的计划", "code": "after month 0", "kind": "hs:chinese_compound_word_false_positives", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-02-01", null]]}
+{"q": "明天起的计划", "code": "day 1 ..", "kind": "hs:chinese_compound_word_false_positives", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-01-16", null]]}
+{"q": "下周起的计划", "code": "week 1 ..", "kind": "hs:chinese_compound_word_false_positives", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-01-20", null]]}
+{"q": "三天后开始的计划", "code": "day 3 ..", "kind": "hs:chinese_compound_word_false_positives", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-01-18", null]]}
+{"q": "三天以前的记录", "code": "day -3", "kind": "hs:chinese_compound_word_false_positives", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-01-12", "2025-01-12"]]}
+{"q": "三天之前的记录", "code": "day -3", "kind": "hs:chinese_compound_word_false_positives", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-01-12", "2025-01-12"]]}
+{"q": "三年以前的记录", "code": "year -3", "kind": "hs:chinese_compound_word_false_positives", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2022-01-01", "2022-12-31"]]}
+{"q": "每周一开会", "code": "none", "kind": "none", "lang": "zh", "anchor": "2025-01-15", "ranges": []}
+{"q": "每周星期一开会", "code": "none", "kind": "none", "lang": "zh", "anchor": "2025-01-15", "ranges": []}
+{"q": "每个周一开会", "code": "none", "kind": "none", "lang": "zh", "anchor": "2025-01-15", "ranges": []}
+{"q": "每周一到周三开会", "code": "none", "kind": "none", "lang": "zh", "anchor": "2025-01-15", "ranges": []}
+{"q": "每个星期一至星期五开会", "code": "none", "kind": "none", "lang": "zh", "anchor": "2025-01-15", "ranges": []}
+{"q": "隔周一到周五排班", "code": "none", "kind": "none", "lang": "zh", "anchor": "2025-01-15", "ranges": []}
+{"q": "a couple of weeks ago we discussed this", "code": "couple week", "kind": "hs:couple_weeks_ago", "lang": "xx", "anchor": "2025-01-15", "ranges": [["2024-12-25", "2025-01-08"]]}
+{"q": "what did we discuss", "code": "none", "kind": "none", "lang": "xx", "anchor": "2026-07-17", "ranges": []}
+{"q": "tell me what we decided on 2026-06-10", "code": "2026-06-10", "kind": "hs:prefers_explicit_date_over_leading_weak_word", "lang": "xx", "anchor": "2026-07-17", "ranges": [["2026-06-10", "2026-06-10"]]}
+{"q": "is hindsight listening on port 9077", "code": "none", "kind": "none", "lang": "xx", "anchor": "2026-08-07", "ranges": []}
+{"q": "check job 4417 for Castle Pines", "code": "none", "kind": "none", "lang": "xx", "anchor": "2026-08-07", "ranges": []}
+{"q": "what did PR 2024 change", "code": "none", "kind": "none", "lang": "xx", "anchor": "2026-08-07", "ranges": []}
+{"q": "buffer size 1024 vs 4096", "code": "none", "kind": "none", "lang": "xx", "anchor": "2026-08-07", "ranges": []}
+{"q": "what happened in 2019", "code": "2019", "kind": "hs:bare_year_resolves_to_whole_year", "lang": "xx", "anchor": "2026-08-07", "ranges": [["2019-01-01", "2019-12-31"]]}
+{"q": "during 2019", "code": "2019", "kind": "hs:bare_year_resolves_to_whole_year", "lang": "xx", "anchor": "2026-08-07", "ranges": [["2019-01-01", "2019-12-31"]]}
+{"q": "throughout 2019", "code": "2019", "kind": "hs:bare_year_resolves_to_whole_year", "lang": "xx", "anchor": "2026-08-07", "ranges": [["2019-01-01", "2019-12-31"]]}
+{"q": "the year 2019", "code": "2019", "kind": "hs:bare_year_resolves_to_whole_year", "lang": "xx", "anchor": "2026-08-07", "ranges": [["2019-01-01", "2019-12-31"]]}
+{"q": "что было в 2019 году", "code": "2019", "kind": "hs:bare_year_resolves_to_whole_year", "lang": "ru", "anchor": "2026-08-07", "ranges": [["2019-01-01", "2019-12-31"]]}
+{"q": "qué pasó en 2019", "code": "2019", "kind": "hs:bare_year_resolves_to_whole_year", "lang": "xx", "anchor": "2026-08-07", "ranges": [["2019-01-01", "2019-12-31"]]}
+{"q": "cosa è successo nel 2019", "code": "2019", "kind": "hs:bare_year_resolves_to_whole_year", "lang": "xx", "anchor": "2026-08-07", "ranges": [["2019-01-01", "2019-12-31"]]}
+{"q": "was ist im 2019 passiert", "code": "2019", "kind": "hs:bare_year_resolves_to_whole_year", "lang": "xx", "anchor": "2026-08-07", "ranges": [["2019-01-01", "2019-12-31"]]}
+{"q": "meeting in room 2019", "code": "none", "kind": "none", "lang": "xx", "anchor": "2026-08-07", "ranges": []}
+{"q": "listening in 8080", "code": "none", "kind": "none", "lang": "xx", "anchor": "2026-08-07", "ranges": []}
+{"q": "in 2026-06-10", "code": "2026-06-10", "kind": "hs:bare_year_rule_does_not_overreach", "lang": "xx", "anchor": "2026-08-07", "ranges": [["2026-06-10", "2026-06-10"]]}
+{"q": "in june 2019", "code": "2019 jun", "kind": "hs:bare_year_rule_does_not_overreach", "lang": "xx", "anchor": "2026-08-07", "ranges": [["2019-06-01", "2019-06-30"]]}
+{"q": "listening in 8080 and also last Tuesday", "code": "tue", "kind": "hs:implausible_bare_year_keeps_a_real_date", "lang": "xx", "anchor": "2026-08-07", "ranges": [["2026-08-04", "2026-08-04"]]}
+{"q": "port 9077 and also last Tuesday", "code": "tue", "kind": "hs:prefers_real_date_over_bare_integer", "lang": "xx", "anchor": "2026-08-07", "ranges": [["2026-08-04", "2026-08-04"]]}
+{"q": "notes from 1890-03-05", "code": "1890-03-05", "kind": "hs:keeps_dates_far_from_reference", "lang": "xx", "anchor": "2026-08-07", "ranges": [["1890-03-05", "1890-03-05"]]}
+{"q": "the roadmap milestone on 2050-01-15", "code": "2050-01-15", "kind": "hs:keeps_dates_far_from_reference", "lang": "xx", "anchor": "2026-08-07", "ranges": [["2050-01-15", "2050-01-15"]]}
+{"q": "notes from March 1890", "code": "1890 mar", "kind": "hs:keeps_dates_far_from_reference", "lang": "xx", "anchor": "2026-08-07", "ranges": [["1890-03-01", "1890-03-31"]]}
+{"q": "what did we discuss in May", "code": "may", "kind": "hs:keeps_real_month_with_leading_weak_word", "lang": "xx", "anchor": "2026-07-17", "ranges": [["2026-05-01", "2026-05-31"]]}
+{"q": "что было вчера", "code": "day -1", "kind": "hs:russian_periods", "lang": "ru", "anchor": "2025-01-15", "ranges": [["2025-01-14", "2025-01-14"]]}
+{"q": "что было позавчера", "code": "day -2", "kind": "hs:russian_periods", "lang": "ru", "anchor": "2025-01-15", "ranges": [["2025-01-13", "2025-01-13"]]}
+{"q": "что сегодня делали", "code": "day 0", "kind": "hs:russian_periods", "lang": "ru", "anchor": "2025-01-15", "ranges": [["2025-01-15", "2025-01-15"]]}
+{"q": "что обсуждали на прошлой неделе", "code": "week -1", "kind": "hs:russian_periods", "lang": "ru", "anchor": "2025-01-15", "ranges": [["2025-01-06", "2025-01-12"]]}
+{"q": "что обсуждали прошлой неделе", "code": "week -1", "kind": "hs:russian_periods", "lang": "ru", "anchor": "2025-01-15", "ranges": [["2025-01-06", "2025-01-12"]]}
+{"q": "что было в прошлом месяце", "code": "month -1", "kind": "hs:russian_periods", "lang": "ru", "anchor": "2025-01-15", "ranges": [["2024-12-01", "2024-12-31"]]}
+{"q": "что было в прошлом году", "code": "year -1", "kind": "hs:russian_periods", "lang": "ru", "anchor": "2025-01-15", "ranges": [["2024-01-01", "2024-12-31"]]}
+{"q": "что делали на прошлых выходных", "code": "week -1 weekend", "kind": "hs:russian_periods", "lang": "ru", "anchor": "2025-01-15", "ranges": [["2025-01-11", "2025-01-12"]]}
+{"q": "что обсуждали пару дней назад", "code": "couple day", "kind": "hs:russian_periods", "lang": "ru", "anchor": "2025-01-15", "ranges": [["2025-01-12", "2025-01-14"]]}
+{"q": "что было несколько дней назад", "code": "few day", "kind": "hs:russian_periods", "lang": "ru", "anchor": "2025-01-15", "ranges": [["2025-01-10", "2025-01-13"]]}
+{"q": "что обсуждали пару недель назад", "code": "couple week", "kind": "hs:russian_periods", "lang": "ru", "anchor": "2025-01-15", "ranges": [["2024-12-25", "2025-01-08"]]}
+{"q": "что было несколько месяцев назад", "code": "few month", "kind": "hs:russian_periods", "lang": "ru", "anchor": "2025-01-15", "ranges": [["2024-08-18", "2024-11-16"]]}
+{"q": "что обсуждали в мае 2024", "code": "2024-05", "kind": "hs:russian_periods", "lang": "ru", "anchor": "2025-01-15", "ranges": [["2024-05-01", "2024-05-31"]]}
+{"q": "что было в июне 2024 года", "code": "2024-06", "kind": "hs:russian_periods", "lang": "ru", "anchor": "2025-01-15", "ranges": [["2024-06-01", "2024-06-30"]]}
+{"q": "события января 2024", "code": "2024-01", "kind": "hs:russian_periods", "lang": "ru", "anchor": "2025-01-15", "ranges": [["2024-01-01", "2024-01-31"]]}
+{"q": "декабрь 2023", "code": "2023 dec", "kind": "hs:russian_periods", "lang": "ru", "anchor": "2025-01-15", "ranges": [["2023-12-01", "2023-12-31"]]}
+{"q": "расскажи про майонез", "code": "none", "kind": "none", "lang": "ru", "anchor": "2025-01-15", "ranges": []}
+{"q": "мартовские тезисы", "code": "none", "kind": "none", "lang": "ru", "anchor": "2025-01-15", "ranges": []}
+{"q": "что обсуждали 13 июля 2024", "code": "2024-07-13", "kind": "hs:day_month_year_stays_exact", "lang": "ru", "anchor": "2025-01-15", "ranges": [["2024-07-13", "2024-07-13"]]}
+{"q": "встреча 3 июня 2024", "code": "2024-06-03", "kind": "hs:day_month_year_stays_exact", "lang": "ru", "anchor": "2025-01-15", "ranges": [["2024-06-03", "2024-06-03"]]}
+{"q": "meeting on 13 July 2024", "code": "2024-07-13", "kind": "hs:day_month_year_stays_exact", "lang": "xx", "anchor": "2025-01-15", "ranges": [["2024-07-13", "2024-07-13"]]}
+{"q": "what did I decide about the database schema", "code": "none", "kind": "none", "lang": "xx", "anchor": "2026-08-12", "ranges": []}
+{"q": "user preferences for code style", "code": "none", "kind": "none", "lang": "xx", "anchor": "2026-08-12", "ranges": []}
+{"q": "how does the reranker work", "code": "none", "kind": "none", "lang": "xx", "anchor": "2026-08-12", "ranges": []}
+{"q": "postgres connection pooling settings in the api server and what we changed", "code": "none", "kind": "none", "lang": "xx", "anchor": "2026-08-12", "ranges": []}
+{"q": "bug", "code": "none", "kind": "none", "lang": "xx", "anchor": "2026-08-12", "ranges": []}
+{"q": "", "code": "none", "kind": "none", "lang": "xx", "anchor": "2026-08-12", "ranges": []}
+{"q": "   ", "code": "none", "kind": "none", "lang": "xx", "anchor": "2026-08-12", "ranges": []}
+{"q": "a", "code": "none", "kind": "none", "lang": "xx", "anchor": "2026-08-12", "ranges": []}
+{"q": "the", "code": "none", "kind": "none", "lang": "xx", "anchor": "2026-08-12", "ranges": []}
+{"q": "what is the current architecture of the retain pipeline", "code": "none", "kind": "none", "lang": "xx", "anchor": "2026-08-12", "ranges": []}
+{"q": "summarize my notes on vector indexes", "code": "none", "kind": "none", "lang": "xx", "anchor": "2026-08-12", "ranges": []}
+{"q": "who is responsible for the billing service", "code": "none", "kind": "none", "lang": "xx", "anchor": "2026-08-12", "ranges": []}
+{"q": "explain the difference between world facts and experience facts", "code": "none", "kind": "none", "lang": "xx", "anchor": "2026-08-12", "ranges": []}
+{"q": "list all the mental models about my coding preferences", "code": "none", "kind": "none", "lang": "xx", "anchor": "2026-08-12", "ranges": []}
+{"q": "why did we choose pgvector over qdrant", "code": "none", "kind": "none", "lang": "xx", "anchor": "2026-08-12", "ranges": []}
+{"q": "the user prefers functional programming patterns", "code": "none", "kind": "none", "lang": "xx", "anchor": "2026-08-12", "ranges": []}
+{"q": "error handling conventions in the rust cli", "code": "none", "kind": "none", "lang": "xx", "anchor": "2026-08-12", "ranges": []}
+{"q": "what are the disposition traits", "code": "none", "kind": "none", "lang": "xx", "anchor": "2026-08-12", "ranges": []}
+{"q": "how do I configure the embeddings provider", "code": "none", "kind": "none", "lang": "xx", "anchor": "2026-08-12", "ranges": []}
+{"q": "tell me about entity resolution", "code": "none", "kind": "none", "lang": "xx", "anchor": "2026-08-12", "ranges": []}
+{"q": "recall everything about authentication", "code": "none", "kind": "none", "lang": "xx", "anchor": "2026-08-12", "ranges": []}
+{"q": "notes", "code": "none", "kind": "none", "lang": "xx", "anchor": "2026-08-12", "ranges": []}
+{"q": "?", "code": "none", "kind": "none", "lang": "xx", "anchor": "2026-08-12", "ranges": []}
+{"q": "!!!", "code": "none", "kind": "none", "lang": "xx", "anchor": "2026-08-12", "ranges": []}
+{"q": "...", "code": "none", "kind": "none", "lang": "xx", "anchor": "2026-08-12", "ranges": []}
+{"q": "n/a", "code": "none", "kind": "none", "lang": "xx", "anchor": "2026-08-12", "ranges": []}
+{"q": "TODO", "code": "none", "kind": "none", "lang": "xx", "anchor": "2026-08-12", "ranges": []}
+{"q": "SELECT * FROM memory_units", "code": "none", "kind": "none", "lang": "xx", "anchor": "2026-08-12", "ranges": []}
+{"q": "def analyze(self, query: str) -> QueryAnalysis:", "code": "none", "kind": "none", "lang": "xx", "anchor": "2026-08-12", "ranges": []}
+{"q": "https://example.com/docs/page?id=42", "code": "none", "kind": "none", "lang": "xx", "anchor": "2026-08-12", "ranges": []}
+{"q": "user@example.com", "code": "none", "kind": "none", "lang": "xx", "anchor": "2026-08-12", "ranges": []}
+{"q": "/Users/nico/dev/hindsight/api", "code": "none", "kind": "none", "lang": "xx", "anchor": "2026-08-12", "ranges": []}
+{"q": "🧠 memory system", "code": "none", "kind": "none", "lang": "xx", "anchor": "2026-08-12", "ranges": []}
+{"q": "the quick brown fox jumps over the lazy dog", "code": "none", "kind": "none", "lang": "xx", "anchor": "2026-08-12", "ranges": []}
+{"q": "connection pooling", "code": "none", "kind": "none", "lang": "xx", "anchor": "2026-08-12", "ranges": []}
+{"q": "what happened to the expected output", "code": "none", "kind": "none", "lang": "xx", "anchor": "2026-08-12", "ranges": []}
+{"q": "the cat sat on the mat", "code": "none", "kind": "none", "lang": "xx", "anchor": "2026-08-12", "ranges": []}
+{"q": "east west north south", "code": "none", "kind": "none", "lang": "xx", "anchor": "2026-08-12", "ranges": []}
+{"q": "met the team", "code": "none", "kind": "none", "lang": "xx", "anchor": "2026-08-12", "ranges": []}
+{"q": "wet season", "code": "none", "kind": "none", "lang": "xx", "anchor": "2026-08-12", "ranges": []}
+{"q": "subject matter expert", "code": "none", "kind": "none", "lang": "xx", "anchor": "2026-08-12", "ranges": []}
+{"q": "architecture decision record", "code": "none", "kind": "none", "lang": "xx", "anchor": "2026-08-12", "ranges": []}
+{"q": "project status", "code": "none", "kind": "none", "lang": "xx", "anchor": "2026-08-12", "ranges": []}
+{"q": "select the best candidate", "code": "none", "kind": "none", "lang": "xx", "anchor": "2026-08-12", "ranges": []}
+{"q": "detect the language", "code": "none", "kind": "none", "lang": "xx", "anchor": "2026-08-12", "ranges": []}
+{"q": "expect a response", "code": "none", "kind": "none", "lang": "xx", "anchor": "2026-08-12", "ranges": []}
+{"q": "perfect score", "code": "none", "kind": "none", "lang": "xx", "anchor": "2026-08-12", "ranges": []}
+{"q": "rejected the proposal", "code": "none", "kind": "none", "lang": "xx", "anchor": "2026-08-12", "ranges": []}
+{"q": "collection of documents", "code": "none", "kind": "none", "lang": "xx", "anchor": "2026-08-12", "ranges": []}
+{"q": "inspection report", "code": "none", "kind": "none", "lang": "xx", "anchor": "2026-08-12", "ranges": []}
+{"q": "we", "code": "none", "kind": "none", "lang": "xx", "anchor": "2026-08-12", "ranges": []}
+{"q": "me", "code": "none", "kind": "none", "lang": "xx", "anchor": "2026-08-12", "ranges": []}
+{"q": "did", "code": "none", "kind": "none", "lang": "xx", "anchor": "2026-08-12", "ranges": []}
+{"q": "do", "code": "none", "kind": "none", "lang": "xx", "anchor": "2026-08-12", "ranges": []}
+{"q": "we did it", "code": "none", "kind": "none", "lang": "xx", "anchor": "2026-08-12", "ranges": []}
+{"q": "did we do that", "code": "none", "kind": "none", "lang": "xx", "anchor": "2026-08-12", "ranges": []}
+{"q": "do we have a plan", "code": "none", "kind": "none", "lang": "xx", "anchor": "2026-08-12", "ranges": []}
+{"q": "me and the team", "code": "none", "kind": "none", "lang": "xx", "anchor": "2026-08-12", "ranges": []}
+{"q": "we discussed the api", "code": "none", "kind": "none", "lang": "xx", "anchor": "2026-08-12", "ranges": []}
+{"q": "did the migration run", "code": "none", "kind": "none", "lang": "xx", "anchor": "2026-08-12", "ranges": []}
+{"q": "so what do we do now", "code": "none", "kind": "none", "lang": "xx", "anchor": "2026-08-12", "ranges": []}
+{"q": "can we do this", "code": "none", "kind": "none", "lang": "xx", "anchor": "2026-08-12", "ranges": []}
+{"q": "mar", "code": "none", "kind": "none", "lang": "xx", "anchor": "2026-08-12", "ranges": []}
+{"q": "may", "code": "none", "kind": "none", "lang": "xx", "anchor": "2026-08-12", "ranges": []}
+{"q": "sun", "code": "none", "kind": "none", "lang": "xx", "anchor": "2026-08-12", "ranges": []}
+{"q": "sat", "code": "none", "kind": "none", "lang": "xx", "anchor": "2026-08-12", "ranges": []}
+{"q": "wed", "code": "none", "kind": "none", "lang": "xx", "anchor": "2026-08-12", "ranges": []}
+{"q": "may I ask a question", "code": "none", "kind": "none", "lang": "xx", "anchor": "2026-08-12", "ranges": []}
+{"q": "she may have been right", "code": "none", "kind": "none", "lang": "xx", "anchor": "2026-08-12", "ranges": []}
+{"q": "what happened yesterday", "code": "day -1", "kind": "golden:period_en", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2026-08-11", "2026-08-11"]]}
+{"q": "yesterday", "code": "day -1", "kind": "golden:period_en", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2026-08-11", "2026-08-11"]]}
+{"q": "notes from today", "code": "day 0", "kind": "golden:period_en", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2026-08-12", "2026-08-12"]]}
+{"q": "today", "code": "day 0", "kind": "golden:period_en", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2026-08-12", "2026-08-12"]]}
+{"q": "a couple of days ago", "code": "couple day", "kind": "golden:period_en", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2026-08-09", "2026-08-11"]]}
+{"q": "couple days ago", "code": "couple day", "kind": "golden:period_en", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2026-08-09", "2026-08-11"]]}
+{"q": "a few days ago", "code": "few day", "kind": "golden:period_en", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2026-08-07", "2026-08-10"]]}
+{"q": "few day ago", "code": "few day", "kind": "golden:period_en", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2026-08-07", "2026-08-10"]]}
+{"q": "a couple of weeks ago", "code": "couple week", "kind": "golden:period_en", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2026-07-22", "2026-08-05"]]}
+{"q": "couple weeks ago", "code": "couple week", "kind": "golden:period_en", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2026-07-22", "2026-08-05"]]}
+{"q": "a few weeks ago", "code": "few week", "kind": "golden:period_en", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2026-07-08", "2026-07-29"]]}
+{"q": "few week ago", "code": "few week", "kind": "golden:period_en", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2026-07-08", "2026-07-29"]]}
+{"q": "a couple of months ago", "code": "couple month", "kind": "golden:period_en", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2026-05-14", "2026-07-13"]]}
+{"q": "couple months ago", "code": "couple month", "kind": "golden:period_en", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2026-05-14", "2026-07-13"]]}
+{"q": "a few months ago", "code": "few month", "kind": "golden:period_en", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2026-03-15", "2026-06-13"]]}
+{"q": "few month ago", "code": "few month", "kind": "golden:period_en", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2026-03-15", "2026-06-13"]]}
+{"q": "last week", "code": "week -1", "kind": "golden:period_en", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2026-08-03", "2026-08-09"]]}
+{"q": "what did I do last week", "code": "week -1", "kind": "golden:period_en", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2026-08-03", "2026-08-09"]]}
+{"q": "last month", "code": "month -1", "kind": "golden:period_en", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2026-07-01", "2026-07-31"]]}
+{"q": "the incident last month", "code": "month -1", "kind": "golden:period_en", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2026-07-01", "2026-07-31"]]}
+{"q": "last year", "code": "year -1", "kind": "golden:period_en", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2025-01-01", "2025-12-31"]]}
+{"q": "revenue last year", "code": "year -1", "kind": "golden:period_en", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2025-01-01", "2025-12-31"]]}
+{"q": "last weekend", "code": "week -1 weekend", "kind": "golden:period_en", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2026-08-08", "2026-08-09"]]}
+{"q": "what did I do last weekend", "code": "week -1 weekend", "kind": "golden:period_en", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2026-08-08", "2026-08-09"]]}
+{"q": "ayer", "code": "day -1", "kind": "golden:period_es", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2026-08-11", "2026-08-11"]]}
+{"q": "qué hice ayer", "code": "day -1", "kind": "golden:period_es", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2026-08-11", "2026-08-11"]]}
+{"q": "hoy", "code": "day 0", "kind": "golden:period_es", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2026-08-12", "2026-08-12"]]}
+{"q": "la semana pasada", "code": "week -1", "kind": "golden:period_es", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2026-08-03", "2026-08-09"]]}
+{"q": "qué hice la semana pasada", "code": "week -1", "kind": "golden:period_es", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2026-08-03", "2026-08-09"]]}
+{"q": "el mes pasado", "code": "month -1", "kind": "golden:period_es", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2026-07-01", "2026-07-31"]]}
+{"q": "el año pasado", "code": "year -1", "kind": "golden:period_es", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2025-01-01", "2025-12-31"]]}
+{"q": "el fin de semana pasado", "code": "week -1 weekend", "kind": "golden:period_es", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2026-08-08", "2026-08-09"]]}
+{"q": "ieri", "code": "day -1", "kind": "golden:period_it", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2026-08-11", "2026-08-11"]]}
+{"q": "cosa ho fatto ieri", "code": "day -1", "kind": "golden:period_it", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2026-08-11", "2026-08-11"]]}
+{"q": "oggi", "code": "day 0", "kind": "golden:period_it", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2026-08-12", "2026-08-12"]]}
+{"q": "la settimana scorsa", "code": "week -1", "kind": "golden:period_it", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2026-08-03", "2026-08-09"]]}
+{"q": "il mese scorso", "code": "month -1", "kind": "golden:period_it", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2026-07-01", "2026-07-31"]]}
+{"q": "l'anno scorso", "code": "year -1", "kind": "golden:period_it", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2025-01-01", "2025-12-31"]]}
+{"q": "lo scorso fine settimana", "code": "week -1 weekend", "kind": "golden:period_it", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2026-08-08", "2026-08-09"]]}
+{"q": "hier", "code": "day -1", "kind": "golden:period_fr", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2026-08-11", "2026-08-11"]]}
+{"q": "qu'ai-je fait hier", "code": "day -1", "kind": "golden:period_fr", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2026-08-11", "2026-08-11"]]}
+{"q": "aujourd'hui", "code": "day 0", "kind": "golden:period_fr", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2026-08-12", "2026-08-12"]]}
+{"q": "aujourd hui", "code": "day 0", "kind": "golden:period_fr", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2026-08-12", "2026-08-12"]]}
+{"q": "la semaine dernière", "code": "week -1", "kind": "golden:period_fr", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2026-08-03", "2026-08-09"]]}
+{"q": "la semaine derniere", "code": "week -1", "kind": "golden:period_fr", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2026-08-03", "2026-08-09"]]}
+{"q": "le mois dernier", "code": "month -1", "kind": "golden:period_fr", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2026-07-01", "2026-07-31"]]}
+{"q": "l'année dernière", "code": "year -1", "kind": "golden:period_fr", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2025-01-01", "2025-12-31"]]}
+{"q": "le week-end dernier", "code": "week -1 weekend", "kind": "golden:period_fr", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2026-08-08", "2026-08-09"]]}
+{"q": "le weekend dernier", "code": "week -1 weekend", "kind": "golden:period_fr", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2026-08-08", "2026-08-09"]]}
+{"q": "gestern", "code": "day -1", "kind": "golden:period_de", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2026-08-11", "2026-08-11"]]}
+{"q": "was ist gestern passiert", "code": "day -1", "kind": "golden:period_de", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2026-08-11", "2026-08-11"]]}
+{"q": "heute", "code": "day 0", "kind": "golden:period_de", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2026-08-12", "2026-08-12"]]}
+{"q": "letzte woche", "code": "week -1", "kind": "golden:period_de", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2026-08-03", "2026-08-09"]]}
+{"q": "letzten monat", "code": "month -1", "kind": "golden:period_de", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2026-07-01", "2026-07-31"]]}
+{"q": "letzte monat", "code": "month -1", "kind": "golden:period_de", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2026-07-01", "2026-07-31"]]}
+{"q": "letztes jahr", "code": "year -1", "kind": "golden:period_de", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2025-01-01", "2025-12-31"]]}
+{"q": "letzte jahr", "code": "year -1", "kind": "golden:period_de", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2025-01-01", "2025-12-31"]]}
+{"q": "letztes wochenende", "code": "week -1 weekend", "kind": "golden:period_de", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2026-08-08", "2026-08-09"]]}
+{"q": "вчера", "code": "day -1", "kind": "golden:period_ru", "lang": "ru", "anchor": "2026-08-12", "ranges": [["2026-08-11", "2026-08-11"]]}
+{"q": "что было вчера", "code": "day -1", "kind": "golden:period_ru", "lang": "ru", "anchor": "2026-08-12", "ranges": [["2026-08-11", "2026-08-11"]]}
+{"q": "позавчера", "code": "day -2", "kind": "golden:period_ru", "lang": "ru", "anchor": "2026-08-12", "ranges": [["2026-08-10", "2026-08-10"]]}
+{"q": "сегодня", "code": "day 0", "kind": "golden:period_ru", "lang": "ru", "anchor": "2026-08-12", "ranges": [["2026-08-12", "2026-08-12"]]}
+{"q": "пару дней назад", "code": "couple day", "kind": "golden:period_ru", "lang": "ru", "anchor": "2026-08-12", "ranges": [["2026-08-09", "2026-08-11"]]}
+{"q": "пары дней назад", "code": "couple day", "kind": "golden:period_ru", "lang": "ru", "anchor": "2026-08-12", "ranges": [["2026-08-09", "2026-08-11"]]}
+{"q": "несколько дней назад", "code": "few day", "kind": "golden:period_ru", "lang": "ru", "anchor": "2026-08-12", "ranges": [["2026-08-07", "2026-08-10"]]}
+{"q": "пару недель назад", "code": "couple week", "kind": "golden:period_ru", "lang": "ru", "anchor": "2026-08-12", "ranges": [["2026-07-22", "2026-08-05"]]}
+{"q": "несколько недель назад", "code": "few week", "kind": "golden:period_ru", "lang": "ru", "anchor": "2026-08-12", "ranges": [["2026-07-08", "2026-07-29"]]}
+{"q": "пару месяцев назад", "code": "couple month", "kind": "golden:period_ru", "lang": "ru", "anchor": "2026-08-12", "ranges": [["2026-05-14", "2026-07-13"]]}
+{"q": "несколько месяцев назад", "code": "few month", "kind": "golden:period_ru", "lang": "ru", "anchor": "2026-08-12", "ranges": [["2026-03-15", "2026-06-13"]]}
+{"q": "на прошлой неделе", "code": "week -1", "kind": "golden:period_ru", "lang": "ru", "anchor": "2026-08-12", "ranges": [["2026-08-03", "2026-08-09"]]}
+{"q": "прошлая неделя", "code": "week -1", "kind": "golden:period_ru", "lang": "ru", "anchor": "2026-08-12", "ranges": [["2026-08-03", "2026-08-09"]]}
+{"q": "в прошлом месяце", "code": "month -1", "kind": "golden:period_ru", "lang": "ru", "anchor": "2026-08-12", "ranges": [["2026-07-01", "2026-07-31"]]}
+{"q": "прошлый месяц", "code": "month -1", "kind": "golden:period_ru", "lang": "ru", "anchor": "2026-08-12", "ranges": [["2026-07-01", "2026-07-31"]]}
+{"q": "в прошлом году", "code": "year -1", "kind": "golden:period_ru", "lang": "ru", "anchor": "2026-08-12", "ranges": [["2025-01-01", "2025-12-31"]]}
+{"q": "прошлый год", "code": "year -1", "kind": "golden:period_ru", "lang": "ru", "anchor": "2026-08-12", "ranges": [["2025-01-01", "2025-12-31"]]}
+{"q": "на прошлых выходных", "code": "week -1 weekend", "kind": "golden:period_ru", "lang": "ru", "anchor": "2026-08-12", "ranges": [["2026-08-08", "2026-08-09"]]}
+{"q": "прошлые выходные", "code": "week -1 weekend", "kind": "golden:period_ru", "lang": "ru", "anchor": "2026-08-12", "ranges": [["2026-08-08", "2026-08-09"]]}
+{"q": "january 2024", "code": "2024-01", "kind": "golden:month_year", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2024-01-01", "2024-01-31"]]}
+{"q": "notes from january 2025", "code": "2025 jan", "kind": "golden:month_year", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2025-01-01", "2025-01-31"]]}
+{"q": "enero 2024", "code": "2024-01", "kind": "golden:month_year", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2024-01-01", "2024-01-31"]]}
+{"q": "notes from enero 2025", "code": "2025-01", "kind": "golden:month_year", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2025-01-01", "2025-01-31"]]}
+{"q": "gennaio 2024", "code": "2024-01", "kind": "golden:month_year", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2024-01-01", "2024-01-31"]]}
+{"q": "notes from gennaio 2025", "code": "2025-01", "kind": "golden:month_year", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2025-01-01", "2025-01-31"]]}
+{"q": "janvier 2024", "code": "2024-01", "kind": "golden:month_year", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2024-01-01", "2024-01-31"]]}
+{"q": "notes from janvier 2025", "code": "2025-01", "kind": "golden:month_year", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2025-01-01", "2025-01-31"]]}
+{"q": "januar 2024", "code": "2024 jan", "kind": "golden:month_year", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2024-01-01", "2024-01-31"]]}
+{"q": "notes from januar 2025", "code": "2025-01", "kind": "golden:month_year", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2025-01-01", "2025-01-31"]]}
+{"q": "января 2024", "code": "2024 jan", "kind": "golden:month_year", "lang": "ru", "anchor": "2026-08-12", "ranges": [["2024-01-01", "2024-01-31"]]}
+{"q": "notes from января 2025", "code": "2025 jan", "kind": "golden:month_year", "lang": "ru", "anchor": "2026-08-12", "ranges": [["2025-01-01", "2025-01-31"]]}
+{"q": "february 2024", "code": "2024-02", "kind": "golden:month_year", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2024-02-01", "2024-02-29"]]}
+{"q": "notes from february 2025", "code": "2025 feb", "kind": "golden:month_year", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2025-02-01", "2025-02-28"]]}
+{"q": "febrero 2024", "code": "2024 feb", "kind": "golden:month_year", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2024-02-01", "2024-02-29"]]}
+{"q": "notes from febrero 2025", "code": "2025 feb", "kind": "golden:month_year", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2025-02-01", "2025-02-28"]]}
+{"q": "febbraio 2024", "code": "2024 feb", "kind": "golden:month_year", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2024-02-01", "2024-02-29"]]}
+{"q": "notes from febbraio 2025", "code": "2025 feb", "kind": "golden:month_year", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2025-02-01", "2025-02-28"]]}
+{"q": "février 2024", "code": "2024 feb", "kind": "golden:month_year", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2024-02-01", "2024-02-29"]]}
+{"q": "notes from février 2025", "code": "2025 feb", "kind": "golden:month_year", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2025-02-01", "2025-02-28"]]}
+{"q": "februar 2024", "code": "2024 feb", "kind": "golden:month_year", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2024-02-01", "2024-02-29"]]}
+{"q": "notes from februar 2025", "code": "2025 feb", "kind": "golden:month_year", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2025-02-01", "2025-02-28"]]}
+{"q": "февраля 2024", "code": "2024-02", "kind": "golden:month_year", "lang": "ru", "anchor": "2026-08-12", "ranges": [["2024-02-01", "2024-02-29"]]}
+{"q": "notes from февраля 2025", "code": "2025-02", "kind": "golden:month_year", "lang": "ru", "anchor": "2026-08-12", "ranges": [["2025-02-01", "2025-02-28"]]}
+{"q": "march 2024", "code": "2024-03", "kind": "golden:month_year", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2024-03-01", "2024-03-31"]]}
+{"q": "notes from march 2025", "code": "2025 mar", "kind": "golden:month_year", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2025-03-01", "2025-03-31"]]}
+{"q": "marzo 2024", "code": "2024-03", "kind": "golden:month_year", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2024-03-01", "2024-03-31"]]}
+{"q": "notes from marzo 2025", "code": "2025 mar", "kind": "golden:month_year", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2025-03-01", "2025-03-31"]]}
+{"q": "mars 2024", "code": "2024 mar", "kind": "golden:month_year", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2024-03-01", "2024-03-31"]]}
+{"q": "notes from mars 2025", "code": "2025 mar", "kind": "golden:month_year", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2025-03-01", "2025-03-31"]]}
+{"q": "märz 2024", "code": "2024-03", "kind": "golden:month_year", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2024-03-01", "2024-03-31"]]}
+{"q": "notes from märz 2025", "code": "2025 mar", "kind": "golden:month_year", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2025-03-01", "2025-03-31"]]}
+{"q": "марта 2024", "code": "2024-03", "kind": "golden:month_year", "lang": "ru", "anchor": "2026-08-12", "ranges": [["2024-03-01", "2024-03-31"]]}
+{"q": "notes from марта 2025", "code": "2025 mar", "kind": "golden:month_year", "lang": "ru", "anchor": "2026-08-12", "ranges": [["2025-03-01", "2025-03-31"]]}
+{"q": "april 2024", "code": "2024-04", "kind": "golden:month_year", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2024-04-01", "2024-04-30"]]}
+{"q": "notes from april 2025", "code": "2025 apr", "kind": "golden:month_year", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2025-04-01", "2025-04-30"]]}
+{"q": "abril 2024", "code": "2024-04", "kind": "golden:month_year", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2024-04-01", "2024-04-30"]]}
+{"q": "notes from abril 2025", "code": "2025 apr", "kind": "golden:month_year", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2025-04-01", "2025-04-30"]]}
+{"q": "aprile 2024", "code": "2024-04", "kind": "golden:month_year", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2024-04-01", "2024-04-30"]]}
+{"q": "notes from aprile 2025", "code": "2025 apr", "kind": "golden:month_year", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2025-04-01", "2025-04-30"]]}
+{"q": "avril 2024", "code": "2024 apr", "kind": "golden:month_year", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2024-04-01", "2024-04-30"]]}
+{"q": "notes from avril 2025", "code": "2025 apr", "kind": "golden:month_year", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2025-04-01", "2025-04-30"]]}
+{"q": "апреля 2024", "code": "2024-04", "kind": "golden:month_year", "lang": "ru", "anchor": "2026-08-12", "ranges": [["2024-04-01", "2024-04-30"]]}
+{"q": "notes from апреля 2025", "code": "2025 apr", "kind": "golden:month_year", "lang": "ru", "anchor": "2026-08-12", "ranges": [["2025-04-01", "2025-04-30"]]}
+{"q": "may 2024", "code": "2024-05", "kind": "golden:month_year", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2024-05-01", "2024-05-31"]]}
+{"q": "notes from may 2025", "code": "2025-05", "kind": "golden:month_year", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2025-05-01", "2025-05-31"]]}
+{"q": "mayo 2024", "code": "2024-05", "kind": "golden:month_year", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2024-05-01", "2024-05-31"]]}
+{"q": "notes from mayo 2025", "code": "2025 may", "kind": "golden:month_year", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2025-05-01", "2025-05-31"]]}
+{"q": "maggio 2024", "code": "2024-05", "kind": "golden:month_year", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2024-05-01", "2024-05-31"]]}
+{"q": "notes from maggio 2025", "code": "2025-05", "kind": "golden:month_year", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2025-05-01", "2025-05-31"]]}
+{"q": "mai 2024", "code": "2024-05", "kind": "golden:month_year", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2024-05-01", "2024-05-31"]]}
+{"q": "notes from mai 2025", "code": "2025-05", "kind": "golden:month_year", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2025-05-01", "2025-05-31"]]}
+{"q": "мая 2024", "code": "2024 may", "kind": "golden:month_year", "lang": "ru", "anchor": "2026-08-12", "ranges": [["2024-05-01", "2024-05-31"]]}
+{"q": "notes from мая 2025", "code": "2025 may", "kind": "golden:month_year", "lang": "ru", "anchor": "2026-08-12", "ranges": [["2025-05-01", "2025-05-31"]]}
+{"q": "june 2024", "code": "2024-06", "kind": "golden:month_year", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2024-06-01", "2024-06-30"]]}
+{"q": "notes from june 2025", "code": "2025-06", "kind": "golden:month_year", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2025-06-01", "2025-06-30"]]}
+{"q": "junio 2024", "code": "2024-06", "kind": "golden:month_year", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2024-06-01", "2024-06-30"]]}
+{"q": "notes from junio 2025", "code": "2025-06", "kind": "golden:month_year", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2025-06-01", "2025-06-30"]]}
+{"q": "giugno 2024", "code": "2024-06", "kind": "golden:month_year", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2024-06-01", "2024-06-30"]]}
+{"q": "notes from giugno 2025", "code": "2025-06", "kind": "golden:month_year", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2025-06-01", "2025-06-30"]]}
+{"q": "juin 2024", "code": "2024-06", "kind": "golden:month_year", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2024-06-01", "2024-06-30"]]}
+{"q": "notes from juin 2025", "code": "2025 jun", "kind": "golden:month_year", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2025-06-01", "2025-06-30"]]}
+{"q": "juni 2024", "code": "2024 jun", "kind": "golden:month_year", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2024-06-01", "2024-06-30"]]}
+{"q": "notes from juni 2025", "code": "2025 jun", "kind": "golden:month_year", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2025-06-01", "2025-06-30"]]}
+{"q": "июня 2024", "code": "2024-06", "kind": "golden:month_year", "lang": "ru", "anchor": "2026-08-12", "ranges": [["2024-06-01", "2024-06-30"]]}
+{"q": "notes from июня 2025", "code": "2025-06", "kind": "golden:month_year", "lang": "ru", "anchor": "2026-08-12", "ranges": [["2025-06-01", "2025-06-30"]]}
+{"q": "july 2024", "code": "2024-07", "kind": "golden:month_year", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2024-07-01", "2024-07-31"]]}
+{"q": "notes from july 2025", "code": "2025-07", "kind": "golden:month_year", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2025-07-01", "2025-07-31"]]}
+{"q": "julio 2024", "code": "2024-07", "kind": "golden:month_year", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2024-07-01", "2024-07-31"]]}
+{"q": "notes from julio 2025", "code": "2025 jul", "kind": "golden:month_year", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2025-07-01", "2025-07-31"]]}
+{"q": "luglio 2024", "code": "2024-07", "kind": "golden:month_year", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2024-07-01", "2024-07-31"]]}
+{"q": "notes from luglio 2025", "code": "2025 jul", "kind": "golden:month_year", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2025-07-01", "2025-07-31"]]}
+{"q": "juillet 2024", "code": "2024-07", "kind": "golden:month_year", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2024-07-01", "2024-07-31"]]}
+{"q": "notes from juillet 2025", "code": "2025 jul", "kind": "golden:month_year", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2025-07-01", "2025-07-31"]]}
+{"q": "juli 2024", "code": "2024 jul", "kind": "golden:month_year", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2024-07-01", "2024-07-31"]]}
+{"q": "notes from juli 2025", "code": "2025 jul", "kind": "golden:month_year", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2025-07-01", "2025-07-31"]]}
+{"q": "июля 2024", "code": "2024-07", "kind": "golden:month_year", "lang": "ru", "anchor": "2026-08-12", "ranges": [["2024-07-01", "2024-07-31"]]}
+{"q": "notes from июля 2025", "code": "2025-07", "kind": "golden:month_year", "lang": "ru", "anchor": "2026-08-12", "ranges": [["2025-07-01", "2025-07-31"]]}
+{"q": "august 2024", "code": "2024-08", "kind": "golden:month_year", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2024-08-01", "2024-08-31"]]}
+{"q": "notes from august 2025", "code": "2025 aug", "kind": "golden:month_year", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2025-08-01", "2025-08-31"]]}
+{"q": "agosto 2024", "code": "2024-08", "kind": "golden:month_year", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2024-08-01", "2024-08-31"]]}
+{"q": "notes from agosto 2025", "code": "2025 aug", "kind": "golden:month_year", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2025-08-01", "2025-08-31"]]}
+{"q": "août 2024", "code": "2024 aug", "kind": "golden:month_year", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2024-08-01", "2024-08-31"]]}
+{"q": "notes from août 2025", "code": "2025-08", "kind": "golden:month_year", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2025-08-01", "2025-08-31"]]}
+{"q": "aout 2024", "code": "2024 aug", "kind": "golden:month_year", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2024-08-01", "2024-08-31"]]}
+{"q": "notes from aout 2025", "code": "2025 aug", "kind": "golden:month_year", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2025-08-01", "2025-08-31"]]}
+{"q": "августа 2024", "code": "2024-08", "kind": "golden:month_year", "lang": "ru", "anchor": "2026-08-12", "ranges": [["2024-08-01", "2024-08-31"]]}
+{"q": "notes from августа 2025", "code": "2025-08", "kind": "golden:month_year", "lang": "ru", "anchor": "2026-08-12", "ranges": [["2025-08-01", "2025-08-31"]]}
+{"q": "september 2024", "code": "2024-09", "kind": "golden:month_year", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2024-09-01", "2024-09-30"]]}
+{"q": "notes from september 2025", "code": "2025-09", "kind": "golden:month_year", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2025-09-01", "2025-09-30"]]}
+{"q": "septiembre 2024", "code": "2024-09", "kind": "golden:month_year", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2024-09-01", "2024-09-30"]]}
+{"q": "notes from septiembre 2025", "code": "2025-09", "kind": "golden:month_year", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2025-09-01", "2025-09-30"]]}
+{"q": "settembre 2024", "code": "2024-09", "kind": "golden:month_year", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2024-09-01", "2024-09-30"]]}
+{"q": "notes from settembre 2025", "code": "2025-09", "kind": "golden:month_year", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2025-09-01", "2025-09-30"]]}
+{"q": "septembre 2024", "code": "2024-09", "kind": "golden:month_year", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2024-09-01", "2024-09-30"]]}
+{"q": "notes from septembre 2025", "code": "2025-09", "kind": "golden:month_year", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2025-09-01", "2025-09-30"]]}
+{"q": "сентября 2024", "code": "2024-09", "kind": "golden:month_year", "lang": "ru", "anchor": "2026-08-12", "ranges": [["2024-09-01", "2024-09-30"]]}
+{"q": "notes from сентября 2025", "code": "2025-09", "kind": "golden:month_year", "lang": "ru", "anchor": "2026-08-12", "ranges": [["2025-09-01", "2025-09-30"]]}
+{"q": "october 2024", "code": "2024-10", "kind": "golden:month_year", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2024-10-01", "2024-10-31"]]}
+{"q": "notes from october 2025", "code": "2025-10", "kind": "golden:month_year", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2025-10-01", "2025-10-31"]]}
+{"q": "octubre 2024", "code": "2024-10", "kind": "golden:month_year", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2024-10-01", "2024-10-31"]]}
+{"q": "notes from octubre 2025", "code": "2025-10", "kind": "golden:month_year", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2025-10-01", "2025-10-31"]]}
+{"q": "ottobre 2024", "code": "2024-10", "kind": "golden:month_year", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2024-10-01", "2024-10-31"]]}
+{"q": "notes from ottobre 2025", "code": "2025-10", "kind": "golden:month_year", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2025-10-01", "2025-10-31"]]}
+{"q": "octobre 2024", "code": "2024-10", "kind": "golden:month_year", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2024-10-01", "2024-10-31"]]}
+{"q": "notes from octobre 2025", "code": "2025-10", "kind": "golden:month_year", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2025-10-01", "2025-10-31"]]}
+{"q": "oktober 2024", "code": "2024-10", "kind": "golden:month_year", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2024-10-01", "2024-10-31"]]}
+{"q": "notes from oktober 2025", "code": "2025-10", "kind": "golden:month_year", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2025-10-01", "2025-10-31"]]}
+{"q": "октября 2024", "code": "2024-10", "kind": "golden:month_year", "lang": "ru", "anchor": "2026-08-12", "ranges": [["2024-10-01", "2024-10-31"]]}
+{"q": "notes from октября 2025", "code": "2025-10", "kind": "golden:month_year", "lang": "ru", "anchor": "2026-08-12", "ranges": [["2025-10-01", "2025-10-31"]]}
+{"q": "november 2024", "code": "2024-11", "kind": "golden:month_year", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2024-11-01", "2024-11-30"]]}
+{"q": "notes from november 2025", "code": "2025-11", "kind": "golden:month_year", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2025-11-01", "2025-11-30"]]}
+{"q": "noviembre 2024", "code": "2024-11", "kind": "golden:month_year", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2024-11-01", "2024-11-30"]]}
+{"q": "notes from noviembre 2025", "code": "2025-11", "kind": "golden:month_year", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2025-11-01", "2025-11-30"]]}
+{"q": "novembre 2024", "code": "2024-11", "kind": "golden:month_year", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2024-11-01", "2024-11-30"]]}
+{"q": "notes from novembre 2025", "code": "2025-11", "kind": "golden:month_year", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2025-11-01", "2025-11-30"]]}
+{"q": "ноября 2024", "code": "2024-11", "kind": "golden:month_year", "lang": "ru", "anchor": "2026-08-12", "ranges": [["2024-11-01", "2024-11-30"]]}
+{"q": "notes from ноября 2025", "code": "2025-11", "kind": "golden:month_year", "lang": "ru", "anchor": "2026-08-12", "ranges": [["2025-11-01", "2025-11-30"]]}
+{"q": "december 2024", "code": "2024-12", "kind": "golden:month_year", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2024-12-01", "2024-12-31"]]}
+{"q": "notes from december 2025", "code": "2025 dec", "kind": "golden:month_year", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2025-12-01", "2025-12-31"]]}
+{"q": "diciembre 2024", "code": "2024-12", "kind": "golden:month_year", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2024-12-01", "2024-12-31"]]}
+{"q": "notes from diciembre 2025", "code": "2025-12", "kind": "golden:month_year", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2025-12-01", "2025-12-31"]]}
+{"q": "dicembre 2024", "code": "2024-12", "kind": "golden:month_year", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2024-12-01", "2024-12-31"]]}
+{"q": "notes from dicembre 2025", "code": "2025-12", "kind": "golden:month_year", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2025-12-01", "2025-12-31"]]}
+{"q": "décembre 2024", "code": "2024 dec", "kind": "golden:month_year", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2024-12-01", "2024-12-31"]]}
+{"q": "notes from décembre 2025", "code": "2025-12", "kind": "golden:month_year", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2025-12-01", "2025-12-31"]]}
+{"q": "dezember 2024", "code": "2024-12", "kind": "golden:month_year", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2024-12-01", "2024-12-31"]]}
+{"q": "notes from dezember 2025", "code": "2025 dec", "kind": "golden:month_year", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2025-12-01", "2025-12-31"]]}
+{"q": "декабря 2024", "code": "2024-12", "kind": "golden:month_year", "lang": "ru", "anchor": "2026-08-12", "ranges": [["2024-12-01", "2024-12-31"]]}
+{"q": "notes from декабря 2025", "code": "2025-12", "kind": "golden:month_year", "lang": "ru", "anchor": "2026-08-12", "ranges": [["2025-12-01", "2025-12-31"]]}
+{"q": "13 июля 2026", "code": "2026-07-13", "kind": "golden:month_year", "lang": "ru", "anchor": "2026-08-12", "ranges": [["2026-07-13", "2026-07-13"]]}
+{"q": "13 July 2026", "code": "2026-07-13", "kind": "golden:month_year", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2026-07-13", "2026-07-13"]]}
+{"q": "3 marzo 2025", "code": "2025-03-03", "kind": "golden:month_year", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2025-03-03", "2025-03-03"]]}
+{"q": "10 de julio de 2026", "code": "2026-07-10", "kind": "golden:month_year", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2026-07-10", "2026-07-10"]]}
+{"q": "1 january 2020", "code": "2020-01-01", "kind": "golden:month_year", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2020-01-01", "2020-01-01"]]}
+{"q": "31 december 1999", "code": "1999-12-31", "kind": "golden:month_year", "lang": "xx", "anchor": "2026-08-12", "ranges": [["1999-12-31", "1999-12-31"]]}
+{"q": "昨天", "code": "day -1", "kind": "golden:period_zh", "lang": "zh", "anchor": "2026-08-12", "ranges": [["2026-08-11", "2026-08-11"]]}
+{"q": "昨天做了什么", "code": "day -1", "kind": "golden:period_zh", "lang": "zh", "anchor": "2026-08-12", "ranges": [["2026-08-11", "2026-08-11"]]}
+{"q": "今天", "code": "day 0", "kind": "golden:period_zh", "lang": "zh", "anchor": "2026-08-12", "ranges": [["2026-08-12", "2026-08-12"]]}
+{"q": "前天", "code": "day -2", "kind": "golden:period_zh", "lang": "zh", "anchor": "2026-08-12", "ranges": [["2026-08-10", "2026-08-10"]]}
+{"q": "上周", "code": "week -1", "kind": "golden:period_zh", "lang": "zh", "anchor": "2026-08-12", "ranges": [["2026-08-03", "2026-08-09"]]}
+{"q": "上周做了什么", "code": "week -1", "kind": "golden:period_zh", "lang": "zh", "anchor": "2026-08-12", "ranges": [["2026-08-03", "2026-08-09"]]}
+{"q": "上个月", "code": "month -1", "kind": "golden:period_zh", "lang": "zh", "anchor": "2026-08-12", "ranges": [["2026-07-01", "2026-07-31"]]}
+{"q": "上月", "code": "month -1", "kind": "golden:period_zh", "lang": "zh", "anchor": "2026-08-12", "ranges": [["2026-07-01", "2026-07-31"]]}
+{"q": "去年", "code": "year -1", "kind": "golden:period_zh", "lang": "zh", "anchor": "2026-08-12", "ranges": [["2025-01-01", "2025-12-31"]]}
+{"q": "上周末", "code": "week -1 weekend", "kind": "golden:period_zh", "lang": "zh", "anchor": "2026-08-12", "ranges": [["2026-08-08", "2026-08-09"]]}
+{"q": "本周", "code": "week 0", "kind": "golden:period_zh", "lang": "zh", "anchor": "2026-08-12", "ranges": [["2026-08-10", "2026-08-16"]]}
+{"q": "这周", "code": "week 0", "kind": "golden:period_zh", "lang": "zh", "anchor": "2026-08-12", "ranges": [["2026-08-10", "2026-08-16"]]}
+{"q": "本月", "code": "month 0", "kind": "golden:period_zh", "lang": "zh", "anchor": "2026-08-12", "ranges": [["2026-08-01", "2026-08-31"]]}
+{"q": "这个月", "code": "month 0", "kind": "golden:period_zh", "lang": "zh", "anchor": "2026-08-12", "ranges": [["2026-08-01", "2026-08-31"]]}
+{"q": "今年", "code": "year 0", "kind": "golden:period_zh", "lang": "zh", "anchor": "2026-08-12", "ranges": [["2026-01-01", "2026-12-31"]]}
+{"q": "明天", "code": "day 1", "kind": "golden:period_zh", "lang": "zh", "anchor": "2026-08-12", "ranges": [["2026-08-13", "2026-08-13"]]}
+{"q": "下周", "code": "week 1", "kind": "golden:period_zh", "lang": "zh", "anchor": "2026-08-12", "ranges": [["2026-08-17", "2026-08-23"]]}
+{"q": "下个月", "code": "month 1", "kind": "golden:period_zh", "lang": "zh", "anchor": "2026-08-12", "ranges": [["2026-09-01", "2026-09-30"]]}
+{"q": "明年", "code": "year 1", "kind": "golden:period_zh", "lang": "zh", "anchor": "2026-08-12", "ranges": [["2027-01-01", "2027-12-31"]]}
+{"q": "三天前", "code": "day -3", "kind": "golden:period_zh", "lang": "zh", "anchor": "2026-08-12", "ranges": [["2026-08-09", "2026-08-09"]]}
+{"q": "五天前", "code": "day -5", "kind": "golden:period_zh", "lang": "zh", "anchor": "2026-08-12", "ranges": [["2026-08-07", "2026-08-07"]]}
+{"q": "两天前", "code": "day -2", "kind": "golden:period_zh", "lang": "zh", "anchor": "2026-08-12", "ranges": [["2026-08-10", "2026-08-10"]]}
+{"q": "几天前", "code": "few day", "kind": "golden:period_zh", "lang": "zh", "anchor": "2026-08-12", "ranges": [["2026-08-07", "2026-08-10"]]}
+{"q": "三周前", "code": "week -3", "kind": "golden:period_zh", "lang": "zh", "anchor": "2026-08-12", "ranges": [["2026-07-20", "2026-07-26"]]}
+{"q": "两周前", "code": "week -2", "kind": "golden:period_zh", "lang": "zh", "anchor": "2026-08-12", "ranges": [["2026-07-27", "2026-08-02"]]}
+{"q": "几周前", "code": "few week", "kind": "golden:period_zh", "lang": "zh", "anchor": "2026-08-12", "ranges": [["2026-07-08", "2026-07-29"]]}
+{"q": "三个月前", "code": "month -3", "kind": "golden:period_zh", "lang": "zh", "anchor": "2026-08-12", "ranges": [["2026-05-01", "2026-05-31"]]}
+{"q": "两个月前", "code": "month -2", "kind": "golden:period_zh", "lang": "zh", "anchor": "2026-08-12", "ranges": [["2026-06-01", "2026-06-30"]]}
+{"q": "几个月前", "code": "few month", "kind": "golden:period_zh", "lang": "zh", "anchor": "2026-08-12", "ranges": [["2026-03-15", "2026-06-13"]]}
+{"q": "三年前", "code": "year -3", "kind": "golden:period_zh", "lang": "zh", "anchor": "2026-08-12", "ranges": [["2023-01-01", "2023-12-31"]]}
+{"q": "两年前", "code": "year -2", "kind": "golden:period_zh", "lang": "zh", "anchor": "2026-08-12", "ranges": [["2024-01-01", "2024-12-31"]]}
+{"q": "几年前", "code": "few year", "kind": "golden:period_zh", "lang": "zh", "anchor": "2026-08-12", "ranges": [["2021-08-13", "2024-08-12"]]}
+{"q": "2024年3月", "code": "2024-03", "kind": "golden:period_zh", "lang": "zh", "anchor": "2026-08-12", "ranges": [["2024-03-01", "2024-03-31"]]}
+{"q": "2024年3月3日", "code": "2024-03-03", "kind": "golden:period_zh", "lang": "zh", "anchor": "2026-08-12", "ranges": [["2024-03-03", "2024-03-03"]]}
+{"q": "2024年", "code": "2024", "kind": "golden:period_zh", "lang": "zh", "anchor": "2026-08-12", "ranges": [["2024-01-01", "2024-12-31"]]}
+{"q": "3月3日", "code": "*-03-03", "kind": "golden:period_zh", "lang": "zh", "anchor": "2026-08-12", "ranges": [["2026-03-03", "2026-03-03"]]}
+{"q": "一月", "code": "jan", "kind": "golden:period_zh", "lang": "zh", "anchor": "2026-08-12", "ranges": [["2026-01-01", "2026-01-31"]]}
+{"q": "十二月", "code": "dec", "kind": "golden:period_zh", "lang": "zh", "anchor": "2026-08-12", "ranges": [["2025-12-01", "2025-12-31"]]}
+{"q": "上半年", "code": "h1 year 0", "kind": "golden:period_zh", "lang": "zh", "anchor": "2026-08-12", "ranges": [["2026-01-01", "2026-06-30"]]}
+{"q": "下半年", "code": "h2 year 0", "kind": "golden:period_zh", "lang": "zh", "anchor": "2026-08-12", "ranges": [["2026-07-01", "2026-12-31"]]}
+{"q": "第一季度", "code": "q1", "kind": "golden:period_zh", "lang": "zh", "anchor": "2026-08-12", "ranges": [["2026-01-01", "2026-03-31"]]}
+{"q": "第二季度", "code": "q2", "kind": "golden:period_zh", "lang": "zh", "anchor": "2026-08-12", "ranges": [["2026-04-01", "2026-06-30"]]}
+{"q": "十亿年前", "code": "none", "kind": "none", "lang": "zh", "anchor": "2026-08-12", "ranges": []}
+{"q": "最近三天", "code": "last 3 day", "kind": "golden:period_zh", "lang": "zh", "anchor": "2026-08-12", "ranges": [["2026-08-09", "2026-08-12"]]}
+{"q": "最近一周", "code": "last 1 week", "kind": "golden:period_zh", "lang": "zh", "anchor": "2026-08-12", "ranges": [["2026-08-05", "2026-08-12"]]}
+{"q": "最近一个月", "code": "last 1 month", "kind": "golden:period_zh", "lang": "zh", "anchor": "2026-08-12", "ranges": [["2026-07-12", "2026-08-12"]]}
+{"q": "过去三天", "code": "last 3 day", "kind": "golden:period_zh", "lang": "zh", "anchor": "2026-08-12", "ranges": [["2026-08-09", "2026-08-12"]]}
+{"q": "过去一周", "code": "last 1 week", "kind": "golden:period_zh", "lang": "zh", "anchor": "2026-08-12", "ranges": [["2026-08-05", "2026-08-12"]]}
+{"q": "这周末", "code": "week 0 weekend", "kind": "golden:period_zh", "lang": "zh", "anchor": "2026-08-12", "ranges": [["2026-08-15", "2026-08-16"]]}
+{"q": "上个星期", "code": "week -1", "kind": "golden:period_zh", "lang": "zh", "anchor": "2026-08-12", "ranges": [["2026-08-03", "2026-08-09"]]}
+{"q": "上星期", "code": "week -1", "kind": "golden:period_zh", "lang": "zh", "anchor": "2026-08-12", "ranges": [["2026-08-03", "2026-08-09"]]}
+{"q": "星期一", "code": "mon", "kind": "golden:period_zh", "lang": "zh", "anchor": "2026-08-12", "ranges": [["2026-08-10", "2026-08-10"]]}
+{"q": "周一", "code": "mon", "kind": "golden:period_zh", "lang": "zh", "anchor": "2026-08-12", "ranges": [["2026-08-10", "2026-08-10"]]}
+{"q": "礼拜一", "code": "mon", "kind": "golden:period_zh", "lang": "zh", "anchor": "2026-08-12", "ranges": [["2026-08-10", "2026-08-10"]]}
+{"q": "上海的天气", "code": "none", "kind": "none", "lang": "zh", "anchor": "2026-08-12", "ranges": []}
+{"q": "北京会议记录", "code": "none", "kind": "none", "lang": "zh", "anchor": "2026-08-12", "ranges": []}
+{"q": "我在东京工作", "code": "none", "kind": "none", "lang": "zh", "anchor": "2026-08-12", "ranges": []}
+{"q": "数据库设计文档", "code": "none", "kind": "none", "lang": "zh", "anchor": "2026-08-12", "ranges": []}
+{"q": "这个功能怎么用", "code": "none", "kind": "none", "lang": "zh", "anchor": "2026-08-12", "ranges": []}
+{"q": "日本語のテキスト", "code": "none", "kind": "none", "lang": "ja", "anchor": "2026-08-12", "ranges": []}
+{"q": "한국어 텍스트", "code": "none", "kind": "none", "lang": "xx", "anchor": "2026-08-12", "ranges": []}
+{"q": "上海と東京", "code": "none", "kind": "none", "lang": "ja", "anchor": "2026-08-12", "ranges": []}
+{"q": "2026-06-10", "code": "2026-06-10", "kind": "golden:explicit_date", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2026-06-10", "2026-06-10"]]}
+{"q": "what did I do on 2026-06-10", "code": "2026-06-10", "kind": "golden:explicit_date", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2026-06-10", "2026-06-10"]]}
+{"q": "meeting notes from March 3rd", "code": "*-03-03", "kind": "golden:explicit_date", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2026-03-03", "2026-03-03"]]}
+{"q": "the incident on 10 July 2026", "code": "2026-07-10", "kind": "golden:explicit_date", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2026-07-10", "2026-07-10"]]}
+{"q": "notes from 3 March 2025", "code": "2025-03-03", "kind": "golden:explicit_date", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2025-03-03", "2025-03-03"]]}
+{"q": "2024/01/15", "code": "2024-01-15", "kind": "golden:explicit_date", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2024-01-15", "2024-01-15"]]}
+{"q": "01/15/2024", "code": "2024-01-15", "kind": "golden:explicit_date", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2024-01-15", "2024-01-15"]]}
+{"q": "15.01.2024", "code": "2024-01-15", "kind": "golden:explicit_date", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2024-01-15", "2024-01-15"]]}
+{"q": "Jan 5, 2021", "code": "2021-01-05", "kind": "golden:explicit_date", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2021-01-05", "2021-01-05"]]}
+{"q": "5 Jan 2021", "code": "2021-01-05", "kind": "golden:explicit_date", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2021-01-05", "2021-01-05"]]}
+{"q": "December 25th 2020", "code": "2020-12-25", "kind": "golden:explicit_date", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2020-12-25", "2020-12-25"]]}
+{"q": "the release on 2023-11-17", "code": "2023-11-17", "kind": "golden:explicit_date", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2023-11-17", "2023-11-17"]]}
+{"q": "between 2020-01-01 and 2020-12-31", "code": "2020-01-01 .. 2020-12-31", "kind": "golden:explicit_date", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2020-01-01", "2020-12-31"]]}
+{"q": "riunione del 3 marzo 2025", "code": "2025-03-03", "kind": "golden:explicit_date", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2025-03-03", "2025-03-03"]]}
+{"q": "reunión del 10 de julio de 2026", "code": "2026-07-10", "kind": "golden:explicit_date", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2026-07-10", "2026-07-10"]]}
+{"q": "Besprechung am 3. März 2025", "code": "2025-03-03", "kind": "golden:explicit_date", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2025-03-03", "2025-03-03"]]}
+{"q": "réunion du 3 mars 2025", "code": "2025-03-03", "kind": "golden:explicit_date", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2025-03-03", "2025-03-03"]]}
+{"q": "встреча 3 марта 2025", "code": "2025-03-03", "kind": "golden:explicit_date", "lang": "ru", "anchor": "2026-08-12", "ranges": [["2025-03-03", "2025-03-03"]]}
+{"q": "2025年3月3日の会議", "code": "2025-03-03", "kind": "golden:explicit_date", "lang": "ja", "anchor": "2026-08-12", "ranges": [["2025-03-03", "2025-03-03"]]}
+{"q": "o que aconteceu há 5 dias", "code": "day -5", "kind": "golden:explicit_date", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2026-08-07", "2026-08-07"]]}
+{"q": "что было 5 дней назад", "code": "day -5", "kind": "golden:explicit_date", "lang": "ru", "anchor": "2026-08-12", "ranges": [["2026-08-07", "2026-08-07"]]}
+{"q": "hace 5 días", "code": "day -5", "kind": "golden:explicit_date", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2026-08-07", "2026-08-07"]]}
+{"q": "il y a 5 jours", "code": "day -5", "kind": "golden:explicit_date", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2026-08-07", "2026-08-07"]]}
+{"q": "vor 5 Tagen", "code": "day -5", "kind": "golden:explicit_date", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2026-08-07", "2026-08-07"]]}
+{"q": "5 giorni fa", "code": "day -5", "kind": "golden:explicit_date", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2026-08-07", "2026-08-07"]]}
+{"q": "at 3pm", "code": "none", "kind": "none", "lang": "xx", "anchor": "2026-08-12", "ranges": []}
+{"q": "3:30pm", "code": "none", "kind": "none", "lang": "xx", "anchor": "2026-08-12", "ranges": []}
+{"q": "noon", "code": "none", "kind": "none", "lang": "xx", "anchor": "2026-08-12", "ranges": []}
+{"q": "midnight", "code": "none", "kind": "none", "lang": "xx", "anchor": "2026-08-12", "ranges": []}
+{"q": "this morning", "code": "day 0", "kind": "golden:explicit_date", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2026-08-12", "2026-08-12"]]}
+{"q": "tonight", "code": "day 0", "kind": "golden:explicit_date", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2026-08-12", "2026-08-12"]]}
+{"q": "tomorrow", "code": "day 1", "kind": "golden:explicit_date", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2026-08-13", "2026-08-13"]]}
+{"q": "next week", "code": "week 1", "kind": "golden:explicit_date", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2026-08-17", "2026-08-23"]]}
+{"q": "in 3 days", "code": "day 3", "kind": "golden:explicit_date", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2026-08-15", "2026-08-15"]]}
+{"q": "two days later", "code": "day 2", "kind": "golden:explicit_date", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2026-08-14", "2026-08-14"]]}
+{"q": "1mon ago", "code": "month -1", "kind": "golden:explicit_date", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2026-07-01", "2026-07-31"]]}
+{"q": "june 0000", "code": "none", "kind": "none", "lang": "xx", "anchor": "2026-08-12", "ranges": []}
+{"q": "2020-13-45", "code": "none", "kind": "none", "lang": "xx", "anchor": "2026-08-12", "ranges": []}
+{"q": "99999999999", "code": "none", "kind": "none", "lang": "xx", "anchor": "2026-08-12", "ranges": []}
+{"q": "0000-00-00", "code": "none", "kind": "none", "lang": "xx", "anchor": "2026-08-12", "ranges": []}
+{"q": "The user configured the retain pipeline to use a chunk size of 2000 tokens and enabled delta refresh for mental models. They prefer functional patterns and asked that the reranker stay on the local cross-encoder rather than TEI. ", "code": "none", "kind": "none", "lang": "xx", "anchor": "2026-08-12", "ranges": []}
+{"q": "The user configured the retain pipeline to use a chunk size of 2000 tokens and enabled delta refresh for mental models. They prefer functional patterns and asked that the reranker stay on the local cross-encoder rather than TEI. This was decided last week during the architecture review.", "code": "week -1", "kind": "golden:long_text", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2026-08-03", "2026-08-09"]]}
+{"q": "\n", "code": "none", "kind": "none", "lang": "xx", "anchor": "2026-08-12", "ranges": []}
+{"q": "\t\t", "code": "none", "kind": "none", "lang": "xx", "anchor": "2026-08-12", "ranges": []}
+{"q": "\u0000", "code": "none", "kind": "none", "lang": "xx", "anchor": "2026-08-12", "ranges": []}
+{"q": "café", "code": "none", "kind": "none", "lang": "xx", "anchor": "2026-08-12", "ranges": []}
+{"q": "naïve", "code": "none", "kind": "none", "lang": "xx", "anchor": "2026-08-12", "ranges": []}
+{"q": "ÅÄÖ", "code": "none", "kind": "none", "lang": "xx", "anchor": "2026-08-12", "ranges": []}
+{"q": "ﬁ ligature", "code": "none", "kind": "none", "lang": "xx", "anchor": "2026-08-12", "ranges": []}
+{"q": "ＦＵＬＬＷＩＤＴＨ", "code": "none", "kind": "none", "lang": "xx", "anchor": "2026-08-12", "ranges": []}
+{"q": "２０２４年３月", "code": "2024-03", "kind": "golden:edge_case", "lang": "zh", "anchor": "2026-08-12", "ranges": [["2024-03-01", "2024-03-31"]]}
+{"q": "----------------------------------------------------------------------------------------------------", "code": "none", "kind": "none", "lang": "xx", "anchor": "2026-08-12", "ranges": []}
+{"q": "2026-06-10 2026-06-10 2026-06-10 2026-06-10 2026-06-10 2026-06-10 2026-06-10 2026-06-10 2026-06-10 2026-06-10 2026-06-10 2026-06-10 2026-06-10 2026-06-10 2026-06-10 2026-06-10 2026-06-10 2026-06-10 2026-06-10 2026-06-10 ", "code": "2026-06-10", "kind": "golden:edge_case", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2026-06-10", "2026-06-10"]]}
+{"q": "yesterday yesterday yesterday yesterday yesterday yesterday yesterday yesterday yesterday yesterday yesterday yesterday yesterday yesterday yesterday yesterday yesterday yesterday yesterday yesterday yesterday yesterday yesterday yesterday yesterday yesterday yesterday yesterday yesterday yesterday ", "code": "day -1", "kind": "golden:edge_case", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2026-08-11", "2026-08-11"]]}
+{"q": "上周 上周 上周 上周 上周 上周 上周 上周 上周 上周 上周 上周 上周 上周 上周 上周 上周 上周 上周 上周 上周 上周 上周 上周 上周 上周 上周 上周 上周 上周 ", "code": "week -1", "kind": "golden:edge_case", "lang": "zh", "anchor": "2026-08-12", "ranges": [["2026-08-03", "2026-08-09"]]}
+{"q": "mixed 上周 and last week", "code": "week -1", "kind": "golden:edge_case", "lang": "zh", "anchor": "2026-08-12", "ranges": [["2026-08-03", "2026-08-09"]]}
+{"q": "yesterday and today and tomorrow", "code": "day -1 ; day 0 ; day 1", "kind": "golden:edge_case", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2026-08-11", "2026-08-11"], ["2026-08-12", "2026-08-12"], ["2026-08-13", "2026-08-13"]]}
+{"q": "last week or last month", "code": "week -1 ; month -1", "kind": "golden:edge_case", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2026-08-03", "2026-08-09"], ["2026-07-01", "2026-07-31"]]}
+{"q": "not yesterday", "code": "day -1", "kind": "golden:edge_case", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2026-08-11", "2026-08-11"]]}
+{"q": "the word yesterday appears in this sentence about nothing", "code": "day -1", "kind": "golden:edge_case", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2026-08-11", "2026-08-11"]]}
+{"q": "yesterdays", "code": "day -1", "kind": "golden:edge_case", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2026-08-11", "2026-08-11"]]}
+{"q": "yesterday's meeting", "code": "day -1", "kind": "golden:edge_case", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2026-08-11", "2026-08-11"]]}
+{"q": "LAST WEEK", "code": "week -1", "kind": "golden:edge_case", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2026-08-03", "2026-08-09"]]}
+{"q": "LaSt WeEk", "code": "week -1", "kind": "golden:edge_case", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2026-08-03", "2026-08-09"]]}
+{"q": "   last week   ", "code": "week -1", "kind": "golden:edge_case", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2026-08-03", "2026-08-09"]]}
+{"q": "The user configured the retain pipeline to use a chunk size of 2000 tokens and enabled delta refresh for mental models. They prefer functional patterns and asked that the reranker stay on the local cross-encoder rather than TEI. ", "code": "none", "kind": "none", "lang": "xx", "anchor": "2026-08-12", "ranges": []}
+{"q": "The user configured the retain pipeline to use a chunk size of 2000 tokens and enabled delta refresh for mental models. They prefer functional patterns and asked that the reranker stay on the local cross-encoder rather than TEI. The user configured the retain pipeline to use a chunk size of 2000 tokens and enabled delta refresh for mental models. They prefer functional patterns and asked that the reranker stay on the local cross-encoder rather than TEI. The user configured the retain pipeline to use a chunk size of 2000 tokens and enabled delta refresh for mental models. They prefer functional patterns and asked that the reranker stay on the local cross-encoder rather than TEI. ", "code": "none", "kind": "none", "lang": "xx", "anchor": "2026-08-12", "ranges": []}
+{"q": "The user configured the retain pipeline to use a chunk size of 2000 tokens and enabled delta refresh for mental models. They prefer functional patterns and asked that the reranker stay on the local cross-encoder rather than TEI. The user configured the retain pipeline to use a chunk size of 2000 tokens and enabled delta refresh for mental models. They prefer functional patterns and asked that the reranker stay on the local cross-encoder rather than TEI. The user configured the retain pipeline to use a chunk size of 2000 tokens and enabled delta refresh for mental models. They prefer functional patterns and asked that the reranker stay on the local cross-encoder rather than TEI. The user configured the retain pipeline to use a chunk size of 2000 tokens and enabled delta refresh for mental models. They prefer functional patterns and asked that the reranker stay on the local cross-encoder rather than TEI. The user configured the retain pipeline to use a chunk size of 2000 tokens and enabled delta refresh for mental models. They prefer functional patterns and asked that the reranker stay on the local cross-encoder rather than TEI. The user configured the retain pipeline to use a chunk size of 2000 tokens and enabled delta refresh for mental models. They prefer functional patterns and asked that the reranker stay on the local cross-encoder rather than TEI. The user configured the retain pipeline to use a chunk size of 2000 tokens and enabled delta refresh for mental models. They prefer functional patterns and asked that the reranker stay on the local cross-encoder rather than TEI. The user configured the retain pipeline to use a chunk size of 2000 tokens and enabled delta refresh for mental models. They prefer functional patterns and asked that the reranker stay on the local cross-encoder rather than TEI. ", "code": "none", "kind": "none", "lang": "xx", "anchor": "2026-08-12", "ranges": []}
+{"q": "The user configured the retain pipeline to use a chunk size of 2000 tokens and enabled delta refresh for mental models. They prefer functional patterns and asked that the reranker stay on the local cross-encoder rather than TEI. This was decided last week during the architecture review.", "code": "week -1", "kind": "golden:long_text", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2026-08-03", "2026-08-09"]]}
+{"q": "The user configured the retain pipeline to use a chunk size of 2000 tokens and enabled delta refresh for mental models. They prefer functional patterns and asked that the reranker stay on the local cross-encoder rather than TEI. The user configured the retain pipeline to use a chunk size of 2000 tokens and enabled delta refresh for mental models. They prefer functional patterns and asked that the reranker stay on the local cross-encoder rather than TEI. The user configured the retain pipeline to use a chunk size of 2000 tokens and enabled delta refresh for mental models. They prefer functional patterns and asked that the reranker stay on the local cross-encoder rather than TEI. The user configured the retain pipeline to use a chunk size of 2000 tokens and enabled delta refresh for mental models. They prefer functional patterns and asked that the reranker stay on the local cross-encoder rather than TEI. The migration ran on 2026-06-10 without incident.", "code": "2026-06-10", "kind": "golden:long_text", "lang": "xx", "anchor": "2026-08-12", "ranges": [["2026-06-10", "2026-06-10"]]}
+{"q": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx", "code": "none", "kind": "none", "lang": "xx", "anchor": "2026-08-12", "ranges": []}
+{"q": "1234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890", "code": "none", "kind": "none", "lang": "xx", "anchor": "2026-08-12", "ranges": []}
+{"q": "word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word", "code": "none", "kind": "none", "lang": "xx", "anchor": "2026-08-12", "ranges": []}
+{"q": "一个半月前的计划", "code": "day -45", "kind": "hs:chinese_exact_relative_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2024-12-01", "2024-12-01"]]}
+{"q": "三四天前的记录", "code": "day -4 .. day -3", "kind": "hs:chinese_fuzzy_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-01-11", "2025-01-12"]]}
+{"q": "四五周前讨论了什么", "code": "week -5 .. week -4", "kind": "hs:chinese_fuzzy_periods", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2024-12-09", "2024-12-22"]]}
+{"q": "这几天的记录", "code": "last 5 day", "kind": "hs:chinese_rolling_windows", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-01-10", "2025-01-15"]]}
+{"q": "最近几天的记录", "code": "last 5 day", "kind": "hs:chinese_rolling_windows", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-01-10", "2025-01-15"]]}
+{"q": "最近几个月的记录", "code": "last 5 month", "kind": "hs:chinese_rolling_windows", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2024-08-15", "2025-01-15"]]}
+{"q": "过去一两个月的记录", "code": "last 3 month", "kind": "hs:chinese_rolling_windows", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2024-10-15", "2025-01-15"]]}
+{"q": "过去几个星期的记录", "code": "last 5 week", "kind": "hs:chinese_rolling_windows", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2024-12-11", "2025-01-15"]]}
+{"q": "未来几天计划", "code": "next 5 day", "kind": "hs:chinese_rolling_windows", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-01-15", "2025-01-20"]]}
+{"q": "未来几个月计划", "code": "next 5 month", "kind": "hs:chinese_rolling_windows", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-01-15", "2025-06-15"]]}
+{"q": "接下来一两周计划", "code": "next 3 week", "kind": "hs:chinese_rolling_windows", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-01-15", "2025-02-05"]]}
+{"q": "接下来几周的计划", "code": "next 5 week", "kind": "hs:chinese_rolling_windows", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-01-15", "2025-02-19"]]}
+{"q": "两三天后提醒我", "code": "day 2 .. day 3", "kind": "hs:chinese_rolling_windows", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-01-17", "2025-01-18"]]}
+{"q": "三四天后提醒我", "code": "day 3 .. day 4", "kind": "hs:chinese_rolling_windows", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-01-18", "2025-01-19"]]}
+{"q": "几天后提醒我", "code": "day 2 .. day 5", "kind": "hs:chinese_rolling_windows", "lang": "zh", "anchor": "2025-01-15", "ranges": [["2025-01-17", "2025-01-20"]]}

@@ -1,6 +1,6 @@
 """Remove encoder feed-forward units that never switch on, to make the model faster.
 
-    python -m training.model.prune tlm/weights/tlm-ml-g10.npz tlm/weights/tlm-ml-g10p.npz data/train_*.jsonl
+    python -m training.model.prune timmytime/weights/timmytime-g10.npz timmytime/weights/timmytime-g10p.npz data/train_*.jsonl
 
 A ReLU unit that stays at 0 on every question in a large sample adds nothing to the output.
 Dropping its column in f1 and its row in f2 leaves the answers unchanged for every question
@@ -13,7 +13,7 @@ import sys
 
 import numpy as np
 
-from tlm.runtime import Parser, _attn_qkv, _conv, _norm, encode_bytes
+from timmytime.runtime import Parser, _attn_qkv, _conv, _norm, encode_bytes
 
 SAMPLE = 80_000
 

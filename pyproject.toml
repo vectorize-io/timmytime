@@ -1,5 +1,5 @@
 [project]
-name = "tlm"
+name = "timmytime"
 version = "0.1.0"
 description = "Finds the date ranges in a question (\"last week\", \"early 2024\") with a 9 MB numpy model"
 readme = "README.md"
@@ -21,12 +21,12 @@ testpaths = ["tests", "training/tests"]
 requires = ["hatchling"]
 build-backend = "hatchling.build"
 
-# The package is tlm/ only. The weights are not in git (see weights.lock): they are fetched
+# The package is timmytime/ only. The weights are not in git (see weights.lock): they are fetched
 # before building, and `artifacts` puts the git-ignored file into the package.
 [tool.hatch.build.targets.wheel]
-packages = ["tlm"]
-artifacts = ["tlm/weights/tlm.npz"]
+packages = ["timmytime"]
+artifacts = ["timmytime/weights/timmytime.npz"]
 
 [tool.hatch.build.targets.sdist]
-include = ["/tlm", "/README.md", "/weights.lock"]
-artifacts = ["tlm/weights/tlm.npz"]
+include = ["/timmytime", "/README.md", "/weights.lock"]
+artifacts = ["timmytime/weights/timmytime.npz"]

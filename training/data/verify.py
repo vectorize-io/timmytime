@@ -15,8 +15,8 @@ from datetime import date, datetime
 
 from training.data import llm
 from training.data.gen import read_code, same_meaning
-from tlm.resolve import resolve
-from tlm.runtime import Parser
+from timmytime.resolve import resolve
+from timmytime.runtime import Parser
 
 
 def main() -> None:

@@ -1,11 +1,11 @@
 """Run the model with numpy only (no torch), then the calendar code.
 
-    from tlm.runtime import Parser
+    from timmytime.runtime import Parser
     Parser().parse("what did I decide yesterday", anchor)   # -> [DateRange(...)]
 
 The model reads the question's UTF-8 bytes and writes a meaning-code line, one
 word per step (greedy). The vocabulary and the network here must match
-tlm/model.py op for op; tests/test_runtime.py checks they agree.
+timmytime/model.py op for op; tests/test_runtime.py checks they agree.
 """
 
 import os
@@ -16,12 +16,12 @@ from zoneinfo import ZoneInfo
 
 import numpy as np
 
-from tlm.resolve import DateRange, resolve
+from timmytime.resolve import DateRange, resolve
 
 MAX_BYTES = 256
-MIN_CONFIDENCE = float(os.environ.get("TLM_MIN_CONFIDENCE", "0.5"))  # picked on data/tune_*.jsonl by tlm/tune.py
+MIN_CONFIDENCE = float(os.environ.get("TIMMYTIME_MIN_CONFIDENCE", "0.5"))  # picked on data/tune_*.jsonl by timmytime/tune.py
 MAX_OUT = 24
-WEIGHTS = Path(os.environ.get("TLM_WEIGHTS", Path(__file__).parent / "weights" / "tlm.npz"))
+WEIGHTS = Path(os.environ.get("TIMMYTIME_WEIGHTS", Path(__file__).parent / "weights" / "timmytime.npz"))
 
 # --- output vocabulary: one token per code word; dates split into year / month / day.
 _WORDS = ("none now .. ; day week month quarter year last next before after around early mid late h1 h2 "
@@ -31,7 +31,8 @@ VOCAB = (["<pad>", "<bos>", "<eos>", "<unk>"] + _WORDS + [str(n) for n in range(
          + [str(y) for y in range(1900, 2100)] + [f"{y}s" for y in range(1900, 2100, 10)]
          + [f"M{m:02d}" for m in range(1, 13)] + [f"D{d:02d}" for d in range(1, 32)]
          # Added later: new words go at the end so older weights keep their ids.
-         + "easter thanksgiving cny midautumn dragonboat ramadan eidfitr eidadha".split())
+         + "easter thanksgiving cny midautumn dragonboat ramadan eidfitr eidadha".split()
+         + [str(y) for y in (*range(1800, 1900), *range(2100, 2200))] + [f"{y}s" for y in (*range(1800, 1900, 10), 2100)])
 TOKEN = {t: i for i, t in enumerate(VOCAB)}
 PAD, BOS, EOS, UNK = 0, 1, 2, 3
 _DATE = re.compile(r"(\d{4}|\*)(?:-(\d{2})(?:-(\d{2}))?)?$")
@@ -211,10 +212,35 @@ class Parser:
         """
         if isinstance(anchor, date) and not isinstance(anchor, datetime):  # a calendar day in `tz`, not UTC
             anchor = datetime.combine(anchor, datetime.min.time(), ZoneInfo(tz))
-        try:
-            code, confidence = self.code(text)
-        except Exception:  # a model bug must never break recall
-            return []
-        if code != "none" and confidence < min_confidence:
-            return []
-        return resolve(code, anchor, tz)
+        out: list[DateRange] = []
+        for part in _chunks(text):  # the model reads MAX_BYTES at a time; longer text goes in pieces
+            try:
+                code, confidence = self.code(part)
+            except Exception:  # a model bug must never break recall
+                continue
+            if code != "none" and confidence >= min_confidence:
+                for r in resolve(code, anchor, tz):  # same range twice ("yesterday yesterday") counts once
+                    if r not in out:
+                        out.append(r)
+        return out
+
+
+_SENTENCE_END = re.compile(r"(?<=[.!?。！？\n])\s*")
+
+
+def _chunks(text: str) -> list[str]:
+    """Whole sentences packed into pieces of at most MAX_BYTES; a longer sentence is cut."""
+    if len(text.encode("utf-8", "replace")) <= MAX_BYTES:
+        return [text]
+    pieces, cur = [], ""
+    for sentence in filter(None, _SENTENCE_END.split(text)):
+        while len(sentence.encode("utf-8", "replace")) > MAX_BYTES:  # cut at a space if there is one
+            head = sentence.encode("utf-8", "replace")[:MAX_BYTES].decode("utf-8", "ignore")
+            head = head[: head.rfind(" ")] if " " in head[MAX_BYTES // 4 :] else head
+            pieces, cur, sentence = pieces + [p for p in (cur, head) if p], "", sentence[len(head) :].lstrip()
+        if len((cur + " " + sentence).encode("utf-8", "replace")) > MAX_BYTES and cur:
+            pieces.append(cur)
+            cur = sentence
+        else:
+            cur = f"{cur} {sentence}".strip()
+    return pieces + [cur] if cur else pieces

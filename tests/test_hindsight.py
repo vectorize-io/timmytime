@@ -2,8 +2,8 @@ from datetime import datetime
 
 import pytest
 
-from tlm.hindsight import extract_all, extract_temporal_constraint
-from tlm.runtime import WEIGHTS
+from timmytime.hindsight import extract_all, extract_temporal_constraint
+from timmytime.runtime import WEIGHTS
 
 pytestmark = pytest.mark.skipif(not WEIGHTS.exists(), reason="no trained weights")
 REF = datetime(2026, 11, 17, 14, 30)

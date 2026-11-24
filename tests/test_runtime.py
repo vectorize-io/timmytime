@@ -2,8 +2,8 @@
 
 from datetime import date
 
-import tlm
-from tlm.runtime import Parser
+import timmytime
+from timmytime.runtime import Parser
 
 
 def test_odd_input_never_crashes():
@@ -16,13 +16,25 @@ def test_odd_input_never_crashes():
 
 def test_date_anchor_is_a_day_in_tz():
     for tz in ("UTC", "America/New_York", "Asia/Tokyo"):
-        assert tlm.parse("what did I do yesterday", date(2026, 11, 20), tz) == [(date(2026, 11, 19), date(2026, 11, 19))]
+        assert timmytime.parse("what did I do yesterday", date(2026, 11, 20), tz) == [(date(2026, 11, 19), date(2026, 11, 19))]
 
 
 def test_runtime_never_imports_training():
-    """The package ships tlm/ only: nothing in it may need the training code."""
+    """The package ships timmytime/ only: nothing in it may need the training code."""
     import re
     from pathlib import Path
 
-    for path in (Path(tlm.__file__).parent).glob("*.py"):
+    for path in (Path(timmytime.__file__).parent).glob("*.py"):
         assert not re.search(r"^\s*(from|import) training\b", path.read_text(), re.M), path
+
+
+def test_long_text_is_read_in_pieces():
+    from timmytime.resolve import DateRange
+    from timmytime.runtime import MAX_BYTES, _chunks
+
+    filler = "They prefer functional patterns and asked that the reranker stay on the local cross-encoder. " * 6
+    for text in (filler, "x" * 900, "上周" * 300, " ".join(["word"] * 400)):
+        pieces = _chunks(text)
+        assert all(0 < len(p.encode()) <= MAX_BYTES for p in pieces)
+    assert timmytime.parse(filler + "The migration ran on 2026-06-10.", date(2026, 8, 12)) == [
+        DateRange(date(2026, 6, 10), date(2026, 6, 10))]

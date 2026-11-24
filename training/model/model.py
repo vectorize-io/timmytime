@@ -1,8 +1,8 @@
 """The torch model, training, and export to the numpy weights file.
 
-    python -m training.model.model --train data/train_en.jsonl --out tlm/weights/tlm-en.npz
+    python -m training.model.model --train data/train_en.jsonl --out timmytime/weights/timmytime-en.npz
 
-Training only; running the model needs numpy only (tlm/runtime.py). Every layer
+Training only; running the model needs numpy only (timmytime/runtime.py). Every layer
 here is mirrored op for op there, so keep the two in step.
 """
 
@@ -22,8 +22,8 @@ import torch
 import torch.nn.functional as F
 from torch import nn
 
-from tlm.resolve import resolve
-from tlm.runtime import BOS, EOS, MAX_BYTES, MAX_OUT, PAD, UNK, VOCAB, encode_bytes, encode_code
+from timmytime.resolve import resolve
+from timmytime.runtime import BOS, EOS, MAX_BYTES, MAX_OUT, PAD, UNK, VOCAB, encode_bytes, encode_code
 
 
 class Cfg:
@@ -89,7 +89,7 @@ class DecLayer(nn.Module):
         return y + self.f2(F.relu(self.f1(self.ln3(y))))
 
 
-class TLM(nn.Module):
+class TimmyTime(nn.Module):
     def __init__(self, c=Cfg):
         super().__init__()
         self.c = c
@@ -126,7 +126,7 @@ class TLM(nn.Module):
         return self.dec_ln(y) @ self.tok_emb.weight.T
 
     def export(self, path: Path):
-        """Weights in the numpy layout tlm/runtime.py reads (float16 on disk)."""
+        """Weights in the numpy layout timmytime/runtime.py reads (float16 on disk)."""
         sd = {k: v.detach().float().cpu().numpy() for k, v in self.state_dict().items()}
         w = {"byte_emb": sd["byte_emb.weight"], "tok_emb": sd["tok_emb.weight"], "enc_pos": sd["enc_pos"],
              "dec_pos": sd["dec_pos"], "conv1.w": sd["conv1.weight"], "conv1.b": sd["conv1.bias"],
@@ -344,7 +344,7 @@ def seq_acc(model, rows, device, size=512):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--train", nargs="+", required=True)
-    ap.add_argument("--out", type=Path, default=Path("tlm/weights/tlm-en.npz"))
+    ap.add_argument("--out", type=Path, default=Path("timmytime/weights/timmytime-en.npz"))
     ap.add_argument("--epochs", type=int, default=30)
     ap.add_argument("--batch", type=int, default=256)
     ap.add_argument("--lr", type=float, default=1e-3)
@@ -357,7 +357,7 @@ def main():
     a = ap.parse_args()
 
     torch.manual_seed(a.seed)
-    torch.set_num_threads(int(os.environ.get("TLM_TORCH_THREADS", "4")))  # training.guard sets this
+    torch.set_num_threads(int(os.environ.get("TIMMYTIME_TORCH_THREADS", "4")))  # training.guard sets this
     r = random.Random(a.seed)
     rows = load_rows(a.train)
     r.shuffle(rows)
@@ -366,7 +366,7 @@ def main():
     pools = ([q for q, c in train if c == "none"], [(q, c) for q, c in train if c != "none"])
     device = "mps" if torch.backends.mps.is_available() else "cuda" if torch.cuda.is_available() else "cpu"
     Cfg.stride, Cfg.n_dec, Cfg.n_enc = a.stride, a.n_dec, a.n_enc
-    model = TLM().to(device)
+    model = TimmyTime().to(device)
     print(f"{sum(p.numel() for p in model.parameters()) / 1e6:.2f}M weights, {len(train)} train, {len(dev)} dev, {device}")
 
     opt = torch.optim.AdamW(model.parameters(), lr=a.lr, weight_decay=0.01, betas=(0.9, 0.98))
