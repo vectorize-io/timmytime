@@ -268,10 +268,14 @@ def main() -> None:
     ap.add_argument("--trap-filter", default="", help="regex: only trap ideas matching it (no-date rows)")
     ap.add_argument("--kinds", default="", help="comma list: only these meaning kinds (see timmytime/meanings.py)")
     ap.add_argument("--far-share", type=float, default=None, help="share of years far from today (default 0.08)")
+    ap.add_argument("--month-end-share", type=float, default=None, help="share of days on the 29th-31st (default 0.1)")
     a = ap.parse_args()
     if a.far_share is not None:
         import training.data.meanings as meanings
         meanings.FAR_SHARE = a.far_share
+    if a.month_end_share is not None:
+        import training.data.meanings as meanings
+        meanings.MONTH_END_SHARE = a.month_end_share
     k = a.k or (3 if a.split == "test" else 5)
 
     jobs = make_jobs(a.split, a.lang, a.n, a.seed, k, a.none_share, set(filter(None, a.kinds.split(","))), a.trap_filter)

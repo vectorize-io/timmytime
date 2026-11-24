@@ -13,6 +13,7 @@ import random
 from datetime import date, datetime, timedelta
 
 from timmytime.resolve import resolve
+from training.data.meanings import _day
 
 NUM = "零一二三四五六七八九十"
 
@@ -40,8 +41,8 @@ def cn(n: int, r: random.Random, two: bool = True) -> str:
 
 
 PAST = ["的记录", "做了什么", "的笔记", "提到的事", "讨论了什么", "的会议", "发生了什么", "买了什么", "的费用", "聊了什么", "的照片",
-        "讨论了这个", "的活动", "提到的东西是什么", "说了什么", "吃了什么", "见了谁", ""]
-FUTURE = ["的计划", "安排", "要做什么", "去哪", "提醒我", "的会议", "的行程", "有什么事", ""]
+        "讨论了这个", "的活动", "提到的东西是什么", "说了什么", "吃了什么", "见了谁", "", "", "呢", "？", "吗", "的", "的事"]
+FUTURE = ["的计划", "安排", "要做什么", "去哪", "提醒我", "的会议", "的行程", "有什么事", "", "", "呢", "？", "吗", "的", "的事"]
 ANY = PAST + FUTURE
 WD = ["一", "二", "三", "四", "五", "六", "日"]
 WD_CODE = ["mon", "tue", "wed", "thu", "fri", "sat", "sun"]
@@ -162,7 +163,9 @@ def t_quarter(r):
 
 def t_ago(r):
     unit, cnw = r.choice([("day", "天"), ("week", "周"), ("week", "个星期"), ("week", "週"), ("month", "个月"), ("year", "年")])
-    n = r.choice(range(1, 13)) if unit != "day" else r.choice([*range(1, 31), 40, 45, 50, 60, 70, 80, 90, 99, 100, 100, 100, 120, 150, 200])
+    n = r.choice(range(1, 13)) if unit != "day" else r.choice([*range(1, 31), 40, 45, 50, 60, 70, 80, 90, 99])
+    if r.random() < 0.4:  # small counts are the common ones: 两天前, 三天前, 两年前
+        n = r.choice([1, 2, 2, 2, 3, 3, 4, 5])
     if unit == "month" and r.random() < 0.3:
         n = r.choice([13, 18, 22, 24])
     word = cn(n, r) + cnw
@@ -260,7 +263,7 @@ def t_from_on(r):
 def t_before_after(r):
     y = r.randint(2010, 2030)
     m = r.randint(1, 12)
-    d = r.randint(1, 28)
+    d = _day(r, y, m)
     w, c = r.choice([(year_word(y, r), str(y)), (year_word(y, r) + month_word(m, r), f"{y}-{m:02d}"),
                      (year_word(y, r) + month_word(m, r) + "份", f"{y}-{m:02d}"),
                      (year_word(y, r) + month_word(m, r) + day_word(d, r), f"{y}-{m:02d}-{d:02d}"),
@@ -284,8 +287,8 @@ def t_dayrange(r):
             return wd_word(b, r) + r.choice(["到", "至"]) + wd_word(a, r) + r.choice(FUTURE), f"week 0 {WD_CODE[b]} .. week 1 {WD_CODE[a]}"
         return wd_word(a, r) + r.choice(["到", "至"]) + wd_word(b, r) + r.choice(FUTURE), f"week 0 {WD_CODE[a]} .. week 0 {WD_CODE[b]}"
     y, m = r.randint(2015, 2027), r.randint(1, 12)
-    d1 = r.randint(1, 20)
-    d2 = r.randint(d1 + 1, 28)
+    d2 = max(2, _day(r, y, m))
+    d1 = r.randint(1, d2 - 1)
     sep = r.choice(["到", "至", "-", "~"])
     tail = r.choice(["日", "号", ""])
     head = month_word(m, r) + str(d1) + r.choice(["", "日", "号"]) + sep + str(d2) + tail
@@ -295,13 +298,16 @@ def t_dayrange(r):
 
 
 def t_explicit(r):
-    y, m, d = r.randint(1990, 2030), r.randint(1, 12), r.randint(1, 28)
+    y, m = r.randint(1990, 2030), r.randint(1, 12)
     if r.random() < 0.4:
         return year_word(y, r) + month_word(m, r) + r.choice(["", "份"]) + r.choice(ANY), f"{y}-{m:02d}"
     if r.random() < 0.5:
         m2 = r.randint(1, 12)
         return month_word(m2, r) + r.choice(["中了奖", "的活动", "份的账单", "去了哪", "的记录"]), ["jan", "feb", "mar", "apr", "may", "jun", "jul", "aug", "sep", "oct", "nov", "dec"][m2 - 1]
-    d = r.randint(1, 31) if m in (1, 3, 5, 7, 8, 10, 12) else r.randint(1, 30) if m != 2 else r.randint(1, 28)
+    if r.random() < 0.4:  # no year: 3月30日的会议
+        d = _day(r, None, m)
+        return month_word(m, r) + day_word(d, r) + r.choice(ANY), f"*-{m:02d}-{d:02d}"
+    d = _day(r, y, m)
     return year_word(y, r) + month_word(m, r) + day_word(d, r) + r.choice(ANY), f"{y}-{m:02d}-{d:02d}"
 
 

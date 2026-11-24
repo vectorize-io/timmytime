@@ -7,6 +7,7 @@ English conventions fixed here: "last Monday" = the latest Monday before today;
 the latest summer already started.
 """
 
+import calendar
 import random
 
 from timmytime.resolve import MONTHS, WEEKDAYS
@@ -20,7 +21,15 @@ NUM_WORDS = ["zero", "one", "two", "three", "four", "five", "six", "seven", "eig
 
 
 FAR_SHARE = 0.08  # share of years far from today (gen --far-share)
+MONTH_END_SHARE = 0.1  # share of days forced to the 29th-31st (gen --month-end-share)
 
+
+
+def _day(r, y, m):
+    """A real day of that month (y=None: any year, so no Feb 29). The last days get extra weight:
+    they were missing for a long time (every sampler stopped at 28)."""
+    last = calendar.monthrange(y or 2001, m)[1]
+    return r.randint(29, last) if last > 28 and r.random() < MONTH_END_SHARE else r.randint(1, last)
 
 def _year(r: random.Random) -> int:
     k = r.random()
@@ -127,8 +136,9 @@ def f_month_name(r):
 
 def f_date(r):
     y, m = _year(r), r.randint(1, 12)
-    d = r.randint(1, 28)
+    d = _day(r, y, m)
     if r.random() < 0.3:
+        d = _day(r, None, m)
         return f"*-{m:02d}-{d:02d}", f"{r.choice([f'{MONTH_NAMES[m - 1]} {d}', f'{d} {MONTH_NAMES[m - 1]}', f'the {d}{_th(d)} of {MONTH_NAMES[m - 1]}'])}, no year given (that single day)"
     return f"{y}-{m:02d}-{d:02d}", f"the single day written as: {_date_text(r, y, m, d)}"
 
@@ -193,7 +203,8 @@ def f_modified(r):
     mod = r.choice(["early"] * 3 + ["mid"] * 2 + ["late"] * 3 + ["h1", "h2", "around", "around"])
     if mod == "around":
         if r.random() < 0.5:
-            y, m, d = _year(r), r.randint(1, 12), r.randint(1, 28)
+            y, m = _year(r), r.randint(1, 12)
+            d = _day(r, y, m)
             return f"around {y}-{m:02d}-{d:02d}", f"around {_date_text(r, y, m, d)} (roughly that date, give or take a few days)"
         y, m = _year(r), r.randint(1, 12)
         return f"around {y}-{m:02d}", f"around {MONTH_NAMES[m - 1]} {y} (roughly, give or take)"
@@ -304,8 +315,10 @@ def f_range(r):
         m2 = r.randint(m + 1, 12)
         return f"{y}-{m:02d} .. {y}-{m2:02d}", f"from {MONTH_NAMES[m - 1]} {y} to {MONTH_NAMES[m2 - 1]} {y}"
     if k < 0.85:  # day to day: "June 5 to June 8, 2024", "June 5-8"
-        y, m, d = _year(r), r.randint(1, 12), r.randint(1, 24)
-        d2 = r.randint(d + 1, 28)
+        y, m = _year(r), r.randint(1, 12)
+        d2 = _day(r, None, m)
+        d = r.randint(1, max(1, d2 - 1)) if d2 > 1 else 1
+        d2 = max(d2, d + 1)
         if r.random() < 0.3:
             return f"*-{m:02d}-{d:02d} .. *-{m:02d}-{d2:02d}", f"from {MONTH_NAMES[m - 1]} {d} to {MONTH_NAMES[m - 1]} {d2}, no year given (those days)"
         return f"{y}-{m:02d}-{d:02d} .. {y}-{m:02d}-{d2:02d}", f"from {MONTH_NAMES[m - 1]} {d} to {d2}, {y} (those days, both ends included)"
@@ -332,7 +345,7 @@ def f_open(r):
             lambda: ("week 0", "the start of this week (Monday)"), lambda: ("week -1 weekend", "last weekend"),
             lambda: ("year -1 now", "this same day last year"), lambda: ("day -1", "yesterday / last night"),
             lambda: (f"day -{(n := r.randint(2, 10))}", f"{n} days ago"),
-            lambda: (f"{(y := _year(r))}-{(m := r.randint(1, 12)):02d}-{(d := r.randint(1, 28)):02d}", _date_text(r, y, m, d)),
+            lambda: (f"{(y := _year(r))}-{(m := r.randint(1, 12)):02d}-{(d := _day(r, y, m)):02d}", _date_text(r, y, m, d)),
         ])()
         return f"{code} .. now", f"since {desc} (from its start up to today)"
     if k < 0.6:  # from a point on, with no end: "starting tomorrow", "from next week on"
@@ -359,10 +372,11 @@ def f_sameday(r):
         which = {-1: "last year", 1: "next year", -2: "two years ago"}[n]
         return f"year {n} now", f"this same day {which} (today's date, {which}; that single day)"
     if k < 0.7:
-        n, m, d = r.choice([0, 0, -1, 1]), r.randint(1, 12), r.randint(1, 28)
+        n, m = r.choice([0, 0, -1, 1]), r.randint(1, 12)
+        d = _day(r, None, m)
         which = {0: "this year", -1: "last year", 1: "next year"}[n]
         return f"year {n} *-{m:02d}-{d:02d}", f"{MONTH_NAMES[m - 1]} {d} {which} (that single day, even if it is still ahead)"
-    n, d = r.choice([-1, -1, 0, 1]), r.randint(1, 28)
+    n, d = r.choice([-1, -1, 0, 1]), _day(r, None, r.randint(1, 12))
     which = {-1: "last month", 0: "this month", 1: "next month"}[n]
     return f"month {n} day {d}", f"the {d}{_th(d)} of {which} (that single day)"
 

@@ -1,0 +1,165 @@
+{"q": "Ricordami di controllare le scarpe nuove il 2027-12-30, costano 145 euro.", "code": "2027-12-30", "kind": "date", "lang": "it", "anchor": "2024-09-25", "ranges": [["2027-12-30", "2027-12-30"]]}
+{"q": "Quanti chilometri avrò corso entro il 2027-12-30? Devo raggiungere i 2500 km.", "code": "2027-12-30", "kind": "date", "lang": "it", "anchor": "2027-01-12", "ranges": [["2027-12-30", "2027-12-30"]]}
+{"q": "Prenota una stanza per il 2027-12-30, numero 402.", "code": "2027-12-30", "kind": "date", "lang": "it", "anchor": "2026-03-06", "ranges": [["2027-12-30", "2027-12-30"]]}
+{"q": "Che tempo 30 luglio 2026?", "code": "2026-07-30", "kind": "date", "lang": "it", "anchor": "2027-07-18", "ranges": [["2026-07-30", "2026-07-30"]]}
+{"q": "Agenda 30 luglio 2026", "code": "2026-07-30", "kind": "date", "lang": "it", "anchor": "2027-08-15", "ranges": [["2026-07-30", "2026-07-30"]]}
+{"q": "Promemoria 30 luglio 2026", "code": "2026-07-30", "kind": "date", "lang": "it", "anchor": "2025-01-15", "ranges": [["2026-07-30", "2026-07-30"]]}
+{"q": "Ricordi cosa ho mangiato il 29 aprile 2022? Mi sa che era pasta.", "code": "2022-04-29", "kind": "date", "lang": "it", "anchor": "2026-03-05", "ranges": [["2022-04-29", "2022-04-29"]]}
+{"q": "Controlla le note che ho preso il 29 aprile 2022, c'è un appuntamento importante.", "code": "2022-04-29", "kind": "date", "lang": "it", "anchor": "2027-04-15", "ranges": [["2022-04-29", "2022-04-29"]]}
+{"q": "Cosa facevo il 29 aprile 2022? Non me lo ricordo proprio...", "code": "2022-04-29", "kind": "date", "lang": "it", "anchor": "2024-07-28", "ranges": [["2022-04-29", "2022-04-29"]]}
+{"q": "Ehi, potresti ricordarmi di controllare se ho ancora quei libri che devo restituire in biblioteca tra aprile e maggio perché non vorrei pagare multe.", "code": "apr .. may", "kind": "range", "lang": "it", "anchor": "2026-01-01", "ranges": [["2025-04-01", "2025-05-31"]]}
+{"q": "Ti ricordi se avevamo parlato di organizzare quel viaggio di gruppo proprio tra l'inizio di aprile e la fine di maggio o era un'altra idea?", "code": "apr .. may", "kind": "range", "lang": "it", "anchor": "2025-09-11", "ranges": [["2025-04-01", "2025-05-31"]]}
+{"q": "Scrivimi pure un promemoria per le scadenze degli esami che cadono tra aprile e maggio così non mi dimentico di studiare tutto quanto in tempo.", "code": "apr .. may", "kind": "range", "lang": "it", "anchor": "2025-12-26", "ranges": [["2025-04-01", "2025-05-31"]]}
+{"q": "30 aprile, 50 euro", "code": "*-04-30", "kind": "date", "lang": "it", "anchor": "2024-05-20", "ranges": [["2024-04-30", "2024-04-30"]]}
+{"q": "30 aprile, stanza 12", "code": "*-04-30", "kind": "date", "lang": "it", "anchor": "2027-09-12", "ranges": [["2027-04-30", "2027-04-30"]]}
+{"q": "30 aprile, 4 libri", "code": "*-04-30", "kind": "date", "lang": "it", "anchor": "2026-02-05", "ranges": [["2025-04-30", "2025-04-30"]]}
+{"q": "Ricordami di prenotare il ristorante per il 30 settembre.", "code": "*-09-30", "kind": "date", "lang": "it", "anchor": "2027-06-15", "ranges": [["2026-09-30", "2026-09-30"]]}
+{"q": "Che tempo farà il 30 settembre?", "code": "*-09-30", "kind": "date", "lang": "it", "anchor": "2027-01-14", "ranges": [["2026-09-30", "2026-09-30"]]}
+{"q": "Ho un appuntamento importante il 30 settembre.", "code": "*-09-30", "kind": "date", "lang": "it", "anchor": "2026-08-08", "ranges": [["2025-09-30", "2025-09-30"]]}
+{"q": "ricorda che il 30 sep 2022 ho consegnato la bozza della tesi", "code": "2022-09-30", "kind": "date", "lang": "it", "anchor": "2027-12-19", "ranges": [["2022-09-30", "2022-09-30"]]}
+{"q": "cosa ho fatto il 30 sep 2022?", "code": "2022-09-30", "kind": "date", "lang": "it", "anchor": "2026-02-07", "ranges": [["2022-09-30", "2022-09-30"]]}
+{"q": "segna sul calendario che il 30 sep 2022 è stato il primo giorno di lezione", "code": "2022-09-30", "kind": "date", "lang": "it", "anchor": "2025-05-19", "ranges": [["2022-09-30", "2022-09-30"]]}
+{"q": "appuntamento 29 mese passato", "code": "month -1 day 29", "kind": "sameday", "lang": "it", "anchor": "2026-01-01", "ranges": [["2025-12-29", "2025-12-29"]]}
+{"q": "ricordati di prenotare il ristorante per il 29 dicembre 2027", "code": "2027-12-29", "kind": "date", "lang": "it", "anchor": "2024-02-29", "ranges": [["2027-12-29", "2027-12-29"]]}
+{"q": "che tempo farà il 29 dicembre 2027?", "code": "2027-12-29", "kind": "date", "lang": "it", "anchor": "2025-12-31", "ranges": [["2027-12-29", "2027-12-29"]]}
+{"q": "segna in agenda il 29 dicembre 2027 per la festa", "code": "2027-12-29", "kind": "date", "lang": "it", "anchor": "2026-03-22", "ranges": [["2027-12-29", "2027-12-29"]]}
+{"q": "Ricordati di quella riunione lunghissima che abbiamo avuto il trentuno del mese scorso tra le dieci e le undici perché non trovo più gli appunti.", "code": "month -1 day 31", "kind": "sameday", "lang": "it", "anchor": "2024-08-27", "ranges": [["2024-07-31", "2024-07-31"]]}
+{"q": "Non dimenticare assolutamente che il trentuno del mese scorso alle ventidue e le ventidue e trenta ho finalmente finito di scrivere tutto quel codice complesso.", "code": "month -1 day 31", "kind": "sameday", "lang": "it", "anchor": "2026-08-08", "ranges": [["2026-07-31", "2026-07-31"]]}
+{"q": "Potresti dirmi se dall'inizio di questo giorno l'anno scorso fino a oggi ho speso troppo per i libri universitari o se sono rimasto abbastanza costante?", "code": "year -1 now .. now", "kind": "open", "lang": "it", "anchor": "2024-03-06", "ranges": [["2023-03-06", "2024-03-06"]]}
+{"q": "ricordati che il cliente ha chiesto uno sconto tra agosto 1980 e settembre 1980", "code": "1980-08 .. 1980-09", "kind": "range", "lang": "it", "anchor": "2025-07-12", "ranges": [["1980-08-01", "1980-09-30"]]}
+{"q": "come andava il fatturato da agosto 1980 a settembre 1980?", "code": "1980-08 .. 1980-09", "kind": "range", "lang": "it", "anchor": "2023-12-13", "ranges": [["1980-08-01", "1980-09-30"]]}
+{"q": "ricorda che nella prima metà di giugno 2017 avevamo pagato 450 eur per il logo", "code": "h1 2017-06", "kind": "modified", "lang": "it", "anchor": "2024-08-21", "ranges": [["2017-06-01", "2017-06-15"]]}
+{"q": "Mostrami l'agenda per il 29 October 2026", "code": "2026-10-29", "kind": "date", "lang": "it", "anchor": "2025-11-22", "ranges": [["2026-10-29", "2026-10-29"]]}
+{"q": "Trova i contratti scaduti il 29 October 2026", "code": "2026-10-29", "kind": "date", "lang": "it", "anchor": "2026-12-20", "ranges": [["2026-10-29", "2026-10-29"]]}
+{"q": "Ricordami di inviare la fattura il 29 October 2026", "code": "2026-10-29", "kind": "date", "lang": "it", "anchor": "2026-08-08", "ranges": [["2026-10-29", "2026-10-29"]]}
+{"q": "ricorda che fine mese scorso ero di turno di notte", "code": "late month -1", "kind": "modified", "lang": "it", "anchor": "2026-01-01", "ranges": [["2025-12-23", "2025-12-31"]]}
+{"q": "potevi segnare ql turno di notte di fine mese scorso?", "code": "late month -1", "kind": "modified", "lang": "it", "anchor": "2024-02-29", "ranges": [["2024-01-23", "2024-01-31"]]}
+{"q": "Ricorda che da lunedì scorso fino a oggi ho comprato troppi giocatoli.", "code": "week -1 .. now", "kind": "open", "lang": "it", "anchor": "2026-08-08", "ranges": [["2026-07-27", "2026-08-08"]]}
+{"q": "Segna che tra l'inizio della settimana scorsa e oggi i bimbi sono stati stanchi.", "code": "week -1 .. now", "kind": "open", "lang": "it", "anchor": "2023-08-08", "ranges": [["2023-07-31", "2023-08-08"]]}
+{"q": "Non dimenticare che da una settimana fa a oggi abbiamo mangiato solo pasta.", "code": "week -1 .. now", "kind": "open", "lang": "it", "anchor": "2026-05-23", "ranges": [["2026-05-11", "2026-05-23"]]}
+{"q": "Ricorda qst turno del 2024-04-30: paziente letto 4 con febbre alta", "code": "2024-04-30", "kind": "date", "lang": "it", "anchor": "2026-06-22", "ranges": [["2024-04-30", "2024-04-30"]]}
+{"q": "2024-04-30: ho finito il turno, stanca morta!", "code": "2024-04-30", "kind": "date", "lang": "it", "anchor": "2026-12-02", "ranges": [["2024-04-30", "2024-04-30"]]}
+{"q": "Segna qst per il 2024-04-30: controllo glicemia ore 10 e 22", "code": "2024-04-30", "kind": "date", "lang": "it", "anchor": "2025-08-19", "ranges": [["2024-04-30", "2024-04-30"]]}
+{"q": "dal 2027 oggi", "code": "2027-11 .. now", "kind": "open", "lang": "it", "anchor": "2027-12-06", "ranges": [["2027-11-01", "2027-12-06"]]}
+{"q": "novembre 2027-oggi", "code": "2027-11 .. now", "kind": "open", "lang": "it", "anchor": "2027-12-26", "ranges": [["2027-11-01", "2027-12-26"]]}
+{"q": "Cosa è successo nel mondo il 1856-04-30?", "code": "1856-04-30", "kind": "date", "lang": "it", "anchor": "2026-08-03", "ranges": [["1856-04-30", "1856-04-30"]]}
+{"q": "Ricordati di aggiungere i dettagli su 1856-04-30 alla ricerca.", "code": "1856-04-30", "kind": "date", "lang": "it", "anchor": "2027-06-30", "ranges": [["1856-04-30", "1856-04-30"]]}
+{"q": "Qual era il meteo il 1856-04-30?", "code": "1856-04-30", "kind": "date", "lang": "it", "anchor": "2025-02-11", "ranges": [["1856-04-30", "1856-04-30"]]}
+{"q": "allenamento 10-30 gennaio 2015", "code": "2015-01-10 .. 2015-01-30", "kind": "range", "lang": "it", "anchor": "2023-10-03", "ranges": [["2015-01-10", "2015-01-30"]]}
+{"q": "Ricordati che ho iniziato ad allenarmi tra il 1997 e il 1998.", "code": "1997 .. 1998", "kind": "range", "lang": "it", "anchor": "2026-08-09", "ranges": [["1997-01-01", "1998-12-31"]]}
+{"q": "Qual era il mio record personale dal 1997 al 1998?", "code": "1997 .. 1998", "kind": "range", "lang": "it", "anchor": "2023-07-17", "ranges": [["1997-01-01", "1998-12-31"]]}
+{"q": "Ho comprato le prime scarpe da corsa tra il 1997 e il 1998.", "code": "1997 .. 1998", "kind": "range", "lang": "it", "anchor": "2025-04-20", "ranges": [["1997-01-01", "1998-12-31"]]}
+{"q": "Ricordati di comprare i regali alla fine di quest'anno.", "code": "late year 0", "kind": "modified", "lang": "it", "anchor": "2024-01-04", "ranges": [["2024-09-01", "2024-12-31"]]}
+{"q": "Prenota il ristorante per la fine di quest'anno.", "code": "late year 0", "kind": "modified", "lang": "it", "anchor": "2026-01-01", "ranges": [["2026-09-01", "2026-12-31"]]}
+{"q": "ricorda che il 30 September 2017 dovevo pagah 450 euro", "code": "2017-09-30", "kind": "date", "lang": "it", "anchor": "2026-01-01", "ranges": [["2017-09-30", "2017-09-30"]]}
+{"q": "30 September 2017 -> checka se c'erano 1200 step fatti", "code": "2017-09-30", "kind": "date", "lang": "it", "anchor": "2026-08-08", "ranges": [["2017-09-30", "2017-09-30"]]}
+{"q": "segna 30 September 2017 stavo nella stanza 402", "code": "2017-09-30", "kind": "date", "lang": "it", "anchor": "2026-05-10", "ranges": [["2017-09-30", "2017-09-30"]]}
+{"q": "Ricorda che ho lavorato il turno di notte tra novembre 1996 e dicembre 1996.", "code": "1996-11 .. 1996-12", "kind": "range", "lang": "it", "anchor": "2026-01-01", "ranges": [["1996-11-01", "1996-12-31"]]}
+{"q": "Segna il turno extra che ho fatto da novembre 1996 a dicembre 1996, per fav.", "code": "1996-11 .. 1996-12", "kind": "range", "lang": "it", "anchor": "2026-03-01", "ranges": [["1996-11-01", "1996-12-31"]]}
+{"q": "vacanze aprile dicembre", "code": "apr .. dec", "kind": "range", "lang": "it", "anchor": "2024-10-09", "ranges": [["2023-04-01", "2023-12-31"]]}
+{"q": "compiti aprile dicembre", "code": "apr .. dec", "kind": "range", "lang": "it", "anchor": "2027-10-07", "ranges": [["2026-04-01", "2026-12-31"]]}
+{"q": "regali aprile dicembre", "code": "apr .. dec", "kind": "range", "lang": "it", "anchor": "2026-04-23", "ranges": [["2025-04-01", "2025-12-31"]]}
+{"q": "Ricordami di comprare i fiori il 29 marzo.", "code": "*-03-29", "kind": "date", "lang": "it", "anchor": "2027-10-27", "ranges": [["2027-03-29", "2027-03-29"]]}
+{"q": "Cosa ho pianificato per il 29 marzo? Non lo ricordo ben.", "code": "*-03-29", "kind": "date", "lang": "it", "anchor": "2023-08-23", "ranges": [["2023-03-29", "2023-03-29"]]}
+{"q": "Il 29 marzo è la festa di Maria, segnalo aagendario.", "code": "*-03-29", "kind": "date", "lang": "it", "anchor": "2024-01-23", "ranges": [["2023-03-29", "2023-03-29"]]}
+{"q": "Il 29 gennaio ricordami di inviare il report mensile agli investitori.", "code": "*-01-29", "kind": "date", "lang": "it", "anchor": "2026-03-01", "ranges": [["2026-01-29", "2026-01-29"]]}
+{"q": "Il 29 gennaio ho quel meeting cruciale con il team di design.", "code": "*-01-29", "kind": "date", "lang": "it", "anchor": "2023-06-24", "ranges": [["2023-01-29", "2023-01-29"]]}
+{"q": "Il 29 gennaio scade il termine per il rinnovo del server.", "code": "*-01-29", "kind": "date", "lang": "it", "anchor": "2025-12-31", "ranges": [["2025-01-29", "2025-01-29"]]}
+{"q": "Segna che l'ufficio era ancora in affitto prima di gennaio 2023.", "code": "before 2023", "kind": "open", "lang": "it", "anchor": "2023-09-13", "ranges": [[null, "2022-12-31"]]}
+{"q": "Ricordati che il 2021-11-29 ho incontrato l'investitore per il pitch.", "code": "2021-11-29", "kind": "date", "lang": "it", "anchor": "2025-06-04", "ranges": [["2021-11-29", "2021-11-29"]]}
+{"q": "Il 2021-11-29 alle 10:00 e alle 15:00 ho i meeting con il team.", "code": "2021-11-29", "kind": "date", "lang": "it", "anchor": "2026-08-10", "ranges": [["2021-11-29", "2021-11-29"]]}
+{"q": "Controlla se il 2021-11-29 alle 09:00 e alle 18:00 ho scadenze importanti.", "code": "2021-11-29", "kind": "date", "lang": "it", "anchor": "2026-05-22", "ranges": [["2021-11-29", "2021-11-29"]]}
+{"q": "Ricorda che dal weekend scorso fino ad oggi ho lavorato solo al logo.", "code": "week -1 weekend .. now", "kind": "open", "lang": "it", "anchor": "2027-06-13", "ranges": [["2027-06-05", "2027-06-13"]]}
+{"q": "Ho fatto tre call dal sabato scorso fino a stamattina, segnale tutto.", "code": "week -1 weekend .. now", "kind": "open", "lang": "it", "anchor": "2027-07-17", "ranges": [["2027-07-10", "2027-07-17"]]}
+{"q": "Aggiungi che dal fine settimana scorso a oggi il budget è aumentato.", "code": "week -1 weekend .. now", "kind": "open", "lang": "it", "anchor": "2026-08-09", "ranges": [["2026-08-01", "2026-08-09"]]}
+{"q": "Ordina per 30 maggio 2027", "code": "2027-05-30", "kind": "date", "lang": "it", "anchor": "2026-08-08", "ranges": [["2027-05-30", "2027-05-30"]]}
+{"q": "Promemoria 30 maggio 2027", "code": "2027-05-30", "kind": "date", "lang": "it", "anchor": "2026-04-23", "ranges": [["2027-05-30", "2027-05-30"]]}
+{"q": "Controlla 30 maggio 2027", "code": "2027-05-30", "kind": "date", "lang": "it", "anchor": "2025-08-21", "ranges": [["2027-05-30", "2027-05-30"]]}
+{"q": "Ricorda che da mercoledì a venerdì scorso ho venduto 450 caffè.", "code": "week -1 wed .. week -1 fri", "kind": "range", "lang": "it", "anchor": "2027-08-04", "ranges": [["2027-07-28", "2027-07-30"]]}
+{"q": "Segna che tra mercoledì e venerdì scorso il fornitore ha portato 82 scatole.", "code": "week -1 wed .. week -1 fri", "kind": "range", "lang": "it", "anchor": "2024-05-31", "ranges": [["2024-05-22", "2024-05-24"]]}
+{"q": "Non dimenticare, da mercoledì a venerdì scorso, che l'ordine era di 129 euro.", "code": "week -1 wed .. week -1 fri", "kind": "range", "lang": "it", "anchor": "2025-03-23", "ranges": [["2025-03-12", "2025-03-14"]]}
+{"q": "Per favore, annoti che il 30 aprile 1982 è la data in cui ho iniziato il mio primo progetto imprenditoriale.", "code": "1982-04-30", "kind": "date", "lang": "it", "anchor": "2024-06-09", "ranges": [["1982-04-30", "1982-04-30"]]}
+{"q": "Potrebbe ricordarmi di consultare i documenti storici relativi al 30 aprile 1982?", "code": "1982-04-30", "kind": "date", "lang": "it", "anchor": "2026-07-17", "ranges": [["1982-04-30", "1982-04-30"]]}
+{"q": "Le chiedo gentilmente di archiviare questa nota: il 30 aprile 1982 è un giorno fondamentale per la mia ricerca.", "code": "1982-04-30", "kind": "date", "lang": "it", "anchor": "2024-04-03", "ranges": [["1982-04-30", "1982-04-30"]]}
+{"q": "Ricordami di prendere le medicine l'8/31/2025.", "code": "2025-08-31", "kind": "date", "lang": "it", "anchor": "2023-03-26", "ranges": [["2025-08-31", "2025-08-31"]]}
+{"q": "Cosa ho pianificato per l'8/31/2025?", "code": "2025-08-31", "kind": "date", "lang": "it", "anchor": "2027-11-20", "ranges": [["2025-08-31", "2025-08-31"]]}
+{"q": "Segna in agenda l'appuntamento dell'8/31/2025.", "code": "2025-08-31", "kind": "date", "lang": "it", "anchor": "2026-02-14", "ranges": [["2025-08-31", "2025-08-31"]]}
+{"q": "ricordati di quel logo fatto a inizio anno", "code": "early year 0", "kind": "modified", "lang": "it", "anchor": "2025-12-31", "ranges": [["2025-01-01", "2025-04-30"]]}
+{"q": "Ricordati che il 1981-09-30 era il giorno in cui ho venduto 500 azioni.", "code": "1981-09-30", "kind": "date", "lang": "it", "anchor": "2027-10-21", "ranges": [["1981-09-30", "1981-09-30"]]}
+{"q": "Controlla il log del 1981-09-30, mi sa che c'erano 42 errori critici.", "code": "1981-09-30", "kind": "date", "lang": "it", "anchor": "2025-01-14", "ranges": [["1981-09-30", "1981-09-30"]]}
+{"q": "Segna sul calndario il 1981-09-30 per la riunione nella stanza 404.", "code": "1981-09-30", "kind": "date", "lang": "it", "anchor": "2026-01-01", "ranges": [["1981-09-30", "1981-09-30"]]}
+{"q": "ricordati tutti i bug critici che ho segnalato dall'inizio del mese scorso fino ad oggi", "code": "month -1 .. now", "kind": "open", "lang": "it", "anchor": "2026-03-01", "ranges": [["2026-02-01", "2026-03-01"]]}
+{"q": "quante ore di reperibilità ho fatto dall'inizio del mese scorso fino a oggi?", "code": "month -1 .. now", "kind": "open", "lang": "it", "anchor": "2023-04-16", "ranges": [["2023-03-01", "2023-04-16"]]}
+{"q": "riassumi i deploy fatti dall'inizio del mese scorso fino ad oggi", "code": "month -1 .. now", "kind": "open", "lang": "it", "anchor": "2023-05-28", "ranges": [["2023-04-01", "2023-05-28"]]}
+{"q": "Per favore, potrebbe ricordarmi quanto ho speso per quel libro il 29 settembre dell'anno scorso? Erano 45 euro.", "code": "year -1 *-09-29", "kind": "sameday", "lang": "it", "anchor": "2027-02-15", "ranges": [["2026-09-29", "2026-09-29"]]}
+{"q": "Ricordati di prenotare quel ristorante per il pranzo e la cena del ventinove aprile perché i bambini vogliono proprio andare lì quel giorno specifico.", "code": "*-04-29", "kind": "date", "lang": "it", "anchor": "2025-12-31", "ranges": [["2025-04-29", "2025-04-29"]]}
+{"q": "Per favore segna sul calendario che il ventinove aprile dobbiamo assolutamente finire di pulire tutto il giardino sia la mattina che il pomeriggio presto.", "code": "*-04-29", "kind": "date", "lang": "it", "anchor": "2024-07-19", "ranges": [["2024-04-29", "2024-04-29"]]}
+{"q": "Scrivi che il ventinove aprile dobbiamo comprare i regali per la festa della scuola sia per la parte mattutina che per quella serale.", "code": "*-04-29", "kind": "date", "lang": "it", "anchor": "2025-11-03", "ranges": [["2025-04-29", "2025-04-29"]]}
+{"q": "Com'è il tempo a metà di quest'anno?", "code": "mid year 0", "kind": "modified", "lang": "it", "anchor": "2024-04-28", "ranges": [["2024-05-01", "2024-08-31"]]}
+{"q": "Ricordati di aggiornare il budget per la metà dell'anno.", "code": "mid year 0", "kind": "modified", "lang": "it", "anchor": "2026-11-29", "ranges": [["2026-05-01", "2026-08-31"]]}
+{"q": "Ricorda che dal primo giorno di oggi lo scorso anno fino a oggi ho accumulato esattamente 4500 passi durante i turni di notte più pesanti.", "code": "year -1 now .. now", "kind": "open", "lang": "it", "anchor": "2026-03-11", "ranges": [["2025-03-11", "2026-03-11"]]}
+{"q": "Segna che tra l'inizio di oggi l'anno scorso e oggi la gestione dei farmaci costava circa 85 euro per ogni singolo kit di emergenza.", "code": "year -1 now .. now", "kind": "open", "lang": "it", "anchor": "2027-09-16", "ranges": [["2026-09-16", "2027-09-16"]]}
+{"q": "Annota che dall'inizio di oggi lo scorso anno fino a oggi ho controllato la stanza 402 per verificare che tutti i pazienti stessero dormendo bene.", "code": "year -1 now .. now", "kind": "open", "lang": "it", "anchor": "2023-05-16", "ranges": [["2022-05-16", "2023-05-16"]]}
+{"q": "segna che da venerdì scorso a lunedì abbiamo venduto 450 unità.", "code": "week -1 fri .. week 0 mon", "kind": "range", "lang": "it", "anchor": "2027-04-13", "ranges": [["2027-04-09", "2027-04-12"]]}
+{"q": "ricordati che tra venerdì scorso e lunedì il cliente ha pagato 1250 euro.", "code": "week -1 fri .. week 0 mon", "kind": "range", "lang": "it", "anchor": "2025-10-30", "ranges": [["2025-10-24", "2025-10-27"]]}
+{"q": "controlla i report da venerdì scorso a lunedì, mi servono i 12 meeting fatti.", "code": "week -1 fri .. week 0 mon", "kind": "range", "lang": "it", "anchor": "2024-02-21", "ranges": [["2024-02-16", "2024-02-19"]]}
+{"q": "Mostrami i miei allenamenti del 12 febbraio 2019.", "code": "2019-02-12", "kind": "date", "lang": "it", "anchor": "2023-02-03", "ranges": [["2019-02-12", "2019-02-12"]]}
+{"q": "Trova il mio record di velocità del 12 febbraio 2019.", "code": "2019-02-12", "kind": "date", "lang": "it", "anchor": "2027-12-19", "ranges": [["2019-02-12", "2019-02-12"]]}
+{"q": "Segna il 12 febbraio 2019 come giorno di gara.", "code": "2019-02-12", "kind": "date", "lang": "it", "anchor": "2024-06-01", "ranges": [["2019-02-12", "2019-02-12"]]}
+{"q": "turni lunedì-oggi", "code": "week 0 .. now", "kind": "open", "lang": "it", "anchor": "2027-08-04", "ranges": [["2027-08-02", "2027-08-04"]]}
+{"q": "pazienti nuovi lunedì-oggi", "code": "week 0 .. now", "kind": "open", "lang": "it", "anchor": "2023-04-14", "ranges": [["2023-04-10", "2023-04-14"]]}
+{"q": "cambiamenti farmaci lunedì-oggi", "code": "week 0 .. now", "kind": "open", "lang": "it", "anchor": "2024-06-10", "ranges": [["2024-06-10", "2024-06-10"]]}
+{"q": "meteo 31 dic 2019", "code": "2019-12-31", "kind": "date", "lang": "it", "anchor": "2024-02-29", "ranges": [["2019-12-31", "2019-12-31"]]}
+{"q": "eventi 31 dicembre 2019", "code": "2019-12-31", "kind": "date", "lang": "it", "anchor": "2026-08-09", "ranges": [["2019-12-31", "2019-12-31"]]}
+{"q": "notizie 31/12/2019", "code": "2019-12-31", "kind": "date", "lang": "it", "anchor": "2025-09-28", "ranges": [["2019-12-31", "2019-12-31"]]}
+{"q": "Potresti ricordarmi di prenotare i voli per il mio viaggio tra luglio e novembre?", "code": "jul .. nov", "kind": "range", "lang": "it", "anchor": "2026-06-06", "ranges": [["2025-07-01", "2025-11-30"]]}
+{"q": "Vorrei che salvassi questo schema di studio per il periodo che va da luglio a novembre.", "code": "jul .. nov", "kind": "range", "lang": "it", "anchor": "2024-01-29", "ranges": [["2023-07-01", "2023-11-30"]]}
+{"q": "Per favore, segna nel calendario che avrò degli esami tra luglio e novembre.", "code": "jul .. nov", "kind": "range", "lang": "it", "anchor": "2024-08-07", "ranges": [["2023-07-01", "2023-11-30"]]}
+{"q": "Ehi, ricordati di segnare che il trenta novembre duemilacinque diciannove era il giorno in cui abbiamo finalmente chiuso quel contratto enorme con i clienti tedeschi.", "code": "2019-11-30", "kind": "date", "lang": "it", "anchor": "2024-01-31", "ranges": [["2019-11-30", "2019-11-30"]]}
+{"q": "Scrivi subito che il trenta novembre duemilacinque diciannove è stata la data in cui abbiamo superato tutti gli obiettivi di fatturato previsti per quel mese.", "code": "2019-11-30", "kind": "date", "lang": "it", "anchor": "2026-11-26", "ranges": [["2019-11-30", "2019-11-30"]]}
+{"q": "Per favore, annoti che i budget per la fine di quest'anno sono stati approvati.", "code": "late year 0", "kind": "modified", "lang": "it", "anchor": "2026-01-29", "ranges": [["2026-09-01", "2026-12-31"]]}
+{"q": "meteo 30 giugno 2027", "code": "2027-06-30", "kind": "date", "lang": "it", "anchor": "2027-12-21", "ranges": [["2027-06-30", "2027-06-30"]]}
+{"q": "eventi 30 giugno 2027", "code": "2027-06-30", "kind": "date", "lang": "it", "anchor": "2026-01-12", "ranges": [["2027-06-30", "2027-06-30"]]}
+{"q": "calendario giugno 30 2027", "code": "2027-06-30", "kind": "date", "lang": "it", "anchor": "2026-10-12", "ranges": [["2027-06-30", "2027-06-30"]]}
+{"q": "esami settembre 30 2026", "code": "2026-09-30", "kind": "date", "lang": "it", "anchor": "2025-03-15", "ranges": [["2026-09-30", "2026-09-30"]]}
+{"q": "meteo 30 settembre 2026", "code": "2026-09-30", "kind": "date", "lang": "it", "anchor": "2024-08-10", "ranges": [["2026-09-30", "2026-09-30"]]}
+{"q": "appuntamenti 30 settembre 2026", "code": "2026-09-30", "kind": "date", "lang": "it", "anchor": "2023-07-16", "ranges": [["2026-09-30", "2026-09-30"]]}
+{"q": "Cosa è successo il 2110-02-10?", "code": "2110-02-10", "kind": "date", "lang": "it", "anchor": "2027-12-20", "ranges": [["2110-02-10", "2110-02-10"]]}
+{"q": "Segna che il 2110-02-10 ho iniziato a studiare il giapponese.", "code": "2110-02-10", "kind": "date", "lang": "it", "anchor": "2026-01-01", "ranges": [["2110-02-10", "2110-02-10"]]}
+{"q": "Ricordati che il 2110-02-10 ho un appuntamento importante.", "code": "2110-02-10", "kind": "date", "lang": "it", "anchor": "2026-12-06", "ranges": [["2110-02-10", "2110-02-10"]]}
+{"q": "Aprile 29 1983, annota che il paziente ha avuto un picco febbrile.", "code": "1983-04-29", "kind": "date", "lang": "it", "anchor": "2023-10-03", "ranges": [["1983-04-29", "1983-04-29"]]}
+{"q": "Il 29 aprile 1983, dimmi se ho controllato i parametri vitali.", "code": "1983-04-29", "kind": "date", "lang": "it", "anchor": "2026-05-01", "ranges": [["1983-04-29", "1983-04-29"]]}
+{"q": "Aprile 29 1983, ricordami di chiamare il primario per il turno.", "code": "1983-04-29", "kind": "date", "lang": "it", "anchor": "2027-06-30", "ranges": [["1983-04-29", "1983-04-29"]]}
+{"q": "Ricordati che l'investitore vuole i nuovi pitch deck da martedì a sabato scorso.", "code": "week -1 tue .. week -1 sat", "kind": "range", "lang": "it", "anchor": "2024-10-23", "ranges": [["2024-10-15", "2024-10-19"]]}
+{"q": "Ho incontrato Marco per un caffè da martedì a sabato scorso.", "code": "week -1 tue .. week -1 sat", "kind": "range", "lang": "it", "anchor": "2026-09-14", "ranges": [["2026-09-08", "2026-09-12"]]}
+{"q": "Segna che il server è andato in crash da martedì a sabato scorso.", "code": "week -1 tue .. week -1 sat", "kind": "range", "lang": "it", "anchor": "2025-09-18", "ranges": [["2025-09-09", "2025-09-13"]]}
+{"q": "Per favore, potrebbe ricordarmi di prenotare la cena per il 30 agosto 2025?", "code": "2025-08-30", "kind": "date", "lang": "it", "anchor": "2027-03-22", "ranges": [["2025-08-30", "2025-08-30"]]}
+{"q": "Potrebbe segnare in calendario che il 30 agosto 2025 è il giorno della festa di compleanno di mio figlio?", "code": "2025-08-30", "kind": "date", "lang": "it", "anchor": "2023-04-24", "ranges": [["2025-08-30", "2025-08-30"]]}
+{"q": "Gentile assistente, mi confermi se il 30 agosto 2025 è un giorno lavorativo?", "code": "2025-08-30", "kind": "date", "lang": "it", "anchor": "2023-09-30", "ranges": [["2025-08-30", "2025-08-30"]]}
+{"q": "All'inizio di questo anno, ricordami che il costo del corso di nuoto era di 250 euro.", "code": "early year 0", "kind": "modified", "lang": "it", "anchor": "2025-03-03", "ranges": [["2025-01-01", "2025-04-30"]]}
+{"q": "All'inizio di questo anno, segna che abbiamo camminato 12000 passi.", "code": "early year 0", "kind": "modified", "lang": "it", "anchor": "2025-06-08", "ranges": [["2025-01-01", "2025-04-30"]]}
+{"q": "All'inizio di questo anno, scrivi che siamo stati nella camera 402.", "code": "early year 0", "kind": "modified", "lang": "it", "anchor": "2024-02-29", "ranges": [["2024-01-01", "2024-04-30"]]}
+{"q": "Il 7/30/1996 ricordami di comprare il biglietto per il concerto.", "code": "1996-07-30", "kind": "date", "lang": "it", "anchor": "2025-12-31", "ranges": [["1996-07-30", "1996-07-30"]]}
+{"q": "Cosa è successo il 7/30/1996 secondo i miei appunti?", "code": "1996-07-30", "kind": "date", "lang": "it", "anchor": "2024-02-29", "ranges": [["1996-07-30", "1996-07-30"]]}
+{"q": "Il 7/30/1996 era il giorno in cui ho incontrato Marco per la prima volta.", "code": "1996-07-30", "kind": "date", "lang": "it", "anchor": "2025-12-31", "ranges": [["1996-07-30", "1996-07-30"]]}
+{"q": "ricorda che da un anno a oggi ho speso 450 euro in libri", "code": "year -1 now .. now", "kind": "open", "lang": "it", "anchor": "2025-03-18", "ranges": [["2024-03-18", "2025-03-18"]]}
+{"q": "Ricordati che ho lavorato a quel logo dall'inizio dell'anno scorso fino ad oggi.", "code": "year -1 .. now", "kind": "open", "lang": "it", "anchor": "2023-07-18", "ranges": [["2022-01-01", "2023-07-18"]]}
+{"q": "Controlla i profitti totali dall'inizio dell'anno scorso fino ad oggi.", "code": "year -1 .. now", "kind": "open", "lang": "it", "anchor": "2027-11-27", "ranges": [["2026-01-01", "2027-11-27"]]}
+{"q": "Aggiungi questo nuovo cliente alla lista dall'inizio dell'anno scorso fino ad oggi.", "code": "year -1 .. now", "kind": "open", "lang": "it", "anchor": "2026-03-01", "ranges": [["2025-01-01", "2026-03-01"]]}
+{"q": "meteo fine 2023", "code": "late 2023", "kind": "modified", "lang": "it", "anchor": "2023-03-30", "ranges": [["2023-09-01", "2023-12-31"]]}
+{"q": "Mostrami i guadagni dall'inizio di questo trimestre a oggi.", "code": "quarter 0 .. now", "kind": "open", "lang": "it", "anchor": "2024-05-10", "ranges": [["2024-04-01", "2024-05-10"]]}
+{"q": "Trova tutti i progetti approvati dall'inizio di questo trimestre fino ad oggi.", "code": "quarter 0 .. now", "kind": "open", "lang": "it", "anchor": "2024-02-15", "ranges": [["2024-01-01", "2024-02-15"]]}
+{"q": "Elenca le ore lavorate dall'inizio di questo trimestre fino ad oggi.", "code": "quarter 0 .. now", "kind": "open", "lang": "it", "anchor": "2024-03-09", "ranges": [["2024-01-01", "2024-03-09"]]}
+{"q": "Cosa succederà il 2027-08-29?", "code": "2027-08-29", "kind": "date", "lang": "it", "anchor": "2024-09-06", "ranges": [["2027-08-29", "2027-08-29"]]}
+{"q": "Ricordati che ho un appuntamento il 2027-08-29.", "code": "2027-08-29", "kind": "date", "lang": "it", "anchor": "2025-12-06", "ranges": [["2027-08-29", "2027-08-29"]]}
+{"q": "Qual è il meteo previsto per il 2027-08-29?", "code": "2027-08-29", "kind": "date", "lang": "it", "anchor": "2025-04-12", "ranges": [["2027-08-29", "2027-08-29"]]}
+{"q": "dimmi i task che ho segnato da martedì a venerdì passati", "code": "week -1 tue .. week -1 fri", "kind": "range", "lang": "it", "anchor": "2024-05-18", "ranges": [["2024-05-07", "2024-05-10"]]}
+{"q": "Ho completato dieci turnaggi dall'inizio di questo trimestre fino ad oggi.", "code": "quarter 0 .. now", "kind": "open", "lang": "it", "anchor": "2024-07-14", "ranges": [["2024-07-01", "2024-07-14"]]}
+{"q": "Controlla se ci sono stati errori di dosaggio dall'inizio di questo trimestre fino ad oggi.", "code": "quarter 0 .. now", "kind": "open", "lang": "it", "anchor": "2023-05-26", "ranges": [["2023-04-01", "2023-05-26"]]}
+{"q": "Quante ore di straordinario ho fatto dall'inizio di questo trimestre fino ad oggi?", "code": "quarter 0 .. now", "kind": "open", "lang": "it", "anchor": "2026-08-08", "ranges": [["2026-07-01", "2026-08-08"]]}
+{"q": "Il 29 maggio 2016, segna che ho iniziato a leggere quel libro.", "code": "2016-05-29", "kind": "date", "lang": "it", "anchor": "2027-05-30", "ranges": [["2016-05-29", "2016-05-29"]]}
+{"q": "Il 29 maggio 2016 era un giorno molto caldo, ricordalo.", "code": "2016-05-29", "kind": "date", "lang": "it", "anchor": "2025-10-22", "ranges": [["2016-05-29", "2016-05-29"]]}
+{"q": "Il 29 maggio 2016, scrivi che ho visitato quel museo a Firenze.", "code": "2016-05-29", "kind": "date", "lang": "it", "anchor": "2025-12-13", "ranges": [["2016-05-29", "2016-05-29"]]}
+{"q": "Ricordati che l'inizio dello scorso mese ho comprato quel libro.", "code": "early month -1", "kind": "modified", "lang": "it", "anchor": "2025-12-01", "ranges": [["2025-11-01", "2025-11-10"]]}
+{"q": "Ho mangiato una pizza buonissima all'inizio dello scorso mese.", "code": "early month -1", "kind": "modified", "lang": "it", "anchor": "2027-12-14", "ranges": [["2027-11-01", "2027-11-10"]]}
+{"q": "Mi sono sentito un po' stanco l'inizio dello scorso mese.", "code": "early month -1", "kind": "modified", "lang": "it", "anchor": "2027-07-01", "ranges": [["2027-06-01", "2027-06-10"]]}

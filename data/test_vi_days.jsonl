@@ -1,0 +1,171 @@
+{"q": "Nhắc tôi đăng ký giải chạy vào 2027-12-30 với mức phí 500 usd nhé.", "code": "2027-12-30", "kind": "date", "lang": "vi", "anchor": "2026-11-15", "ranges": [["2027-12-30", "2027-12-30"]]}
+{"q": "Lịch tập chạy vào 2027-12-30 của tôi có bao nhiêu km rồi?", "code": "2027-12-30", "kind": "date", "lang": "vi", "anchor": "2026-05-30", "ranges": [["2027-12-30", "2027-12-30"]]}
+{"q": "Ngày 2027-12-30 tôi có hẹn chạy cùng nhóm ở phòng 302 không?", "code": "2027-12-30", "kind": "date", "lang": "vi", "anchor": "2027-07-03", "ranges": [["2027-12-30", "2027-12-30"]]}
+{"q": "30/07/2026 làm gì?", "code": "2026-07-30", "kind": "date", "lang": "vi", "anchor": "2024-05-28", "ranges": [["2026-07-30", "2026-07-30"]]}
+{"q": "Lịch 30/07/2026", "code": "2026-07-30", "kind": "date", "lang": "vi", "anchor": "2025-05-27", "ranges": [["2026-07-30", "2026-07-30"]]}
+{"q": "Nhắc 30/07/2026", "code": "2026-07-30", "kind": "date", "lang": "vi", "anchor": "2023-03-20", "ranges": [["2026-07-30", "2026-07-30"]]}
+{"q": "Nhắc tớ là ngày 29 tháng 4 năm 2022 có sự kiện gì đặc biêt không nhỉ?", "code": "2022-04-29", "kind": "date", "lang": "vi", "anchor": "2023-01-17", "ranges": [["2022-04-29", "2022-04-29"]]}
+{"q": "Lưu lại hộ cái là ngày 29/04/2022 mình cần kiểm tra lại hồ sơ cũ.", "code": "2022-04-29", "kind": "date", "lang": "vi", "anchor": "2024-02-29", "ranges": [["2022-04-29", "2022-04-29"]]}
+{"q": "Hôm 29 tháng 4 năm 2022 thời tiết lúc đó ntn vậy app?", "code": "2022-04-29", "kind": "date", "lang": "vi", "anchor": "2026-01-11", "ranges": [["2022-04-29", "2022-04-29"]]}
+{"q": "Cái lịch trình đi du lịch từ tháng Tư qua tháng Năm ấy ấy mà mình định đi cùng nhóm bạn ấy thì cậu kiểm tra lại giúp mình được không?", "code": "apr .. may", "kind": "range", "lang": "vi", "anchor": "2024-05-23", "ranges": [["2024-04-01", "2024-05-31"]]}
+{"q": "Này ơi là cậu ơi thì cái đống tài liệu ôn thi mà mình gửi từ tháng Tư cho đến tháng Năm này thì cậu nhớ phân loại kỹ hộ mình với.", "code": "apr .. may", "kind": "range", "lang": "vi", "anchor": "2026-08-03", "ranges": [["2026-04-01", "2026-05-31"]]}
+{"q": "30/4, 500k", "code": "*-04-30", "kind": "date", "lang": "vi", "anchor": "2025-03-13", "ranges": [["2024-04-30", "2024-04-30"]]}
+{"q": "Ngày 30/4, phòng 12", "code": "*-04-30", "kind": "date", "lang": "vi", "anchor": "2026-08-08", "ranges": [["2026-04-30", "2026-04-30"]]}
+{"q": "30/4, 15 bước", "code": "*-04-30", "kind": "date", "lang": "vi", "anchor": "2024-03-23", "ranges": [["2023-04-30", "2023-04-30"]]}
+{"q": "Thời tiết ngày 30 tháng 9 như thế nào?", "code": "*-09-30", "kind": "date", "lang": "vi", "anchor": "2023-11-03", "ranges": [["2023-09-30", "2023-09-30"]]}
+{"q": "Lịch trình cho ngày 30 tháng 9 của tôi là gì?", "code": "*-09-30", "kind": "date", "lang": "vi", "anchor": "2025-12-31", "ranges": [["2025-09-30", "2025-09-30"]]}
+{"q": "Nhắc tôi đi họp vào ngày 30 tháng 9.", "code": "*-09-30", "kind": "date", "lang": "vi", "anchor": "2025-09-09", "ranges": [["2024-09-30", "2024-09-30"]]}
+{"q": "nhắc mình nộp bài tập vào sep 30 2022 nhé", "code": "2022-09-30", "kind": "date", "lang": "vi", "anchor": "2024-10-26", "ranges": [["2022-09-30", "2022-09-30"]]}
+{"q": "sep 30 2022 có sự kiện gì đặc biệt không nhỉ", "code": "2022-09-30", "kind": "date", "lang": "vi", "anchor": "2026-03-01", "ranges": [["2022-09-30", "2022-09-30"]]}
+{"q": "lưu lại lịch hẹn đi cafe với bạn vào sep 30 2022 nha", "code": "2022-09-30", "kind": "date", "lang": "vi", "anchor": "2024-02-29", "ranges": [["2022-09-30", "2022-09-30"]]}
+{"q": "nhắc tớ lịch thi vào ngày 29 december 2027 nhé", "code": "2027-12-29", "kind": "date", "lang": "vi", "anchor": "2025-05-19", "ranges": [["2027-12-29", "2027-12-29"]]}
+{"q": "29 december 2027 có việc gì quan trọng không nhỉ", "code": "2027-12-29", "kind": "date", "lang": "vi", "anchor": "2027-05-18", "ranges": [["2027-12-29", "2027-12-29"]]}
+{"q": "đặt lịch hẹn đi cafe với bạn vào 29 december 2027 đi", "code": "2027-12-29", "kind": "date", "lang": "vi", "anchor": "2024-01-10", "ranges": [["2027-12-29", "2027-12-29"]]}
+{"q": "Nhớ ghi lại hộ tôi là cái sự cố server bị sập liên tục vào ngày 31 tháng trước đó là do lỗi cấu hình database nhé, đừng có quên đấy.", "code": "month -1 day 31", "kind": "sameday", "lang": "vi", "anchor": "2026-08-03", "ranges": [["2026-07-31", "2026-07-31"]]}
+{"q": "Cái file log ghi lại toàn bộ các lỗi hệ thống phát sinh trong suốt cả ngày 31 tháng trước đó ấy, hãy lưu nó vào thư mục dự phòng cho tôi.", "code": "month -1 day 31", "kind": "sameday", "lang": "vi", "anchor": "2023-01-09", "ranges": [["2022-12-31", "2022-12-31"]]}
+{"q": "Kiểm tra giúp tôi xem vào ngày 31 tháng trước đó, cái tiến trình chạy ngầm nó có gây ra tình trạng treo máy cho mấy ông dev không nhé.", "code": "month -1 day 31", "kind": "sameday", "lang": "vi", "anchor": "2024-02-29", "ranges": [["2024-01-31", "2024-01-31"]]}
+{"q": "Tổng hợp lại giúp mình xem từ ngày này năm trước đến hôm nay mình đã học được bao nhiêu từ vựng mới trong mấy app tiếng Anh nhé.", "code": "year -1 now .. now", "kind": "open", "lang": "vi", "anchor": "2025-08-14", "ranges": [["2024-08-14", "2025-08-14"]]}
+{"q": "Liệt kê giúp mình tất cả các khoản tiền mình đã tiêu xài từ đúng ngày này năm ngoái cho tới ngày hôm nay để mình còn biết đường mà tiết kiệm.", "code": "year -1 now .. now", "kind": "open", "lang": "vi", "anchor": "2027-02-06", "ranges": [["2026-02-06", "2027-02-06"]]}
+{"q": "nhắc tôi xem lại báo cáo doanh số từ tháng 8 đến tháng 9 năm 1980 nhé", "code": "1980-08 .. 1980-09", "kind": "range", "lang": "vi", "anchor": "2024-06-28", "ranges": [["1980-08-01", "1980-09-30"]]}
+{"q": "lưu lại thông tin khách hàng mới trong khoảng tháng 8 đến tháng 9 năm 1980", "code": "1980-08 .. 1980-09", "kind": "range", "lang": "vi", "anchor": "2027-01-17", "ranges": [["1980-08-01", "1980-09-30"]]}
+{"q": "Làm ơn ghi chú lại rằng tôi có cuộc họp quan trọng với đối tác vào ngày 29 tháng 10.", "code": "*-10-29", "kind": "date", "lang": "vi", "anchor": "2023-04-16", "ranges": [["2022-10-29", "2022-10-29"]]}
+{"q": "Xin hãy nhắc tôi kiểm tra báo cáo doanh số vào sáng ngày 29 tháng 10.", "code": "*-10-29", "kind": "date", "lang": "vi", "anchor": "2025-04-20", "ranges": [["2024-10-29", "2024-10-29"]]}
+{"q": "Vui lòng lưu lại lịch hẹn khách hàng vào chiều ngày 29 tháng 10 giúp tôi.", "code": "*-10-29", "kind": "date", "lang": "vi", "anchor": "2027-02-04", "ranges": [["2026-10-29", "2026-10-29"]]}
+{"q": "vào nửa đầu tháng 6/2017 có project nào quan trọng k? t đang tìm lại xem dc 12 file", "code": "h1 2017-06", "kind": "modified", "lang": "vi", "anchor": "2027-09-24", "ranges": [["2017-06-01", "2017-06-15"]]}
+{"q": "check giùm t nửa đầu tháng 6/2017 có nợ ctn j ko, nhớ là phòng 302 nhé", "code": "h1 2017-06", "kind": "modified", "lang": "vi", "anchor": "2025-02-09", "ranges": [["2017-06-01", "2017-06-15"]]}
+{"q": "2125 đầu, 400l", "code": "early 2125", "kind": "modified", "lang": "vi", "anchor": "2023-01-18", "ranges": [["2125-01-01", "2125-04-30"]]}
+{"q": "Tìm lịch trình làm việc ngày 29 October 2026", "code": "2026-10-29", "kind": "date", "lang": "vi", "anchor": "2024-08-28", "ranges": [["2026-10-29", "2026-10-29"]]}
+{"q": "Show me các deadline vào ngày 29 October 2026", "code": "2026-10-29", "kind": "date", "lang": "vi", "anchor": "2023-03-23", "ranges": [["2026-10-29", "2026-10-29"]]}
+{"q": "Ghi chú: Gặp khách hàng lúc 10 giờ sáng và 2 giờ chiều ngày 29 October 2026", "code": "2026-10-29", "kind": "date", "lang": "vi", "anchor": "2025-08-12", "ranges": [["2026-10-29", "2026-10-29"]]}
+{"q": "Nhớ giúp tui ca trực tối cuối tháng trước nha", "code": "late month -1", "kind": "modified", "lang": "vi", "anchor": "2026-05-14", "ranges": [["2026-04-21", "2026-04-30"]]}
+{"q": "Ghi chú lại là cuối tháng trước tui bị đau lưng xíu", "code": "late month -1", "kind": "modified", "lang": "vi", "anchor": "2023-10-04", "ranges": [["2023-09-21", "2023-09-30"]]}
+{"q": "Lúc cuối tháng trước tui quên chưa bàn giao meds", "code": "late month -1", "kind": "modified", "lang": "vi", "anchor": "2026-07-31", "ranges": [["2026-06-21", "2026-06-30"]]}
+{"q": "Làm ơn hãy liệt kê tất cả các tài liệu tôi đã lưu trữ vào đầu tháng trước.", "code": "early month -1", "kind": "modified", "lang": "vi", "anchor": "2024-04-17", "ranges": [["2024-03-01", "2024-03-11"]]}
+{"q": "Bạn có thể tóm tắt các cuộc hội thoại quan trọng nhất của tôi vào đầu tháng trước không?", "code": "early month -1", "kind": "modified", "lang": "vi", "anchor": "2027-03-01", "ranges": [["2027-02-01", "2027-02-10"]]}
+{"q": "Vui lòng kiểm tra giúp tôi xem có lịch hẹn nào được ghi chú vào đầu tháng trước không.", "code": "early month -1", "kind": "modified", "lang": "vi", "anchor": "2023-06-30", "ranges": [["2023-05-01", "2023-05-11"]]}
+{"q": "Nhắc tớ lịch đi khám răng của bé Bi từ tuần trước tới nay nhé.", "code": "week -1 .. now", "kind": "open", "lang": "vi", "anchor": "2024-09-28", "ranges": [["2024-09-16", "2024-09-28"]]}
+{"q": "Tìm hộ tớ cái ảnh chụp cả nhà mình từ tuần vừa rồi tới giờ luôn.", "code": "week -1 .. now", "kind": "open", "lang": "vi", "anchor": "2026-10-02", "ranges": [["2026-09-21", "2026-10-02"]]}
+{"q": "Nhắc t t trực ca đêm 2024-04-30 nha.", "code": "2024-04-30", "kind": "date", "lang": "vi", "anchor": "2026-08-03", "ranges": [["2024-04-30", "2024-04-30"]]}
+{"q": "2024-04-30 có lịch họp điều dưỡng lúc 8h sáng đó.", "code": "2024-04-30", "kind": "date", "lang": "vi", "anchor": "2023-04-22", "ranges": [["2024-04-30", "2024-04-30"]]}
+{"q": "Check giúp t lịch nghỉ ngày 2024-04-30 xem dc ko?", "code": "2024-04-30", "kind": "date", "lang": "vi", "anchor": "2026-10-03", "ranges": [["2024-04-30", "2024-04-30"]]}
+{"q": "Kể từ 11/2027 nay", "code": "2027-11 .. now", "kind": "open", "lang": "vi", "anchor": "2027-12-06", "ranges": [["2027-11-01", "2027-12-06"]]}
+{"q": "Thời tiết vào ngày 1856-04-30 như thế nào?", "code": "1856-04-30", "kind": "date", "lang": "vi", "anchor": "2026-09-14", "ranges": [["1856-04-30", "1856-04-30"]]}
+{"q": "Liệt kê các sự kiện lịch sử quan trọng diễn ra vào 1856-04-30.", "code": "1856-04-30", "kind": "date", "lang": "vi", "anchor": "2026-09-15", "ranges": [["1856-04-30", "1856-04-30"]]}
+{"q": "Tìm cho tôi một bức tranh vẽ phong cảnh từ ngày 1856-04-30.", "code": "1856-04-30", "kind": "date", "lang": "vi", "anchor": "2024-02-10", "ranges": [["1856-04-30", "1856-04-30"]]}
+{"q": "giày marathon 10-30/01/2015", "code": "2015-01-10 .. 2015-01-30", "kind": "range", "lang": "vi", "anchor": "2026-08-09", "ranges": [["2015-01-10", "2015-01-30"]]}
+{"q": "Nhắc tôi về lịch sử chạy marathon từ 1997 đến 1998.", "code": "1997 .. 1998", "kind": "range", "lang": "vi", "anchor": "2026-01-01", "ranges": [["1997-01-01", "1998-12-31"]]}
+{"q": "Tìm danh sách các bài hát nổi tiếng trong khoảng 1997 đến 1998.", "code": "1997 .. 1998", "kind": "range", "lang": "vi", "anchor": "2026-07-07", "ranges": [["1997-01-01", "1998-12-31"]]}
+{"q": "Tôi muốn biết các sự kiện thể thao lớn từ 1997 đến 1998.", "code": "1997 .. 1998", "kind": "range", "lang": "vi", "anchor": "2026-01-01", "ranges": [["1997-01-01", "1998-12-31"]]}
+{"q": "Mua sắm đồ chơi cho bọn trẻ vào cuối năm nay được chưa nhỉ?", "code": "late year 0", "kind": "modified", "lang": "vi", "anchor": "2026-08-08", "ranges": [["2026-09-01", "2026-12-31"]]}
+{"q": "Lên kế hoạch đi du lịch cùng cả nhà lúc cuối năm nay nhé.", "code": "late year 0", "kind": "modified", "lang": "vi", "anchor": "2024-09-25", "ranges": [["2024-09-01", "2024-12-31"]]}
+{"q": "Nhắc tôi đặt lịch khám sức định kỳ vào cuối năm nay.", "code": "late year 0", "kind": "modified", "lang": "vi", "anchor": "2027-03-01", "ranges": [["2027-09-01", "2027-12-31"]]}
+{"q": "Nhắc tui kiểm tra lại log server ngày 30 September 2017 lúc 10:30, nhớ là có 450 lỗi nhé.", "code": "2017-09-30", "kind": "date", "lang": "vi", "anchor": "2025-06-30", "ranges": [["2017-09-30", "2017-09-30"]]}
+{"q": "Check giùm cái ticket từ 30 September 2017 lúc 14:15, giá là 1200 usd.", "code": "2017-09-30", "kind": "date", "lang": "vi", "anchor": "2026-08-03", "ranges": [["2017-09-30", "2017-09-30"]]}
+{"q": "Lưu hộ cái config của ngày 30 September 2017 vào lúc 09:00, phòng 302 nhaa.", "code": "2017-09-30", "kind": "date", "lang": "vi", "anchor": "2027-03-31", "ranges": [["2017-09-30", "2017-09-30"]]}
+{"q": "Nhớ ghi lại là bệnh nhân này bắt đầu sốt từ tháng 11/1996 đến tháng 12/1996 nhaaa", "code": "1996-11 .. 1996-12", "kind": "range", "lang": "vi", "anchor": "2024-09-11", "ranges": [["1996-11-01", "1996-12-31"]]}
+{"q": "Check giùm tui hồ sơ từ tháng 11/1996 tới tháng 12/1996 coi có ca nào đặc biệt k?", "code": "1996-11 .. 1996-12", "kind": "range", "lang": "vi", "anchor": "2026-08-09", "ranges": [["1996-11-01", "1996-12-31"]]}
+{"q": "Ghi chú: Lượng máu mất trong khoảng tháng 11/1996 - tháng 12/1996 là quá nhiều", "code": "1996-11 .. 1996-12", "kind": "range", "lang": "vi", "anchor": "2026-07-13", "ranges": [["1996-11-01", "1996-12-31"]]}
+{"q": "lịch nghỉ lễ tháng 4 đến tháng 12", "code": "apr .. dec", "kind": "range", "lang": "vi", "anchor": "2025-02-22", "ranges": [["2024-04-01", "2024-12-31"]]}
+{"q": "thời tiết tháng 4 đến tháng 12", "code": "apr .. dec", "kind": "range", "lang": "vi", "anchor": "2026-09-27", "ranges": [["2025-04-01", "2025-12-31"]]}
+{"q": "Nhắc tớ chuẩn bị quà cho ngày 29 tháng 3 nhe.", "code": "*-03-29", "kind": "date", "lang": "vi", "anchor": "2025-10-01", "ranges": [["2025-03-29", "2025-03-29"]]}
+{"q": "Hôm 29/3 tớ có hẹn đi ăn với con gái, ghi lại giúp tớ.", "code": "*-03-29", "kind": "date", "lang": "vi", "anchor": "2023-07-25", "ranges": [["2023-03-29", "2023-03-29"]]}
+{"q": "Lịch trình ngày 29 tháng 3 là gì nhỉ, quên mất ròi.", "code": "*-03-29", "kind": "date", "lang": "vi", "anchor": "2023-11-10", "ranges": [["2023-03-29", "2023-03-29"]]}
+{"q": "Ngày 29 tháng 1 nhớ note lại là mình cần gửi báo cáo cho nhà đầu tư.", "code": "*-01-29", "kind": "date", "lang": "vi", "anchor": "2025-03-06", "ranges": [["2025-01-29", "2025-01-29"]]}
+{"q": "Ngày 29 tháng 1 có lịch họp pitching với bên đối tác lúc 2 giờ chiều.", "code": "*-01-29", "kind": "date", "lang": "vi", "anchor": "2026-03-01", "ranges": [["2026-01-29", "2026-01-29"]]}
+{"q": "Ngày 29 tháng 1 nhắc tôi chuẩn bị tài liệu cho buổi workshop.", "code": "*-01-29", "kind": "date", "lang": "vi", "anchor": "2025-11-04", "ranges": [["2025-01-29", "2025-01-29"]]}
+{"q": "Nhắc tôi gửi báo cáo vào 2021-11-29 nhé.", "code": "2021-11-29", "kind": "date", "lang": "vi", "anchor": "2027-11-30", "ranges": [["2021-11-29", "2021-11-29"]]}
+{"q": "Lịch họp startup của chúng ta là 2021-11-29.", "code": "2021-11-29", "kind": "date", "lang": "vi", "anchor": "2026-09-12", "ranges": [["2021-11-29", "2021-11-29"]]}
+{"q": "Ghi chú lại doanh thu ngày 2021-11-29 cho tôi.", "code": "2021-11-29", "kind": "date", "lang": "vi", "anchor": "2026-03-26", "ranges": [["2021-11-29", "2021-11-29"]]}
+{"q": "Nhớ lưu lại mấy cái ý tưởng thiết kế từ cuối tuần trước tới nay nhe.", "code": "week -1 weekend .. now", "kind": "open", "lang": "vi", "anchor": "2024-04-01", "ranges": [["2024-03-30", "2024-04-01"]]}
+{"q": "Kiểm tra hộ tui danh sách task từ đầu cuối tuần trước đến tận hôm nay xem còn gì chưa xong k.", "code": "week -1 weekend .. now", "kind": "open", "lang": "vi", "anchor": "2026-04-08", "ranges": [["2026-04-04", "2026-04-08"]]}
+{"q": "Ghi chú hộ là tui đã gửi xong báo giá từ cuối tuần trước qua tới giờ.", "code": "week -1 weekend .. now", "kind": "open", "lang": "vi", "anchor": "2026-06-30", "ranges": [["2026-06-27", "2026-06-30"]]}
+{"q": "Nhắc ngày 30/05/2027", "code": "2027-05-30", "kind": "date", "lang": "vi", "anchor": "2023-05-03", "ranges": [["2027-05-30", "2027-05-30"]]}
+{"q": "Lịch 30/05/2027 sao?", "code": "2027-05-30", "kind": "date", "lang": "vi", "anchor": "2025-12-31", "ranges": [["2027-05-30", "2027-05-30"]]}
+{"q": "Ghi 30/05/2027 nhé", "code": "2027-05-30", "kind": "date", "lang": "vi", "anchor": "2024-11-16", "ranges": [["2027-05-30", "2027-05-30"]]}
+{"q": "Làm ơn hãy ghi chú lại rằng tôi đã hoàn thành bản kế hoạch kinh doanh vào ngày April 30, 1982.", "code": "1982-04-30", "kind": "date", "lang": "vi", "anchor": "2026-08-01", "ranges": [["1982-04-30", "1982-04-30"]]}
+{"q": "Bạn có thể nhắc tôi về lịch hẹn quan trọng vào ngày April 30, 1982 được không?", "code": "1982-04-30", "kind": "date", "lang": "vi", "anchor": "2024-03-13", "ranges": [["1982-04-30", "1982-04-30"]]}
+{"q": "Hãy lưu trữ tài liệu nghiên cứu thị trường này vào ngày April 30, 1982 giúp tôi.", "code": "1982-04-30", "kind": "date", "lang": "vi", "anchor": "2025-10-21", "ranges": [["1982-04-30", "1982-04-30"]]}
+{"q": "Lịch trình đi thăm bạn cũ vào 8/31/2025 là gì nhỉ?", "code": "2025-08-31", "kind": "date", "lang": "vi", "anchor": "2023-01-31", "ranges": [["2025-08-31", "2025-08-31"]]}
+{"q": "Lưu lại ý tưởng viết nhật ký cho 8/31/2025.", "code": "2025-08-31", "kind": "date", "lang": "vi", "anchor": "2026-07-10", "ranges": [["2025-08-31", "2025-08-31"]]}
+{"q": "nhớ lưu lại mấy idea thiết kế đầu năm nay nha", "code": "early year 0", "kind": "modified", "lang": "vi", "anchor": "2024-11-07", "ranges": [["2024-01-01", "2024-04-30"]]}
+{"q": "đầu năm nay t có lên list client nào mới ko nhỉ?", "code": "early year 0", "kind": "modified", "lang": "vi", "anchor": "2024-11-13", "ranges": [["2024-01-01", "2024-04-30"]]}
+{"q": "nhớ lưu là ngày 1981-09-30 mình cần mua 500 cái micrô nhé", "code": "1981-09-30", "kind": "date", "lang": "vi", "anchor": "2026-04-20", "ranges": [["1981-09-30", "1981-09-30"]]}
+{"q": "kiểm tra giúp tui hóa đơn ngày 1981-09-30 hết 4500 usd r", "code": "1981-09-30", "kind": "date", "lang": "vi", "anchor": "2027-07-15", "ranges": [["1981-09-30", "1981-09-30"]]}
+{"q": "cho tui hỏi phòng 102 ngày 1981-09-30 có bị lỗi srv ko?", "code": "1981-09-30", "kind": "date", "lang": "vi", "anchor": "2025-11-26", "ranges": [["1981-09-30", "1981-09-30"]]}
+{"q": "nhắc lại giúp mình mấy cái bug quan trọng từ đầu tháng trước tới giờ nhé", "code": "month -1 .. now", "kind": "open", "lang": "vi", "anchor": "2023-04-26", "ranges": [["2023-03-01", "2023-04-26"]]}
+{"q": "tổng hợp lại mấy task mình đã làm từ lúc bắt đầu tháng trước đến hôm nay đi", "code": "month -1 .. now", "kind": "open", "lang": "vi", "anchor": "2024-01-30", "ranges": [["2023-12-01", "2024-01-30"]]}
+{"q": "kiểm tra xem từ đầu tháng trước tới nay mình có deadline nào bị trễ không", "code": "month -1 .. now", "kind": "open", "lang": "vi", "anchor": "2025-01-22", "ranges": [["2024-12-01", "2025-01-22"]]}
+{"q": "Nhớ nhắc tôi chuẩn bị đồ ăn cho buổi dã ngoại vào ngày 29 tháng 4 sáng và chiều nhé vì tụi nhỏ đang mong chờ lắm luôn đấy.", "code": "*-04-29", "kind": "date", "lang": "vi", "anchor": "2027-11-21", "ranges": [["2027-04-29", "2027-04-29"]]}
+{"q": "Ngày 29 tháng 4 sáng và chiều này liệu tôi có kịp đi mua hết quà sinh nhật cho mấy đứa con không nhỉ, ghi chú lại giúp tôi.", "code": "*-04-29", "kind": "date", "lang": "vi", "anchor": "2026-12-28", "ranges": [["2026-04-29", "2026-04-29"]]}
+{"q": "Thời tiết giữa năm nay có gì đặc biệt không?", "code": "mid year 0", "kind": "modified", "lang": "vi", "anchor": "2027-09-08", "ranges": [["2027-05-01", "2027-08-31"]]}
+{"q": "Nhắc tôi danh sách các việc cần làm vào giữa năm.", "code": "mid year 0", "kind": "modified", "lang": "vi", "anchor": "2023-04-10", "ranges": [["2023-05-01", "2023-08-31"]]}
+{"q": "Nhớ ghi lại giúp tôi là từ đầu ngày này năm ngoái cho đến tận bây giờ tôi đã phải trực tổng cộng 45 ca đêm rồi đấy nhé.", "code": "year -1 now .. now", "kind": "open", "lang": "vi", "anchor": "2024-02-29", "ranges": [["2023-02-28", "2024-02-29"]]}
+{"q": "Kiểm tra lại giúp xem từ lúc bắt đầu ngày này năm ngoái tới nay bệnh nhân ở phòng 302 đã thay băng bao nhiêu lần rồi giúp tôi với.", "code": "year -1 now .. now", "kind": "open", "lang": "vi", "anchor": "2026-09-29", "ranges": [["2025-09-29", "2026-09-29"]]}
+{"q": "Ghi chú vào là từ đầu ngày này năm ngoái đến hôm nay tôi đã tiêu hết 250000 vnd tiền cà phê để tỉnh táo trực ca này.", "code": "year -1 now .. now", "kind": "open", "lang": "vi", "anchor": "2023-11-20", "ranges": [["2022-11-20", "2023-11-20"]]}
+{"q": "nhớ lưu lại doanh thu từ thứ sáu tuần trước đến thứ hai này là 5000 usd nhé", "code": "week -1 fri .. week 0 mon", "kind": "range", "lang": "vi", "anchor": "2023-05-07", "ranges": [["2023-04-28", "2023-05-01"]]}
+{"q": "từ thứ sáu tới thứ hai vừa rồi có tổng cộng 120 bước chân trong cuộc họp", "code": "week -1 fri .. week 0 mon", "kind": "range", "lang": "vi", "anchor": "2027-06-08", "ranges": [["2027-06-04", "2027-06-07"]]}
+{"q": "Tìm lịch trình tập luyện ngày 12 tháng 2 năm 2019", "code": "2019-02-12", "kind": "date", "lang": "vi", "anchor": "2025-12-31", "ranges": [["2019-02-12", "2019-02-12"]]}
+{"q": "Cho xem kết quả chạy bộ ngày 12 tháng 2 năm 2019", "code": "2019-02-12", "kind": "date", "lang": "vi", "anchor": "2027-05-28", "ranges": [["2019-02-12", "2019-02-12"]]}
+{"q": "Lưu bữa ăn ngày 12 tháng 2 năm 2019", "code": "2019-02-12", "kind": "date", "lang": "vi", "anchor": "2026-08-08", "ranges": [["2019-02-12", "2019-02-12"]]}
+{"q": "ca trực đầu tuần đến hôm nay (Start of week to today shifts)", "code": "week 0 .. now", "kind": "open", "lang": "vi", "anchor": "2026-03-01", "ranges": [["2026-02-23", "2026-03-01"]]}
+{"q": "lịch trực thứ hai đến hôm nay (Monday to today schedule)", "code": "week 0 .. now", "kind": "open", "lang": "vi", "anchor": "2025-07-20", "ranges": [["2025-07-14", "2025-07-20"]]}
+{"q": "thời tiết Dec 31 2019", "code": "2019-12-31", "kind": "date", "lang": "vi", "anchor": "2023-02-09", "ranges": [["2019-12-31", "2019-12-31"]]}
+{"q": "lịch sử Dec 31 2019", "code": "2019-12-31", "kind": "date", "lang": "vi", "anchor": "2027-03-20", "ranges": [["2019-12-31", "2019-12-31"]]}
+{"q": "sự kiện Dec 31 2019", "code": "2019-12-31", "kind": "date", "lang": "vi", "anchor": "2027-02-24", "ranges": [["2019-12-31", "2019-12-31"]]}
+{"q": "Làm ơn hãy nhắc tôi chuẩn bị các hồ sơ thực tập cho giai đoạn từ tháng Bảy đến tháng Mười một.", "code": "jul .. nov", "kind": "range", "lang": "vi", "anchor": "2027-06-30", "ranges": [["2026-07-01", "2026-11-30"]]}
+{"q": "Bạn có thể lưu lại lịch trình học tập của tôi trong khoảng thời gian từ tháng Bảy đến tháng Mười một được không?", "code": "jul .. nov", "kind": "range", "lang": "vi", "anchor": "2023-01-18", "ranges": [["2022-07-01", "2022-11-30"]]}
+{"q": "Hãy liệt kê giúp tôi các sự kiện quan trọng dự kiến diễn ra từ tháng Bảy đến tháng Mười một.", "code": "jul .. nov", "kind": "range", "lang": "vi", "anchor": "2024-11-04", "ranges": [["2024-07-01", "2024-11-30"]]}
+{"q": "Nhớ lưu lại cho tôi là vào ngày 30 tháng 11 năm 2019 chúng ta đã chốt được hợp đồng lớn nhất từ trước đến nay với đối tác.", "code": "2019-11-30", "kind": "date", "lang": "vi", "anchor": "2025-06-14", "ranges": [["2019-11-30", "2019-11-30"]]}
+{"q": "Tìm lại giúp tôi xem trong ngày 30 tháng 11 năm 2019 tôi đã ghi chú gì về việc doanh số bán hàng sụt giảm đột ngột vào buổi sáng.", "code": "2019-11-30", "kind": "date", "lang": "vi", "anchor": "2027-06-16", "ranges": [["2019-11-30", "2019-11-30"]]}
+{"q": "Ghi chú vào nhật ký là ngày 30 tháng 11 năm 2019 tôi đã gặp khách hàng VIP đó để thảo luận về các điều khoản mới của dự án.", "code": "2019-11-30", "kind": "date", "lang": "vi", "anchor": "2026-01-01", "ranges": [["2019-11-30", "2019-11-30"]]}
+{"q": "Làm ơn hãy ghi chú lại là tôi cần hoàn thành chỉ tiêu doanh số vào cuối năm nay.", "code": "late year 0", "kind": "modified", "lang": "vi", "anchor": "2027-04-23", "ranges": [["2027-09-01", "2027-12-31"]]}
+{"q": "Vui lòng nhắc tôi chuẩn bị báo cáo tổng kết cho giai đoạn cuối năm nay.", "code": "late year 0", "kind": "modified", "lang": "vi", "anchor": "2026-07-14", "ranges": [["2026-09-01", "2026-12-31"]]}
+{"q": "Hãy lưu lại kế hoạch tổ chức tiệc tất niên vào dịp cuối năm nay.", "code": "late year 0", "kind": "modified", "lang": "vi", "anchor": "2025-10-02", "ranges": [["2025-09-01", "2025-12-31"]]}
+{"q": "thời tiết June 30, 2027", "code": "2027-06-30", "kind": "date", "lang": "vi", "anchor": "2025-12-21", "ranges": [["2027-06-30", "2027-06-30"]]}
+{"q": "sự kiện June 30, 2027", "code": "2027-06-30", "kind": "date", "lang": "vi", "anchor": "2027-11-05", "ranges": [["2027-06-30", "2027-06-30"]]}
+{"q": "lịch June 30, 2027", "code": "2027-06-30", "kind": "date", "lang": "vi", "anchor": "2027-07-29", "ranges": [["2027-06-30", "2027-06-30"]]}
+{"q": "lịch thi ngày 30 tháng 9 năm 2026", "code": "2026-09-30", "kind": "date", "lang": "vi", "anchor": "2024-12-18", "ranges": [["2026-09-30", "2026-09-30"]]}
+{"q": "thời tiết 30/09/2026", "code": "2026-09-30", "kind": "date", "lang": "vi", "anchor": "2025-08-22", "ranges": [["2026-09-30", "2026-09-30"]]}
+{"q": "deadline 30/9/2026", "code": "2026-09-30", "kind": "date", "lang": "vi", "anchor": "2025-11-24", "ranges": [["2026-09-30", "2026-09-30"]]}
+{"q": "11/30/2020 tới nay 12", "code": "2020-11-30 .. now", "kind": "open", "lang": "vi", "anchor": "2027-08-29", "ranges": [["2020-11-30", "2027-08-29"]]}
+{"q": "Kể từ 11/30/2020 phòng 4", "code": "2020-11-30 .. now", "kind": "open", "lang": "vi", "anchor": "2025-08-11", "ranges": [["2020-11-30", "2025-08-11"]]}
+{"q": "Hôm nay là ngày 2110-02-10 phải không?", "code": "2110-02-10", "kind": "date", "lang": "vi", "anchor": "2027-01-23", "ranges": [["2110-02-10", "2110-02-10"]]}
+{"q": "Hãy nhắc tôi lịch họp vào ngày 2110-02-10.", "code": "2110-02-10", "kind": "date", "lang": "vi", "anchor": "2027-03-10", "ranges": [["2110-02-10", "2110-02-10"]]}
+{"q": "Thời tiết ngày 2110-02-10 dự báo thế nào?", "code": "2110-02-10", "kind": "date", "lang": "vi", "anchor": "2024-12-09", "ranges": [["2110-02-10", "2110-02-10"]]}
+{"q": "Nửa đầu tháng trước", "code": "h1 month -1", "kind": "modified", "lang": "vi", "anchor": "2027-07-23", "ranges": [["2027-06-01", "2027-06-15"]]}
+{"q": "Nửa đầu tháng trước mệt", "code": "h1 month -1", "kind": "modified", "lang": "vi", "anchor": "2024-12-17", "ranges": [["2024-11-01", "2024-11-15"]]}
+{"q": "Ngày 29 tháng 4 năm 1983, nhắc tôi kiểm tra lại hồ sơ bệnh án cũ.", "code": "1983-04-29", "kind": "date", "lang": "vi", "anchor": "2024-02-29", "ranges": [["1983-04-29", "1983-04-29"]]}
+{"q": "Apr 29 1983, ghi chú là bệnh nhân này bắt đầu có triệu chứng sốt.", "code": "1983-04-29", "kind": "date", "lang": "vi", "anchor": "2027-04-02", "ranges": [["1983-04-29", "1983-04-29"]]}
+{"q": "Vào ngày 29 tháng 4 năm 1983, hãy lưu lại lịch trực của tôi.", "code": "1983-04-29", "kind": "date", "lang": "vi", "anchor": "2027-04-01", "ranges": [["1983-04-29", "1983-04-29"]]}
+{"q": "Nhắc tôi gửi báo cáo doanh thu từ thứ Ba đến thứ Bảy tuần trước.", "code": "week -1 tue .. week -1 sat", "kind": "range", "lang": "vi", "anchor": "2024-05-10", "ranges": [["2024-04-30", "2024-05-04"]]}
+{"q": "Lưu lại ý tưởng về chiến dịch marketing mới từ thứ Ba đến thứ Bảy tuần trước.", "code": "week -1 tue .. week -1 sat", "kind": "range", "lang": "vi", "anchor": "2024-03-05", "ranges": [["2024-02-27", "2024-03-02"]]}
+{"q": "Kiểm tra lại các cuộc hẹn khách hàng từ thứ Ba đến thứ Bảy tuần trước.", "code": "week -1 tue .. week -1 sat", "kind": "range", "lang": "vi", "anchor": "2024-01-06", "ranges": [["2023-12-26", "2023-12-30"]]}
+{"q": "Làm ơn ghi chú giúp tôi là vào ngày 30 tháng 8 năm 2025, chúng ta có hẹn đi khám định kỳ cho con cả.", "code": "2025-08-30", "kind": "date", "lang": "vi", "anchor": "2023-10-21", "ranges": [["2025-08-30", "2025-08-30"]]}
+{"q": "Nhắc tôi chuẩn bị quà sinh nhật cho bé út vào ngày 30 tháng 8 năm 2025 nhé.", "code": "2025-08-30", "kind": "date", "lang": "vi", "anchor": "2023-02-02", "ranges": [["2025-08-30", "2025-08-30"]]}
+{"q": "Hãy lưu lại lịch trình du lịch của gia đình mình vào ngày 30 tháng 8 năm 2025.", "code": "2025-08-30", "kind": "date", "lang": "vi", "anchor": "2023-08-23", "ranges": [["2025-08-30", "2025-08-30"]]}
+{"q": "Đầu năm nay, hãy lưu lại hóa đơn 450.000 VND này nhé.", "code": "early year 0", "kind": "modified", "lang": "vi", "anchor": "2024-04-16", "ranges": [["2024-01-01", "2024-04-30"]]}
+{"q": "Hồi đầu năm nay, con cả nhà mình đã đi được 12.000 bước.", "code": "early year 0", "kind": "modified", "lang": "vi", "anchor": "2027-06-02", "ranges": [["2027-01-01", "2027-04-30"]]}
+{"q": "Đầu năm nay, mình đã đặt phòng số 305 cho cả gia đình.", "code": "early year 0", "kind": "modified", "lang": "vi", "anchor": "2026-08-19", "ranges": [["2026-01-01", "2026-04-30"]]}
+{"q": "7/30/1996 là ngày gì thế nhỉ?", "code": "1996-07-30", "kind": "date", "lang": "vi", "anchor": "2025-07-30", "ranges": [["1996-07-30", "1996-07-30"]]}
+{"q": "Ngày 7/30/1996 mình đã làm gì vậy?", "code": "1996-07-30", "kind": "date", "lang": "vi", "anchor": "2025-05-26", "ranges": [["1996-07-30", "1996-07-30"]]}
+{"q": "Nhắc mình về sự kiện xảy ra vào 7/30/1996.", "code": "1996-07-30", "kind": "date", "lang": "vi", "anchor": "2027-08-20", "ranges": [["1996-07-30", "1996-07-30"]]}
+{"q": "từ ngày này năm trước đến bây giờ mình đã đi được 12000 bước rồi hả", "code": "year -1 now .. now", "kind": "open", "lang": "vi", "anchor": "2023-04-24", "ranges": [["2022-04-24", "2023-04-24"]]}
+{"q": "Hãy liệt kê tất cả các dự án thiết kế tôi đã hoàn thành từ đầu năm ngoái đến nay.", "code": "year -1 .. now", "kind": "open", "lang": "vi", "anchor": "2026-02-03", "ranges": [["2025-01-01", "2026-02-03"]]}
+{"q": "Nhắc tôi về khoản thu nhập từ khách hàng freelance từ năm ngoái đến hôm nay.", "code": "year -1 .. now", "kind": "open", "lang": "vi", "anchor": "2026-08-05", "ranges": [["2025-01-01", "2026-08-05"]]}
+{"q": "Tìm giúp tôi những ý tưởng màu sắc mà tôi đã lưu lại từ đầu năm ngoái đến nay.", "code": "year -1 .. now", "kind": "open", "lang": "vi", "anchor": "2026-08-09", "ranges": [["2025-01-01", "2026-08-09"]]}
+{"q": "giá vàng cuối năm 2023", "code": "late 2023", "kind": "modified", "lang": "vi", "anchor": "2026-09-07", "ranges": [["2023-09-01", "2023-12-31"]]}
+{"q": "Liệt kê tất cả các dự án đã nhận từ đầu quý này đến nay.", "code": "quarter 0 .. now", "kind": "open", "lang": "vi", "anchor": "2024-06-11", "ranges": [["2024-04-01", "2024-06-11"]]}
+{"q": "Tìm các hóa đơn chưa thanh toán từ đầu quý này đến hôm nay.", "code": "quarter 0 .. now", "kind": "open", "lang": "vi", "anchor": "2024-01-21", "ranges": [["2024-01-01", "2024-01-21"]]}
+{"q": "Xem tổng doanh thu từ đầu quý này đến nay.", "code": "quarter 0 .. now", "kind": "open", "lang": "vi", "anchor": "2023-09-01", "ranges": [["2023-07-01", "2023-09-01"]]}
+{"q": "Hôm nay là ngày 2027-08-29 có sự kiện gì đặc biệt không?", "code": "2027-08-29", "kind": "date", "lang": "vi", "anchor": "2027-07-14", "ranges": [["2027-08-29", "2027-08-29"]]}
+{"q": "Lưu giúp mình lịch hẹn vào ngày 2027-08-29 nhé.", "code": "2027-08-29", "kind": "date", "lang": "vi", "anchor": "2025-12-02", "ranges": [["2027-08-29", "2027-08-29"]]}
+{"q": "Thời tiết ngày 2027-08-29 dự báo thế nào vậy?", "code": "2027-08-29", "kind": "date", "lang": "vi", "anchor": "2027-10-22", "ranges": [["2027-08-29", "2027-08-29"]]}
+{"q": "Lưu lại danh sách các ca trực từ đầu quý này đến nay nhé.", "code": "quarter 0 .. now", "kind": "open", "lang": "vi", "anchor": "2027-06-30", "ranges": [["2027-04-01", "2027-06-30"]]}
+{"q": "Cho tôi xem tổng số giờ làm việc kể từ đầu quý này đến hôm nay.", "code": "quarter 0 .. now", "kind": "open", "lang": "vi", "anchor": "2024-03-19", "ranges": [["2024-01-01", "2024-03-19"]]}
+{"q": "Ghi chú là tôi đã hoàn thành khóa đào tạo từ đầu quý này đến nay.", "code": "quarter 0 .. now", "kind": "open", "lang": "vi", "anchor": "2025-10-02", "ranges": [["2025-10-01", "2025-10-02"]]}
+{"q": "Ngày 29 tháng 5 năm 2016, nhắc tôi mua hoa tươi nhé.", "code": "2016-05-29", "kind": "date", "lang": "vi", "anchor": "2023-05-06", "ranges": [["2016-05-29", "2016-05-29"]]}
+{"q": "Ngày 29 tháng 5 năm 2016 là ngày kỷ niệm gì thế nhỉ?", "code": "2016-05-29", "kind": "date", "lang": "vi", "anchor": "2024-12-31", "ranges": [["2016-05-29", "2016-05-29"]]}
+{"q": "Ngày 29 tháng 5 năm 2016, hãy lưu lại ghi chú này vào nhật ký.", "code": "2016-05-29", "kind": "date", "lang": "vi", "anchor": "2023-10-18", "ranges": [["2016-05-29", "2016-05-29"]]}
+{"q": "Đầu tháng trước tôi đã mua cuốn sách này.", "code": "early month -1", "kind": "modified", "lang": "vi", "anchor": "2023-03-03", "ranges": [["2023-02-01", "2023-02-10"]]}
+{"q": "Lúc đầu tháng trước tôi thấy hơi mệt.", "code": "early month -1", "kind": "modified", "lang": "vi", "anchor": "2026-01-27", "ranges": [["2025-12-01", "2025-12-11"]]}
+{"q": "Cuốn ảnh chụp vào đầu tháng trước thật đẹp.", "code": "early month -1", "kind": "modified", "lang": "vi", "anchor": "2026-01-03", "ranges": [["2025-12-01", "2025-12-11"]]}
