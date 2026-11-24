@@ -19,6 +19,12 @@ DATES = [("last tuesday", "tue"), ("last friday", "fri"), ("yesterday", "day -1"
          ("two days ago", "day -2"), ("this morning", "day 0"), ("tonight", "day 0"), ("last night", "day -1"), ("tomorrow morning", "day 1")]
 RU_TRAPS = ["мартовские тезисы", "мартовские коты", "майские жуки", "майский жук в саду", "апрельские тезисы ленина",
             "мартовские тезисы партии", "июльский дождь фильм", "фильм июльский дождь", "сентябрьские стихи", "декабристы"]
+JUNK = [lambda r: r.choice("?!.-=#*~_") * r.randint(1, 70), lambda r: r.choice(["0000-00-00", "00/00/0000", "0000", "00:00",
+        "9999-99-99", "N/A", "n/a", "null", "None", "TBD", "???", "...", "--", "🙂", "👍", "ok", "hm"]),
+        lambda r: r.choice(["mon", "tue", "wed", "thu", "fri", "sat", "sun", "may", "mar", "jun", "dec"]) + r.choice(["", "", "?", "."]),
+        lambda r: r.choice(["a billion years ago", "millions of years ago", "10,000 years ago", "the dinosaurs 65 million years ago",
+                            "十亿年前", "一亿年前", "几百万年前", "一万年前的地球", "几千年前", "hace mil millones de años",
+                            "vor Millionen von Jahren"]) + r.choice(["", " what happened", "?"])]
 JOIN = [" and also ", " and ", ", ", " - what happened "]
 
 
@@ -44,6 +50,8 @@ def row(r):
         return r.choice(["{}", "id {}", "code {}"]).format(f"{y}-{r.randint(13, 99)}-{r.randint(32, 99)}"), "none"
     if k < 0.47:  # a month name inside a title or a saying, no date (lang ru)
         return r.choice(RU_TRAPS), "none"
+    if k < 0.49:  # junk, a bare word that is also a weekday/month abbreviation, or far outside the calendar
+        return r.choice(JUNK)(r), "none"
     if k < 0.5:
         n = r.choice([100, 100, 120, 150, 180, 200, 250, 300, 365, r.randint(100, 365)])
         if r.random() < 0.5:
@@ -72,12 +80,12 @@ def main():
     seen, rows = set(), []
     while len(rows) < a.n:
         q, code = row(r)
-        if q in seen and q not in RU_TRAPS:  # the few traps repeat
+        if q in seen and q not in RU_TRAPS and len(q) > 4:  # the few traps repeat
             continue
         anchor = date(2015, 1, 1) + timedelta(days=r.randrange(365 * 13))
         ranges = resolve(code, datetime(anchor.year, anchor.month, anchor.day, 12))
         seen.add(q)
-        rows.append({"q": q, "code": code, "kind": "en_tpl", "lang": "ru" if q in RU_TRAPS else "en", "anchor": anchor.isoformat(),
+        rows.append({"q": q, "code": code, "kind": "en_tpl", "lang": "ru" if q in RU_TRAPS else "en" if code != "none" or q.isascii() else "xx", "anchor": anchor.isoformat(),
                      "ranges": [[x.isoformat() if x else None for x in rg] for rg in ranges]})
     with open(a.out, "w") as f:
         f.writelines(json.dumps(x, ensure_ascii=False) + "\n" for x in rows)
