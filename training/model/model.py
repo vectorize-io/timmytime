@@ -366,7 +366,9 @@ def main():
     ap.add_argument("--epochs", type=int, default=30)
     ap.add_argument("--batch", type=int, default=256)
     ap.add_argument("--lr", type=float, default=1e-3)
-    ap.add_argument("--seed", type=int, default=0)
+    ap.add_argument("--seed", type=int, default=0, help="starting weights and the dev split")
+    ap.add_argument("--data-seed", type=int, default=None,
+                    help="batch order and augmentation (default: --seed); runs that differ only here can be averaged")
     ap.add_argument("--stride", type=int, default=2)
     ap.add_argument("--n-dec", type=int, default=2)
     ap.add_argument("--n-enc", type=int, default=4)
@@ -381,6 +383,8 @@ def main():
     r.shuffle(rows)
     n_dev = max(500, len(rows) // 20)
     dev, train = rows[:n_dev], rows[n_dev:]
+    if a.data_seed is not None:
+        r = random.Random(a.data_seed)
     pools = ([q for q, c in train if c == "none"], [(q, c) for q, c in train if c != "none"])
     device = "mps" if torch.backends.mps.is_available() else "cuda" if torch.cuda.is_available() else "cpu"
     Cfg.stride, Cfg.n_dec, Cfg.n_enc = a.stride, a.n_dec, a.n_enc

@@ -30,10 +30,11 @@ def _ranges(code: str, anchor: date) -> list:
 
 def load_lang_set(lang: str) -> dict[str, list[dict]]:
     """gen-xx: the first set (not for English, see load_sets); big-xx: ~3k rows covering every kind;
-    days-xx: dates on the 29th-31st, which the samplers left out until g25."""
+    days-xx: dates on the 29th-31st, which the samplers left out until g25; counts-xx: "N units ago" and
+    "the last N units" with N up to 365, "a month ago", far years (issues #1, #2)."""
     out = {}
     for name, path in ((f"gen-{lang}", DATA / f"test_{lang}.jsonl"), (f"big-{lang}", DATA / f"test_{lang}_big.jsonl"),
-                       (f"days-{lang}", DATA / f"test_{lang}_days.jsonl")):
+                       (f"days-{lang}", DATA / f"test_{lang}_days.jsonl"), (f"counts-{lang}", DATA / f"test_{lang}_counts.jsonl")):
         if path.exists() and not (lang == "en" and name == "gen-en"):
             out[name] = [json.loads(line) for line in path.open()]
     return out

@@ -269,6 +269,8 @@ def main() -> None:
     ap.add_argument("--kinds", default="", help="comma list: only these meaning kinds (see timmytime/meanings.py)")
     ap.add_argument("--far-share", type=float, default=None, help="share of years far from today (default 0.08)")
     ap.add_argument("--month-end-share", type=float, default=None, help="share of days on the 29th-31st (default 0.1)")
+    ap.add_argument("--far-count-share", type=float, default=None, help='share of "N ago" with N up to 365 (default 0.08)')
+    ap.add_argument("--one-ago-share", type=float, default=None, help='share of last week/month/year said as "a month ago" (0.3)')
     a = ap.parse_args()
     if a.far_share is not None:
         import training.data.meanings as meanings
@@ -276,6 +278,10 @@ def main() -> None:
     if a.month_end_share is not None:
         import training.data.meanings as meanings
         meanings.MONTH_END_SHARE = a.month_end_share
+    import training.data.meanings as meanings
+    for name in ("far_count_share", "one_ago_share"):
+        if getattr(a, name) is not None:
+            setattr(meanings, name.upper(), getattr(a, name))
     k = a.k or (3 if a.split == "test" else 5)
 
     jobs = make_jobs(a.split, a.lang, a.n, a.seed, k, a.none_share, set(filter(None, a.kinds.split(","))), a.trap_filter)

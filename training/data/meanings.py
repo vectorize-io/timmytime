@@ -25,6 +25,8 @@ NUM_WORDS = ["zero", "one", "two", "three", "four", "five", "six", "seven", "eig
 
 FAR_SHARE = 0.08  # share of years far from today (gen --far-share)
 MONTH_END_SHARE = 0.1  # share of days forced to the 29th-31st (gen --month-end-share)
+FAR_COUNT_SHARE = 0.08  # share of "N units ago" with N past the common counts (gen --far-count-share)
+ONE_AGO_SHARE = 0.3  # share of last week/month/year described as "a week ago" (gen --one-ago-share)
 
 
 
@@ -81,28 +83,28 @@ def _th(d: int) -> str:
 # Each family returns (code, description). Weights roughly follow how often people ask.
 def f_day(r):
     n = r.choice([-1] * 8 + [0] * 3 + [-2] * 2 + list(range(-10, -2)) + [1, 1, 2, 3, 4, -4, -15, -20, -30, -45, -60, -99])
-    if r.random() < 0.08:
+    if r.random() < FAR_COUNT_SHARE:
         n = _far(r, "day")
     return f"day {n}", _rel("day", n)
 
 
 def f_week(r):
     n = r.choice([-1] * 6 + [0] * 3 + [-2] * 2 + [-3, -4, -5, -6, -8, 1, 1, 2, 2, 3])
-    if r.random() < 0.08:
+    if r.random() < FAR_COUNT_SHARE:
         n = _far(r, "week")
     return f"week {n}", _rel("week", n)
 
 
 def f_month(r):
     n = r.choice([-1] * 6 + [0] * 3 + [-2] * 2 + [-3, -4, -5, -6, -8, -12, -18, -22, 1, 2, 2, 3])
-    if r.random() < 0.08:
+    if r.random() < FAR_COUNT_SHARE:
         n = _far(r, "month")
     return f"month {n}", _rel("month", n)
 
 
 def f_year(r):
     n = r.choice([-1] * 6 + [0] * 3 + [-2] * 2 + [-3, -3, -4, -5, -10, 1, 2, 2, 3])
-    if r.random() < 0.08:
+    if r.random() < FAR_COUNT_SHARE:
         n = _far(r, "year")
     return f"year {n}", _rel("year", n)
 
@@ -436,7 +438,7 @@ def sample(r: random.Random) -> tuple[str, str, str]:
     """One (kind, code, description)."""
     family = r.choices([f for f, _ in FAMILIES], [w for _, w in FAMILIES])[0]
     code, desc = family(r)
-    if code in ONE_AGO and r.random() < 0.3:
+    if code in ONE_AGO and r.random() < ONE_AGO_SHARE:
         desc = ONE_AGO[code]
     return family.__name__[2:], code, desc
 
