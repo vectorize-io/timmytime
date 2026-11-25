@@ -2,11 +2,11 @@
 # (--data-seed 1/2/3), two side by side then the third, then their average (training/model/soup.py). Everything is scored:
 # each run and the average, on hindsight, the 16 big sets, days-, counts- and ALL CAPS.
 # All fixes are in: renumber's number ranges, ALL CAPS, "a month ago" (issues #1-#3), days 29-31, counts.
-#   bash training/scripts/days_data.sh; bash training/scripts/counts_data.sh; EPOCHS=40 bash training/scripts/round_final.sh
+#   bash training/scripts/days_data.sh; bash training/scripts/counts_data.sh; bash training/scripts/round_final.sh
 set -e
 cd "$(dirname "$0")/../.."
 ALL_L="en es de zh ar ja ko hi id vi th it fr ru pt zh-hant"
-EPOCHS=${EPOCHS:-40}
+EPOCHS=${EPOCHS:-20}
 W=timmytime/weights
 
 if [ ! -f data/train_en_tpl_final.done ]; then  # templates with every fix
