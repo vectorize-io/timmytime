@@ -7,6 +7,7 @@ here is mirrored op for op there, so keep the two in step.
 """
 
 import argparse
+import calendar
 import json
 import math
 import os
@@ -180,6 +181,15 @@ def _swap_once(q: str, old: str, new: str) -> str | None:
     return q[: m.start()] + new + q[m.end() :]
 
 
+# Longest count each unit draws; must match the range the output vocabulary can write.
+_MAX_COUNT = {"day": 365, "week": 52, "month": 36, "year": 30}
+
+
+def _new_year(r: random.Random) -> int:
+    """Mostly recent years, and every year the vocabulary has some of the time."""
+    return r.randint(1960, 2035) if r.random() < 0.8 else r.randint(1800, 2199)
+
+
 def renumber(q: str, code: str, r: random.Random) -> tuple[str, str]:
     """Give the numbers a question shares with its code new random values, in both.
 
@@ -191,23 +201,25 @@ def renumber(q: str, code: str, r: random.Random) -> tuple[str, str]:
     for i, w in enumerate(words):
         if m := re.fullmatch(r"(\d{4})-(\d{2})-(\d{2})", w):  # a full date
             y, mo, d = int(m[1]), int(m[2]), int(m[3])
-            ny, nd, nm = r.randint(1960, 2035), r.randint(1, 28), r.randint(1, 12)  # all-digit forms: month too
+            ny, nm = _new_year(r), r.randint(1, 12)  # all-digit forms: month too
+            nd = r.randint(1, calendar.monthrange(ny, nm)[1])
             for old, new in ((w, f"{ny}-{nm:02d}-{nd:02d}"), (f"{mo}/{d}/{y}", f"{nm}/{nd}/{ny}"),
                              (f"{mo:02d}/{d:02d}/{y}", f"{nm:02d}/{nd:02d}/{ny}")):
                 if (q2 := _swap_once(q, old, new)) is not None:
                     q, words[i] = q2, f"{ny}-{nm:02d}-{nd:02d}"
                     break
             else:  # "the 7th of May 2004": year and day separately
+                nd = r.randint(1, calendar.monthrange(ny, mo)[1])
                 q2 = _swap_once(q, str(y), str(ny))
                 q3 = q2 and _swap_once(q2, str(d), str(nd))
                 if q3:
                     q, words[i] = q3, f"{ny}-{mo:02d}-{nd:02d}"
         elif m := re.fullmatch(r"\*-(\d{2})-(\d{2})", w):
-            nd = r.randint(1, 28)
+            nd = r.randint(1, calendar.monthrange(2023, int(m[1]))[1])  # no year: no Feb 29
             if (q2 := _swap_once(q, str(int(m[2])), str(nd))) is not None:
                 q, words[i] = q2, f"*-{m[1]}-{nd:02d}"
         elif m := re.fullmatch(r"(\d{4})(-\d{2})?", w):  # a year, or year-month
-            ny = r.randint(1960, 2035)
+            ny = _new_year(r)
             if (q2 := _swap_once(q, m[1], str(ny))) is not None:
                 q, words[i] = q2, f"{ny}{m[2] or ''}"
         elif re.fullmatch(r"q[1-4]", w):
@@ -218,6 +230,9 @@ def renumber(q: str, code: str, r: random.Random) -> tuple[str, str]:
         elif re.fullmatch(r"-?\d+", w) and i > 0 and words[i - 1] in ("day", "week", "month", "year", "last", "next") \
                 and abs(int(w)) >= 2:
             n = r.randint(2, 30 if words[i - 1] in ("day", "last", "next") else 12)
+            unit = words[i - 1] if words[i - 1] in _MAX_COUNT else words[i + 1] if i + 1 < len(words) else ""
+            if unit in _MAX_COUNT and r.random() < 0.2:  # counts the common range never reaches
+                n = r.randint(13, _MAX_COUNT[unit])
             if (q2 := _swap_once(q, str(abs(int(w))), str(n))) is not None:
                 q, words[i] = q2, str(-n if w.startswith("-") else n)
     new_code = " ".join(words)

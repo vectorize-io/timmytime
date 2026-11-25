@@ -17,6 +17,9 @@ MONTH_NAMES = ["January", "February", "March", "April", "May", "June", "July",
 DAY_NAMES = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
 SEASON_NAMES = ["spring", "summer", "autumn", "winter"]
 UNIT_WORDS = {"day": "days", "week": "weeks", "month": "months", "quarter": "quarters", "year": "years"}
+# Longest count each unit draws: "N units ago" and "the last N units" must reach the whole
+# range the output vocabulary can write, or those answer tokens are never trained.
+MAX_COUNT = {"day": 365, "week": 52, "month": 36, "year": 30}
 NUM_WORDS = ["zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten", "eleven", "twelve"]
 
 
@@ -30,6 +33,11 @@ def _day(r, y, m):
     they were missing for a long time (every sampler stopped at 28)."""
     last = calendar.monthrange(y or 2001, m)[1]
     return r.randint(29, last) if last > 28 and r.random() < MONTH_END_SHARE else r.randint(1, last)
+
+
+def _far(r: random.Random, unit: str) -> int:
+    """A count back beyond the common ones, up to the longest the unit draws."""
+    return -r.randint(11, MAX_COUNT[unit])
 
 def _year(r: random.Random) -> int:
     k = r.random()
@@ -73,21 +81,29 @@ def _th(d: int) -> str:
 # Each family returns (code, description). Weights roughly follow how often people ask.
 def f_day(r):
     n = r.choice([-1] * 8 + [0] * 3 + [-2] * 2 + list(range(-10, -2)) + [1, 1, 2, 3, 4, -4, -15, -20, -30, -45, -60, -99])
+    if r.random() < 0.08:
+        n = _far(r, "day")
     return f"day {n}", _rel("day", n)
 
 
 def f_week(r):
     n = r.choice([-1] * 6 + [0] * 3 + [-2] * 2 + [-3, -4, -5, -6, -8, 1, 1, 2, 2, 3])
+    if r.random() < 0.08:
+        n = _far(r, "week")
     return f"week {n}", _rel("week", n)
 
 
 def f_month(r):
     n = r.choice([-1] * 6 + [0] * 3 + [-2] * 2 + [-3, -4, -5, -6, -8, -12, -18, -22, 1, 2, 2, 3])
+    if r.random() < 0.08:
+        n = _far(r, "month")
     return f"month {n}", _rel("month", n)
 
 
 def f_year(r):
     n = r.choice([-1] * 6 + [0] * 3 + [-2] * 2 + [-3, -3, -4, -5, -10, 1, 2, 2, 3])
+    if r.random() < 0.08:
+        n = _far(r, "year")
     return f"year {n}", _rel("year", n)
 
 
@@ -175,7 +191,8 @@ def f_last_n(r):
                 (15, "day"): f"the {way} half month (15 days {when})"}.get(
             (n, unit), f"the {way} {n} {unit if n == 1 else UNIT_WORDS[unit]} counted from today ({n} {unit if n == 1 else UNIT_WORDS[unit]} {when}, not the calendar {unit})")
         return f"{way} {n} {unit}", desc
-    n = r.randint(2, 12) if r.random() < 0.85 else r.randint(13, 30)
+    k = r.random()
+    n = r.randint(2, 12) if k < 0.8 else r.randint(13, 30) if k < 0.92 else r.randint(13, MAX_COUNT[unit])
     word = r.choice([str(n), NUM_WORDS[n]]) if n <= 12 else str(n)
     if r.random() < 0.85:
         return f"last {n} {unit}", f"the last {word} {UNIT_WORDS[unit]} (from {n} {UNIT_WORDS[unit]} ago up to today)"
