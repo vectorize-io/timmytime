@@ -5,9 +5,10 @@
 set -e
 cd "$(dirname "$0")/../.."
 ALL_L="en es de zh ar ja ko hi id vi th it fr ru pt zh-hant"
-OUT=timmytime/weights/timmytime-s1.npz
-LOG=data/round_scratch.log
-EPOCHS=20
+NAME=${NAME:-s1}    # s1: 20 epochs, 1-2.5 points short of g25 and still rising; s2: NAME=s2 EPOCHS=40
+OUT=timmytime/weights/timmytime-$NAME.npz
+LOG=data/round_scratch_$NAME.log
+EPOCHS=${EPOCHS:-20}
 
 if [ ! -f $LOG ]; then  # first start: templates with the latest fixes (junk input, bare "wed", a billion years ago)
   uv run python -m training.data.zh_templates --n 40000 --seed 7 --out data/train_zh_tpl.jsonl
@@ -32,5 +33,5 @@ for try in 1 2 3 4 5; do
     && break || sleep 120
 done
 uv run python -m training.guard --threads 2 --max-gb 2 -- uv run python -m training.model.prune $OUT ${OUT%.npz}p.npz data/train_*.jsonl
-for L in hindsight $ALL_L; do TIMMYTIME_WEIGHTS=${OUT%.npz}p.npz uv run python -m training.guard --threads 1 --max-gb 2 -- uv run python -m training.eval.score timmytime --lang $L -v > data/score_s1_$L.txt 2>&1; done
+for L in hindsight $ALL_L; do TIMMYTIME_WEIGHTS=${OUT%.npz}p.npz uv run python -m training.guard --threads 1 --max-gb 2 -- uv run python -m training.eval.score timmytime --lang $L -v > data/score_${NAME}_$L.txt 2>&1; done
 echo SCRATCH-DONE
