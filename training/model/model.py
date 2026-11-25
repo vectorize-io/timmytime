@@ -270,8 +270,11 @@ def augment(q: str, code: str, pool_none: list[str], pool_dated: list[tuple[str,
         q2, c2 = r.choice(pool_dated)
         if c2 != "none" and ";" not in c2:
             q, code = f"{q}{r.choice([' and ', '. ', ', also ', ' & '])}{q2}", f"{code} ; {c2}"
-    if r.random() < 0.3:
+    case = r.random()
+    if case < 0.3:
         q = q.lower()
+    elif case < 0.35:  # people also type in ALL CAPS
+        q = q.upper()
     if r.random() < 0.1:
         q = _strip_accents(q)
     for _ in range(r.choice([0, 0, 0, 1, 1, 2])):
