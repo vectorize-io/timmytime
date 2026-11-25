@@ -16,7 +16,9 @@ MONTHS = ["january", "february", "march", "april", "may", "june", "july", "augus
 NOISE = ["port {}", "listening on {}", "listening in {}", "PR {}", "job {}", "buffer size {}", "room {}", "ticket {}", "chunk size {}",
          "build {}", "order {}", "issue #{}", "error code {}", "page {}"]
 DATES = [("last tuesday", "tue"), ("last friday", "fri"), ("yesterday", "day -1"), ("last week", "week -1"), ("last month", "month -1"),
-         ("two days ago", "day -2"), ("this morning", "day 0"), ("tonight", "day 0"), ("last night", "day -1"), ("tomorrow morning", "day 1")]
+         ("two days ago", "day -2"), ("this morning", "day 0"), ("tonight", "day 0"), ("last night", "day -1"), ("tomorrow morning", "day 1"),
+         ("a week ago", "week -1"), ("a month ago", "month -1"), ("a year ago", "year -1"), ("one month ago", "month -1"),
+         ("one year ago", "year -1"), ("1 week ago", "week -1")]
 RU_TRAPS = ["мартовские тезисы", "мартовские коты", "майские жуки", "майский жук в саду", "апрельские тезисы ленина",
             "мартовские тезисы партии", "июльский дождь фильм", "фильм июльский дождь", "сентябрьские стихи", "декабристы"]
 JUNK = [lambda r: r.choice("?!.-=#*~_") * r.randint(1, 70), lambda r: r.choice(["0000-00-00", "00/00/0000", "0000", "00:00",

@@ -408,10 +408,19 @@ def f_multi(r):
 FAMILIES = SINGLE + [(f_multi, 3)]
 
 
+# People also say "a month ago" for the previous period; described only as "last month",
+# generated questions never used that phrasing.
+ONE_AGO = {"week -1": "a week ago (the previous calendar week (Monday to Sunday))",
+           "month -1": "a month ago (the previous calendar month)",
+           "year -1": "a year ago (the previous calendar year)"}
+
+
 def sample(r: random.Random) -> tuple[str, str, str]:
     """One (kind, code, description)."""
     family = r.choices([f for f, _ in FAMILIES], [w for _, w in FAMILIES])[0]
     code, desc = family(r)
+    if code in ONE_AGO and r.random() < 0.3:
+        desc = ONE_AGO[code]
     return family.__name__[2:], code, desc
 
 
