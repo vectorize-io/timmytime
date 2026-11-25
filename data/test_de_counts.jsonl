@@ -1,0 +1,152 @@
+{"q": "War mein erster Marathon am 8/18/1826?", "code": "1826-08-18", "kind": "date", "lang": "de", "anchor": "2024-01-16", "ranges": [["1826-08-18", "1826-08-18"]]}
+{"q": "Notiere bitte, dass ich am 8/18/1826 mein Training unterbrochen habe.", "code": "1826-08-18", "kind": "date", "lang": "de", "anchor": "2027-09-21", "ranges": [["1826-08-18", "1826-08-18"]]}
+{"q": "Was habe ich am 8/18/1826 gemacht?", "code": "1826-08-18", "kind": "date", "lang": "de", "anchor": "2024-06-27", "ranges": [["1826-08-18", "1826-08-18"]]}
+{"q": "erinnert dir an d die kw von vor 8 wochen (mo-so)? war da 450 euro?", "code": "week -8", "kind": "week", "lang": "de", "anchor": "2026-04-05", "ranges": [["2026-02-02", "2026-02-08"]]}
+{"q": "was hab ich in der woche vor 8 wochen (mo-so) über 12 kg gesagt?", "code": "week -8", "kind": "week", "lang": "de", "anchor": "2026-08-14", "ranges": [["2026-06-15", "2026-06-21"]]}
+{"q": "Vormittag vor 56 Tagen", "code": "day -56", "kind": "day", "lang": "de", "anchor": "2027-09-05", "ranges": [["2027-07-11", "2027-07-11"]]}
+{"q": "56 Tage vor Nacht", "code": "day -56", "kind": "day", "lang": "de", "anchor": "2027-08-13", "ranges": [["2027-06-18", "2027-06-18"]]}
+{"q": "Nachmittag vor 56 Tagen", "code": "day -56", "kind": "day", "lang": "de", "anchor": "2025-08-12", "ranges": [["2025-06-17", "2025-06-17"]]}
+{"q": "übermorgen wetter 15 euro", "code": "day 2", "kind": "day", "lang": "de", "anchor": "2024-03-13", "ranges": [["2024-03-15", "2024-03-15"]]}
+{"q": "übermorgen termin zimmer 402", "code": "day 2", "kind": "day", "lang": "de", "anchor": "2026-10-04", "ranges": [["2026-10-06", "2026-10-06"]]}
+{"q": "übermorgen abend 500 gramm", "code": "day 2", "kind": "day", "lang": "de", "anchor": "2026-04-29", "ranges": [["2026-05-01", "2026-05-01"]]}
+{"q": "Das Jahr vor 22 Jahren war voller 500 Fehler.", "code": "year -22", "kind": "year", "lang": "de", "anchor": "2026-01-01", "ranges": [["2004-01-01", "2004-12-31"]]}
+{"q": "Ich brauche die Liste aus dem Jahr vor 22 Jahren für Zimmer 402.", "code": "year -22", "kind": "year", "lang": "de", "anchor": "2024-02-29", "ranges": [["2002-01-01", "2002-12-31"]]}
+{"q": "Erinnere mich an die 15 Euro aus dem gesamten Jahr vor 22 Jahren.", "code": "year -22", "kind": "year", "lang": "de", "anchor": "2026-10-19", "ranges": [["2004-01-01", "2004-12-31"]]}
+{"q": "Wie viel habe ich in den letzten 9 Jahren Deutsch gelernt?", "code": "last 9 year", "kind": "last_n", "lang": "de", "anchor": "2027-06-30", "ranges": [["2018-06-30", "2027-06-30"]]}
+{"q": "Was ist in den letzten 9 Jahren passiert?", "code": "last 9 year", "kind": "last_n", "lang": "de", "anchor": "2024-12-07", "ranges": [["2015-12-07", "2024-12-07"]]}
+{"q": "Ich habe 45 Euro für das Buch ausgegeben in der Woche vor 25 Wochen.", "code": "week -25", "kind": "week", "lang": "de", "anchor": "2027-02-06", "ranges": [["2026-08-10", "2026-08-16"]]}
+{"q": "In Raum 302 war es sehr laut in der Woche vor 25 Wochen.", "code": "week -25", "kind": "week", "lang": "de", "anchor": "2026-08-03", "ranges": [["2026-02-09", "2026-02-15"]]}
+{"q": "Ich habe genau 1200 Schritte gezählt in der Woche vor 25 Wochen.", "code": "week -25", "kind": "week", "lang": "de", "anchor": "2027-06-10", "ranges": [["2026-12-14", "2026-12-20"]]}
+{"q": "Erinnere mich an die Schichtplanung für das gesamte Jahr 2016.", "code": "2016", "kind": "year_abs", "lang": "de", "anchor": "2027-05-26", "ranges": [["2016-01-01", "2016-12-31"]]}
+{"q": "Ich habe die Medikamentenbestellung für 2016 abgeschlossen.", "code": "2016", "kind": "year_abs", "lang": "de", "anchor": "2024-02-29", "ranges": [["2016-01-01", "2016-12-31"]]}
+{"q": "Wie war die Stationsbesetzung im Jahr 2016?", "code": "2016", "kind": "year_abs", "lang": "de", "anchor": "2025-04-20", "ranges": [["2016-01-01", "2016-12-31"]]}
+{"q": "War der Patient in Zimmer 402 vor genau 4 Tagen stabil?", "code": "day -4", "kind": "day", "lang": "de", "anchor": "2026-11-15", "ranges": [["2026-11-11", "2026-11-11"]]}
+{"q": "Hatten wir vor 4 Tagen um 14 Uhr und 15 Uhr die Übergabe mit 12 Medikamenten?", "code": "day -4", "kind": "day", "lang": "de", "anchor": "2023-07-04", "ranges": [["2023-06-30", "2023-06-30"]]}
+{"q": "Wie viele ml Infusion haben wir vor 4 Tagen um 08:00 Uhr verabreicht, war das 500 ml?", "code": "day -4", "kind": "day", "lang": "de", "anchor": "2027-10-12", "ranges": [["2027-10-08", "2027-10-08"]]}
+{"q": "Die 500 Euro die ich letzte Woche von Montag bis Sonntag ausgegeben habe.", "code": "week -1", "kind": "week", "lang": "de", "anchor": "2024-08-17", "ranges": [["2024-08-05", "2024-08-11"]]}
+{"q": "Vergiss nicht die 42 Seiten die ich letzte Woche Montag bis Sonntag gelesen habe.", "code": "week -1", "kind": "week", "lang": "de", "anchor": "2027-09-05", "ranges": [["2027-08-23", "2027-08-29"]]}
+{"q": "War die Zimmernummer 104 letzte Woche von Montag bis Sonntag reserviert?", "code": "week -1", "kind": "week", "lang": "de", "anchor": "2024-05-18", "ranges": [["2024-05-06", "2024-05-12"]]}
+{"q": "Erinnerst du dich noch an die ganzen technischen Updates und die Software-Trends, die das gesamte Jahr vor dreiundzwanzig Jahren geprägt haben, weil ich das vergessen habe?", "code": "year -23", "kind": "year", "lang": "de", "anchor": "2027-10-13", "ranges": [["2004-01-01", "2004-12-31"]]}
+{"q": "Ich muss unbedingt mal nachschauen, welche On-Call-Einsätze und kritischen Systemausfälle im Zeitraum von vor dreiundzwanzig Jahren dokumentiert wurden, damit ich die alten Muster besser verstehe.", "code": "year -23", "kind": "year", "lang": "de", "anchor": "2025-10-23", "ranges": [["2002-01-01", "2002-12-31"]]}
+{"q": "Kannst du mir bitte eine Zusammenfassung aller wichtigen Projektmeilensteine geben, die wir während des gesamten Jahres vor dreiundzwanzig Jahren im Team gemeinsam erreicht und abgeschlossen haben?", "code": "year -23", "kind": "year", "lang": "de", "anchor": "2027-04-21", "ranges": [["2004-01-01", "2004-12-31"]]}
+{"q": "Vergiss nicht, die Lieferanten für den 24. Juli 2018 anzurufen.", "code": "2018-07-24", "kind": "date", "lang": "de", "anchor": "2024-11-27", "ranges": [["2018-07-24", "2018-07-24"]]}
+{"q": "Wie war der Umsatz am 24. Juli 2018?", "code": "2018-07-24", "kind": "date", "lang": "de", "anchor": "2026-08-09", "ranges": [["2018-07-24", "2018-07-24"]]}
+{"q": "Trage bitte ein, dass wir am 24. Juli 2018 geschlossen haben.", "code": "2018-07-24", "kind": "date", "lang": "de", "anchor": "2023-05-02", "ranges": [["2018-07-24", "2018-07-24"]]}
+{"q": "Ich habe im Jahr 2022 meine Prüfungen in Statistik geschrieben.", "code": "2022", "kind": "year_abs", "lang": "de", "anchor": "2026-11-07", "ranges": [["2022-01-01", "2022-12-31"]]}
+{"q": "Kannst du mir sagen, wie viel ich im Jahr 2022 für meine Miete bezahlt habe?", "code": "2022", "kind": "year_abs", "lang": "de", "anchor": "2027-07-21", "ranges": [["2022-01-01", "2022-12-31"]]}
+{"q": "Meine wichtigste Entscheidung fiel im Jahr 2022.", "code": "2022", "kind": "year_abs", "lang": "de", "anchor": "2024-08-16", "ranges": [["2022-01-01", "2022-12-31"]]}
+{"q": "Bitte notieren Sie für den 12/26/2125 einen Termin mit dem Großkunden.", "code": "2125-12-26", "kind": "date", "lang": "de", "anchor": "2027-06-30", "ranges": [["2125-12-26", "2125-12-26"]]}
+{"q": "Könnten Sie bitte prüfen, ob am 12/26/2125 alle Quartalsberichte vorliegen?", "code": "2125-12-26", "kind": "date", "lang": "de", "anchor": "2023-11-27", "ranges": [["2125-12-26", "2125-12-26"]]}
+{"q": "Ich möchte Sie bitten, den 12/26/2125 als Feiertag in meinem Kalender zu markieren.", "code": "2125-12-26", "kind": "date", "lang": "de", "anchor": "2027-10-02", "ranges": [["2125-12-26", "2125-12-26"]]}
+{"q": "kannst du mir die lieferungen für diese woche montag bis sonntag auflisten?", "code": "week 0", "kind": "week", "lang": "de", "anchor": "2024-09-28", "ranges": [["2024-09-23", "2024-09-29"]]}
+{"q": "erinnerst du dich an den morgen vor exakt 64 tagen? (Was hab ich da gemacht?)", "code": "day -64", "kind": "day", "lang": "de", "anchor": "2023-05-24", "ranges": [["2023-03-21", "2023-03-21"]]}
+{"q": "vor 64 tagen am nachmittag + abend war ich mega gestresst, merk dir das. (Stimmungserfassung)", "code": "day -64", "kind": "day", "lang": "de", "anchor": "2025-12-22", "ranges": [["2025-10-19", "2025-10-19"]]}
+{"q": "was hab ich vor 64 tagen in der nacht gelernt? (Vokabel-Check)", "code": "day -64", "kind": "day", "lang": "de", "anchor": "2023-02-13", "ranges": [["2022-12-11", "2022-12-11"]]}
+{"q": "Erinnerst du dich noch an den Bericht von vor 256 Tagen, als die Schicht um acht morgens anfing und wir diesen extrem stressigen Patienten hatten?", "code": "day -256", "kind": "day", "lang": "de", "anchor": "2024-04-05", "ranges": [["2023-07-24", "2023-07-24"]]}
+{"q": "Ich muss unbedingt die Dosierung der Medikamente finden, die ich vor 256 Tagen um zwei nachmittags für die Station im System eingetragen und notiert habe.", "code": "day -256", "kind": "day", "lang": "de", "anchor": "2025-02-22", "ranges": [["2024-06-11", "2024-06-11"]]}
+{"q": "Bitte schau nach, welche Laborergebnisse vor 256 Tagen gegen elf nachts reingekommen sind, weil ich das Gefühl habe, dass ich das damals total übersehen habe.", "code": "day -256", "kind": "day", "lang": "de", "anchor": "2025-03-31", "ranges": [["2024-07-18", "2024-07-18"]]}
+{"q": "Erinnere mich an meine Pace beim langen Lauf vor 199 Tagen am Morgen.", "code": "day -199", "kind": "day", "lang": "de", "anchor": "2026-08-03", "ranges": [["2026-01-16", "2026-01-16"]]}
+{"q": "Ich war vor 199 Tagen am Nachmittag sehr erschöpft.", "code": "day -199", "kind": "day", "lang": "de", "anchor": "2026-01-01", "ranges": [["2025-06-16", "2025-06-16"]]}
+{"q": "Vergiss nicht, dass ich vor 199 Tagen am Abend meine neuen Schuhe gekauft habe.", "code": "day -199", "kind": "day", "lang": "de", "anchor": "2025-12-30", "ranges": [["2025-06-14", "2025-06-14"]]}
+{"q": "was war eigentlich mein umsatz in der woche vor 50 wochen?", "code": "week -50", "kind": "week", "lang": "de", "anchor": "2026-06-24", "ranges": [["2025-07-07", "2025-07-13"]]}
+{"q": "hast du die termine von montag bis sonntag vor 50 wochen gespeichert?", "code": "week -50", "kind": "week", "lang": "de", "anchor": "2023-09-27", "ranges": [["2022-10-10", "2022-10-16"]]}
+{"q": "schreib mir mal die wichtigsten kundenkontakte aus der woche vor 50 wochen auf.", "code": "week -50", "kind": "week", "lang": "de", "anchor": "2023-11-18", "ranges": [["2022-11-28", "2022-12-04"]]}
+{"q": "Zeig mir alle Fehlermeldungen von vor genau 60 Tagen.", "code": "day -60", "kind": "day", "lang": "de", "anchor": "2026-08-08", "ranges": [["2026-06-09", "2026-06-09"]]}
+{"q": "Finde die Deployment-Logs von vor 60 Tagen, 14:00 Uhr.", "code": "day -60", "kind": "day", "lang": "de", "anchor": "2026-02-15", "ranges": [["2025-12-17", "2025-12-17"]]}
+{"q": "Liste die kritischen Vorfälle von vor 60 Tagen, 03:15 Uhr auf.", "code": "day -60", "kind": "day", "lang": "de", "anchor": "2024-02-20", "ranges": [["2023-12-22", "2023-12-22"]]}
+{"q": "Notiere bitte, dass am 12. Juni die Schichtübergabe besonders hektisch war.", "code": "*-06-12", "kind": "date", "lang": "de", "anchor": "2026-11-01", "ranges": [["2026-06-12", "2026-06-12"]]}
+{"q": "War am 12. Juni eigentlich der Dienstplan für die Nachtschicht schon fertig?", "code": "*-06-12", "kind": "date", "lang": "de", "anchor": "2024-02-02", "ranges": [["2023-06-12", "2023-06-12"]]}
+{"q": "Ich habe am 12. Juni vergessen, die Medikamentenliste für die Frühschicht zu aktualisieren.", "code": "*-06-12", "kind": "date", "lang": "de", "anchor": "2026-08-09", "ranges": [["2026-06-12", "2026-06-12"]]}
+{"q": "Kannst du mir bitte nochmal die komplette Liste der Incidents aus dem On-Call-Dienst von der vorletzten Woche und der Woche davor raussuchen, also die ganze Woche vor drei Wochen?", "code": "week -3", "kind": "week", "lang": "de", "anchor": "2025-02-01", "ranges": [["2025-01-06", "2025-01-12"]]}
+{"q": "Ich muss mich an die Architektur-Entscheidungen erinnern, die wir in der Woche vor drei Wochen getroffen haben, also von Montag bis Sonntag, bitte schau mal in den Notizen nach.", "code": "week -3", "kind": "week", "lang": "de", "anchor": "2025-01-08", "ranges": [["2024-12-16", "2024-12-22"]]}
+{"q": "Erinnerst du dich noch an die Deployment-Probleme, die uns die ganze Woche vor drei Wochen, also von Montag bis Sonntag, so richtig viel Stress und schlaflose Nächte bereitet haben?", "code": "week -3", "kind": "week", "lang": "de", "anchor": "2026-03-01", "ranges": [["2026-02-02", "2026-02-08"]]}
+{"q": "Zeig mir am 30. Juli die Liste mit 12 Spielzeugen.", "code": "*-07-30", "kind": "date", "lang": "de", "anchor": "2026-03-06", "ranges": [["2025-07-30", "2025-07-30"]]}
+{"q": "Finde am 30. Juli, 08:00 und 20:00 Uhr den Termin für 45 Euro.", "code": "*-07-30", "kind": "date", "lang": "de", "anchor": "2023-11-02", "ranges": [["2023-07-30", "2023-07-30"]]}
+{"q": "Erinnere mich am 30. Juli an Zimmer 302.", "code": "*-07-30", "kind": "date", "lang": "de", "anchor": "2026-10-01", "ranges": [["2026-07-30", "2026-07-30"]]}
+{"q": "Finde die 12 Seiten aus vorgestern vorgestern.", "code": "day -2", "kind": "day", "lang": "de", "anchor": "2025-08-24", "ranges": [["2025-08-22", "2025-08-22"]]}
+{"q": "Such die Quittung für 89 Euro von vorgestern vorgestern.", "code": "day -2", "kind": "day", "lang": "de", "anchor": "2024-03-17", "ranges": [["2024-03-15", "2024-03-15"]]}
+{"q": "Die Rechnung für die Milch war gestern.", "code": "day -1", "kind": "day", "lang": "de", "anchor": "2025-08-15", "ranges": [["2025-08-14", "2025-08-14"]]}
+{"q": "Ich habe gestern Nachmittag die Lieferungen angenommen.", "code": "day -1", "kind": "day", "lang": "de", "anchor": "2023-12-26", "ranges": [["2023-12-25", "2023-12-25"]]}
+{"q": "Vergiss nicht, dass ich gestern Abend das Geschäft abgeschlossen habe.", "code": "day -1", "kind": "day", "lang": "de", "anchor": "2025-11-27", "ranges": [["2025-11-26", "2025-11-26"]]}
+{"q": "Erinnerst du dich eigentlich noch an alles, was ich dir über die gesamte Woche von Montag bis Sonntag vor exakt 46 Wochen eigentlich erzählt habe?", "code": "week -46", "kind": "week", "lang": "de", "anchor": "2027-01-01", "ranges": [["2026-02-09", "2026-02-15"]]}
+{"q": "Ich versuche gerade mühsam, die Details aus dieser einen Woche, also von Montag bis einschließlich Sonntag vor 46 Wochen, in meinem Kopf wieder zusammenzusuchen.", "code": "week -46", "kind": "week", "lang": "de", "anchor": "2025-01-31", "ranges": [["2024-03-11", "2024-03-17"]]}
+{"q": "Kannst du mir bitte schnell sagen, was wir eigentlich genau besprochen haben, als diese Woche von Montag bis Sonntag vor 46 Wochen gerade so war?", "code": "week -46", "kind": "week", "lang": "de", "anchor": "2023-01-15", "ranges": [["2022-02-21", "2022-02-27"]]}
+{"q": "Könnten Sie mir bitte die Details zu dem Vorfall vom letzten Monat nennen?", "code": "month -1", "kind": "month", "lang": "de", "anchor": "2023-03-02", "ranges": [["2023-02-01", "2023-02-28"]]}
+{"q": "Was steht in der KW in 2 Wochen an?", "code": "week 2", "kind": "week", "lang": "de", "anchor": "2027-12-08", "ranges": [["2027-12-20", "2027-12-26"]]}
+{"q": "Termine für die ganze Woche in 2 Wochen bitte.", "code": "week 2", "kind": "week", "lang": "de", "anchor": "2023-08-15", "ranges": [["2023-08-28", "2023-09-03"]]}
+{"q": "Kannst du mir die Woche in 2 Wochen planen?", "code": "week 2", "kind": "week", "lang": "de", "anchor": "2024-02-29", "ranges": [["2024-03-11", "2024-03-17"]]}
+{"q": "Zeig mir die wichtigsten Nachrichten aus dem Jahr 2011.", "code": "2011", "kind": "year_abs", "lang": "de", "anchor": "2026-01-01", "ranges": [["2011-01-01", "2011-12-31"]]}
+{"q": "Finde alle meine Notizen aus dem Jahr 2011.", "code": "2011", "kind": "year_abs", "lang": "de", "anchor": "2023-03-25", "ranges": [["2011-01-01", "2011-12-31"]]}
+{"q": "Liste die Top-Songs des Jahres 2011 auf.", "code": "2011", "kind": "year_abs", "lang": "de", "anchor": "2024-12-17", "ranges": [["2011-01-01", "2011-12-31"]]}
+{"q": "Zeig mir alle Projekte aus der Woche vor 24 Wochen.", "code": "week -24", "kind": "week", "lang": "de", "anchor": "2027-02-15", "ranges": [["2026-08-31", "2026-09-06"]]}
+{"q": "Finde alle Rechnungen von Montag bis Sonntag vor 24 Wochen.", "code": "week -24", "kind": "week", "lang": "de", "anchor": "2026-06-12", "ranges": [["2025-12-22", "2025-12-28"]]}
+{"q": "Liste meine Termine für die gesamte Woche vor 24 Wochen auf.", "code": "week -24", "kind": "week", "lang": "de", "anchor": "2027-12-27", "ranges": [["2027-07-12", "2027-07-18"]]}
+{"q": "Vor zehn Tagen am Vormittag: Bitte die Notizen vom Kundentermin mit Meyer speichern.", "code": "day -10", "kind": "day", "lang": "de", "anchor": "2024-03-12", "ranges": [["2024-03-02", "2024-03-02"]]}
+{"q": "Vor zehn Tagen am Nachmittag: Vergiss nicht, dass wir das Angebot für die Schmidt GmbH geschickt haben.", "code": "day -10", "kind": "day", "lang": "de", "anchor": "2023-05-21", "ranges": [["2023-05-11", "2023-05-11"]]}
+{"q": "Vor zehn Tagen am Abend: Erinnere mich an den Anruf, den ich damals getätigt habe.", "code": "day -10", "kind": "day", "lang": "de", "anchor": "2026-05-19", "ranges": [["2026-05-09", "2026-05-09"]]}
+{"q": "Könnten Sie mir bitte sagen, welche historischen Ereignisse sich am 1873-09-28 ereignet haben?", "code": "1873-09-28", "kind": "date", "lang": "de", "anchor": "2026-04-12", "ranges": [["1873-09-28", "1873-09-28"]]}
+{"q": "Bitte merken Sie vor, dass ich mich sehr für die Details zum 1873-09-28 interessiere.", "code": "1873-09-28", "kind": "date", "lang": "de", "anchor": "2024-09-02", "ranges": [["1873-09-28", "1873-09-28"]]}
+{"q": "Ich wäre Ihnen sehr dankbar, wenn Sie mir Informationen über den 1873-09-28 heraussuchen könnten.", "code": "1873-09-28", "kind": "date", "lang": "de", "anchor": "2027-06-01", "ranges": [["1873-09-28", "1873-09-28"]]}
+{"q": "hast du die termine für die nächsten vier tage im blick?", "code": "next 4 day", "kind": "last_n", "lang": "de", "anchor": "2026-10-31", "ranges": [["2026-10-31", "2026-11-04"]]}
+{"q": "Gestern war schlecht.", "code": "day -1", "kind": "day", "lang": "de", "anchor": "2023-12-10", "ranges": [["2023-12-09", "2023-12-09"]]}
+{"q": "Was gestern geschah?", "code": "day -1", "kind": "day", "lang": "de", "anchor": "2025-06-16", "ranges": [["2025-06-15", "2025-06-15"]]}
+{"q": "Gestern Abend Essen.", "code": "day -1", "kind": "day", "lang": "de", "anchor": "2025-10-23", "ranges": [["2025-10-22", "2025-10-22"]]}
+{"q": "Kannst du mir sagen, was ich vor sechs Tagen am Abend gemacht habe?", "code": "day -6", "kind": "day", "lang": "de", "anchor": "2026-03-01", "ranges": [["2026-02-23", "2026-02-23"]]}
+{"q": "Erinnere mich bitte an das Gespräch von vor sechs Tagen am Vormittag und Nachmittag.", "code": "day -6", "kind": "day", "lang": "de", "anchor": "2023-12-08", "ranges": [["2023-12-02", "2023-12-02"]]}
+{"q": "Was habe ich vor sechs Tagen in der Nacht geschrieben?", "code": "day -6", "kind": "day", "lang": "de", "anchor": "2025-12-31", "ranges": [["2025-12-25", "2025-12-25"]]}
+{"q": "weißt du was am 13. oktober 2008 passiert ist?", "code": "2008-10-13", "kind": "date", "lang": "de", "anchor": "2025-04-05", "ranges": [["2008-10-13", "2008-10-13"]]}
+{"q": "ich fühle mich heute wie am 13. oktober 2008", "code": "2008-10-13", "kind": "date", "lang": "de", "anchor": "2027-06-11", "ranges": [["2008-10-13", "2008-10-13"]]}
+{"q": "notier bitte: 13. oktober 2008 war ein schöner tag", "code": "2008-10-13", "kind": "date", "lang": "de", "anchor": "2024-02-29", "ranges": [["2008-10-13", "2008-10-13"]]}
+{"q": "24. April 2025, 12€", "code": "2025-04-24", "kind": "date", "lang": "de", "anchor": "2027-06-29", "ranges": [["2025-04-24", "2025-04-24"]]}
+{"q": "24. April 2025, Zimmer 3", "code": "2025-04-24", "kind": "date", "lang": "de", "anchor": "2026-08-03", "ranges": [["2025-04-24", "2025-04-24"]]}
+{"q": "Zeig mir alle PagerDuty-Alerts von Montag bis Sonntag vor genau 4 Wochen.", "code": "week -4", "kind": "week", "lang": "de", "anchor": "2023-06-29", "ranges": [["2023-05-29", "2023-06-04"]]}
+{"q": "Finde die Deployment-Logs für die gesamte Kalenderwoche vor 4 Wochen (Montag bis Sonntag).", "code": "week -4", "kind": "week", "lang": "de", "anchor": "2024-07-29", "ranges": [["2024-07-01", "2024-07-07"]]}
+{"q": "Liste alle Jira-Tickets auf, die in der Woche von Montag bis Sonntag vor 4 Wochen erstellt wurden.", "code": "week -4", "kind": "week", "lang": "de", "anchor": "2026-04-13", "ranges": [["2026-03-16", "2026-03-22"]]}
+{"q": "Erinnere mich an die Projekte aus dem Jahr vor siebzehn Jahren.", "code": "year -17", "kind": "year", "lang": "de", "anchor": "2027-06-30", "ranges": [["2010-01-01", "2010-12-31"]]}
+{"q": "Hattest du im Jahr vor siebzehn Jahren schon Kundenkontakte gespeichert?", "code": "year -17", "kind": "year", "lang": "de", "anchor": "2026-01-24", "ranges": [["2009-01-01", "2009-12-31"]]}
+{"q": "Die Design-Trends aus dem Jahr vor siebzehn Jahren sind wichtig.", "code": "year -17", "kind": "year", "lang": "de", "anchor": "2027-08-22", "ranges": [["2010-01-01", "2010-12-31"]]}
+{"q": "In den letzten fünfzehn Tagen habe ich meine neue Brille verloren.", "code": "last 15 day", "kind": "last_n", "lang": "de", "anchor": "2025-11-20", "ranges": [["2025-11-05", "2025-11-20"]]}
+{"q": "gestern habe ich 45 euro ausgegeben", "code": "day -1", "kind": "day", "lang": "de", "anchor": "2026-06-17", "ranges": [["2026-06-16", "2026-06-16"]]}
+{"q": "ich bin gestern 8000 schritte gegangen", "code": "day -1", "kind": "day", "lang": "de", "anchor": "2027-08-01", "ranges": [["2027-07-31", "2027-07-31"]]}
+{"q": "das war gestern in zimmer 302", "code": "day -1", "kind": "day", "lang": "de", "anchor": "2027-09-14", "ranges": [["2027-09-13", "2027-09-13"]]}
+{"q": "In den letzten zehn Wochen habe ich zu viele Informationen gesammelt.", "code": "last 10 week", "kind": "last_n", "lang": "de", "anchor": "2026-01-18", "ranges": [["2025-11-09", "2026-01-18"]]}
+{"q": "Die letzten zehn Wochen waren sehr produktiv für meine Forschung.", "code": "last 10 week", "kind": "last_n", "lang": "de", "anchor": "2024-02-07", "ranges": [["2023-11-29", "2024-02-07"]]}
+{"q": "Was habe ich in den letzten zehn Wochen über die neuen Daten notiert?", "code": "last 10 week", "kind": "last_n", "lang": "de", "anchor": "2023-09-15", "ranges": [["2023-07-07", "2023-09-15"]]}
+{"q": "Lagerbestand 2027", "code": "2027", "kind": "year_abs", "lang": "de", "anchor": "2026-01-01", "ranges": [["2027-01-01", "2027-12-31"]]}
+{"q": "Umsatzplanung 2027", "code": "2027", "kind": "year_abs", "lang": "de", "anchor": "2027-06-09", "ranges": [["2027-01-01", "2027-12-31"]]}
+{"q": "Mietvertrag 2027", "code": "2027", "kind": "year_abs", "lang": "de", "anchor": "2025-12-23", "ranges": [["2027-01-01", "2027-12-31"]]}
+{"q": "In den letzten elf Monaten habe ich meine Schichtpläne im System hinterlegt.", "code": "last 11 month", "kind": "last_n", "lang": "de", "anchor": "2024-02-24", "ranges": [["2023-03-24", "2024-02-24"]]}
+{"q": "Was war der Status der Datenbank vor genau 325 Tagen?", "code": "day -325", "kind": "day", "lang": "de", "anchor": "2027-03-24", "ranges": [["2026-05-03", "2026-05-03"]]}
+{"q": "Kannst du mir die Deployment-Logs von vor 325 Tagen heraussuchen?", "code": "day -325", "kind": "day", "lang": "de", "anchor": "2023-02-25", "ranges": [["2022-04-06", "2022-04-06"]]}
+{"q": "Gab es vor 325 Tagen Vorfälle mit dem Loadbalancer?", "code": "day -325", "kind": "day", "lang": "de", "anchor": "2026-08-08", "ranges": [["2025-09-17", "2025-09-17"]]}
+{"q": "Vor genau 60 Tagen haben wir 45 Euro für die neuen Turnschuhe der Kinder ausgegeben.", "code": "day -60", "kind": "day", "lang": "de", "anchor": "2024-03-23", "ranges": [["2024-01-23", "2024-01-23"]]}
+{"q": "Vor genau 60 Tagen war die Temperatur 12 Grad und ich habe mir 3 Packungen Milch gekauft.", "code": "day -60", "kind": "day", "lang": "de", "anchor": "2024-05-23", "ranges": [["2024-03-24", "2024-03-24"]]}
+{"q": "Vor genau 60 Tagen haben wir im Zimmer 302 die gesamte Wohnung geputzt.", "code": "day -60", "kind": "day", "lang": "de", "anchor": "2026-08-11", "ranges": [["2026-06-12", "2026-06-12"]]}
+{"q": "Zeig mir die Notizen von vor 60 Tagen, 14:00 Uhr.", "code": "day -60", "kind": "day", "lang": "de", "anchor": "2027-10-30", "ranges": [["2027-08-31", "2027-08-31"]]}
+{"q": "Suche nach dem Meeting-Protokoll von vor 60 Tagen, 09:30 Uhr.", "code": "day -60", "kind": "day", "lang": "de", "anchor": "2023-07-06", "ranges": [["2023-05-07", "2023-05-07"]]}
+{"q": "Finde die E-Mail-Entwürfe von vor 60 Tagen, 18:15 Uhr.", "code": "day -60", "kind": "day", "lang": "de", "anchor": "2026-09-01", "ranges": [["2026-07-03", "2026-07-03"]]}
+{"q": "Wetter vor 9 Tagen Vormittag", "code": "day -9", "kind": "day", "lang": "de", "anchor": "2027-04-08", "ranges": [["2027-03-30", "2027-03-30"]]}
+{"q": "Meeting Nacht vor 9 Tagen", "code": "day -9", "kind": "day", "lang": "de", "anchor": "2025-05-29", "ranges": [["2025-05-20", "2025-05-20"]]}
+{"q": "was habe ich in den letzten 10 wochen alles gelernt?", "code": "last 10 week", "kind": "last_n", "lang": "de", "anchor": "2026-01-08", "ranges": [["2025-10-30", "2026-01-08"]]}
+{"q": "Wie war das Verkaufsgespräch am Vormittag vor genau 184 Tagen?", "code": "day -184", "kind": "day", "lang": "de", "anchor": "2023-04-15", "ranges": [["2022-10-13", "2022-10-13"]]}
+{"q": "Erinnere mich an die E-Mail, die ich am Abend vor 184 Tagen geschrieben habe.", "code": "day -184", "kind": "day", "lang": "de", "anchor": "2026-01-01", "ranges": [["2025-07-01", "2025-07-01"]]}
+{"q": "Was war das Ergebnis der Besprechung am Nachmittag vor exakt 184 Tagen?", "code": "day -184", "kind": "day", "lang": "de", "anchor": "2024-04-28", "ranges": [["2023-10-27", "2023-10-27"]]}
+{"q": "Schreib die Rechnung von vor acht Tagen, Montag um 16 Uhr, in die Liste.", "code": "day -8", "kind": "day", "lang": "de", "anchor": "2023-07-21", "ranges": [["2023-07-13", "2023-07-13"]]}
+{"q": "Vor genau 6 Tagen, um 14:30 Uhr, habe ich 450 Euro für das neue Grafiktablet ausgegeben.", "code": "day -6", "kind": "day", "lang": "de", "anchor": "2027-01-14", "ranges": [["2027-01-08", "2027-01-08"]]}
+{"q": "Vor 6 Tagen, am Nachmittag um 16:00 Uhr, war ich in Raum 302.", "code": "day -6", "kind": "day", "lang": "de", "anchor": "2026-08-03", "ranges": [["2026-07-28", "2026-07-28"]]}
+{"q": "Vor 6 Tagen, morgens um 09:15 Uhr, habe ich 12 Entwürfe fertiggestellt.", "code": "day -6", "kind": "day", "lang": "de", "anchor": "2026-12-19", "ranges": [["2026-12-13", "2026-12-13"]]}
+{"q": "Woche 15 zurück?", "code": "week -15", "kind": "week", "lang": "de", "anchor": "2027-06-06", "ranges": [["2027-02-15", "2027-02-21"]]}
+{"q": "Termine vor 15 Wochen", "code": "week -15", "kind": "week", "lang": "de", "anchor": "2025-04-12", "ranges": [["2024-12-23", "2024-12-29"]]}
+{"q": "Kannst du mir bitte schnell sagen, wie mein Trainingsplan genau aussah, als ich in der gesamten Woche vor siebenundvierzig Wochen meine langen Läufe gemacht habe?", "code": "week -47", "kind": "week", "lang": "de", "anchor": "2024-02-29", "ranges": [["2023-04-03", "2023-04-09"]]}
+{"q": "Ich versuche mich gerade zu erinnern, was ich in der ganzen Woche vor siebenundvierzig Wochen an Kalorien gegessen habe, um mich auf das Rennen vorzubereiten.", "code": "week -47", "kind": "week", "lang": "de", "anchor": "2025-10-10", "ranges": [["2024-11-11", "2024-11-17"]]}
+{"q": "Erinnerst du dich noch an die genauen Wetterdaten für die komplette Woche vor siebenundvierzig Wochen, weil ich wissen muss, ob es damals beim Training geregnet hat?", "code": "week -47", "kind": "week", "lang": "de", "anchor": "2025-12-31", "ranges": [["2025-02-03", "2025-02-09"]]}
+{"q": "In den letzten zwei Jahren habe ich meine Preisliste für Logo-Designs angepasst.", "code": "last 2 year", "kind": "last_n", "lang": "de", "anchor": "2023-12-03", "ranges": [["2021-12-03", "2023-12-03"]]}
+{"q": "Zeig mir meine Laufleistung vom 22. Juni.", "code": "*-06-22", "kind": "date", "lang": "de", "anchor": "2026-10-12", "ranges": [["2026-06-22", "2026-06-22"]]}
+{"q": "Suche Trainingsplan für den 22. Juni.", "code": "*-06-22", "kind": "date", "lang": "de", "anchor": "2027-07-12", "ranges": [["2027-06-22", "2027-06-22"]]}
+{"q": "Speichere: Am 22. Juni war mein langster Lauf.", "code": "*-06-22", "kind": "date", "lang": "de", "anchor": "2026-08-09", "ranges": [["2026-06-22", "2026-06-22"]]}
+{"q": "Vor genau 20 Tagen, am 1. Mai, habe ich den Deal mit Müller abgeschlossen.", "code": "day -20", "kind": "day", "lang": "de", "anchor": "2024-10-19", "ranges": [["2024-09-29", "2024-09-29"]]}
+{"q": "Vor 20 Tagen um 14:00 Uhr und 30 Minuten war unser wichtigstes Meeting.", "code": "day -20", "kind": "day", "lang": "de", "anchor": "2024-10-21", "ranges": [["2024-10-01", "2024-10-01"]]}
+{"q": "Vor 20 Tagen, am 1. Mai, war die Umsatzprognose für das Quartal sehr niedrig.", "code": "day -20", "kind": "day", "lang": "de", "anchor": "2025-04-29", "ranges": [["2025-04-09", "2025-04-09"]]}
+{"q": "Ich habe gestern Morgen vergessen, meine Brille mitzunehmen.", "code": "day -1", "kind": "day", "lang": "de", "anchor": "2027-07-24", "ranges": [["2027-07-23", "2027-07-23"]]}
+{"q": "Kannst du mir die Notizen von gestern Nachmittag zeigen?", "code": "day -1", "kind": "day", "lang": "de", "anchor": "2026-08-03", "ranges": [["2026-08-02", "2026-08-02"]]}
+{"q": "Was habe ich gestern Abend über den neuen Film gesagt?", "code": "day -1", "kind": "day", "lang": "de", "anchor": "2027-03-22", "ranges": [["2027-03-21", "2027-03-21"]]}

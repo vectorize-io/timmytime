@@ -1,0 +1,135 @@
+{"q": "Hey, remind me to check my training logs for 8/18/1826.", "code": "1826-08-18", "kind": "date", "lang": "en", "anchor": "2025-08-26", "ranges": [["1826-08-18", "1826-08-18"]]}
+{"q": "I can't believe I found an old race report from 8/18/1826.", "code": "1826-08-18", "kind": "date", "lang": "en", "anchor": "2024-04-17", "ranges": [["1826-08-18", "1826-08-18"]]}
+{"q": "Was my split time faster or slower on 8/18/1826?", "code": "1826-08-18", "kind": "date", "lang": "en", "anchor": "2027-05-25", "ranges": [["1826-08-18", "1826-08-18"]]}
+{"q": "56 days ago night", "code": "day -56", "kind": "day", "lang": "en", "anchor": "2026-08-24", "ranges": [["2026-06-29", "2026-06-29"]]}
+{"q": "day after tomorrow 50 usd", "code": "day 2", "kind": "day", "lang": "en", "anchor": "2027-10-07", "ranges": [["2027-10-09", "2027-10-09"]]}
+{"q": "the day after tomorrow 42 steps", "code": "day 2", "kind": "day", "lang": "en", "anchor": "2025-12-13", "ranges": [["2025-12-15", "2025-12-15"]]}
+{"q": "day after tomorrow room 702", "code": "day 2", "kind": "day", "lang": "en", "anchor": "2025-12-31", "ranges": [["2026-01-02", "2026-01-02"]]}
+{"q": "Remind me what the word for 'regret' is, I've been feeling it a lot over the last 9 years.", "code": "last 9 year", "kind": "last_n", "lang": "en", "anchor": "2024-11-11", "ranges": [["2015-11-11", "2024-11-11"]]}
+{"q": "did I finish reading those 12 chapters during the week of Monday to Sunday 25 weeks ago", "code": "week -25", "kind": "week", "lang": "en", "anchor": "2024-06-07", "ranges": [["2023-12-11", "2023-12-17"]]}
+{"q": "Remind me that I worked double shifts during 2016.", "code": "2016", "kind": "year_abs", "lang": "en", "anchor": "2025-12-31", "ranges": [["2016-01-01", "2016-12-31"]]}
+{"q": "Can you pull up my overtime logs from 2016?", "code": "2016", "kind": "year_abs", "lang": "en", "anchor": "2023-01-31", "ranges": [["2016-01-01", "2016-12-31"]]}
+{"q": "I need to check if my certification expired in 2016.", "code": "2016", "kind": "year_abs", "lang": "en", "anchor": "2024-03-23", "ranges": [["2016-01-01", "2016-12-31"]]}
+{"q": "Can you check the vitals for the patient in room 402 from 4 days ago morning and night?", "code": "day -4", "kind": "day", "lang": "en", "anchor": "2026-01-13", "ranges": [["2026-01-09", "2026-01-09"]]}
+{"q": "How many units of insulin did I administer 4 days ago during the morning and night shifts? I think it was 12 units.", "code": "day -4", "kind": "day", "lang": "en", "anchor": "2027-08-21", "ranges": [["2027-08-17", "2027-08-17"]]}
+{"q": "Did I document the wound dressing change from 4 days ago morning and night? It cost 45 usd.", "code": "day -4", "kind": "day", "lang": "en", "anchor": "2025-11-25", "ranges": [["2025-11-21", "2025-11-21"]]}
+{"q": "did i buy that book a week ago Monday to Sunday for 45 usd?", "code": "week -1", "kind": "week", "lang": "en", "anchor": "2026-10-03", "ranges": [["2026-09-21", "2026-09-27"]]}
+{"q": "remind me about the 1200 steps i took a week ago Monday to Sunday", "code": "week -1", "kind": "week", "lang": "en", "anchor": "2026-05-13", "ranges": [["2026-05-04", "2026-05-10"]]}
+{"q": "was i in room 302 a week ago Monday to Sunday?", "code": "week -1", "kind": "week", "lang": "en", "anchor": "2026-01-01", "ranges": [["2025-12-22", "2025-12-28"]]}
+{"q": "Remember that I need to pay the flour supplier on the 24th of July 2018.", "code": "2018-07-24", "kind": "date", "lang": "en", "anchor": "2024-07-29", "ranges": [["2018-07-24", "2018-07-24"]]}
+{"q": "Did I restock the organic honey on the 24th of July 2018?", "code": "2018-07-24", "kind": "date", "lang": "en", "anchor": "2025-03-24", "ranges": [["2018-07-24", "2018-07-24"]]}
+{"q": "The delivery was late on the 24th of July 2018.", "code": "2018-07-24", "kind": "date", "lang": "en", "anchor": "2023-06-12", "ranges": [["2018-07-24", "2018-07-24"]]}
+{"q": "remind me to check my syllabus for all the core modules from 2022", "code": "2022", "kind": "year_abs", "lang": "en", "anchor": "2026-03-01", "ranges": [["2022-01-01", "2022-12-31"]]}
+{"q": "I need to organize my digital notes from the entire year of 2022", "code": "2022", "kind": "year_abs", "lang": "en", "anchor": "2026-06-14", "ranges": [["2022-01-01", "2022-12-31"]]}
+{"q": "save this photo of the campus library from 2022", "code": "2022", "kind": "year_abs", "lang": "en", "anchor": "2026-03-01", "ranges": [["2022-01-01", "2022-12-31"]]}
+{"q": "Please schedule a quarterly performance review for the entire sales division on 12/26/2125.", "code": "2125-12-26", "kind": "date", "lang": "en", "anchor": "2023-08-21", "ranges": [["2125-12-26", "2125-12-26"]]}
+{"q": "Could you please remind me to finalize the year-end projections before the close of business on 12/26/2125?", "code": "2125-12-26", "kind": "date", "lang": "en", "anchor": "2025-07-29", "ranges": [["2125-12-26", "2125-12-26"]]}
+{"q": "I would like to log a formal note stating that all regional targets were successfully met as of 12/26/2125.", "code": "2125-12-26", "kind": "date", "lang": "en", "anchor": "2027-08-01", "ranges": [["2125-12-26", "2125-12-26"]]}
+{"q": "can you list all the orders i received this week", "code": "week 0", "kind": "week", "lang": "en", "anchor": "2024-01-25", "ranges": [["2024-01-22", "2024-01-28"]]}
+{"q": "Hey, can you look back through the photos from the last 20 months and find that one clip of the kids playing in the garden?", "code": "last 20 month", "kind": "last_n", "lang": "en", "anchor": "2026-03-18", "ranges": [["2024-07-18", "2026-03-18"]]}
+{"q": "rember that vocab i learned 64 days ago in the morning?", "code": "day -64", "kind": "day", "lang": "en", "anchor": "2027-03-17", "ranges": [["2027-01-12", "2027-01-12"]]}
+{"q": "pls add that cafe i visited 64 days ago at night to my list", "code": "day -64", "kind": "day", "lang": "en", "anchor": "2027-06-30", "ranges": [["2027-04-27", "2027-04-27"]]}
+{"q": "Hey can you find that note I scribbled about the patient's fever spikes and medication adjustments from exactly 256 days ago because I'm totally lost.", "code": "day -256", "kind": "day", "lang": "en", "anchor": "2023-02-18", "ranges": [["2022-06-07", "2022-06-07"]]}
+{"q": "Remind me what the specific dosage instructions were for that new cardiac med I started using exactly 256 days ago so I can double check.", "code": "day -256", "kind": "day", "lang": "en", "anchor": "2026-09-24", "ranges": [["2026-01-11", "2026-01-11"]]}
+{"q": "I'm trying to remember if I actually finished that long documentation regarding the shift change and incident report from exactly 256 days ago please help.", "code": "day -256", "kind": "day", "lang": "en", "anchor": "2027-11-21", "ranges": [["2027-03-10", "2027-03-10"]]}
+{"q": "Remind me that I completed my first half marathon training run during the morning 199 days ago.", "code": "day -199", "kind": "day", "lang": "en", "anchor": "2027-12-08", "ranges": [["2027-05-23", "2027-05-23"]]}
+{"q": "I felt a sharp pain in my left Achilles tendon in the afternoon 199 days ago.", "code": "day -199", "kind": "day", "lang": "en", "anchor": "2026-09-23", "ranges": [["2026-03-08", "2026-03-08"]]}
+{"q": "Don't forget to log the 20 mile long run I finished in the evening and night 199 days ago.", "code": "day -199", "kind": "day", "lang": "en", "anchor": "2026-08-26", "ranges": [["2026-02-08", "2026-02-08"]]}
+{"q": "how many deals did we close during week 50 ago?", "code": "week -50", "kind": "week", "lang": "en", "anchor": "2026-09-08", "ranges": [["2025-09-22", "2025-09-28"]]}
+{"q": "remind me what the team budget was for the whole week 50 weeks ago", "code": "week -50", "kind": "week", "lang": "en", "anchor": "2027-11-18", "ranges": [["2026-11-30", "2026-12-06"]]}
+{"q": "check if any clients complained between monday and sunday 50 weeks ago", "code": "week -50", "kind": "week", "lang": "en", "anchor": "2026-01-29", "ranges": [["2025-02-10", "2025-02-16"]]}
+{"q": "show me logs from 60 days ago", "code": "day -60", "kind": "day", "lang": "en", "anchor": "2026-03-02", "ranges": [["2026-01-01", "2026-01-01"]]}
+{"q": "find all incident reports from 60 days ago", "code": "day -60", "kind": "day", "lang": "en", "anchor": "2027-05-31", "ranges": [["2027-04-01", "2027-04-01"]]}
+{"q": "list deployment history for 60 days ago", "code": "day -60", "kind": "day", "lang": "en", "anchor": "2024-09-05", "ranges": [["2024-07-07", "2024-07-07"]]}
+{"q": "Remind me about the medication audit on June 12 morning and afternoon.", "code": "*-06-12", "kind": "date", "lang": "en", "anchor": "2027-11-18", "ranges": [["2027-06-12", "2027-06-12"]]}
+{"q": "Can you check if any staff requested leave for June 12 morning and afternoon?", "code": "*-06-12", "kind": "date", "lang": "en", "anchor": "2024-01-08", "ranges": [["2023-06-12", "2023-06-12"]]}
+{"q": "Note that the inventory count for June 12 morning and afternoon is complete.", "code": "*-06-12", "kind": "date", "lang": "en", "anchor": "2026-08-08", "ranges": [["2026-06-12", "2026-06-12"]]}
+{"q": "Hey, can you pull up those specific logs from the database migration that happened during the whole week of Monday to Sunday three weeks ago?", "code": "week -3", "kind": "week", "lang": "en", "anchor": "2027-03-30", "ranges": [["2027-03-08", "2027-03-14"]]}
+{"q": "I need to check if I mentioned anything about the scalability issues during the full week from Monday to Sunday three weeks ago, please.", "code": "week -3", "kind": "week", "lang": "en", "anchor": "2026-01-01", "ranges": [["2025-12-08", "2025-12-14"]]}
+{"q": "Remind me what the on-call rotation schedule looked like for the entire week spanning Monday to Sunday three weeks ago so I can verify.", "code": "week -3", "kind": "week", "lang": "en", "anchor": "2026-08-19", "ranges": [["2026-07-27", "2026-08-02"]]}
+{"q": "remind me to buy milk on July 30th morning and afternoon, $12", "code": "*-07-30", "kind": "date", "lang": "en", "anchor": "2023-12-24", "ranges": [["2023-07-30", "2023-07-30"]]}
+{"q": "find the doctor appointment for July 30th am and pm, 4 kids", "code": "*-07-30", "kind": "date", "lang": "en", "anchor": "2023-06-27", "ranges": [["2022-07-30", "2022-07-30"]]}
+{"q": "show me the schedule for July 30th morning and afternoon, room 402", "code": "*-07-30", "kind": "date", "lang": "en", "anchor": "2026-10-27", "ranges": [["2026-07-30", "2026-07-30"]]}
+{"q": "find the receipt from the day before yesterday for 45 usd", "code": "day -2", "kind": "day", "lang": "en", "anchor": "2025-02-18", "ranges": [["2025-02-16", "2025-02-16"]]}
+{"q": "show me the notes I took the day before yesterday about 12 chapters", "code": "day -2", "kind": "day", "lang": "en", "anchor": "2023-07-20", "ranges": [["2023-07-18", "2023-07-18"]]}
+{"q": "list my tasks from the day before yesterday and room 302", "code": "day -2", "kind": "day", "lang": "en", "anchor": "2026-01-01", "ranges": [["2025-12-30", "2025-12-30"]]}
+{"q": "Remind me that the milk delivery was late yesterday morning and yesterday afternoon.", "code": "day -1", "kind": "day", "lang": "en", "anchor": "2023-01-26", "ranges": [["2023-01-25", "2023-01-25"]]}
+{"q": "Did I pay the electricity bill yesterday morning and yesterday afternoon?", "code": "day -1", "kind": "day", "lang": "en", "anchor": "2026-08-08", "ranges": [["2026-08-07", "2026-08-07"]]}
+{"q": "The shelf in the corner broke yesterday morning and yesterday afternoon.", "code": "day -1", "kind": "day", "lang": "en", "anchor": "2027-10-30", "ranges": [["2027-10-29", "2027-10-29"]]}
+{"q": "Do you remember those old recipes I was scribbling down during that whole week forty-six weeks ago, specifically the one with the heavy cream?", "code": "week -46", "kind": "week", "lang": "en", "anchor": "2026-08-09", "ranges": [["2025-09-15", "2025-09-21"]]}
+{"q": "I am trying to recall if I mentioned that wonderful book about history during that specific week forty-six weeks ago, the one about the Tudors.", "code": "week -46", "kind": "week", "lang": "en", "anchor": "2026-07-30", "ranges": [["2025-09-08", "2025-09-14"]]}
+{"q": "Could you please find those notes I made about my garden seedlings during that entire week forty-six weeks ago, the ones regarding the early tomatoes?", "code": "week -46", "kind": "week", "lang": "en", "anchor": "2024-01-03", "ranges": [["2023-02-13", "2023-02-19"]]}
+{"q": "Please provide a summary of the incident reports filed throughout the entirety of last month.", "code": "month -1", "kind": "month", "lang": "en", "anchor": "2025-11-05", "ranges": [["2025-10-01", "2025-10-31"]]}
+{"q": "find top songs from 2011", "code": "2011", "kind": "year_abs", "lang": "en", "anchor": "2024-04-13", "ranges": [["2011-01-01", "2011-12-31"]]}
+{"q": "show me news headlines from 2011", "code": "2011", "kind": "year_abs", "lang": "en", "anchor": "2026-06-27", "ranges": [["2011-01-01", "2011-12-31"]]}
+{"q": "list movies released in 2011", "code": "2011", "kind": "year_abs", "lang": "en", "anchor": "2025-05-30", "ranges": [["2011-01-01", "2011-12-31"]]}
+{"q": "show me all invoices from the week of Monday to Sunday 24 weeks ago", "code": "week -24", "kind": "week", "lang": "en", "anchor": "2025-12-31", "ranges": [["2025-07-14", "2025-07-20"]]}
+{"q": "find the design brief I uploaded during the week starting Monday and ending Sunday 24 weeks ago", "code": "week -24", "kind": "week", "lang": "en", "anchor": "2026-08-08", "ranges": [["2026-02-16", "2026-02-22"]]}
+{"q": "list every client meeting held throughout the week of Monday to Sunday 24 weeks ago", "code": "week -24", "kind": "week", "lang": "en", "anchor": "2026-10-10", "ranges": [["2026-04-20", "2026-04-26"]]}
+{"q": "10 days ago morning, remind me that the client from the tech sector requested a follow-up call.", "code": "day -10", "kind": "day", "lang": "en", "anchor": "2023-08-08", "ranges": [["2023-07-29", "2023-07-29"]]}
+{"q": "10 days ago afternoon, log that I closed the deal with the logistics company.", "code": "day -10", "kind": "day", "lang": "en", "anchor": "2027-06-30", "ranges": [["2027-06-20", "2027-06-20"]]}
+{"q": "10 days ago night, note that I felt we needed more lead generation for the upcoming quarter.", "code": "day -10", "kind": "day", "lang": "en", "anchor": "2024-02-08", "ranges": [["2024-01-29", "2024-01-29"]]}
+{"q": "Please record that I have been researching the historical significance of 1873-09-28 for my upcoming lecture.", "code": "1873-09-28", "kind": "date", "lang": "en", "anchor": "2026-10-25", "ranges": [["1873-09-28", "1873-09-28"]]}
+{"q": "Could you please remind me to look up the weather patterns recorded on 1873-09-28?", "code": "1873-09-28", "kind": "date", "lang": "en", "anchor": "2027-06-30", "ranges": [["1873-09-28", "1873-09-28"]]}
+{"q": "I would like you to save a note regarding the various social movements occurring on 1873-09-28.", "code": "1873-09-28", "kind": "date", "lang": "en", "anchor": "2027-07-20", "ranges": [["1873-09-28", "1873-09-28"]]}
+{"q": "can u remind me to finish my psych essay by the end of these next 4 days", "code": "next 4 day", "kind": "last_n", "lang": "en", "anchor": "2025-11-24", "ranges": [["2025-11-24", "2025-11-28"]]}
+{"q": "i need to study for my finals over the next 4 days and today", "code": "next 4 day", "kind": "last_n", "lang": "en", "anchor": "2027-12-29", "ranges": [["2027-12-29", "2028-01-02"]]}
+{"q": "dont let me forget to grab groceries during the next 4 days starting today", "code": "next 4 day", "kind": "last_n", "lang": "en", "anchor": "2026-08-08", "ranges": [["2026-08-08", "2026-08-12"]]}
+{"q": "yesterday was hard", "code": "day -1", "kind": "day", "lang": "en", "anchor": "2024-06-20", "ranges": [["2024-06-19", "2024-06-19"]]}
+{"q": "remember yesterday morning", "code": "day -1", "kind": "day", "lang": "en", "anchor": "2026-06-02", "ranges": [["2026-06-01", "2026-06-01"]]}
+{"q": "Can you remind me what word I looked up during the morning and afternoon 6 days ago?", "code": "day -6", "kind": "day", "lang": "en", "anchor": "2024-11-06", "ranges": [["2024-10-31", "2024-10-31"]]}
+{"q": "How did I translate that sentence about the weather last night 6 days ago?", "code": "day -6", "kind": "day", "lang": "en", "anchor": "2024-03-17", "ranges": [["2024-03-11", "2024-03-11"]]}
+{"q": "Did I use the past tense correctly in my voice note from the evening 6 days ago?", "code": "day -6", "kind": "day", "lang": "en", "anchor": "2025-12-31", "ranges": [["2025-12-25", "2025-12-25"]]}
+{"q": "hey, how do i say 'the 13th of october 2008' in spanish?", "code": "2008-10-13", "kind": "date", "lang": "en", "anchor": "2027-09-01", "ranges": [["2008-10-13", "2008-10-13"]]}
+{"q": "can you add 'the 13th of october 2008' to my journal entry?", "code": "2008-10-13", "kind": "date", "lang": "en", "anchor": "2026-08-08", "ranges": [["2008-10-13", "2008-10-13"]]}
+{"q": "i think i started learning guitar on the 13th of october 2008", "code": "2008-10-13", "kind": "date", "lang": "en", "anchor": "2025-10-22", "ranges": [["2008-10-13", "2008-10-13"]]}
+{"q": "April 24, 2025 12km", "code": "2025-04-24", "kind": "date", "lang": "en", "anchor": "2027-06-25", "ranges": [["2025-04-24", "2025-04-24"]]}
+{"q": "April 24, 2025 $50", "code": "2025-04-24", "kind": "date", "lang": "en", "anchor": "2027-02-19", "ranges": [["2025-04-24", "2025-04-24"]]}
+{"q": "April 24, 2025 room 4", "code": "2025-04-24", "kind": "date", "lang": "en", "anchor": "2026-08-03", "ranges": [["2025-04-24", "2025-04-24"]]}
+{"q": "show me all incidents from Monday to Sunday 4 weeks ago", "code": "week -4", "kind": "week", "lang": "en", "anchor": "2026-03-01", "ranges": [["2026-01-26", "2026-02-01"]]}
+{"q": "find deployment logs for the week of Monday to Sunday 4 weeks ago", "code": "week -4", "kind": "week", "lang": "en", "anchor": "2025-03-27", "ranges": [["2025-02-24", "2025-03-02"]]}
+{"q": "list all paged alerts between Monday and Sunday 4 weeks ago", "code": "week -4", "kind": "week", "lang": "en", "anchor": "2025-04-04", "ranges": [["2025-03-03", "2025-03-09"]]}
+{"q": "In the last fifteen days, please remind me to call my former colleague back.", "code": "last 15 day", "kind": "last_n", "lang": "en", "anchor": "2023-08-09", "ranges": [["2023-07-25", "2023-08-09"]]}
+{"q": "did i say yesterday was 45 usd for that shirt?", "code": "day -1", "kind": "day", "lang": "en", "anchor": "2027-06-30", "ranges": [["2027-06-29", "2027-06-29"]]}
+{"q": "i walked 8000 steps yesterday", "code": "day -1", "kind": "day", "lang": "en", "anchor": "2023-06-18", "ranges": [["2023-06-17", "2023-06-17"]]}
+{"q": "the person in room 302 was there yesterday", "code": "day -1", "kind": "day", "lang": "en", "anchor": "2026-07-02", "ranges": [["2026-07-01", "2026-07-01"]]}
+{"q": "The last ten weeks, please summarize all the research notes I uploaded.", "code": "last 10 week", "kind": "last_n", "lang": "en", "anchor": "2024-01-03", "ranges": [["2023-10-25", "2024-01-03"]]}
+{"q": "2027 inventory budget", "code": "2027", "kind": "year_abs", "lang": "en", "anchor": "2027-04-26", "ranges": [["2027-01-01", "2027-12-31"]]}
+{"q": "2027 holiday sales forecast", "code": "2027", "kind": "year_abs", "lang": "en", "anchor": "2025-03-09", "ranges": [["2027-01-01", "2027-12-31"]]}
+{"q": "2027 shop maintenance schedule", "code": "2027", "kind": "year_abs", "lang": "en", "anchor": "2026-01-01", "ranges": [["2027-01-01", "2027-12-31"]]}
+{"q": "Over the last eleven months, remind me to check the inventory for the new IV pumps we ordered.", "code": "last 11 month", "kind": "last_n", "lang": "en", "anchor": "2023-04-12", "ranges": [["2022-05-12", "2023-04-12"]]}
+{"q": "In the last eleven months, I need to track how many times I've attended the specialized wound care training.", "code": "last 11 month", "kind": "last_n", "lang": "en", "anchor": "2026-03-31", "ranges": [["2025-04-30", "2026-03-31"]]}
+{"q": "What was the incident report ID for the database outage 325 days ago?", "code": "day -325", "kind": "day", "lang": "en", "anchor": "2023-07-09", "ranges": [["2022-08-18", "2022-08-18"]]}
+{"q": "Can you find the logs from the deployment error 325 days ago?", "code": "day -325", "kind": "day", "lang": "en", "anchor": "2026-07-15", "ranges": [["2025-08-24", "2025-08-24"]]}
+{"q": "Remind me what the on-call escalation procedure was 325 days ago.", "code": "day -325", "kind": "day", "lang": "en", "anchor": "2024-12-10", "ranges": [["2024-01-20", "2024-01-20"]]}
+{"q": "60 days ago at 8:30 am, remind me that we spent 45 dollars on the kids' new soccer cleats.", "code": "day -60", "kind": "day", "lang": "en", "anchor": "2025-10-15", "ranges": [["2025-08-16", "2025-08-16"]]}
+{"q": "60 days ago at 2:15 pm, please note that Leo had 12 ounces of medicine during his nap.", "code": "day -60", "kind": "day", "lang": "en", "anchor": "2027-12-24", "ranges": [["2027-10-25", "2027-10-25"]]}
+{"q": "60 days ago at 11:00 pm, remember to log that the baby monitor was in room 302.", "code": "day -60", "kind": "day", "lang": "en", "anchor": "2026-08-16", "ranges": [["2026-06-17", "2026-06-17"]]}
+{"q": "show me the pitch deck version from 60 days ago", "code": "day -60", "kind": "day", "lang": "en", "anchor": "2027-03-06", "ranges": [["2027-01-05", "2027-01-05"]]}
+{"q": "find that email about the seed round sent 60 days ago", "code": "day -60", "kind": "day", "lang": "en", "anchor": "2027-02-06", "ranges": [["2026-12-08", "2026-12-08"]]}
+{"q": "list all tasks completed 60 days ago", "code": "day -60", "kind": "day", "lang": "en", "anchor": "2023-06-19", "ranges": [["2023-04-20", "2023-04-20"]]}
+{"q": "9 days ago morning receipt scan", "code": "day -9", "kind": "day", "lang": "en", "anchor": "2024-08-21", "ranges": [["2024-08-12", "2024-08-12"]]}
+{"q": "9 days ago afternoon meeting notes", "code": "day -9", "kind": "day", "lang": "en", "anchor": "2025-02-08", "ranges": [["2025-01-30", "2025-01-30"]]}
+{"q": "9 days ago night dream journal", "code": "day -9", "kind": "day", "lang": "en", "anchor": "2027-11-28", "ranges": [["2027-11-19", "2027-11-19"]]}
+{"q": "how much did my vocabulary grow over the last 10 weeks?", "code": "last 10 week", "kind": "last_n", "lang": "en", "anchor": "2024-08-19", "ranges": [["2024-06-10", "2024-08-19"]]}
+{"q": "What was the total sales volume from the morning and afternoon 184 days ago?", "code": "day -184", "kind": "day", "lang": "en", "anchor": "2027-06-30", "ranges": [["2026-12-28", "2026-12-28"]]}
+{"q": "Remind me who I had the lunch meeting with during the afternoon 184 days ago.", "code": "day -184", "kind": "day", "lang": "en", "anchor": "2024-04-29", "ranges": [["2023-10-28", "2023-10-28"]]}
+{"q": "Did we close the Henderson deal during the evening 184 days ago?", "code": "day -184", "kind": "day", "lang": "en", "anchor": "2027-12-03", "ranges": [["2027-06-02", "2027-06-02"]]}
+{"q": "6 days ago, remember that client wanted a quote for 450 usd.", "code": "day -6", "kind": "day", "lang": "en", "anchor": "2027-10-11", "ranges": [["2027-10-05", "2027-10-05"]]}
+{"q": "6 days ago, I had 1200 steps on my tracker during that meeting.", "code": "day -6", "kind": "day", "lang": "en", "anchor": "2024-07-26", "ranges": [["2024-07-20", "2024-07-20"]]}
+{"q": "6 days ago, make sure to note that the meeting was in room 402.", "code": "day -6", "kind": "day", "lang": "en", "anchor": "2027-04-14", "ranges": [["2027-04-08", "2027-04-08"]]}
+{"q": "week 15 ago", "code": "week -15", "kind": "week", "lang": "en", "anchor": "2027-09-03", "ranges": [["2027-05-17", "2027-05-23"]]}
+{"q": "15 weeks back", "code": "week -15", "kind": "week", "lang": "en", "anchor": "2027-06-30", "ranges": [["2027-03-15", "2027-03-21"]]}
+{"q": "Hey can you remind me how many miles I actually clocked during the training block for the week of Monday to Sunday 47 weeks ago?", "code": "week -47", "kind": "week", "lang": "en", "anchor": "2024-10-26", "ranges": [["2023-11-27", "2023-12-03"]]}
+{"q": "I think I lost my training log from the week starting Monday and ending Sunday 47 weeks ago so please find my splits for me.", "code": "week -47", "kind": "week", "lang": "en", "anchor": "2025-12-31", "ranges": [["2025-02-03", "2025-02-09"]]}
+{"q": "Please look back and tell me if I felt any weird pains in my knee during that specific week from Monday through Sunday 47 weeks ago.", "code": "week -47", "kind": "week", "lang": "en", "anchor": "2025-12-03", "ranges": [["2025-01-06", "2025-01-12"]]}
+{"q": "In the last two years, add a new project called 'Eco-Branding' to my client list.", "code": "last 2 year", "kind": "last_n", "lang": "en", "anchor": "2025-04-30", "ranges": [["2023-04-30", "2025-04-30"]]}
+{"q": "The last two years, remind me to update my portfolio with the new logo designs I finished.", "code": "last 2 year", "kind": "last_n", "lang": "en", "anchor": "2024-12-31", "ranges": [["2022-12-31", "2024-12-31"]]}
+{"q": "find my nutrition notes for 22 June", "code": "*-06-22", "kind": "date", "lang": "en", "anchor": "2024-11-27", "ranges": [["2024-06-22", "2024-06-22"]]}
+{"q": "add 15 miles to 22 June", "code": "*-06-22", "kind": "date", "lang": "en", "anchor": "2024-10-27", "ranges": [["2024-06-22", "2024-06-22"]]}
+{"q": "20 days ago, morning and afternoon, remind me that I closed the Miller account.", "code": "day -20", "kind": "day", "lang": "en", "anchor": "2024-05-16", "ranges": [["2024-04-26", "2024-04-26"]]}
+{"q": "20 days ago, evening, note that the quarterly projections were finalized.", "code": "day -20", "kind": "day", "lang": "en", "anchor": "2026-03-01", "ranges": [["2026-02-09", "2026-02-09"]]}
+{"q": "20 days ago, night, add a task to follow up with the regional directors.", "code": "day -20", "kind": "day", "lang": "en", "anchor": "2027-06-30", "ranges": [["2027-06-10", "2027-06-10"]]}
+{"q": "Remember the name of the restaurant I liked yesterday afternoon and yesterday evening.", "code": "day -1", "kind": "day", "lang": "en", "anchor": "2024-12-25", "ranges": [["2024-12-24", "2024-12-24"]]}
+{"q": "Remind me to buy milk like I did yesterday morning.", "code": "day -1", "kind": "day", "lang": "en", "anchor": "2023-06-06", "ranges": [["2023-06-05", "2023-06-05"]]}
+{"q": "I felt really productive yesterday night.", "code": "day -1", "kind": "day", "lang": "en", "anchor": "2024-03-07", "ranges": [["2024-03-06", "2024-03-06"]]}

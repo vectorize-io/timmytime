@@ -1,0 +1,152 @@
+{"q": "Lịch sử chạy marathon vào ngày 8/18/1826.", "code": "1826-08-18", "kind": "date", "lang": "vi", "anchor": "2025-01-17", "ranges": [["1826-08-18", "1826-08-18"]]}
+{"q": "Nhắc tôi kiểm tra kết quả chạy ngày 8/18/1826.", "code": "1826-08-18", "kind": "date", "lang": "vi", "anchor": "2024-08-14", "ranges": [["1826-08-18", "1826-08-18"]]}
+{"q": "Thời tiết vào ngày 8/18/1826 như thế nào?", "code": "1826-08-18", "kind": "date", "lang": "vi", "anchor": "2025-12-31", "ranges": [["1826-08-18", "1826-08-18"]]}
+{"q": "t7 & cn tuần thứ 8 trước đó t có ghi j ko? nhớ là có 1200 steps r", "code": "week -8", "kind": "week", "lang": "vi", "anchor": "2026-04-25", "ranges": [["2026-02-23", "2026-03-01"]]}
+{"q": "Sáng tối 56 ngày trước", "code": "day -56", "kind": "day", "lang": "vi", "anchor": "2026-08-09", "ranges": [["2026-06-14", "2026-06-14"]]}
+{"q": "56 ngày trước chiều", "code": "day -56", "kind": "day", "lang": "vi", "anchor": "2026-08-08", "ranges": [["2026-06-13", "2026-06-13"]]}
+{"q": "Đêm 56 ngày trước", "code": "day -56", "kind": "day", "lang": "vi", "anchor": "2024-06-23", "ranges": [["2024-04-28", "2024-04-28"]]}
+{"q": "ngày kia 500000 vnd", "code": "day 2", "kind": "day", "lang": "vi", "anchor": "2023-06-02", "ranges": [["2023-06-04", "2023-06-04"]]}
+{"q": "sáng ngày kia 12 bước", "code": "day 2", "kind": "day", "lang": "vi", "anchor": "2026-10-12", "ranges": [["2026-10-14", "2026-10-14"]]}
+{"q": "chiều ngày kia phòng 402", "code": "day 2", "kind": "day", "lang": "vi", "anchor": "2024-06-16", "ranges": [["2024-06-18", "2024-06-18"]]}
+{"q": "thời tiết tuần 43 trước", "code": "week -43", "kind": "week", "lang": "vi", "anchor": "2023-01-27", "ranges": [["2022-03-28", "2022-04-03"]]}
+{"q": "chấn thương tuần 43 trước", "code": "week -43", "kind": "week", "lang": "vi", "anchor": "2024-05-25", "ranges": [["2023-07-24", "2023-07-30"]]}
+{"q": "Tôi đã học rất nhiều thứ trong 9 năm qua.", "code": "last 9 year", "kind": "last_n", "lang": "vi", "anchor": "2027-04-28", "ranges": [["2018-04-28", "2027-04-28"]]}
+{"q": "Lưu giúp mình là mình đã đi bộ được 12000 bước trong khoảng thời gian từ thứ Hai đến Chủ Nhật 25 tuần trước.", "code": "week -25", "kind": "week", "lang": "vi", "anchor": "2025-10-04", "ranges": [["2025-04-07", "2025-04-13"]]}
+{"q": "Tìm lại lịch trình học tại phòng 302 của mình trong tuần từ thứ Hai đến Chủ Nhật 25 tuần trước.", "code": "week -25", "kind": "week", "lang": "vi", "anchor": "2025-03-27", "ranges": [["2024-09-30", "2024-10-06"]]}
+{"q": "Nhắc tôi kiểm tra lại hồ sơ bệnh án của năm 2016 và cả năm 2016 nữa nhé.", "code": "2016", "kind": "year_abs", "lang": "vi", "anchor": "2023-04-28", "ranges": [["2016-01-01", "2016-12-31"]]}
+{"q": "Lịch trực trong suốt năm 2016 là bao nhiêu ca?", "code": "2016", "kind": "year_abs", "lang": "vi", "anchor": "2023-11-02", "ranges": [["2016-01-01", "2016-12-31"]]}
+{"q": "Hồi 4 ngày trước lúc trực ca sáng, bệnh nhân ở phòng 302 có uống hết 500ml nước không?", "code": "day -4", "kind": "day", "lang": "vi", "anchor": "2026-12-05", "ranges": [["2026-12-01", "2026-12-01"]]}
+{"q": "Nhắc tôi kiểm tra lại kết quả xét nghiệm máu của ca trực đêm 4 ngày trước, lúc đó tôi thấy có 12 chỉ số bất thường.", "code": "day -4", "kind": "day", "lang": "vi", "anchor": "2023-09-28", "ranges": [["2023-09-24", "2023-09-24"]]}
+{"q": "4 ngày trước, trong ca trực chiều, tổng số thuốc đã phát là 85 viên đúng không?", "code": "day -4", "kind": "day", "lang": "vi", "anchor": "2023-04-12", "ranges": [["2023-04-08", "2023-04-08"]]}
+{"q": "Giá của món đó tuần trước từ thứ Hai đến Chủ Nhật là 500 nghìn đồng.", "code": "week -1", "kind": "week", "lang": "vi", "anchor": "2024-06-03", "ranges": [["2024-05-27", "2024-06-02"]]}
+{"q": "Tôi đã đi được 8000 bước tuần trước từ thứ Hai đến Chủ Nhật.", "code": "week -1", "kind": "week", "lang": "vi", "anchor": "2026-12-20", "ranges": [["2026-12-07", "2026-12-13"]]}
+{"q": "Hãy tìm lại hóa đơn 15 USD tuần trước từ thứ Hai đến Chủ Nhật.", "code": "week -1", "kind": "week", "lang": "vi", "anchor": "2025-05-15", "ranges": [["2025-05-05", "2025-05-11"]]}
+{"q": "Làm ơn hãy nhắc lại cho tôi nội dung hợp đồng mà tôi đã thảo luận với khách hàng vào ngày này 90 ngày trước.", "code": "day -90", "kind": "day", "lang": "vi", "anchor": "2027-04-14", "ranges": [["2027-01-14", "2027-01-14"]]}
+{"q": "Bạn có thể truy xuất lại danh sách các tệp thiết kế mà tôi đã tải lên đúng vào ngày này 90 ngày trước không?", "code": "day -90", "kind": "day", "lang": "vi", "anchor": "2026-03-01", "ranges": [["2025-12-01", "2025-12-01"]]}
+{"q": "Vui lòng ghi chú rằng tôi đã hoàn thành việc gửi báo giá cho dự án mới vào ngày này 90 ngày trước.", "code": "day -90", "kind": "day", "lang": "vi", "anchor": "2024-11-22", "ranges": [["2024-08-24", "2024-08-24"]]}
+{"q": "Ghi chú là mình đã nhập hàng vào ngày 24 tháng 7 năm 2018.", "code": "2018-07-24", "kind": "date", "lang": "vi", "anchor": "2023-12-18", "ranges": [["2018-07-24", "2018-07-24"]]}
+{"q": "Kiểm tra lại doanh thu của ngày 24 tháng 7 năm 2018.", "code": "2018-07-24", "kind": "date", "lang": "vi", "anchor": "2025-08-16", "ranges": [["2018-07-24", "2018-07-24"]]}
+{"q": "Nhắc tôi đừng quên thanh toán hóa đơn vào ngày 24 tháng 7 năm 2018.", "code": "2018-07-24", "kind": "date", "lang": "vi", "anchor": "2025-01-06", "ranges": [["2018-07-24", "2018-07-24"]]}
+{"q": "Nhắc tôi danh sách các bài kiểm tra quan trọng trong năm 2022.", "code": "2022", "kind": "year_abs", "lang": "vi", "anchor": "2026-01-01", "ranges": [["2022-01-01", "2022-12-31"]]}
+{"q": "Lưu lại toàn bộ tài liệu học tập của năm 2022.", "code": "2022", "kind": "year_abs", "lang": "vi", "anchor": "2025-05-25", "ranges": [["2022-01-01", "2022-12-31"]]}
+{"q": "Tôi đã hoàn thành xong kỳ thực tập vào năm 2022.", "code": "2022", "kind": "year_abs", "lang": "vi", "anchor": "2027-05-04", "ranges": [["2022-01-01", "2022-12-31"]]}
+{"q": "Vui lòng ghi chú rằng tôi có một cuộc hẹn quan trọng vào ngày 12/26/2125.", "code": "2125-12-26", "kind": "date", "lang": "vi", "anchor": "2026-06-29", "ranges": [["2125-12-26", "2125-12-26"]]}
+{"q": "Hãy nhắc tôi kiểm tra báo cáo doanh thu vào ngày 12/26/2125.", "code": "2125-12-26", "kind": "date", "lang": "vi", "anchor": "2024-02-29", "ranges": [["2125-12-26", "2125-12-26"]]}
+{"q": "Tôi muốn lưu lại kế hoạch chiến lược cho ngày 12/26/2125.", "code": "2125-12-26", "kind": "date", "lang": "vi", "anchor": "2026-11-29", "ranges": [["2125-12-26", "2125-12-26"]]}
+{"q": "nhắc mình kiểm tra lại hóa đơn nhập hàng tuần này nhé", "code": "week 0", "kind": "week", "lang": "vi", "anchor": "2027-06-30", "ranges": [["2027-06-28", "2027-07-04"]]}
+{"q": "ghi chú giúp mình là tuần này khách mua đông hơn bình thường", "code": "week 0", "kind": "week", "lang": "vi", "anchor": "2026-04-25", "ranges": [["2026-04-20", "2026-04-26"]]}
+{"q": "sáng vs tối 64 ngày trc t có note j ko nhỉ?", "code": "day -64", "kind": "day", "lang": "vi", "anchor": "2024-04-07", "ranges": [["2024-02-03", "2024-02-03"]]}
+{"q": "Nhớ ghi chú lại là vào đúng 256 ngày trước, ca trực đêm đó mình đã quên chưa kiểm tra kỹ lại lượng dịch truyền của bệnh nhân phòng 302.", "code": "day -256", "kind": "day", "lang": "vi", "anchor": "2024-01-31", "ranges": [["2023-05-20", "2023-05-20"]]}
+{"q": "Tìm giúp tôi xem trong nhật ký ca trực của 256 ngày trước, ca sáng và ca chiều hôm đó có ai báo cáo về tình trạng hạ huyết áp không.", "code": "day -256", "kind": "day", "lang": "vi", "anchor": "2024-04-10", "ranges": [["2023-07-29", "2023-07-29"]]}
+{"q": "Lưu lại là 256 ngày trước, lúc giao ca giữa ca ngày và ca đêm, tôi đã bàn giao nhầm liều lượng thuốc của bác sĩ chỉ định cho ông Nam.", "code": "day -256", "kind": "day", "lang": "vi", "anchor": "2024-09-28", "ranges": [["2024-01-16", "2024-01-16"]]}
+{"q": "Nhắc tôi lịch tập chạy bộ vào buổi sáng 199 ngày trước.", "code": "day -199", "kind": "day", "lang": "vi", "anchor": "2025-03-02", "ranges": [["2024-08-15", "2024-08-15"]]}
+{"q": "Lưu lại thành tích chạy marathon chiều 199 ngày trước.", "code": "day -199", "kind": "day", "lang": "vi", "anchor": "2024-06-06", "ranges": [["2023-11-20", "2023-11-20"]]}
+{"q": "Hôm đó tôi đã ăn gì vào buổi tối 199 ngày trước?", "code": "day -199", "kind": "day", "lang": "vi", "anchor": "2023-10-15", "ranges": [["2023-03-30", "2023-03-30"]]}
+{"q": "tuần thứ 50 trước đây doanh số team mình thế nào nhỉ?", "code": "week -50", "kind": "week", "lang": "vi", "anchor": "2026-08-08", "ranges": [["2025-08-18", "2025-08-24"]]}
+{"q": "tìm giúp tôi mấy cái báo cáo của cả tuần thứ 50 trước đây", "code": "week -50", "kind": "week", "lang": "vi", "anchor": "2026-08-08", "ranges": [["2025-08-18", "2025-08-24"]]}
+{"q": "hồi tuần thứ 50 trước đây có khách hàng nào hủy hợp đồng không", "code": "week -50", "kind": "week", "lang": "vi", "anchor": "2025-12-31", "ranges": [["2025-01-13", "2025-01-19"]]}
+{"q": "Tìm các lỗi log của 60 ngày trước", "code": "day -60", "kind": "day", "lang": "vi", "anchor": "2026-04-21", "ranges": [["2026-02-20", "2026-02-20"]]}
+{"q": "Cho xem danh sách task ngày 60 ngày trước", "code": "day -60", "kind": "day", "lang": "vi", "anchor": "2026-06-01", "ranges": [["2026-04-02", "2026-04-02"]]}
+{"q": "Hiển thị lịch họp 60 ngày trước", "code": "day -60", "kind": "day", "lang": "vi", "anchor": "2023-07-04", "ranges": [["2023-05-05", "2023-05-05"]]}
+{"q": "Nhắc tôi trực ca vào ngày 12 tháng 6.", "code": "*-06-12", "kind": "date", "lang": "vi", "anchor": "2024-09-23", "ranges": [["2024-06-12", "2024-06-12"]]}
+{"q": "Ngày 12 tháng 6 có lịch họp giao ban không?", "code": "*-06-12", "kind": "date", "lang": "vi", "anchor": "2026-08-03", "ranges": [["2026-06-12", "2026-06-12"]]}
+{"q": "Kiểm tra lại danh sách bệnh nhân cho ngày 12 tháng 6.", "code": "*-06-12", "kind": "date", "lang": "vi", "anchor": "2025-09-25", "ranges": [["2025-06-12", "2025-06-12"]]}
+{"q": "Nhắc lại cho tôi danh sách các lỗi nghiêm trọng mà tôi đã ghi chú lại trong suốt cả tuần từ thứ Hai đến Chủ Nhật của ba tuần trước nhé.", "code": "week -3", "kind": "week", "lang": "vi", "anchor": "2025-12-31", "ranges": [["2025-12-08", "2025-12-14"]]}
+{"q": "Tổng hợp lại giúp tôi toàn bộ các đầu việc mà tôi đã hoàn thành xong xuôi từ thứ Hai cho tới tận Chủ Nhật của đúng ba tuần trước đây.", "code": "week -3", "kind": "week", "lang": "vi", "anchor": "2023-10-22", "ranges": [["2023-09-25", "2023-10-01"]]}
+{"q": "Tìm lịch trình đi chơi ngày 30 tháng 7 và nhớ là 500 nghìn đồng.", "code": "*-07-30", "kind": "date", "lang": "vi", "anchor": "2027-06-30", "ranges": [["2026-07-30", "2026-07-30"]]}
+{"q": "Hiện danh sách đồ cần mua cho ngày 30 tháng 7, thêm 12 món nữa.", "code": "*-07-30", "kind": "date", "lang": "vi", "anchor": "2024-07-28", "ranges": [["2023-07-30", "2023-07-30"]]}
+{"q": "Cho xem ghi chú về buổi tiệc ngày 30 tháng 7 tại phòng 402.", "code": "*-07-30", "kind": "date", "lang": "vi", "anchor": "2026-08-03", "ranges": [["2026-07-30", "2026-07-30"]]}
+{"q": "Tìm hóa đơn 500k ngày hôm kia.", "code": "day -2", "kind": "day", "lang": "vi", "anchor": "2025-03-16", "ranges": [["2025-03-14", "2025-03-14"]]}
+{"q": "Cho xem ảnh chụp 12 bước chân ngày hôm kia.", "code": "day -2", "kind": "day", "lang": "vi", "anchor": "2023-08-07", "ranges": [["2023-08-05", "2023-08-05"]]}
+{"q": "Hiển thị phòng 302 ngày hôm kia.", "code": "day -2", "kind": "day", "lang": "vi", "anchor": "2024-06-02", "ranges": [["2024-05-31", "2024-05-31"]]}
+{"q": "nhắc lại cho tôi doanh số năm kia nhé", "code": "year -2", "kind": "year", "lang": "vi", "anchor": "2024-03-04", "ranges": [["2022-01-01", "2022-12-31"]]}
+{"q": "tìm giúp tôi hợp đồng ký năm kia với bên đại lý", "code": "year -2", "kind": "year", "lang": "vi", "anchor": "2025-04-28", "ranges": [["2023-01-01", "2023-12-31"]]}
+{"q": "năm kia mình có cuộc họp nào quan trọng không nhỉ", "code": "year -2", "kind": "year", "lang": "vi", "anchor": "2026-02-07", "ranges": [["2024-01-01", "2024-12-31"]]}
+{"q": "Ghi chú lại là hôm qua tôi nhập thêm 5 thùng sữa.", "code": "day -1", "kind": "day", "lang": "vi", "anchor": "2027-05-02", "ranges": [["2027-05-01", "2027-05-01"]]}
+{"q": "Tìm giúp tôi hóa đơn tiền điện ngày hôm qua.", "code": "day -1", "kind": "day", "lang": "vi", "anchor": "2027-04-12", "ranges": [["2027-04-11", "2027-04-11"]]}
+{"q": "Đừng quên nhắc tôi kiểm tra kho hàng vào ngày hôm qua.", "code": "day -1", "kind": "day", "lang": "vi", "anchor": "2025-07-01", "ranges": [["2025-06-30", "2025-06-30"]]}
+{"q": "Này ứng dụng ơi, hãy tìm giúp tôi xem trong suốt tuần thứ 46 trước đây, tôi đã có ghi chú gì về những cuốn sách cũ hay đọc không?", "code": "week -46", "kind": "week", "lang": "vi", "anchor": "2027-06-30", "ranges": [["2026-08-10", "2026-08-16"]]}
+{"q": "Hãy kiểm tra lại nhật ký xem vào khoảng thời gian từ thứ Hai đến Chủ Nhật của tuần thứ 46 trước đây, tôi có hẹn với ai không?", "code": "week -46", "kind": "week", "lang": "vi", "anchor": "2026-11-01", "ranges": [["2025-12-08", "2025-12-14"]]}
+{"q": "Nhớ lại cho tôi xem hồi tuần thứ 46 trước đây, từ đầu tuần đến cuối tuần, tôi đã mua những loại thực phẩm gì cho gia đình nhỉ?", "code": "week -46", "kind": "week", "lang": "vi", "anchor": "2023-02-07", "ranges": [["2022-03-21", "2022-03-27"]]}
+{"q": "Làm ơn hãy tóm tắt lại các lỗi hệ thống nghiêm trọng mà tôi đã báo cáo vào tháng trước.", "code": "month -1", "kind": "month", "lang": "vi", "anchor": "2024-03-19", "ranges": [["2024-02-01", "2024-02-29"]]}
+{"q": "Vui lòng liệt kê danh sách các cuộc họp điều phối trực ca mà tôi đã tham dự trong tháng trước.", "code": "month -1", "kind": "month", "lang": "vi", "anchor": "2024-07-19", "ranges": [["2024-06-01", "2024-06-30"]]}
+{"q": "Hãy cho tôi biết lịch trình trực ca của tôi trong tháng trước bao gồm những ngày nào.", "code": "month -1", "kind": "month", "lang": "vi", "anchor": "2024-03-27", "ranges": [["2024-02-01", "2024-02-29"]]}
+{"q": "Tuần thứ 2 tính từ nay có việc gì quan trọng k?", "code": "week 2", "kind": "week", "lang": "vi", "anchor": "2027-01-26", "ranges": [["2027-02-08", "2027-02-14"]]}
+{"q": "Check hộ t xem tuần từ t2 đến cn của 2 tuần nữa t có trống lịch ko.", "code": "week 2", "kind": "week", "lang": "vi", "anchor": "2026-06-23", "ranges": [["2026-07-06", "2026-07-12"]]}
+{"q": "tìm cho tôi danh sách các sự kiện lớn xảy ra trong năm 2011", "code": "2011", "kind": "year_abs", "lang": "vi", "anchor": "2026-08-03", "ranges": [["2011-01-01", "2011-12-31"]]}
+{"q": "cho xem những bài hát nổi tiếng nhất của năm 2011", "code": "2011", "kind": "year_abs", "lang": "vi", "anchor": "2027-01-13", "ranges": [["2011-01-01", "2011-12-31"]]}
+{"q": "tổng hợp các kết quả bóng đá quan trọng trong năm 2011", "code": "2011", "kind": "year_abs", "lang": "vi", "anchor": "2025-02-03", "ranges": [["2011-01-01", "2011-12-31"]]}
+{"q": "Tìm tất cả hóa đơn khách hàng từ thứ Hai đến Chủ Nhật tuần thứ 24 trước đây.", "code": "week -24", "kind": "week", "lang": "vi", "anchor": "2024-07-04", "ranges": [["2024-01-15", "2024-01-21"]]}
+{"q": "Cho tôi xem lịch họp trong toàn bộ tuần thứ 24 trước đây từ thứ Hai đến Chủ Nhật.", "code": "week -24", "kind": "week", "lang": "vi", "anchor": "2024-04-30", "ranges": [["2023-11-13", "2023-11-19"]]}
+{"q": "Liệt kê các đầu việc đã hoàn thành từ thứ Hai đến Chủ Nhật của tuần thứ 24 trước đây.", "code": "week -24", "kind": "week", "lang": "vi", "anchor": "2024-12-26", "ranges": [["2024-07-08", "2024-07-14"]]}
+{"q": "Sáng và chiều 10 ngày trước, hãy ghi chú lại doanh số của đội A.", "code": "day -10", "kind": "day", "lang": "vi", "anchor": "2026-08-08", "ranges": [["2026-07-29", "2026-07-29"]]}
+{"q": "Tối 10 ngày trước, tôi đã nói gì về kế hoạch gặp khách hàng?", "code": "day -10", "kind": "day", "lang": "vi", "anchor": "2024-10-19", "ranges": [["2024-10-09", "2024-10-09"]]}
+{"q": "Đêm 10 ngày trước, nhắc tôi về việc gửi email báo cáo.", "code": "day -10", "kind": "day", "lang": "vi", "anchor": "2027-06-02", "ranges": [["2027-05-23", "2027-05-23"]]}
+{"q": "Thưa trợ lý, xin hãy ghi chú lại rằng tôi đang tìm hiểu về những sự kiện lịch sử đã diễn ra vào ngày 1873-09-28.", "code": "1873-09-28", "kind": "date", "lang": "vi", "anchor": "2026-03-01", "ranges": [["1873-09-28", "1873-09-28"]]}
+{"q": "Làm ơn hãy lưu giúp tôi thông tin về tình hình thế giới trong ngày 1873-09-28 vào kho lưu trữ.", "code": "1873-09-28", "kind": "date", "lang": "vi", "anchor": "2026-08-19", "ranges": [["1873-09-28", "1873-09-28"]]}
+{"q": "Tôi muốn hỏi xem có tài liệu nào liên quan đến các nhân vật quan trọng vào ngày 1873-09-28 không?", "code": "1873-09-28", "kind": "date", "lang": "vi", "anchor": "2026-10-07", "ranges": [["1873-09-28", "1873-09-28"]]}
+{"q": "nhớ nhắc tớ ôn thi trong 4 ngày tới nhé", "code": "next 4 day", "kind": "last_n", "lang": "vi", "anchor": "2027-07-17", "ranges": [["2027-07-17", "2027-07-21"]]}
+{"q": "từ nay đến 4 ngày sau có gì quan trọng không nhỉ", "code": "next 4 day", "kind": "last_n", "lang": "vi", "anchor": "2025-12-13", "ranges": [["2025-12-13", "2025-12-17"]]}
+{"q": "lên lịch giúp tớ các việc cần làm cho 4 ngày tới đi", "code": "next 4 day", "kind": "last_n", "lang": "vi", "anchor": "2027-03-09", "ranges": [["2027-03-09", "2027-03-13"]]}
+{"q": "Hôm qua làm gì?", "code": "day -1", "kind": "day", "lang": "vi", "anchor": "2026-08-03", "ranges": [["2026-08-02", "2026-08-02"]]}
+{"q": "Hôm qua mưa không?", "code": "day -1", "kind": "day", "lang": "vi", "anchor": "2024-07-27", "ranges": [["2024-07-26", "2024-07-26"]]}
+{"q": "Ăn gì hôm qua?", "code": "day -1", "kind": "day", "lang": "vi", "anchor": "2026-10-13", "ranges": [["2026-10-12", "2026-10-12"]]}
+{"q": "Sáng và chiều 6 ngày trước mình đã nói gì nhỉ?", "code": "day -6", "kind": "day", "lang": "vi", "anchor": "2023-07-20", "ranges": [["2023-07-14", "2023-07-14"]]}
+{"q": "Tối 6 ngày trước có nhắc đến từ vựng nào mới không?", "code": "day -6", "kind": "day", "lang": "vi", "anchor": "2026-08-09", "ranges": [["2026-08-03", "2026-08-03"]]}
+{"q": "6 ngày trước vào buổi trưa mình có hỏi về ngữ pháp không?", "code": "day -6", "kind": "day", "lang": "vi", "anchor": "2025-06-05", "ranges": [["2025-05-30", "2025-05-30"]]}
+{"q": "nhớ giúp mình ngày 13 tháng 10 năm 2008 nhé", "code": "2008-10-13", "kind": "date", "lang": "vi", "anchor": "2025-05-18", "ranges": [["2008-10-13", "2008-10-13"]]}
+{"q": "ngày 13 tháng 10 năm 2008 có chuyện gì đặc biệt không nhỉ", "code": "2008-10-13", "kind": "date", "lang": "vi", "anchor": "2027-04-09", "ranges": [["2008-10-13", "2008-10-13"]]}
+{"q": "lưu lại ngày 13 tháng 10 năm 2008 vào sổ tay cho mình", "code": "2008-10-13", "kind": "date", "lang": "vi", "anchor": "2023-02-24", "ranges": [["2008-10-13", "2008-10-13"]]}
+{"q": "24/04/2025, 50km", "code": "2025-04-24", "kind": "date", "lang": "vi", "anchor": "2026-11-30", "ranges": [["2025-04-24", "2025-04-24"]]}
+{"q": "Ngày 24/04/2025, 200k", "code": "2025-04-24", "kind": "date", "lang": "vi", "anchor": "2023-08-16", "ranges": [["2025-04-24", "2025-04-24"]]}
+{"q": "24/04/2025, phòng 12", "code": "2025-04-24", "kind": "date", "lang": "vi", "anchor": "2025-01-27", "ranges": [["2025-04-24", "2025-04-24"]]}
+{"q": "Tìm các lỗi hệ thống từ thứ Hai đến Chủ Nhật của 4 tuần trước.", "code": "week -4", "kind": "week", "lang": "vi", "anchor": "2024-02-29", "ranges": [["2024-01-29", "2024-02-04"]]}
+{"q": "Show me logs from Monday to Sunday 4 weeks ago.", "code": "week -4", "kind": "week", "lang": "vi", "anchor": "2026-08-31", "ranges": [["2026-08-03", "2026-08-09"]]}
+{"q": "Liệt kê các cuộc họp trong tuần từ thứ Hai đến Chủ Nhật 4 tuần trước.", "code": "week -4", "kind": "week", "lang": "vi", "anchor": "2025-12-14", "ranges": [["2025-11-10", "2025-11-16"]]}
+{"q": "Từ nửa tháng trước đến tận bây giờ, tôi đã đọc được bao nhiêu cuốn sách rồi?", "code": "last 15 day", "kind": "last_n", "lang": "vi", "anchor": "2023-10-17", "ranges": [["2023-10-02", "2023-10-17"]]}
+{"q": "Trong khoảng thời gian 15 ngày qua và đến ngày hôm nay, hãy nhắc tôi về lịch hẹn bác sĩ.", "code": "last 15 day", "kind": "last_n", "lang": "vi", "anchor": "2023-09-27", "ranges": [["2023-09-12", "2023-09-27"]]}
+{"q": "hôm qua mình mua cái áo này 500k á", "code": "day -1", "kind": "day", "lang": "vi", "anchor": "2026-03-17", "ranges": [["2026-03-16", "2026-03-16"]]}
+{"q": "hôm qua đi bộ được 12000 bước luôn", "code": "day -1", "kind": "day", "lang": "vi", "anchor": "2027-01-20", "ranges": [["2027-01-19", "2027-01-19"]]}
+{"q": "hôm qua mình ở phòng 302", "code": "day -1", "kind": "day", "lang": "vi", "anchor": "2024-02-29", "ranges": [["2024-02-28", "2024-02-28"]]}
+{"q": "Mười tuần qua tôi đã đọc được những tài liệu quan trọng nào?", "code": "last 10 week", "kind": "last_n", "lang": "vi", "anchor": "2026-01-01", "ranges": [["2025-10-23", "2026-01-01"]]}
+{"q": "nhắc mình hóa đơn 500k của tuần từ thứ hai đến chủ nhật 16 tuần trước nhé", "code": "week -16", "kind": "week", "lang": "vi", "anchor": "2025-12-31", "ranges": [["2025-09-08", "2025-09-14"]]}
+{"q": "chi phí nhập hàng 2027", "code": "2027", "kind": "year_abs", "lang": "vi", "anchor": "2023-01-08", "ranges": [["2027-01-01", "2027-12-31"]]}
+{"q": "dự báo doanh thu cả năm 2027", "code": "2027", "kind": "year_abs", "lang": "vi", "anchor": "2026-07-26", "ranges": [["2027-01-01", "2027-12-31"]]}
+{"q": "lịch bảo trì cửa hàng 2027", "code": "2027", "kind": "year_abs", "lang": "vi", "anchor": "2026-08-18", "ranges": [["2027-01-01", "2027-12-31"]]}
+{"q": "Trong mười một tháng qua, hãy liệt kê các ca trực đêm mà tôi đã làm thêm giờ.", "code": "last 11 month", "kind": "last_n", "lang": "vi", "anchor": "2024-03-24", "ranges": [["2023-04-24", "2024-03-24"]]}
+{"q": "Sáng và chiều 325 ngày trước tôi đã fix lỗi gì trong repo nhỉ?", "code": "day -325", "kind": "day", "lang": "vi", "anchor": "2024-04-11", "ranges": [["2023-05-22", "2023-05-22"]]}
+{"q": "Gửi cho tôi log của buổi tối 325 ngày trước.", "code": "day -325", "kind": "day", "lang": "vi", "anchor": "2023-04-03", "ranges": [["2022-05-13", "2022-05-13"]]}
+{"q": "Danh sách các task tôi đã hoàn thành vào ban ngày và ban đêm 325 ngày trước là gì?", "code": "day -325", "kind": "day", "lang": "vi", "anchor": "2026-01-04", "ranges": [["2025-02-13", "2025-02-13"]]}
+{"q": "60 ngày trước, mua cho bé 500 gram sữa bột.", "code": "day -60", "kind": "day", "lang": "vi", "anchor": "2024-02-29", "ranges": [["2023-12-31", "2023-12-31"]]}
+{"q": "60 ngày trước, con thứ hai bị sốt 38.5 độ.", "code": "day -60", "kind": "day", "lang": "vi", "anchor": "2027-12-09", "ranges": [["2027-10-10", "2027-10-10"]]}
+{"q": "60 ngày trước, đặt phòng 402 cho cả nhà đi chơi.", "code": "day -60", "kind": "day", "lang": "vi", "anchor": "2027-09-22", "ranges": [["2027-07-24", "2027-07-24"]]}
+{"q": "Tìm các ý tưởng pitching từ 60 ngày trước.", "code": "day -60", "kind": "day", "lang": "vi", "anchor": "2027-07-26", "ranges": [["2027-05-27", "2027-05-27"]]}
+{"q": "Show me các cuộc họp sáng và chiều 60 ngày trước.", "code": "day -60", "kind": "day", "lang": "vi", "anchor": "2023-07-03", "ranges": [["2023-05-04", "2023-05-04"]]}
+{"q": "Liệt kê mọi chi phí đã trả vào 60 ngày trước.", "code": "day -60", "kind": "day", "lang": "vi", "anchor": "2024-01-24", "ranges": [["2023-11-25", "2023-11-25"]]}
+{"q": "sáng tối 9 ngày trước", "code": "day -9", "kind": "day", "lang": "vi", "anchor": "2024-12-28", "ranges": [["2024-12-19", "2024-12-19"]]}
+{"q": "chiều 9 ngày trước", "code": "day -9", "kind": "day", "lang": "vi", "anchor": "2024-09-02", "ranges": [["2024-08-24", "2024-08-24"]]}
+{"q": "đêm 9 ngày trước", "code": "day -9", "kind": "day", "lang": "vi", "anchor": "2024-03-04", "ranges": [["2024-02-24", "2024-02-24"]]}
+{"q": "tổng hợp lại mấy câu giao tiếp mình đã học trong 10 tuần qua đi", "code": "last 10 week", "kind": "last_n", "lang": "vi", "anchor": "2027-05-22", "ranges": [["2027-03-13", "2027-05-22"]]}
+{"q": "Sáng và chiều 184 ngày trước tôi đã chốt được hợp đồng nào không?", "code": "day -184", "kind": "day", "lang": "vi", "anchor": "2026-06-21", "ranges": [["2025-12-19", "2025-12-19"]]}
+{"q": "Ghi chú lại là vào tối 184 ngày trước tôi có hẹn gặp khách hàng ở quận 1.", "code": "day -184", "kind": "day", "lang": "vi", "anchor": "2024-11-20", "ranges": [["2024-05-20", "2024-05-20"]]}
+{"q": "Tìm giúp tôi báo cáo doanh số buổi trưa và buổi chiều của đúng 184 ngày trước.", "code": "day -184", "kind": "day", "lang": "vi", "anchor": "2025-09-03", "ranges": [["2025-03-03", "2025-03-03"]]}
+{"q": "Ghi chú lại là 8 ngày trước mình đã chốt giá với khách hàng nhé.", "code": "day -8", "kind": "day", "lang": "vi", "anchor": "2026-07-20", "ranges": [["2026-07-12", "2026-07-12"]]}
+{"q": "Nhắc tôi kiểm tra lại file thiết kế đã gửi 8 ngày trước.", "code": "day -8", "kind": "day", "lang": "vi", "anchor": "2023-12-25", "ranges": [["2023-12-17", "2023-12-17"]]}
+{"q": "8 ngày trước lúc 10 giờ sáng mình có cuộc họp với bên đối tác đúng không?", "code": "day -8", "kind": "day", "lang": "vi", "anchor": "2027-06-30", "ranges": [["2027-06-22", "2027-06-22"]]}
+{"q": "6 ngày trước, hãy lưu lại hóa đơn 450 usd này.", "code": "day -6", "kind": "day", "lang": "vi", "anchor": "2026-08-08", "ranges": [["2026-08-02", "2026-08-02"]]}
+{"q": "6 ngày trước, tôi đã thảo luận về 12 ý tưởng thiết kế.", "code": "day -6", "kind": "day", "lang": "vi", "anchor": "2026-03-01", "ranges": [["2026-02-23", "2026-02-23"]]}
+{"q": "6 ngày trước, hãy ghi chú là tôi đã đi bộ 8000 bước.", "code": "day -6", "kind": "day", "lang": "vi", "anchor": "2027-06-30", "ranges": [["2027-06-24", "2027-06-24"]]}
+{"q": "Tuần 15 trước?", "code": "week -15", "kind": "week", "lang": "vi", "anchor": "2024-04-16", "ranges": [["2024-01-01", "2024-01-07"]]}
+{"q": "Nhớ lưu lại giúp mình kết quả chạy bộ vào tuần thứ 47 trước đây nhé vì mình muốn xem lại thành tích chạy dài hôm đó.", "code": "week -47", "kind": "week", "lang": "vi", "anchor": "2026-06-09", "ranges": [["2025-07-14", "2025-07-20"]]}
+{"q": "Làm ơn kiểm tra lại xem trong khoảng thời gian từ thứ Hai đến Chủ Nhật của tuần thứ 47 trước đây mình có bị đau chân không.", "code": "week -47", "kind": "week", "lang": "vi", "anchor": "2027-11-09", "ranges": [["2026-12-14", "2026-12-20"]]}
+{"q": "Ghi chú lại là vào tuần thứ 47 trước đây mình đã hoàn thành bài tập chạy leo dốc cực kỳ mệt mỏi vào cả tuần đó luôn.", "code": "week -47", "kind": "week", "lang": "vi", "anchor": "2026-08-06", "ranges": [["2025-09-08", "2025-09-14"]]}
+{"q": "Hai năm qua, hãy tổng hợp lại tất cả các dự án thiết kế logo mà tôi đã hoàn thành.", "code": "last 2 year", "kind": "last_n", "lang": "vi", "anchor": "2023-08-09", "ranges": [["2021-08-09", "2023-08-09"]]}
+{"q": "Hiển thị lịch chạy bộ ngày 22 tháng 6.", "code": "*-06-22", "kind": "date", "lang": "vi", "anchor": "2027-11-13", "ranges": [["2027-06-22", "2027-06-22"]]}
+{"q": "Tìm các bài tập chạy dài vào 22 tháng 6.", "code": "*-06-22", "kind": "date", "lang": "vi", "anchor": "2025-02-24", "ranges": [["2024-06-22", "2024-06-22"]]}
+{"q": "Lưu kết quả chạy marathon ngày 22 tháng 6.", "code": "*-06-22", "kind": "date", "lang": "vi", "anchor": "2026-08-03", "ranges": [["2026-06-22", "2026-06-22"]]}
+{"q": "20 ngày trước, doanh số của đội miền Bắc là bao nhiêu?", "code": "day -20", "kind": "day", "lang": "vi", "anchor": "2027-06-02", "ranges": [["2027-05-13", "2027-05-13"]]}
+{"q": "Cách đây 20 ngày, tôi đã gặp khách hàng quan trọng nào?", "code": "day -20", "kind": "day", "lang": "vi", "anchor": "2025-12-31", "ranges": [["2025-12-11", "2025-12-11"]]}
+{"q": "Nhắc lại cho tôi nội dung cuộc họp vào 20 ngày trước.", "code": "day -20", "kind": "day", "lang": "vi", "anchor": "2027-10-30", "ranges": [["2027-10-10", "2027-10-10"]]}
+{"q": "Nhắc tôi về ý tưởng nghiên cứu hôm qua buổi sáng.", "code": "day -1", "kind": "day", "lang": "vi", "anchor": "2027-04-10", "ranges": [["2027-04-09", "2027-04-09"]]}
+{"q": "Tìm lại tài liệu tôi đã lưu hôm qua buổi chiều.", "code": "day -1", "kind": "day", "lang": "vi", "anchor": "2025-07-05", "ranges": [["2025-07-04", "2025-07-04"]]}
+{"q": "Lưu lại cảm xúc này của tôi vào hôm qua buổi tối.", "code": "day -1", "kind": "day", "lang": "vi", "anchor": "2024-02-16", "ranges": [["2024-02-15", "2024-02-15"]]}

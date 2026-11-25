@@ -1,0 +1,130 @@
+{"q": "Ingatkan saya untuk latihan lari maraton pada 8/18/1826.", "code": "1826-08-18", "kind": "date", "lang": "id", "anchor": "2025-08-31", "ranges": [["1826-08-18", "1826-08-18"]]}
+{"q": "Bagaimana cuaca untuk lari jarak jauh di tanggal 8/18/1826?", "code": "1826-08-18", "kind": "date", "lang": "id", "anchor": "2026-12-26", "ranges": [["1826-08-18", "1826-08-18"]]}
+{"q": "Catat skor waktu lari saya di 8/18/1826.", "code": "1826-08-18", "kind": "date", "lang": "id", "anchor": "2027-10-11", "ranges": [["1826-08-18", "1826-08-18"]]}
+{"q": "inget gak tgl berapa pas mngu ke 8 sblmnya? jg brapa hrg buku yg 450rb itu?", "code": "week -8", "kind": "week", "lang": "id", "anchor": "2027-04-06", "ranges": [["2027-02-08", "2027-02-14"]]}
+{"q": "tolong catet info mngu ke 8 sblmnya ya, sm jg jml langkah kaki yg 8500", "code": "week -8", "kind": "week", "lang": "id", "anchor": "2025-12-31", "ranges": [["2025-11-03", "2025-11-09"]]}
+{"q": "mngu ke 8 sblmnya ada apa aja? jg tlg cek no rm 302", "code": "week -8", "kind": "week", "lang": "id", "anchor": "2026-08-08", "ranges": [["2026-06-08", "2026-06-14"]]}
+{"q": "Pagi 56 hari lalu", "code": "day -56", "kind": "day", "lang": "id", "anchor": "2024-10-19", "ranges": [["2024-08-24", "2024-08-24"]]}
+{"q": "Malam 56 hari lalu", "code": "day -56", "kind": "day", "lang": "id", "anchor": "2025-02-20", "ranges": [["2024-12-26", "2024-12-26"]]}
+{"q": "Siang 56 hari lalu", "code": "day -56", "kind": "day", "lang": "id", "anchor": "2026-08-08", "ranges": [["2026-06-13", "2026-06-13"]]}
+{"q": "Apakah kamu ingat semua foto yang saya simpan selama sembilan tahun terakhir?", "code": "last 9 year", "kind": "last_n", "lang": "id", "anchor": "2026-10-23", "ranges": [["2017-10-23", "2026-10-23"]]}
+{"q": "Tolong catat pengeluaran makan siang sebesar 45.000 rupiah pada minggu ke-25 yang lalu dari Senin sampai Minggu.", "code": "week -25", "kind": "week", "lang": "id", "anchor": "2026-01-01", "ranges": [["2025-07-07", "2025-07-13"]]}
+{"q": "Tolong catat jadwal shift lembur saya selama tahun 2016.", "code": "2016", "kind": "year_abs", "lang": "id", "anchor": "2027-06-30", "ranges": [["2016-01-01", "2016-12-31"]]}
+{"q": "Ingat ya, pasien di kamar 402 sudah dirawat sejak awal tahun 2016 sampai akhir tahun 2016.", "code": "2016", "kind": "year_abs", "lang": "id", "anchor": "2024-06-02", "ranges": [["2016-01-01", "2016-12-31"]]}
+{"q": "Berapa total jam kerja saya di sepanjang tahun 2016?", "code": "2016", "kind": "year_abs", "lang": "id", "anchor": "2026-03-01", "ranges": [["2016-01-01", "2016-12-31"]]}
+{"q": "Apa dosis obat pasien di ruang 402 yang saya berikan 4 hari yang lalu?", "code": "day -4", "kind": "day", "lang": "id", "anchor": "2026-03-17", "ranges": [["2026-03-13", "2026-03-13"]]}
+{"q": "Tolong catat bahwa saya sudah mengganti infus 12 botol pada 4 hari yang lalu.", "code": "day -4", "kind": "day", "lang": "id", "anchor": "2026-11-21", "ranges": [["2026-11-17", "2026-11-17"]]}
+{"q": "Berapa total laporan shift saya yang selesai 4 hari yang lalu senilai 50000 rupiah?", "code": "day -4", "kind": "day", "lang": "id", "anchor": "2023-10-21", "ranges": [["2023-10-17", "2023-10-17"]]}
+{"q": "Ingat tidak harga 55000 rupiah yang aku beli minggu lalu Senin sampai Minggu?", "code": "week -1", "kind": "week", "lang": "id", "anchor": "2025-08-01", "ranges": [["2025-07-21", "2025-07-27"]]}
+{"q": "Tolong catat jumlah 42 buku yang dibahas minggu lalu Senin sampai Minggu.", "code": "week -1", "kind": "week", "lang": "id", "anchor": "2027-06-30", "ranges": [["2027-06-21", "2027-06-27"]]}
+{"q": "Siapa orang di kamar 302 yang kita temui minggu lalu Senin sampai Minggu?", "code": "week -1", "kind": "week", "lang": "id", "anchor": "2027-08-15", "ranges": [["2027-08-02", "2027-08-08"]]}
+{"q": "Catat pengeluaran beli stok kopi tanggal 24 Juli 2018.", "code": "2018-07-24", "kind": "date", "lang": "id", "anchor": "2026-10-15", "ranges": [["2018-07-24", "2018-07-24"]]}
+{"q": "Tolong ingatkan saya pesanan pelanggan yang harus dikirim pada 24 Juli 2018.", "code": "2018-07-24", "kind": "date", "lang": "id", "anchor": "2026-07-23", "ranges": [["2018-07-24", "2018-07-24"]]}
+{"q": "Berapa total penjualan toko kita pada 24 Juli 2018?", "code": "2018-07-24", "kind": "date", "lang": "id", "anchor": "2027-01-12", "ranges": [["2018-07-24", "2018-07-24"]]}
+{"q": "Catat pengeluaran uang makan aku selama tahun 2022.", "code": "2022", "kind": "year_abs", "lang": "id", "anchor": "2025-05-24", "ranges": [["2022-01-01", "2022-12-31"]]}
+{"q": "Ingetin aku buat cek jadwal ujian semester ganjil dan genap di tahun 2022.", "code": "2022", "kind": "year_abs", "lang": "id", "anchor": "2027-05-27", "ranges": [["2022-01-01", "2022-12-31"]]}
+{"q": "Tolong simpan daftar buku yang aku baca selama tahun 2022.", "code": "2022", "kind": "year_abs", "lang": "id", "anchor": "2026-11-12", "ranges": [["2022-01-01", "2022-12-31"]]}
+{"q": "Tolong catat bahwa target penjualan untuk tanggal 12/26/2125 telah tercapai sepenuhnya.", "code": "2125-12-26", "kind": "date", "lang": "id", "anchor": "2026-08-09", "ranges": [["2125-12-26", "2125-12-26"]]}
+{"q": "Apakah Anda bisa menjadwalkan rapat evaluasi akhir tahun pada 12/26/2125 pukul 10:00 pagi?", "code": "2125-12-26", "kind": "date", "lang": "id", "anchor": "2024-09-02", "ranges": [["2125-12-26", "2125-12-26"]]}
+{"q": "Mohon ingatkan saya untuk meninjau laporan kuartal pada 12/26/2125 jam 14:00 siang.", "code": "2125-12-26", "kind": "date", "lang": "id", "anchor": "2027-06-30", "ranges": [["2125-12-26", "2125-12-26"]]}
+{"q": "ingetin ya jadwal stok barang masuk minggu ini", "code": "week 0", "kind": "week", "lang": "id", "anchor": "2023-02-22", "ranges": [["2023-02-20", "2023-02-26"]]}
+{"q": "tolong catet pengeluaran toko buat minggu ini", "code": "week 0", "kind": "week", "lang": "id", "anchor": "2027-07-03", "ranges": [["2027-06-28", "2027-07-04"]]}
+{"q": "minggu ini ada promo apa aja ya buat pelanggan?", "code": "week 0", "kind": "week", "lang": "id", "anchor": "2026-02-08", "ranges": [["2026-02-02", "2026-02-08"]]}
+{"q": "Tolong ingatkan aku jadwal shift malam dua ratus lima puluh enam hari yang lalu karena aku lupa apakah saat itu aku libur atau masuk.", "code": "day -256", "kind": "day", "lang": "id", "anchor": "2025-05-14", "ranges": [["2024-08-31", "2024-08-31"]]}
+{"q": "Apakah ada perubahan instruksi dokter untuk pasien kamar empat ratus dua pada dua ratus lima puluh enam hari yang lalu, aku merasa ada yang kurang.", "code": "day -256", "kind": "day", "lang": "id", "anchor": "2025-08-11", "ranges": [["2024-11-28", "2024-11-28"]]}
+{"q": "Tolong ingatkan jadwal lari interval yang saya buat pada pagi dan siang 199 hari yang lalu.", "code": "day -199", "kind": "day", "lang": "id", "anchor": "2026-11-05", "ranges": [["2026-04-20", "2026-04-20"]]}
+{"q": "Berapa total jarak tempuh lari saya di sore hari 199 hari yang lalu?", "code": "day -199", "kind": "day", "lang": "id", "anchor": "2024-04-08", "ranges": [["2023-09-22", "2023-09-22"]]}
+{"q": "Catat asupan protein saya saat makan malam 199 hari yang lalu.", "code": "day -199", "kind": "day", "lang": "id", "anchor": "2024-02-21", "ranges": [["2023-08-06", "2023-08-06"]]}
+{"q": "ingetin dong apa aja yang kita bahas pas minggu ke-50 lalu dari senin sampe minggu", "code": "week -50", "kind": "week", "lang": "id", "anchor": "2026-09-13", "ranges": [["2025-09-22", "2025-09-28"]]}
+{"q": "Ingatkan saya minum vitamin pada 12 Juni", "code": "*-06-12", "kind": "date", "lang": "id", "anchor": "2024-02-29", "ranges": [["2023-06-12", "2023-06-12"]]}
+{"q": "Ingat ya kalau minggu ketiga yang lalu itu dari Senin sampai Minggu ada meeting panjang banget sama tim dev soal migrasi server yang belum selesai.", "code": "week -3", "kind": "week", "lang": "id", "anchor": "2027-05-03", "ranges": [["2027-04-12", "2027-04-18"]]}
+{"q": "Coba cariin catatan rapat teknis yang aku tulis pas hari Senin sampai Minggu di minggu ketiga yang lalu itu, soalnya aku lupa naruh di mana.", "code": "week -3", "kind": "week", "lang": "id", "anchor": "2023-03-26", "ranges": [["2023-02-27", "2023-03-05"]]}
+{"q": "Cari daftar belanjaan untuk tanggal 30 Juli, harganya harus di bawah 500 ribu rupiah.", "code": "*-07-30", "kind": "date", "lang": "id", "anchor": "2023-03-11", "ranges": [["2022-07-30", "2022-07-30"]]}
+{"q": "Ingatkan aku janji dokter tanggal 30 Juli pagi dan siang, nomor antriannya 42.", "code": "*-07-30", "kind": "date", "lang": "id", "anchor": "2026-11-06", "ranges": [["2026-07-30", "2026-07-30"]]}
+{"q": "Tunjukkan jadwal les anak-anak tanggal 30 Juli, cari yang ada di ruang 105.", "code": "*-07-30", "kind": "date", "lang": "id", "anchor": "2026-08-08", "ranges": [["2026-07-30", "2026-07-30"]]}
+{"q": "cari catatan kuliah kemarin lusa 450 halaman", "code": "day -2", "kind": "day", "lang": "id", "anchor": "2025-03-29", "ranges": [["2025-03-27", "2025-03-27"]]}
+{"q": "tampilkan pengeluaran kemarin lusa 25000 rupiah", "code": "day -2", "kind": "day", "lang": "id", "anchor": "2027-02-04", "ranges": [["2027-02-02", "2027-02-02"]]}
+{"q": "temukan tugas yang dikumpul kemarin lusa di ruang 302", "code": "day -2", "kind": "day", "lang": "id", "anchor": "2023-05-03", "ranges": [["2023-05-01", "2023-05-01"]]}
+{"q": "Catat pesanan kopi susu dari Pak Budi kemarin pagi dan kemarin siang.", "code": "day -1", "kind": "day", "lang": "id", "anchor": "2024-02-05", "ranges": [["2024-02-04", "2024-02-04"]]}
+{"q": "Tolong ingatkan saya stok gula habis kemarin malam.", "code": "day -1", "kind": "day", "lang": "id", "anchor": "2025-09-07", "ranges": [["2025-09-06", "2025-09-06"]]}
+{"q": "Total penjualan toko kemarin sore dan kemarin malam.", "code": "day -1", "kind": "day", "lang": "id", "anchor": "2026-10-16", "ranges": [["2026-10-15", "2026-10-15"]]}
+{"q": "Apa saja rencana kegiatan yang sempat aku tulis di buku catatan kecil itu pada seluruh minggu ke-46 yang lalu, dari Senin sampai Minggu?", "code": "week -46", "kind": "week", "lang": "id", "anchor": "2024-01-07", "ranges": [["2023-02-13", "2023-02-19"]]}
+{"q": "Mohon ingatkan saya mengenai detail insiden server yang terjadi pada bulan lalu.", "code": "month -1", "kind": "month", "lang": "id", "anchor": "2027-04-02", "ranges": [["2027-03-01", "2027-03-31"]]}
+{"q": "Tolong simpan catatan mengenai rapat perencanaan proyek yang kita lakukan bulan lalu.", "code": "month -1", "kind": "month", "lang": "id", "anchor": "2027-05-20", "ranges": [["2027-04-01", "2027-04-30"]]}
+{"q": "Apakah Anda memiliki rekaman log untuk deployment yang dilakukan pada bulan lalu?", "code": "month -1", "kind": "month", "lang": "id", "anchor": "2024-12-15", "ranges": [["2024-11-01", "2024-11-30"]]}
+{"q": "minggu ke-2 dr skrg ada acara apa aja ya?", "code": "week 2", "kind": "week", "lang": "id", "anchor": "2027-03-05", "ranges": [["2027-03-15", "2027-03-21"]]}
+{"q": "cari berita utama dunia tahun 2011", "code": "2011", "kind": "year_abs", "lang": "id", "anchor": "2024-01-15", "ranges": [["2011-01-01", "2011-12-31"]]}
+{"q": "tampilkan daftar lagu terpopuler di tahun 2011", "code": "2011", "kind": "year_abs", "lang": "id", "anchor": "2023-07-27", "ranges": [["2011-01-01", "2011-12-31"]]}
+{"q": "temukan film pemenang oscar tahun 2011", "code": "2011", "kind": "year_abs", "lang": "id", "anchor": "2025-12-28", "ranges": [["2011-01-01", "2011-12-31"]]}
+{"q": "tampilkan invoice dari Senin sampai Minggu 24 minggu yang lalu", "code": "week -24", "kind": "week", "lang": "id", "anchor": "2024-11-01", "ranges": [["2024-05-13", "2024-05-19"]]}
+{"q": "cari catatan revisi desain selama periode Senin sampai Minggu 24 minggu yang lalu", "code": "week -24", "kind": "week", "lang": "id", "anchor": "2027-07-04", "ranges": [["2027-01-11", "2027-01-17"]]}
+{"q": "temukan jadwal meeting Senin sampai Minggu 24 minggu yang lalu", "code": "week -24", "kind": "week", "lang": "id", "anchor": "2023-01-20", "ranges": [["2022-08-01", "2022-08-07"]]}
+{"q": "Pagi dan siang 10 hari yang lalu, tolong catat kalau klien dari Jakarta sudah setuju dengan diskon kita.", "code": "day -10", "kind": "day", "lang": "id", "anchor": "2024-01-23", "ranges": [["2024-01-13", "2024-01-13"]]}
+{"q": "Sore 10 hari yang lalu, ingatkan saya untuk mengirimkan invoice revisi ke tim keuangan.", "code": "day -10", "kind": "day", "lang": "id", "anchor": "2025-01-19", "ranges": [["2025-01-09", "2025-01-09"]]}
+{"q": "Malam 10 hari yang lalu, simpan catatan bahwa target sales bulan ini sudah mencapai 80%.", "code": "day -10", "kind": "day", "lang": "id", "anchor": "2027-06-30", "ranges": [["2027-06-20", "2027-06-20"]]}
+{"q": "Tolong catat bahwa pada tanggal 1873-09-28, saya ingin meninjau kembali catatan sejarah mengenai peristiwa tersebut.", "code": "1873-09-28", "kind": "date", "lang": "id", "anchor": "2026-01-01", "ranges": [["1873-09-28", "1873-09-28"]]}
+{"q": "Apakah Anda memiliki informasi tambahan mengenai apa yang terjadi di dunia pada 1873-09-28?", "code": "1873-09-28", "kind": "date", "lang": "id", "anchor": "2025-07-12", "ranges": [["1873-09-28", "1873-09-28"]]}
+{"q": "Saya ingin mengingatkan diri saya sendiri untuk membaca buku tentang tahun 1873-09-28 pada waktu luang nanti.", "code": "1873-09-28", "kind": "date", "lang": "id", "anchor": "2023-07-17", "ranges": [["1873-09-28", "1873-09-28"]]}
+{"q": "ingetin ya jadwal kuis gue buat 4 hari ke depan", "code": "next 4 day", "kind": "last_n", "lang": "id", "anchor": "2026-08-23", "ranges": [["2026-08-23", "2026-08-27"]]}
+{"q": "tolong catet deadline tugas yang harus kelar dalam 4 hari ke depan", "code": "next 4 day", "kind": "last_n", "lang": "id", "anchor": "2027-12-18", "ranges": [["2027-12-18", "2027-12-22"]]}
+{"q": "Kemarin makan apa?", "code": "day -1", "kind": "day", "lang": "id", "anchor": "2025-09-30", "ranges": [["2025-09-29", "2025-09-29"]]}
+{"q": "Kemarin sangat panas.", "code": "day -1", "kind": "day", "lang": "id", "anchor": "2026-01-01", "ranges": [["2025-12-31", "2025-12-31"]]}
+{"q": "Saya sakit kemarin.", "code": "day -1", "kind": "day", "lang": "id", "anchor": "2025-05-29", "ranges": [["2025-05-28", "2025-05-28"]]}
+{"q": "Apa yang saya katakan pada pagi dan siang hari enam hari yang lalu?", "code": "day -6", "kind": "day", "lang": "id", "anchor": "2027-01-10", "ranges": [["2027-01-04", "2027-01-04"]]}
+{"q": "Tolong ingatkan saya jadwal rapat di sore dan malam hari enam hari yang lalu.", "code": "day -6", "kind": "day", "lang": "id", "anchor": "2027-06-30", "ranges": [["2027-06-24", "2027-06-24"]]}
+{"q": "Saya sudah makan apa saja saat siang dan malam hari enam hari yang lalu?", "code": "day -6", "kind": "day", "lang": "id", "anchor": "2026-01-01", "ranges": [["2025-12-26", "2025-12-26"]]}
+{"q": "apa yang terjadi pada tanggal 13 oktober 2008?", "code": "2008-10-13", "kind": "date", "lang": "id", "anchor": "2026-03-01", "ranges": [["2008-10-13", "2008-10-13"]]}
+{"q": "ingat nggak kejadian di tanggal 13 oktober 2008?", "code": "2008-10-13", "kind": "date", "lang": "id", "anchor": "2026-03-01", "ranges": [["2008-10-13", "2008-10-13"]]}
+{"q": "tambahin catatan tentang 13 oktober 2008 ke memori ya", "code": "2008-10-13", "kind": "date", "lang": "id", "anchor": "2025-01-12", "ranges": [["2008-10-13", "2008-10-13"]]}
+{"q": "24 April 2025, 12km", "code": "2025-04-24", "kind": "date", "lang": "id", "anchor": "2025-05-04", "ranges": [["2025-04-24", "2025-04-24"]]}
+{"q": "April 24 2025, 50k", "code": "2025-04-24", "kind": "date", "lang": "id", "anchor": "2026-01-01", "ranges": [["2025-04-24", "2025-04-24"]]}
+{"q": "24 April 2025, kamar 3", "code": "2025-04-24", "kind": "date", "lang": "id", "anchor": "2026-12-10", "ranges": [["2025-04-24", "2025-04-24"]]}
+{"q": "tampilkan semua error log dari Senin sampai Minggu 4 minggu lalu", "code": "week -4", "kind": "week", "lang": "id", "anchor": "2023-05-26", "ranges": [["2023-04-24", "2023-04-30"]]}
+{"q": "cari tiket incident yang terjadi antara Senin dan Minggu 4 minggu lalu", "code": "week -4", "kind": "week", "lang": "id", "anchor": "2025-12-11", "ranges": [["2025-11-10", "2025-11-16"]]}
+{"q": "tunjukkan statistik deployment dari Senin sampai Minggu 4 minggu lalu", "code": "week -4", "kind": "week", "lang": "id", "anchor": "2025-02-06", "ranges": [["2025-01-06", "2025-01-12"]]}
+{"q": "Lima belas hari lalu sampai hari ini, tolong ingatkan saya jadwal kontrol dokter jantung.", "code": "last 15 day", "kind": "last_n", "lang": "id", "anchor": "2026-08-09", "ranges": [["2026-07-25", "2026-08-09"]]}
+{"q": "kemarin aku beli kopi 5000 rupiah", "code": "day -1", "kind": "day", "lang": "id", "anchor": "2025-01-06", "ranges": [["2025-01-05", "2025-01-05"]]}
+{"q": "kemarin aku jalan 8000 langkah", "code": "day -1", "kind": "day", "lang": "id", "anchor": "2026-09-16", "ranges": [["2026-09-15", "2026-09-15"]]}
+{"q": "kemarin aku ada di kamar 302", "code": "day -1", "kind": "day", "lang": "id", "anchor": "2024-02-29", "ranges": [["2024-02-28", "2024-02-28"]]}
+{"q": "Sepuluh minggu terakhir, tolong buatkan ringkasan dari semua catatan penelitian yang sudah saya masukkan.", "code": "last 10 week", "kind": "last_n", "lang": "id", "anchor": "2023-06-15", "ranges": [["2023-04-06", "2023-06-15"]]}
+{"q": "Aku mau tanya apakah kamu ingat semua kosakata baru yang aku catat dalam aplikasi ini selama tahun dua ribu dua puluh satu yang lalu?", "code": "year -3", "kind": "year", "lang": "id", "anchor": "2027-06-02", "ranges": [["2024-01-01", "2024-12-31"]]}
+{"q": "cek lagi daftar belanja minggu ke-16 yang lalu pas senin sampe minggu, kamar 302", "code": "week -16", "kind": "week", "lang": "id", "anchor": "2024-12-22", "ranges": [["2024-08-26", "2024-09-01"]]}
+{"q": "stok barang 2027", "code": "2027", "kind": "year_abs", "lang": "id", "anchor": "2027-06-30", "ranges": [["2027-01-01", "2027-12-31"]]}
+{"q": "target penjualan 2027", "code": "2027", "kind": "year_abs", "lang": "id", "anchor": "2023-08-28", "ranges": [["2027-01-01", "2027-12-31"]]}
+{"q": "rencana renovasi 2027", "code": "2027", "kind": "year_abs", "lang": "id", "anchor": "2027-06-30", "ranges": [["2027-01-01", "2027-12-31"]]}
+{"q": "Sebelas bulan terakhir, tolong catat jadwal shift lembur saya.", "code": "last 11 month", "kind": "last_n", "lang": "id", "anchor": "2027-07-01", "ranges": [["2026-08-01", "2027-07-01"]]}
+{"q": "Apa jadwal on-call saya 325 hari yang lalu?", "code": "day -325", "kind": "day", "lang": "id", "anchor": "2024-07-31", "ranges": [["2023-09-10", "2023-09-10"]]}
+{"q": "Cek log error sistem pada 325 hari yang lalu.", "code": "day -325", "kind": "day", "lang": "id", "anchor": "2026-09-11", "ranges": [["2025-10-21", "2025-10-21"]]}
+{"q": "Siapa engineer yang menangani incident 325 hari yang lalu?", "code": "day -325", "kind": "day", "lang": "id", "anchor": "2023-08-28", "ranges": [["2022-10-07", "2022-10-07"]]}
+{"q": "60 hari yang lalu jam 8 pagi dan 30 menit, catat kalau anak kedua mulai belajar naik sepeda. (Recording a milestone for the second child)", "code": "day -60", "kind": "day", "lang": "id", "anchor": "2026-07-25", "ranges": [["2026-05-26", "2026-05-26"]]}
+{"q": "60 hari yang lalu jam 2 siang dan 15 menit, harga belanjaan bulanan totalnya 850000 rupiah. (Recording a grocery expense)", "code": "day -60", "kind": "day", "lang": "id", "anchor": "2027-06-30", "ranges": [["2027-05-01", "2027-05-01"]]}
+{"q": "60 hari yang lalu jam 11 malam dan 45 menit, tolong ingat nomor kamar 402 saat kita menginap di sana. (Recording a room number from a past stay)", "code": "day -60", "kind": "day", "lang": "id", "anchor": "2025-12-31", "ranges": [["2025-11-01", "2025-11-01"]]}
+{"q": "cari ide pitch deck 60 hari yang lalu", "code": "day -60", "kind": "day", "lang": "id", "anchor": "2026-05-08", "ranges": [["2026-03-09", "2026-03-09"]]}
+{"q": "tampilkan pengeluaran burn rate 60 hari yang lalu", "code": "day -60", "kind": "day", "lang": "id", "anchor": "2023-01-24", "ranges": [["2022-11-25", "2022-11-25"]]}
+{"q": "temukan catatan meeting investor 60 hari yang lalu", "code": "day -60", "kind": "day", "lang": "id", "anchor": "2027-05-29", "ranges": [["2027-03-30", "2027-03-30"]]}
+{"q": "resep rendang pagi malam 9 hari lalu", "code": "day -9", "kind": "day", "lang": "id", "anchor": "2026-03-01", "ranges": [["2026-02-20", "2026-02-20"]]}
+{"q": "tagihan listrik siang 9 hari lalu", "code": "day -9", "kind": "day", "lang": "id", "anchor": "2027-06-30", "ranges": [["2027-06-21", "2027-06-21"]]}
+{"q": "ide kado sore 9 hari lalu", "code": "day -9", "kind": "day", "lang": "id", "anchor": "2027-07-17", "ranges": [["2027-07-08", "2027-07-08"]]}
+{"q": "apa aja yang udah aku pelajarin selama 10 minggu terakhir ini?", "code": "last 10 week", "kind": "last_n", "lang": "id", "anchor": "2027-06-30", "ranges": [["2027-04-21", "2027-06-30"]]}
+{"q": "Ingat nggak siapa klien yang saya temui pagi dan siang hari 184 hari yang lalu?", "code": "day -184", "kind": "day", "lang": "id", "anchor": "2026-08-09", "ranges": [["2026-02-06", "2026-02-06"]]}
+{"q": "Tolong carikan laporan penjualan yang saya buat di sore hari 184 hari yang lalu.", "code": "day -184", "kind": "day", "lang": "id", "anchor": "2027-12-20", "ranges": [["2027-06-19", "2027-06-19"]]}
+{"q": "Apa isi catatan meeting saya waktu malam hari 184 hari yang lalu?", "code": "day -184", "kind": "day", "lang": "id", "anchor": "2026-08-20", "ranges": [["2026-02-17", "2026-02-17"]]}
+{"q": "Ingat nggak revisi logo yang aku kirim delapan hari lalu pagi sama sore?", "code": "day -8", "kind": "day", "lang": "id", "anchor": "2023-12-26", "ranges": [["2023-12-18", "2023-12-18"]]}
+{"q": "Tolong cariin invoice klien yang aku input delapan hari lalu jam 10 pagi sama jam 2 siang.", "code": "day -8", "kind": "day", "lang": "id", "anchor": "2027-11-07", "ranges": [["2027-10-30", "2027-10-30"]]}
+{"q": "Catat ya, delapan hari lalu jam 9 pagi sama jam 3 sore aku ada meeting sama klien baru.", "code": "day -8", "kind": "day", "lang": "id", "anchor": "2026-08-08", "ranges": [["2026-07-31", "2026-07-31"]]}
+{"q": "6 hari yang lalu, catat biaya langganan Adobe sebesar 450 usd.", "code": "day -6", "kind": "day", "lang": "id", "anchor": "2024-06-09", "ranges": [["2024-06-03", "2024-06-03"]]}
+{"q": "6 hari yang lalu, aku bilang kalau aku sudah jalan 8500 langkah.", "code": "day -6", "kind": "day", "lang": "id", "anchor": "2026-03-01", "ranges": [["2026-02-23", "2026-02-23"]]}
+{"q": "6 hari yang lalu, tolong ingat nomor pesanan 772 untuk klien itu.", "code": "day -6", "kind": "day", "lang": "id", "anchor": "2025-08-12", "ranges": [["2025-08-06", "2025-08-06"]]}
+{"q": "cuaca 15 minggu lalu", "code": "week -15", "kind": "week", "lang": "id", "anchor": "2027-08-22", "ranges": [["2027-05-03", "2027-05-09"]]}
+{"q": "Apakah kamu menyimpan data asupan nutrisi dan kalori yang saya makan sepanjang minggu ke-47 yang lalu itu dari hari Senin sampai hari Minggu kemarin?", "code": "week -47", "kind": "week", "lang": "id", "anchor": "2023-06-06", "ranges": [["2022-07-11", "2022-07-17"]]}
+{"q": "Dua tahun terakhir, tolong kumpulkan semua daftar klien yang sudah saya kerjakan.", "code": "last 2 year", "kind": "last_n", "lang": "id", "anchor": "2026-05-31", "ranges": [["2024-05-31", "2026-05-31"]]}
+{"q": "Selama dua tahun terakhir ini, buatkan ringkasan proyek mana yang paling menguntungkan.", "code": "last 2 year", "kind": "last_n", "lang": "id", "anchor": "2025-07-15", "ranges": [["2023-07-15", "2025-07-15"]]}
+{"q": "Tampilkan jadwal lari saya tanggal 22 Juni.", "code": "*-06-22", "kind": "date", "lang": "id", "anchor": "2024-03-30", "ranges": [["2023-06-22", "2023-06-22"]]}
+{"q": "Cari catatan nutrisi 22 Juni.", "code": "*-06-22", "kind": "date", "lang": "id", "anchor": "2023-06-21", "ranges": [["2022-06-22", "2022-06-22"]]}
+{"q": "Ingatkan saya latihan interval 22 Juni.", "code": "*-06-22", "kind": "date", "lang": "id", "anchor": "2026-01-01", "ranges": [["2025-06-22", "2025-06-22"]]}
+{"q": "20 hari yang lalu, tolong catat bahwa klien dari Jakarta sudah setuju dengan kontrak baru kita.", "code": "day -20", "kind": "day", "lang": "id", "anchor": "2027-06-30", "ranges": [["2027-06-10", "2027-06-10"]]}
+{"q": "20 hari yang lalu, jam 10 pagi dan jam 4 sore, saya ada meeting dengan tim marketing.", "code": "day -20", "kind": "day", "lang": "id", "anchor": "2026-09-05", "ranges": [["2026-08-16", "2026-08-16"]]}
+{"q": "20 hari yang lalu, berapa total penjualan yang berhasil kita capai?", "code": "day -20", "kind": "day", "lang": "id", "anchor": "2023-08-31", "ranges": [["2023-08-11", "2023-08-11"]]}
+{"q": "Tolong ingatkan saya daftar belanjaan yang saya sebutkan kemarin pagi dan siang.", "code": "day -1", "kind": "day", "lang": "id", "anchor": "2023-11-16", "ranges": [["2023-11-15", "2023-11-15"]]}
+{"q": "Tadi malam kemarin sore dan malam saya merasa sangat lelah.", "code": "day -1", "kind": "day", "lang": "id", "anchor": "2023-06-10", "ranges": [["2023-06-09", "2023-06-09"]]}
+{"q": "Cari catatan tentang ide proyek yang saya tulis kemarin siang dan sore.", "code": "day -1", "kind": "day", "lang": "id", "anchor": "2023-01-22", "ranges": [["2023-01-21", "2023-01-21"]]}

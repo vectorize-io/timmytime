@@ -1,0 +1,143 @@
+{"q": "Yaar, 8/18/1826 ka record check karna, training progress kya thi us din? 8/18/1826", "code": "1826-08-18", "kind": "date", "lang": "hi", "anchor": "2024-05-13", "ranges": [["1826-08-18", "1826-08-18"]]}
+{"q": "8/18/1826 ko mera marathon race ka schedule kya tha? 8/18/1826", "code": "1826-08-18", "kind": "date", "lang": "hi", "anchor": "2027-10-06", "ranges": [["1826-08-18", "1826-08-18"]]}
+{"q": "Mujhe 8/18/1826 ki purani running logs yaad dilana. 8/18/1826", "code": "1826-08-18", "kind": "date", "lang": "hi", "anchor": "2023-06-07", "ranges": [["1826-08-18", "1826-08-18"]]}
+{"q": "8 weeks pehle wala Mon to Sun ka schedule dikhao, wo 450 steps wala note kahan h? (Asking to see the schedule for that specific week and asking about a specific step count)", "code": "week -8", "kind": "week", "lang": "hi", "anchor": "2025-06-05", "ranges": [["2025-04-07", "2025-04-13"]]}
+{"q": "pichle 8 weeks pehle Monday se Sunday tak ki list bhej de, 1200 usd ka bill bhi add kr dena. (Asking for the list from that week and adding a specific dollar amount)", "code": "week -8", "kind": "week", "lang": "hi", "anchor": "2027-08-31", "ranges": [["2027-07-05", "2027-07-11"]]}
+{"q": "56 din pehle morning ka notes", "code": "day -56", "kind": "day", "lang": "hi", "anchor": "2026-08-09", "ranges": [["2026-06-14", "2026-06-14"]]}
+{"q": "56 days ago night wala plan", "code": "day -56", "kind": "day", "lang": "hi", "anchor": "2027-12-09", "ranges": [["2027-10-14", "2027-10-14"]]}
+{"q": "56 din pehle afternoon ki class", "code": "day -56", "kind": "day", "lang": "hi", "anchor": "2024-01-24", "ranges": [["2023-11-29", "2023-11-29"]]}
+{"q": "Room 402 ka bill check karna, 25 weeks ago Monday se Sunday tak ka.", "code": "week -25", "kind": "week", "lang": "hi", "anchor": "2026-03-06", "ranges": [["2025-09-08", "2025-09-14"]]}
+{"q": "Mujhe wo list chahiye jo maine 25 weeks ago Monday aur Sunday ke beech banayi thi, total 12 items wali.", "code": "week -25", "kind": "week", "lang": "hi", "anchor": "2024-05-06", "ranges": [["2023-11-13", "2023-11-19"]]}
+{"q": "25 mahine pehle wale month ka budget kaisa tha?", "code": "month -25", "kind": "month", "lang": "hi", "anchor": "2024-09-29", "ranges": [["2022-08-01", "2022-08-31"]]}
+{"q": "App, check kar lo ki 2016 mein kitne shifts complete kiye the maine.", "code": "2016", "kind": "year_abs", "lang": "hi", "anchor": "2024-05-17", "ranges": [["2016-01-01", "2016-12-31"]]}
+{"q": "2016 ki saari nursing training records update kar dena.", "code": "2016", "kind": "year_abs", "lang": "hi", "anchor": "2024-02-29", "ranges": [["2016-01-01", "2016-12-31"]]}
+{"q": "Mujhe 2016 ka pura saal ka duty roster dikhao.", "code": "2016", "kind": "year_abs", "lang": "hi", "anchor": "2025-12-31", "ranges": [["2016-01-01", "2016-12-31"]]}
+{"q": "4 din pehle wala patient room 302 ka chart check kiya kya? (Asking about a patient's chart from 4 days ago and mentioning a room number)", "code": "day -4", "kind": "day", "lang": "hi", "anchor": "2026-08-03", "ranges": [["2026-07-30", "2026-07-30"]]}
+{"q": "4 din pehle shift ke end mein 500 ml saline kitna bacha tha? (Asking about leftover saline from 4 days ago and mentioning an amount)", "code": "day -4", "kind": "day", "lang": "hi", "anchor": "2024-11-14", "ranges": [["2024-11-10", "2024-11-10"]]}
+{"q": "Kya 4 din pehle ki duty mein 12 mg ki dose record ho gayi hai? (Asking about a medication dose from 4 days ago and mentioning a dosage amount)", "code": "day -4", "kind": "day", "lang": "hi", "anchor": "2026-01-01", "ranges": [["2025-12-28", "2025-12-28"]]}
+{"q": "Pichle hafte Monday se Sunday tak ki 500 steps wali report dikhao.", "code": "week -1", "kind": "week", "lang": "hi", "anchor": "2025-07-19", "ranges": [["2025-07-07", "2025-07-13"]]}
+{"q": "Ek hafta pehle Monday se Sunday tak 2500 usd ka kharcha kitna tha?", "code": "week -1", "kind": "week", "lang": "hi", "anchor": "2026-08-08", "ranges": [["2026-07-27", "2026-08-02"]]}
+{"q": "Room 402 ki details jo pichle hafte Monday se Sunday ke beech di thi.", "code": "week -1", "kind": "week", "lang": "hi", "anchor": "2026-07-01", "ranges": [["2026-06-22", "2026-06-28"]]}
+{"q": "कृपया ९० दिन पहले के प्रोजेक्ट इनवॉइस की डिटेल्स निकाल दीजिए।", "code": "day -90", "kind": "day", "lang": "hi", "anchor": "2024-12-06", "ranges": [["2024-09-07", "2024-09-07"]]}
+{"q": "90 din pehle wale client meeting ke notes save kar lijiye.", "code": "day -90", "kind": "day", "lang": "hi", "anchor": "2023-02-09", "ranges": [["2022-11-11", "2022-11-11"]]}
+{"q": "क्या आप ९० दिन पहले के डिजाइन फीडबैक का सारांश बता सकते हैं?", "code": "day -90", "kind": "day", "lang": "hi", "anchor": "2023-05-23", "ranges": [["2023-02-22", "2023-02-22"]]}
+{"q": "Aaj ka stock check karo 24 July 2018 ko.", "code": "2018-07-24", "kind": "date", "lang": "hi", "anchor": "2023-05-07", "ranges": [["2018-07-24", "2018-07-24"]]}
+{"q": "24 July 2018 ki sales report nikaal do.", "code": "2018-07-24", "kind": "date", "lang": "hi", "anchor": "2027-10-24", "ranges": [["2018-07-24", "2018-07-24"]]}
+{"q": "Aaj 24 July 2018 ko kaunsa supplier aane wala hai?", "code": "2018-07-24", "kind": "date", "lang": "hi", "anchor": "2026-08-03", "ranges": [["2018-07-24", "2018-07-24"]]}
+{"q": "Mere saare assignments ki list bana do for the year 2022.", "code": "2022", "kind": "year_abs", "lang": "hi", "anchor": "2026-02-08", "ranges": [["2022-01-01", "2022-12-31"]]}
+{"q": "2022 mein maine kitni baar exams diye the?", "code": "2022", "kind": "year_abs", "lang": "hi", "anchor": "2025-12-31", "ranges": [["2022-01-01", "2022-12-31"]]}
+{"q": "2022 का सारा डेटा सेव कर लेना।", "code": "2022", "kind": "year_abs", "lang": "hi", "anchor": "2025-04-13", "ranges": [["2022-01-01", "2022-12-31"]]}
+{"q": "कृपया 12/26/2125 के लिए मेरा पूरा सेल्स शेड्यूल अपडेट कर दें।", "code": "2125-12-26", "kind": "date", "lang": "hi", "anchor": "2025-08-01", "ranges": [["2125-12-26", "2125-12-26"]]}
+{"q": "Reminder: 12/26/2125 ko meri client meeting hai, please note kar lena.", "code": "2125-12-26", "kind": "date", "lang": "hi", "anchor": "2026-11-19", "ranges": [["2125-12-26", "2125-12-26"]]}
+{"q": "क्या आप 12/26/2125 की सेल्स रिपोर्ट का ड्राफ्ट तैयार कर सकते हैं?", "code": "2125-12-26", "kind": "date", "lang": "hi", "anchor": "2026-12-09", "ranges": [["2125-12-26", "2125-12-26"]]}
+{"q": "is hafte ke monday se sunday tak ki sales report nikal dena", "code": "week 0", "kind": "week", "lang": "hi", "anchor": "2027-07-21", "ranges": [["2027-07-19", "2027-07-25"]]}
+{"q": "इस हफ्ते सोमवार से रविवार तक का stock check karna hai", "code": "week 0", "kind": "week", "lang": "hi", "anchor": "2026-01-01", "ranges": [["2025-12-29", "2026-01-04"]]}
+{"q": "is week monday to sunday ka koi pending order bacha hai kya?", "code": "week 0", "kind": "week", "lang": "hi", "anchor": "2025-03-06", "ranges": [["2025-03-03", "2025-03-09"]]}
+{"q": "64 din pehle ki wo morning yaad h? kya kiya tha?", "code": "day -64", "kind": "day", "lang": "hi", "anchor": "2023-07-07", "ranges": [["2023-05-04", "2023-05-04"]]}
+{"q": "64 days ago ki afternoon ka weather kaisa tha?", "code": "day -64", "kind": "day", "lang": "hi", "anchor": "2023-12-09", "ranges": [["2023-10-06", "2023-10-06"]]}
+{"q": "64 din pehle wala evening scene bhul gaya, kya chal rha tha?", "code": "day -64", "kind": "day", "lang": "hi", "anchor": "2024-08-19", "ranges": [["2024-06-16", "2024-06-16"]]}
+{"q": "Yaad hai 256 days ago jab patient room 402 mein sudden BP drop hua tha aur main bahut zyada panic kar rahi thi us din?", "code": "day -256", "kind": "day", "lang": "hi", "anchor": "2024-11-12", "ranges": [["2024-03-01", "2024-03-01"]]}
+{"q": "Woh jo 256 days ago shift ke beech mein meri duty change hui thi aur extra overtime mila tha uska record dhoond ke nikaalo please.", "code": "day -256", "kind": "day", "lang": "hi", "anchor": "2025-05-25", "ranges": [["2024-09-11", "2024-09-11"]]}
+{"q": "256 days ago ki woh medicine error wali report check karo jisme maine senior nurse ko inform kiya tha subah ki shift ke time par.", "code": "day -256", "kind": "day", "lang": "hi", "anchor": "2025-10-05", "ranges": [["2025-01-22", "2025-01-22"]]}
+{"q": "199 days ago morning mein meri training shoes toot gaye the.", "code": "day -199", "kind": "day", "lang": "hi", "anchor": "2025-03-31", "ranges": [["2024-09-13", "2024-09-13"]]}
+{"q": "Remember 199 days ago afternoon ka weather bahut zyada humid tha.", "code": "day -199", "kind": "day", "lang": "hi", "anchor": "2023-09-02", "ranges": [["2023-02-15", "2023-02-15"]]}
+{"q": "199 days ago night ko mera knee pain kafi badh gaya tha.", "code": "day -199", "kind": "day", "lang": "hi", "anchor": "2026-02-18", "ranges": [["2025-08-03", "2025-08-03"]]}
+{"q": "50 weeks pehle wala monday to sunday ka sales data dikhao", "code": "week -50", "kind": "week", "lang": "hi", "anchor": "2023-12-24", "ranges": [["2023-01-02", "2023-01-08"]]}
+{"q": "pichle 50 weeks ka jo week tha uska target kitna tha?", "code": "week -50", "kind": "week", "lang": "hi", "anchor": "2025-12-31", "ranges": [["2025-01-13", "2025-01-19"]]}
+{"q": "check kar 50 weeks ago monday se sunday tak kitni meetings hui thi", "code": "week -50", "kind": "week", "lang": "hi", "anchor": "2023-04-26", "ranges": [["2022-05-09", "2022-05-15"]]}
+{"q": "60 din pehle ki saari logs dikhao.", "code": "day -60", "kind": "day", "lang": "hi", "anchor": "2023-11-25", "ranges": [["2023-09-26", "2023-09-26"]]}
+{"q": "Show me the incidents from 60 days ago.", "code": "day -60", "kind": "day", "lang": "hi", "anchor": "2025-05-04", "ranges": [["2025-03-05", "2025-03-05"]]}
+{"q": "60 din pehle ke saare alerts find karo.", "code": "day -60", "kind": "day", "lang": "hi", "anchor": "2024-12-13", "ranges": [["2024-10-14", "2024-10-14"]]}
+{"q": "June 12 ki morning shift mein patient ki vitals check kar lena.", "code": "*-06-12", "kind": "date", "lang": "hi", "anchor": "2027-08-14", "ranges": [["2027-06-12", "2027-06-12"]]}
+{"q": "June 12 dopahar aur shaam ka schedule update kar do.", "code": "*-06-12", "kind": "date", "lang": "hi", "anchor": "2026-08-24", "ranges": [["2026-06-12", "2026-06-12"]]}
+{"q": "June 12 ko kitne patients admit huye the, list dikhao.", "code": "*-06-12", "kind": "date", "lang": "hi", "anchor": "2026-01-01", "ranges": [["2025-06-12", "2025-06-12"]]}
+{"q": "Yaar woh Monday se Sunday tak jo pichle teen hafte pehle wala week tha na, usme jo deployment error aaya tha uska log nikaal de.", "code": "week -3", "kind": "week", "lang": "hi", "anchor": "2025-12-31", "ranges": [["2025-12-08", "2025-12-14"]]}
+{"q": "Mujhe woh saari meeting notes chahiye jo teen hafte pehle Monday se Sunday wale pure week ke beech mein hui thi, please saari dhoond ke laa.", "code": "week -3", "kind": "week", "lang": "hi", "anchor": "2024-05-19", "ranges": [["2024-04-22", "2024-04-28"]]}
+{"q": "Bhai, teen hafte pehle Monday se lekar Sunday tak humne jitne bhi bug fixes deploy kiye the, unka ek lamba sa summary bana de abhi.", "code": "week -3", "kind": "week", "lang": "hi", "anchor": "2026-12-06", "ranges": [["2026-11-09", "2026-11-15"]]}
+{"q": "30 July ko bacho ki class hai, remind me at 10:00 AM with 500 rupees budget (Reminding about a class on July 30th at 10:00 AM with a budget of 500 rupees)", "code": "*-07-30", "kind": "date", "lang": "hi", "anchor": "2025-10-22", "ranges": [["2025-07-30", "2025-07-30"]]}
+{"q": "30 July, 2:00 PM - find my dental appointment details (Finding a dental appointment on July 30th at 2:00 PM)", "code": "*-07-30", "kind": "date", "lang": "hi", "anchor": "2023-04-11", "ranges": [["2022-07-30", "2022-07-30"]]}
+{"q": "30 July subah 8 baje se 11 baje tak ka schedule dikhao, room 402 (Show the schedule from 8:00 AM to 11:00 AM on July 30th for room 402)", "code": "*-07-30", "kind": "date", "lang": "hi", "anchor": "2027-08-09", "ranges": [["2027-07-30", "2027-07-30"]]}
+{"q": "Kal ke saare bills ka total kitna tha kal?", "code": "day -1", "kind": "day", "lang": "hi", "anchor": "2025-04-21", "ranges": [["2025-04-20", "2025-04-20"]]}
+{"q": "Suno, wo 46 weeks pehle wala Monday se Sunday tak ka poora hafta yaad hai na? Us week ki saari meetings aur notes ek saath dikha do.", "code": "week -46", "kind": "week", "lang": "hi", "anchor": "2026-07-04", "ranges": [["2025-08-11", "2025-08-17"]]}
+{"q": "Mujhe wo purani files dhoondhni hain jo 46 weeks pehle us Monday se lekar Sunday tak ke beech mein maine upload ki thi, please check karo.", "code": "week -46", "kind": "week", "lang": "hi", "anchor": "2023-12-09", "ranges": [["2023-01-16", "2023-01-22"]]}
+{"q": "पिछले महीने के सभी incident logs का summary निकाल दीजिए।", "code": "month -1", "kind": "month", "lang": "hi", "anchor": "2025-02-16", "ranges": [["2025-01-01", "2025-01-31"]]}
+{"q": "Kya aap mujhe pichle mahine ki deployment report dikha sakte hain?", "code": "month -1", "kind": "month", "lang": "hi", "anchor": "2027-05-27", "ranges": [["2027-04-01", "2027-04-30"]]}
+{"q": "कृपया पिछले महीने की unscheduled downtime की details share करें।", "code": "month -1", "kind": "month", "lang": "hi", "anchor": "2024-02-29", "ranges": [["2024-01-01", "2024-01-31"]]}
+{"q": "2 wks baad wale Mon to Sun ka schedule kya h?", "code": "week 2", "kind": "week", "lang": "hi", "anchor": "2026-08-08", "ranges": [["2026-08-17", "2026-08-23"]]}
+{"q": "2011 ki saari major news dikhao", "code": "2011", "kind": "year_abs", "lang": "hi", "anchor": "2026-11-26", "ranges": [["2011-01-01", "2011-12-31"]]}
+{"q": "2011 mein kaunse movies release huye the?", "code": "2011", "kind": "year_abs", "lang": "hi", "anchor": "2025-03-30", "ranges": [["2011-01-01", "2011-12-31"]]}
+{"q": "2011 के sports events की list find karo", "code": "2011", "kind": "year_abs", "lang": "hi", "anchor": "2024-06-22", "ranges": [["2011-01-01", "2011-12-31"]]}
+{"q": "24 weeks pehle wala Monday to Sunday ka schedule dikhao.", "code": "week -24", "kind": "week", "lang": "hi", "anchor": "2026-05-01", "ranges": [["2025-11-10", "2025-11-16"]]}
+{"q": "Find all design feedback from that Monday to Sunday 24 weeks ago.", "code": "week -24", "kind": "week", "lang": "hi", "anchor": "2024-12-18", "ranges": [["2024-07-01", "2024-07-07"]]}
+{"q": "10 din pehle morning mein jo client meeting hui thi, uska feedback note kar lo.", "code": "day -10", "kind": "day", "lang": "hi", "anchor": "2025-12-16", "ranges": [["2025-12-06", "2025-12-06"]]}
+{"q": "10 din pehle afternoon mein maine jo sales report bheji thi, uska status check karo.", "code": "day -10", "kind": "day", "lang": "hi", "anchor": "2024-01-26", "ranges": [["2024-01-16", "2024-01-16"]]}
+{"q": "10 din pehle evening aur night ke beech jo closing deal discuss hui thi, uski details save kar lo.", "code": "day -10", "kind": "day", "lang": "hi", "anchor": "2026-08-03", "ranges": [["2026-07-24", "2026-07-24"]]}
+{"q": "कृपया 1873-09-28 की ऐतिहासिक घटनाओं का विवरण दर्ज कर लें।", "code": "1873-09-28", "kind": "date", "lang": "hi", "anchor": "2027-06-30", "ranges": [["1873-09-28", "1873-09-28"]]}
+{"q": "Kya aap mujhe bata sakte hain ki 1873-09-28 ko mausam kaisa tha?", "code": "1873-09-28", "kind": "date", "lang": "hi", "anchor": "2026-12-12", "ranges": [["1873-09-28", "1873-09-28"]]}
+{"q": "1873-09-28 की तिथि को मेरे शोध नोट्स में सुरक्षित रख लीजिए।", "code": "1873-09-28", "kind": "date", "lang": "hi", "anchor": "2023-01-31", "ranges": [["1873-09-28", "1873-09-28"]]}
+{"q": "next 4 days ke liye assignment deadlines yaad rakhna.", "code": "next 4 day", "kind": "last_n", "lang": "hi", "anchor": "2025-10-04", "ranges": [["2025-10-04", "2025-10-08"]]}
+{"q": "ekdum agle 4 din tak koi party nahi, bas padhai.", "code": "next 4 day", "kind": "last_n", "lang": "hi", "anchor": "2025-10-09", "ranges": [["2025-10-09", "2025-10-13"]]}
+{"q": "Kal kya tha?", "code": "day -1", "kind": "day", "lang": "hi", "anchor": "2024-01-30", "ranges": [["2024-01-29", "2024-01-29"]]}
+{"q": "Kal bahut thak gaya", "code": "day -1", "kind": "day", "lang": "hi", "anchor": "2025-01-26", "ranges": [["2025-01-25", "2025-01-25"]]}
+{"q": "6 din pehle shaam ko kya hua tha? (Asking about an event from 6 days ago in the evening)", "code": "day -6", "kind": "day", "lang": "hi", "anchor": "2024-11-01", "ranges": [["2024-10-26", "2024-10-26"]]}
+{"q": "6 din pehle raat ko kya khaya tha? (Asking what I ate 6 days ago at night)", "code": "day -6", "kind": "day", "lang": "hi", "anchor": "2026-08-08", "ranges": [["2026-08-02", "2026-08-02"]]}
+{"q": "13 october 2008 ko kya hua tha?", "code": "2008-10-13", "kind": "date", "lang": "hi", "anchor": "2026-06-23", "ranges": [["2008-10-13", "2008-10-13"]]}
+{"q": "13 october 2008 ka mausam kaisa tha?", "code": "2008-10-13", "kind": "date", "lang": "hi", "anchor": "2025-05-27", "ranges": [["2008-10-13", "2008-10-13"]]}
+{"q": "mujhe 13 october 2008 ki news dikhao", "code": "2008-10-13", "kind": "date", "lang": "hi", "anchor": "2024-12-22", "ranges": [["2008-10-13", "2008-10-13"]]}
+{"q": "24 April 2025, 45 km", "code": "2025-04-24", "kind": "date", "lang": "hi", "anchor": "2026-03-01", "ranges": [["2025-04-24", "2025-04-24"]]}
+{"q": "April 24 2025, 500 calories", "code": "2025-04-24", "kind": "date", "lang": "hi", "anchor": "2023-06-09", "ranges": [["2025-04-24", "2025-04-24"]]}
+{"q": "24 April 2025, room 302", "code": "2025-04-24", "kind": "date", "lang": "hi", "anchor": "2024-03-08", "ranges": [["2025-04-24", "2025-04-24"]]}
+{"q": "4 weeks pehle wale Monday to Sunday ka schedule dikhao", "code": "week -4", "kind": "week", "lang": "hi", "anchor": "2024-05-21", "ranges": [["2024-04-22", "2024-04-28"]]}
+{"q": "Find all deployment logs from 4 weeks ago Monday to Sunday", "code": "week -4", "kind": "week", "lang": "hi", "anchor": "2026-08-09", "ranges": [["2026-07-06", "2026-07-12"]]}
+{"q": "4 weeks pehle ka Monday se Sunday tak ka incident report kya tha?", "code": "week -4", "kind": "week", "lang": "hi", "anchor": "2024-03-31", "ranges": [["2024-02-26", "2024-03-03"]]}
+{"q": "Pichle 15 dinon mein maine jo naye naye contacts banaye the, unki list bana do. (Asking for a list of contacts made in the last 15 days.)", "code": "last 15 day", "kind": "last_n", "lang": "hi", "anchor": "2025-06-25", "ranges": [["2025-06-10", "2025-06-25"]]}
+{"q": "Pichle 15 dinon se lekar aaj tak ka mera sabse zyada kharch wala item kaunsa hai? (Asking about the biggest expense from 15 days ago until today.)", "code": "last 15 day", "kind": "last_n", "lang": "hi", "anchor": "2024-03-03", "ranges": [["2024-02-17", "2024-03-03"]]}
+{"q": "kal maine 500 rupaye kharch kiye (telling the app how much I spent yesterday)", "code": "day -1", "kind": "day", "lang": "hi", "anchor": "2024-02-18", "ranges": [["2024-02-17", "2024-02-17"]]}
+{"q": "kal 2000 steps kitne hue? (asking the app about my step count from yesterday)", "code": "day -1", "kind": "day", "lang": "hi", "anchor": "2025-12-24", "ranges": [["2025-12-23", "2025-12-23"]]}
+{"q": "kal room 302 me kya tha? (asking the app about something in room 302 yesterday)", "code": "day -1", "kind": "day", "lang": "hi", "anchor": "2026-03-01", "ranges": [["2026-02-28", "2026-02-28"]]}
+{"q": "पिछले दस हफ्तों में मेरी कौन सी meetings सबसे ज्यादा important thi?", "code": "last 10 week", "kind": "last_n", "lang": "hi", "anchor": "2025-10-28", "ranges": [["2025-08-19", "2025-10-28"]]}
+{"q": "Last ten weeks ka data analyze karke ek report bana do.", "code": "last 10 week", "kind": "last_n", "lang": "hi", "anchor": "2023-06-15", "ranges": [["2023-04-06", "2023-06-15"]]}
+{"q": "16 weeks pehle ki puri week ka record dikhao, 1200 usd wala transaction kab hua tha?", "code": "week -16", "kind": "week", "lang": "hi", "anchor": "2027-05-20", "ranges": [["2027-01-25", "2027-01-31"]]}
+{"q": "2027 budget plan", "code": "2027", "kind": "year_abs", "lang": "hi", "anchor": "2025-01-19", "ranges": [["2027-01-01", "2027-12-31"]]}
+{"q": "2027 ka stock list", "code": "2027", "kind": "year_abs", "lang": "hi", "anchor": "2027-08-26", "ranges": [["2027-01-01", "2027-12-31"]]}
+{"q": "2027 sales target", "code": "2027", "kind": "year_abs", "lang": "hi", "anchor": "2026-04-20", "ranges": [["2027-01-01", "2027-12-31"]]}
+{"q": "Pichle 11 mahino mein meri kitni overtime shifts thi?", "code": "last 11 month", "kind": "last_n", "lang": "hi", "anchor": "2025-03-11", "ranges": [["2024-04-11", "2025-03-11"]]}
+{"q": "Last 11 months ki meri salary slips save kar lo.", "code": "last 11 month", "kind": "last_n", "lang": "hi", "anchor": "2026-05-26", "ranges": [["2025-06-26", "2026-05-26"]]}
+{"q": "325 din pehle wala incident report nikal do.", "code": "day -325", "kind": "day", "lang": "hi", "anchor": "2026-03-01", "ranges": [["2025-04-10", "2025-04-10"]]}
+{"q": "325 din pehle ki deployment ka status kya tha?", "code": "day -325", "kind": "day", "lang": "hi", "anchor": "2024-02-29", "ranges": [["2023-04-10", "2023-04-10"]]}
+{"q": "325 din pehle ka saara log data dikhao.", "code": "day -325", "kind": "day", "lang": "hi", "anchor": "2026-08-03", "ranges": [["2025-09-12", "2025-09-12"]]}
+{"q": "60 din pehle ka bill 1500 rupees tha, check karo.", "code": "day -60", "kind": "day", "lang": "hi", "anchor": "2027-11-16", "ranges": [["2027-09-17", "2027-09-17"]]}
+{"q": "60 din pehle ki grocery list mein 12 items add kar dena.", "code": "day -60", "kind": "day", "lang": "hi", "anchor": "2023-12-04", "ranges": [["2023-10-05", "2023-10-05"]]}
+{"q": "60 din pehle jo meeting hui thi, uska room number 302 yaad dilana.", "code": "day -60", "kind": "day", "lang": "hi", "anchor": "2024-07-11", "ranges": [["2024-05-12", "2024-05-12"]]}
+{"q": "60 din pehle ki investor meeting ka summary dikhao", "code": "day -60", "kind": "day", "lang": "hi", "anchor": "2023-03-12", "ranges": [["2023-01-11", "2023-01-11"]]}
+{"q": "Find all notes from 60 days ago morning and evening", "code": "day -60", "kind": "day", "lang": "hi", "anchor": "2025-09-06", "ranges": [["2025-07-08", "2025-07-08"]]}
+{"q": "60 din pehle wala pitch deck file dhundo", "code": "day -60", "kind": "day", "lang": "hi", "anchor": "2024-07-25", "ranges": [["2024-05-26", "2024-05-26"]]}
+{"q": "9 din pehle subah weather", "code": "day -9", "kind": "day", "lang": "hi", "anchor": "2026-08-08", "ranges": [["2026-07-30", "2026-07-30"]]}
+{"q": "9 din pehle ki shaam ki news", "code": "day -9", "kind": "day", "lang": "hi", "anchor": "2024-12-15", "ranges": [["2024-12-06", "2024-12-06"]]}
+{"q": "9 din pehle raat ka menu", "code": "day -9", "kind": "day", "lang": "hi", "anchor": "2025-02-26", "ranges": [["2025-02-17", "2025-02-17"]]}
+{"q": "pichle 10 hafton mein maine jo bhi naya sikha hai wo batao (tell me everything i learned in the last 10 weeks)", "code": "last 10 week", "kind": "last_n", "lang": "hi", "anchor": "2026-09-30", "ranges": [["2026-07-22", "2026-09-30"]]}
+{"q": "184 days ago ki morning mein jo client meeting hui thi, uske notes save kar lo.", "code": "day -184", "kind": "day", "lang": "hi", "anchor": "2027-01-09", "ranges": [["2026-07-09", "2026-07-09"]]}
+{"q": "Ek baar check karo 184 days ago afternoon mein maine kaunsa deal close kiya tha?", "code": "day -184", "kind": "day", "lang": "hi", "anchor": "2023-08-10", "ranges": [["2023-02-07", "2023-02-07"]]}
+{"q": "184 days ago night ko jo pending task list banayi thi, woh dikhao.", "code": "day -184", "kind": "day", "lang": "hi", "anchor": "2027-03-30", "ranges": [["2026-09-27", "2026-09-27"]]}
+{"q": "8 din pehle wala client feedback kya tha?", "code": "day -8", "kind": "day", "lang": "hi", "anchor": "2026-02-07", "ranges": [["2026-01-30", "2026-01-30"]]}
+{"q": "8 din pehle ki meeting ke notes mil jayenge?", "code": "day -8", "kind": "day", "lang": "hi", "anchor": "2026-01-01", "ranges": [["2025-12-24", "2025-12-24"]]}
+{"q": "8 din pehle jo logo design banaya tha wo dikhao.", "code": "day -8", "kind": "day", "lang": "hi", "anchor": "2026-08-08", "ranges": [["2026-07-31", "2026-07-31"]]}
+{"q": "6 din pehle wala client 4500 USD charge list mein add kar do.", "code": "day -6", "kind": "day", "lang": "hi", "anchor": "2026-11-07", "ranges": [["2026-11-01", "2026-11-01"]]}
+{"q": "6 din pehle jo meeting hui thi usme 12 logo ka naam likh lo.", "code": "day -6", "kind": "day", "lang": "hi", "anchor": "2023-02-26", "ranges": [["2023-02-20", "2023-02-20"]]}
+{"q": "6 din pehle wala project folder room 302 mein rakha tha.", "code": "day -6", "kind": "day", "lang": "hi", "anchor": "2027-06-30", "ranges": [["2027-06-24", "2027-06-24"]]}
+{"q": "15 hafte pehle ka weather?", "code": "week -15", "kind": "week", "lang": "hi", "anchor": "2025-12-31", "ranges": [["2025-09-15", "2025-09-21"]]}
+{"q": "15 weeks ago schedule", "code": "week -15", "kind": "week", "lang": "hi", "anchor": "2027-06-30", "ranges": [["2027-03-15", "2027-03-21"]]}
+{"q": "Yaar woh 47 weeks pehle wala Monday se Sunday wala pura week yaad hai? Usme maine itne zyada long runs kiye the ki mere knees bilkul khatam ho gaye.", "code": "week -47", "kind": "week", "lang": "hi", "anchor": "2024-06-30", "ranges": [["2023-07-31", "2023-08-06"]]}
+{"q": "Listen, 47 weeks pehle jo Monday se Sunday tak ka mera training block tha, usme maine kitne total kilometers cover kiye the, kya tum woh data nikaal sakte ho?", "code": "week -47", "kind": "week", "lang": "hi", "anchor": "2025-08-05", "ranges": [["2024-09-09", "2024-09-15"]]}
+{"q": "Pichle do saal mein jo clients aaye the, unka list nikaal lo.", "code": "last 2 year", "kind": "last_n", "lang": "hi", "anchor": "2026-05-23", "ranges": [["2024-05-23", "2026-05-23"]]}
+{"q": "Last two years ka total revenue kitna hua?", "code": "last 2 year", "kind": "last_n", "lang": "hi", "anchor": "2026-03-01", "ranges": [["2024-03-01", "2026-03-01"]]}
+{"q": "पिछले दो सालों के सभी design projects ko categorize kar do.", "code": "last 2 year", "kind": "last_n", "lang": "hi", "anchor": "2023-04-22", "ranges": [["2021-04-22", "2023-04-22"]]}
+{"q": "22 June ka training schedule dikhao.", "code": "*-06-22", "kind": "date", "lang": "hi", "anchor": "2023-09-27", "ranges": [["2023-06-22", "2023-06-22"]]}
+{"q": "Find my hydration logs for 22 June.", "code": "*-06-22", "kind": "date", "lang": "hi", "anchor": "2024-04-15", "ranges": [["2023-06-22", "2023-06-22"]]}
+{"q": "22 June ko kitne kilometer bhaga tha?", "code": "*-06-22", "kind": "date", "lang": "hi", "anchor": "2026-01-22", "ranges": [["2025-06-22", "2025-06-22"]]}
+{"q": "20 din pehle ki sales report nikal de.", "code": "day -20", "kind": "day", "lang": "hi", "anchor": "2025-06-19", "ranges": [["2025-05-30", "2025-05-30"]]}
+{"q": "20 din pehle wala client meeting ka note yaad hai?", "code": "day -20", "kind": "day", "lang": "hi", "anchor": "2025-06-09", "ranges": [["2025-05-20", "2025-05-20"]]}
+{"q": "20 din pehle jo deal close hui thi uska status kya tha?", "code": "day -20", "kind": "day", "lang": "hi", "anchor": "2027-02-05", "ranges": [["2027-01-16", "2027-01-16"]]}
+{"q": "Kal subah kya maine meeting ka note banaya tha?", "code": "day -1", "kind": "day", "lang": "hi", "anchor": "2026-11-24", "ranges": [["2026-11-23", "2026-11-23"]]}
+{"q": "Kal dopahar ko wo document save kiya tha kya, kal dopahar?", "code": "day -1", "kind": "day", "lang": "hi", "anchor": "2025-06-03", "ranges": [["2025-06-02", "2025-06-02"]]}
+{"q": "Kal raat ko jo film dekhi thi uska naam kya tha, kal raat?", "code": "day -1", "kind": "day", "lang": "hi", "anchor": "2026-12-13", "ranges": [["2026-12-12", "2026-12-12"]]}
