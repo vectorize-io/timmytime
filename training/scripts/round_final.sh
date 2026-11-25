@@ -1,5 +1,5 @@
 # The release model: 3 clean runs from the same starting weights (--seed 0), each with its own data order
-# (--data-seed 1/2/3), run side by side, then their average (training/model/soup.py). Everything is scored:
+# (--data-seed 1/2/3), two side by side then the third, then their average (training/model/soup.py). Everything is scored:
 # each run and the average, on hindsight, the 16 big sets, days-, counts- and ALL CAPS.
 # All fixes are in: renumber's number ranges, ALL CAPS, "a month ago" (issues #1-#3), days 29-31, counts.
 #   bash training/scripts/days_data.sh; bash training/scripts/counts_data.sh; EPOCHS=40 bash training/scripts/round_final.sh
@@ -35,7 +35,7 @@ run() {  # $1 = data seed; resumes from its last saved epoch if killed
       --seed 0 --data-seed $1 $res >> $log 2>&1 && return 0 || sleep 120
   done
 }
-run 1 & sleep 300; run 2 & sleep 300; run 3 & wait
+run 1 & sleep 300; run 2 & wait; run 3  # two at once fit in memory next to normal use; three did not
 
 uv run python -m training.model.soup $W/timmytime-f1.pt $W/timmytime-f2.pt $W/timmytime-f3.pt --out $W/timmytime-fsoup.npz
 for n in f1 f2 f3 fsoup; do
