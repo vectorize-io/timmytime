@@ -5,6 +5,8 @@
 Rules (the conventions in timmytime/meanings.py; the LLM reads these phrases both ways):
 Drops no-date rows with a weekday + part of day ("Friday Night Lights"): real users mean a day.
 "last Monday" (no "week" in the message) = mon, not week -1 mon; "last summer" = summer, not year -1 summer.
+Chinese 前两个月 / 前三周 (N >= 2, no 前 after it) = the last N months / weeks, not month -N (that is 两个月前);
+前一个月 stays the month before.
 """
 
 import json
@@ -38,7 +40,14 @@ MONTHS_EN = ["january", "february", "march", "april", "may", "june", "july", "au
 SHORT = ["jan", "feb", "mar", "apr", "may", "jun", "jul", "aug", "sep", "oct", "nov", "dec"]
 
 
+CN_N = {"一": 1, "两": 2, "二": 2, "三": 3, "四": 4, "五": 5, "六": 6, "七": 7, "八": 8, "九": 9, "十": 10}
+ZH_UNIT = {"个月": "month", "個月": "month", "周": "week", "週": "week", "个星期": "week", "個星期": "week"}
+
+
 def relabel(q: str, code: str) -> str:
+    for m in re.finditer(r"前([两二三四五六七八九十]|[2-9]|\d\d)(个月|個月|周|週|个星期|個星期)(?![前以之])", q):
+        n, unit = CN_N.get(m[1]) or int(m[1]), ZH_UNIT[m[2]]
+        code = re.sub(rf"^{unit} -{n}$", f"last {n} {unit}", code)
     if not re.search(r"\bweek", q, re.I):
         for m in re.finditer(rf"\blast ({WD})\b", q, re.I):
             code = re.sub(rf"\bweek -1 ({m[1][:3].lower()})\b", r"\1", code)

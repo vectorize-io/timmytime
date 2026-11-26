@@ -42,7 +42,7 @@ def cn(n: int, r: random.Random, two: bool = True) -> str:
 
 PAST = ["的记录", "做了什么", "的笔记", "提到的事", "讨论了什么", "的会议", "发生了什么", "买了什么", "的费用", "聊了什么", "的照片",
         "讨论了这个", "的活动", "提到的东西是什么", "说了什么", "吃了什么", "见了谁", "", "", "呢", "？", "吗", "的", "的事"]
-FUTURE = ["的计划", "安排", "要做什么", "去哪", "提醒我", "的会议", "的行程", "有什么事", "", "", "呢", "？", "吗", "的", "的事"]
+FUTURE = ["的计划", "计划", "安排", "要做什么", "去哪", "提醒我", "的会议", "的行程", "有什么事", "", "", "呢", "？", "吗", "的", "的事"]
 ANY = PAST + FUTURE
 WD = ["一", "二", "三", "四", "五", "六", "日"]
 WD_CODE = ["mon", "tue", "wed", "thu", "fri", "sat", "sun"]
@@ -218,7 +218,7 @@ def t_rolling(r):
         form = r.choice(["过去{}", "最近{}", "近{}", "{}内", "{}以内", "前{}", "这{}", "过去{}以内"])
         if form == "这{}" and n < 2:
             form = "过去{}"
-        if form == "前{}" and n == 2 and unit == "day":  # 前两天 = a couple of days ago
+        if form == "前{}" and (n == 1 or n == 2 and unit == "day"):  # 前一个月 = the month before; 前两天 = a couple of days ago
             form = "最近{}"
         return form.format(nw + w) + r.choice(PAST), f"last {n} {unit}"
     if k < 0.65:
@@ -233,7 +233,9 @@ def t_rolling(r):
                            ("接下来几周", "next 5 week"), ("未来几个月", "next 5 month"), ("接下来一两周", "next 3 week"),
                            ("未来一两个月", "next 3 month"), ("未来半年", "next 6 month"), ("未来半个月", "next 15 day"),
                            ("未来24小时", "next 1 day"), ("两三天后", "day 2 .. day 3"), ("三四天后", "day 3 .. day 4"),
-                           ("几天后", "day 2 .. day 5"), ("过几天", "day 2 .. day 5")])
+                           ("几天后", "day 2 .. day 5"), ("过几天", "day 2 .. day 5"), ("这两三天", "last 3 day"),
+                           ("最近两三天", "last 3 day"), ("近两三天", "last 3 day"), ("这三两天", "last 3 day"),
+                           ("过去两三天", "last 3 day"), ("最近三四天", "last 4 day"), ("这三四天", "last 4 day")])
     return word + r.choice(PAST if code.startswith("last") else FUTURE), code
 
 
