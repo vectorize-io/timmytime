@@ -101,7 +101,7 @@ def t_bare_weekday(r):
     i = r.randrange(7)
     if r.random() < 0.5:
         return wd_word(i, r) + r.choice(["去哪", "安排", "要做什么", "的计划", "有什么事"]), f"{WD_CODE[i]} 1"
-    return wd_word(i, r) + r.choice(["做了什么", "的记录", "开了什么会", "说了什么", ""]), WD_CODE[i]
+    return wd_word(i, r) + r.choice(["做了什么", "的记录", "开了什么会", "说了什么", "", "的会议", "的会", "开会", "的事"]), WD_CODE[i]
 
 
 def t_weekend(r):
