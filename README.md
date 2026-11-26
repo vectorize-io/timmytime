@@ -26,30 +26,31 @@ held-out questions (about 3,000 per language, every kind of date). **Exact** = e
 
 | Language | dateparser exact | timmytime exact | dateparser false dates | timmytime false dates |
 |---|---|---|---|---|
-| English | 55.9% | **98.1%** | 24.4% | **1.3%** |
-| Chinese | 66.9% | **97.9%** | 3.1% | **0.7%** |
-| Chinese (traditional) | 63.4% | **97.0%** | 1.8% | **0.5%** |
-| Spanish | 50.3% | **97.7%** | 19.6% | **0.3%** |
-| German | 48.1% | **97.1%** | 18.4% | **2.0%** |
-| Arabic | 42.2% | **97.0%** | 4.3% | **1.1%** |
-| Japanese | 47.0% | **97.0%** | 8.9% | **1.0%** |
-| Korean | 46.4% | **96.8%** | 5.4% | **1.6%** |
-| Italian | 49.9% | **96.8%** | 10.4% | **0.6%** |
-| Portuguese | 41.4% | **96.4%** | 18.3% | **0.9%** |
-| French | 54.2% | **96.2%** | 14.2% | **0.7%** |
-| Vietnamese | 40.4% | **95.8%** | 11.3% | **0.7%** |
-| Indonesian | 40.0% | **95.6%** | 21.9% | **1.2%** |
-| Thai | 43.2% | **95.5%** | 10.0% | **1.5%** |
-| Hindi | 46.9% | **95.3%** | 16.9% | **0.8%** |
-| Russian | 53.3% | **94.7%** | 16.9% | **1.3%** |
-| hindsight's own tests (834) | 91.0% | **98.3%** | 5.2% | **3.0%** |
+| English | 55.9% | **98.0%** | 24.4% | **1.1%** |
+| Chinese | 66.9% | **97.6%** | 3.1% | **1.4%** |
+| Chinese (traditional) | 63.4% | **97.5%** | 1.8% | **0.3%** |
+| Spanish | 50.3% | **97.3%** | 19.6% | **0.7%** |
+| German | 48.1% | **96.9%** | 18.4% | **2.2%** |
+| Arabic | 42.2% | **95.5%** | 4.3% | **1.2%** |
+| Japanese | 47.0% | **96.5%** | 8.9% | **1.7%** |
+| Korean | 46.4% | **97.2%** | 5.4% | **1.8%** |
+| Italian | 49.9% | **96.6%** | 10.4% | **1.0%** |
+| Portuguese | 41.4% | **96.6%** | 18.3% | **1.0%** |
+| French | 54.2% | **95.7%** | 14.2% | **1.0%** |
+| Vietnamese | 40.4% | **94.6%** | 11.3% | **2.0%** |
+| Indonesian | 40.0% | **95.6%** | 21.9% | **1.4%** |
+| Thai | 43.2% | **95.3%** | 10.0% | **1.6%** |
+| Hindi | 46.9% | **95.4%** | 16.9% | **1.0%** |
+| Russian | 53.3% | **95.3%** | 16.9% | **0.9%** |
+| hindsight's own tests (834) | 91.0% | **98.3%** | 5.2% | **1.5%** |
 
 The last row is hindsight's query-analyzer tests and golden corpus (`data/test_hindsight.jsonl`).
 They were written for dateparser, so it does well there. Time per question: dateparser 0.1-16 ms
 (p95 up to 57 ms), timmytime about 1 ms (p95 1.5 ms).
 
-timmytime numbers are round g22, trained but not released yet. The shipped weights (`weights-g16p`)
-are 1-2 points lower, cover 11 languages, and get 64% on hindsight's tests.
+timmytime numbers are the release candidate `bsoup` (one clean run from scratch, then the average of 3 short
+fine-tunes of it), trained but not released yet. The shipped weights (`weights-g16p`) are 1-2 points lower,
+cover 11 languages, and get 64% on hindsight's tests.
 
 ## Install
 

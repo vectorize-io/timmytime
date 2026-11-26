@@ -2,7 +2,7 @@
 
 Everything here is for people changing the model. Users only need README.md.
 
-## Status (2026-11-24, shipped weights `weights-g16p`, next: g22/g23, not released)
+## Status (2026-11-26, shipped weights `weights-g16p`, release candidate `bsoup`, not released)
 
 6.4M weights before pruning, 9 MB after. Bytes in, shortened 4x by a conv, 6 encoder layers,
 1 decoder layer, a 1271-word output vocabulary (years 1800-2199, numbers -365..365). 16 languages from g17 on;
@@ -30,10 +30,23 @@ How we got here (exact match on the English sets; each step fine-tunes the one b
 | g20 | template data, no LLM (`training/data/zh_templates.py`, `en_templates.py`) | hindsight set 97.2%; hindsight's unit tests 438/452 |
 | g21 | fixed templates (这两天, 中了奖, 前两天) | hindsight set 97.7%; unit tests 447/451 |
 | g22 | month name + 初/中旬/底, longer tails, more far ISO dates | hindsight set 98.3%; unit tests 448/451; 15 of 16 languages up |
-| g23 | vocabulary grows to 100..365 ("100 days ago" could not be written); round far years | training |
+| g23-g25 | vocabulary grows to 100..365 ("100 days ago" could not be written); days 29-31; round far years | hindsight set 97.7%; unit tests 449/451; days 29-31 88-96% |
+| s1, s2 | from scratch on the g25 data, 20 and 40 passes: a check that 25 stacked rounds did not overfit our tests | 1-2 points under g25 in every language, not just on hindsight's tests: no overfitting. 40 passes = 20 |
+| f1-f3 | from scratch, 20 passes, same start, own data order (`--data-seed`); PRs #4-#6 (every day of the month, longer counts, "a month ago", ALL CAPS) | f2: hindsight set 98.2%, false dates 6.0% -> 1.5%, unit tests 448/451, ALL CAPS 90% -> 98%. f1 and f3 1-3 points lower: luck of the data order |
+| bsoup | f2 fine-tuned 3 times (3 passes, `--lr 3e-4`, own data order) and averaged (`round_soup.sh`) | hindsight set 98.3%, false dates 1.5%, unit tests 448/451, 16-language average 96.2% (f2 96.1%, g25 96.5%) |
 
-Tried and dropped: averaging two models' weights, more rounds of blind data, 5 layers, folding the
+Tried and dropped: averaging runs trained from scratch (f1+f2+f3: 387 of 451 unit tests broke; even from the same
+start they end up far apart; average short fine-tunes of one model instead), more rounds of blind data, 5 layers, folding the
 first conv into a lookup table, a lower confidence cut-off per language picked on test data.
+
+## Fixing a gap after a release
+
+1. Add training data for the gap (templates or `gen`), never rules in the code.
+2. Fine-tune the release model 3 times on all the data plus the new rows (3 passes, `--lr 3e-4`, `--data-seed`
+   1/2/3) and average them (`training/model/soup.py`), as in `round_soup.sh`. About 3 hours.
+3. Ship the average only if it beats the release on every score set.
+4. After a few fixes, train from scratch again on everything (`round_final.sh`, about 6 hours a run), so
+   fine-tunes do not pile up.
 
 ## Layout
 
@@ -58,7 +71,7 @@ never the reverse (`tests/test_runtime.py` checks it).
 | `training/eval/baseline/` | hindsight's old dateparser path, copied from main `f6038a742`, for comparison |
 | `training/guard.py` | runs a job inside memory/CPU/GPU limits; every heavy job goes through it |
 | `training/scripts/round.sh` | one full mining round, unattended |
-| `training/scripts/round_g17.sh` ... `round_g21.sh` | the rounds above, each one script, unattended |
+| `training/scripts/round_g17.sh` ... `round_g25.sh`, `round_scratch.sh`, `round_final.sh`, `round_soup.sh` | the rounds above, each one script, unattended |
 | `training/tests/` | numpy/torch parity, code round trip, old-rule equivalence, hindsight's golden file |
 | `data/test_*.jsonl`, `data/hand_en.tsv`, `data/tune_*.jsonl` | test, hand-written and tuning sets (in git) |
 
