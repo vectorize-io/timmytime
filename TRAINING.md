@@ -2,7 +2,7 @@
 
 Everything here is for people changing the model. Users only need README.md.
 
-## Status (2026-11-26, shipped weights `weights-g16p`, release candidate `bsoup`, not released)
+## Status (2026-11-27, shipped weights `weights-g16p`, release candidate `d3`, not released)
 
 6.4M weights before pruning, 9 MB after. Bytes in, shortened 4x by a conv, 6 encoder layers,
 1 decoder layer, a 1271-word output vocabulary (years 1800-2199, numbers -365..365). 16 languages from g17 on;
@@ -34,6 +34,8 @@ How we got here (exact match on the English sets; each step fine-tunes the one b
 | s1, s2 | from scratch on the g25 data, 20 and 40 passes: a check that 25 stacked rounds did not overfit our tests | 1-2 points under g25 in every language, not just on hindsight's tests: no overfitting. 40 passes = 20 |
 | f1-f3 | from scratch, 20 passes, same start, own data order (`--data-seed`); PRs #4-#6 (every day of the month, longer counts, "a month ago", ALL CAPS) | f2: hindsight set 98.2%, false dates 6.0% -> 1.5%, unit tests 448/451, ALL CAPS 90% -> 98%. f1 and f3 1-3 points lower: luck of the data order |
 | bsoup | f2 fine-tuned 3 times (3 passes, `--lr 3e-4`, own data order) and averaged (`round_soup.sh`) | hindsight set 98.3%, false dates 1.5%, unit tests 448/451, 16-language average 96.2% (f2 96.1%, g25 96.5%) |
+| csoup | Chinese fix on bsoup (`round_zhfix.sh`): 前两个月 / 前三周 = the last N, 这两三天, 計劃 | hindsight set 98.4%, false dates 0.7%, unit tests 450/451 (周一的会议 read as next Monday) |
+| d1-d3, dsoup | fix round 2 on csoup (`round_zhfix2.sh`): bare weekday + 的会议 = the past | d1 and d3 pass 451/451, d2 448, dsoup 450 (當月計劃 flips back). **d3 picked**: hindsight set 98.7%, 16-language average 96.2%, repo tests 808/808. Single fine-tune, not an average: the average lost a test its parts passed |
 
 Tried and dropped: averaging runs trained from scratch (f1+f2+f3: 387 of 451 unit tests broke; even from the same
 start they end up far apart; average short fine-tunes of one model instead), more rounds of blind data, 5 layers, folding the
