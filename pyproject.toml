@@ -1,6 +1,6 @@
 [project]
 name = "text2date"
-version = "0.1.0"
+version = "0.1.1"
 description = "Finds the date ranges in a question (\"last week\", \"early 2024\") with a 9 MB numpy model"
 readme = "README.md"
 license = "MIT"
