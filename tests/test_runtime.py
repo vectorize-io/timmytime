@@ -38,3 +38,4 @@ def test_long_text_is_read_in_pieces():
         assert all(0 < len(p.encode()) <= MAX_BYTES for p in pieces)
     assert text2date.parse(filler + "The migration ran on 2026-06-10.", date(2026, 8, 12)) == [
         DateRange(date(2026, 6, 10), date(2026, 6, 10))]
+

@@ -23,7 +23,7 @@ text2date.parse("what is my wifi password")
 pip install text2date
 ```
 
-Python 3.11+, `numpy` and `tzdata`. No torch, no network, no LLM at run time: the model ships inside
+Python 3.11+, `numpy`, `threadpoolctl` and `tzdata`. No torch, no network, no LLM at run time: the model ships inside
 the package.
 
 ## vs. dateparser

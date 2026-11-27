@@ -7,7 +7,7 @@ license = "MIT"
 license-files = ["LICENSE"]
 authors = [{ name = "Vectorize AI, Inc." }]
 requires-python = ">=3.11"
-dependencies = ["numpy>=1.26", "tzdata"]
+dependencies = ["numpy>=1.26", "threadpoolctl>=3.1", "tzdata"]
 keywords = ["date parsing", "temporal expressions", "natural language", "multilingual", "hindsight"]
 classifiers = [
     "Development Status :: 4 - Beta",

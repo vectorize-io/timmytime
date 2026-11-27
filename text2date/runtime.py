@@ -11,11 +11,14 @@ text2date/model.py op for op; tests/test_runtime.py checks they agree.
 import json
 import os
 import re
+import threading
+from contextlib import contextmanager
 from datetime import date, datetime
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
 import numpy as np
+from threadpoolctl import ThreadpoolController
 
 from text2date.resolve import DateRange, resolve
 
@@ -105,6 +108,31 @@ def _conv(x, w, b, k, stride):
 
 
 _DTYPES = {"F16": np.float16, "F32": np.float32, "I64": np.int64}
+
+# numpy's math library (OpenBLAS on Linux) splits every matrix product across all cores. Ours are tiny,
+# so the split only costs: alone one thread is faster, and with several busy processes the threads fight
+# (6 processes on 6 cores: 316 ms a parse instead of 5). One thread while the model runs, then the old
+# setting back; a count keeps threads that parse at the same time from restoring it under each other.
+_blas = ThreadpoolController()
+_blas_lock = threading.Lock()
+_blas_users = 0
+_blas_restore = None
+
+
+@contextmanager
+def _one_blas_thread():
+    global _blas_users, _blas_restore
+    with _blas_lock:
+        if _blas_users == 0:
+            _blas_restore = _blas.limit(limits=1, user_api="blas")
+        _blas_users += 1
+    try:
+        yield
+    finally:
+        with _blas_lock:
+            _blas_users -= 1
+            if _blas_users == 0:
+                _blas_restore.restore_original_limits()
 
 
 def load_weights(path: Path | str) -> dict[str, np.ndarray]:
@@ -231,15 +259,16 @@ class Parser:
         if isinstance(anchor, date) and not isinstance(anchor, datetime):  # a calendar day in `tz`, not UTC
             anchor = datetime.combine(anchor, datetime.min.time(), ZoneInfo(tz))
         out: list[DateRange] = []
-        for part in _chunks(text):  # the model reads MAX_BYTES at a time; longer text goes in pieces
-            try:
-                code, confidence = self.code(part)
-            except Exception:  # a model bug must never break recall
-                continue
-            if code != "none" and confidence >= min_confidence:
-                for r in resolve(code, anchor, tz):  # same range twice ("yesterday yesterday") counts once
-                    if r not in out:
-                        out.append(r)
+        with _one_blas_thread():
+            for part in _chunks(text):  # the model reads MAX_BYTES at a time; longer text goes in pieces
+                try:
+                    code, confidence = self.code(part)
+                except Exception:  # a model bug must never break recall
+                    continue
+                if code != "none" and confidence >= min_confidence:
+                    for r in resolve(code, anchor, tz):  # same range twice ("yesterday yesterday") counts once
+                        if r not in out:
+                            out.append(r)
         return out
 
 
