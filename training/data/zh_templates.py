@@ -12,7 +12,7 @@ import json
 import random
 from datetime import date, datetime, timedelta
 
-from timmytime.resolve import resolve
+from text2date.resolve import resolve
 from training.data.meanings import _day
 
 NUM = "零一二三四五六七八九十"

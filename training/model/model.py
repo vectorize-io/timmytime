@@ -1,8 +1,8 @@
 """The torch model, training, and export to the numpy weights file.
 
-    python -m training.model.model --train data/train_en.jsonl --out timmytime/weights/timmytime-en.npz
+    python -m training.model.model --train data/train_en.jsonl --out text2date/weights/text2date-en.npz
 
-Training only; running the model needs numpy only (timmytime/runtime.py). Every layer
+Training only; running the model needs numpy only (text2date/runtime.py). Every layer
 here is mirrored op for op there, so keep the two in step.
 """
 
@@ -23,8 +23,8 @@ import torch
 import torch.nn.functional as F
 from torch import nn
 
-from timmytime.resolve import resolve
-from timmytime.runtime import BOS, EOS, MAX_BYTES, MAX_OUT, PAD, UNK, VOCAB, encode_bytes, encode_code
+from text2date.resolve import resolve
+from text2date.runtime import BOS, EOS, MAX_BYTES, MAX_OUT, PAD, UNK, VOCAB, encode_bytes, encode_code
 
 
 class Cfg:
@@ -90,7 +90,7 @@ class DecLayer(nn.Module):
         return y + self.f2(F.relu(self.f1(self.ln3(y))))
 
 
-class TimmyTime(nn.Module):
+class Text2Date(nn.Module):
     def __init__(self, c=Cfg):
         super().__init__()
         self.c = c
@@ -127,7 +127,7 @@ class TimmyTime(nn.Module):
         return self.dec_ln(y) @ self.tok_emb.weight.T
 
     def export(self, path: Path):
-        """Weights in the numpy layout timmytime/runtime.py reads (float16 on disk)."""
+        """Weights in the numpy layout text2date/runtime.py reads (float16 on disk)."""
         sd = {k: v.detach().float().cpu().numpy() for k, v in self.state_dict().items()}
         w = {"byte_emb": sd["byte_emb.weight"], "tok_emb": sd["tok_emb.weight"], "enc_pos": sd["enc_pos"],
              "dec_pos": sd["dec_pos"], "conv1.w": sd["conv1.weight"], "conv1.b": sd["conv1.bias"],
@@ -362,7 +362,7 @@ def seq_acc(model, rows, device, size=512):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--train", nargs="+", required=True)
-    ap.add_argument("--out", type=Path, default=Path("timmytime/weights/timmytime-en.npz"))
+    ap.add_argument("--out", type=Path, default=Path("text2date/weights/text2date-en.npz"))
     ap.add_argument("--epochs", type=int, default=30)
     ap.add_argument("--batch", type=int, default=256)
     ap.add_argument("--lr", type=float, default=1e-3)
@@ -377,7 +377,7 @@ def main():
     a = ap.parse_args()
 
     torch.manual_seed(a.seed)
-    torch.set_num_threads(int(os.environ.get("TIMMYTIME_TORCH_THREADS", "4")))  # training.guard sets this
+    torch.set_num_threads(int(os.environ.get("TEXT2DATE_TORCH_THREADS", "4")))  # training.guard sets this
     r = random.Random(a.seed)
     rows = load_rows(a.train)
     r.shuffle(rows)
@@ -388,7 +388,7 @@ def main():
     pools = ([q for q, c in train if c == "none"], [(q, c) for q, c in train if c != "none"])
     device = "mps" if torch.backends.mps.is_available() else "cuda" if torch.cuda.is_available() else "cpu"
     Cfg.stride, Cfg.n_dec, Cfg.n_enc = a.stride, a.n_dec, a.n_enc
-    model = TimmyTime().to(device)
+    model = Text2Date().to(device)
     print(f"{sum(p.numel() for p in model.parameters()) / 1e6:.2f}M weights, {len(train)} train, {len(dev)} dev, {device}")
 
     opt = torch.optim.AdamW(model.parameters(), lr=a.lr, weight_decay=0.01, betas=(0.9, 0.98))
@@ -398,7 +398,7 @@ def main():
         opt, lambda s: min(1, (s + 1) / warm) * 0.5 * (1 + math.cos(math.pi * min(s, steps) / steps)))
     if a.resume:
         if a.resume.suffix == ".safetensors":  # the released checkpoint (hs-date-N/training/checkpoint.safetensors)
-            from timmytime.runtime import load_weights
+            from text2date.runtime import load_weights
             state = {k: torch.tensor(v, device=device) for k, v in load_weights(a.resume).items()}
         else:
             state = torch.load(a.resume, map_location=device)

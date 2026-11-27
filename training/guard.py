@@ -1,4 +1,4 @@
-"""Run a command inside resource limits, so timmytime jobs never starve the machine.
+"""Run a command inside resource limits, so text2date jobs never starve the machine.
 
     python -m training.guard -- uv run python -m training.model.model --train data/train_en.jsonl
 
@@ -69,7 +69,7 @@ def main() -> None:
 
     t = str(a.threads)
     env = os.environ | {"OMP_NUM_THREADS": t, "VECLIB_MAXIMUM_THREADS": t, "OPENBLAS_NUM_THREADS": t,
-                        "MKL_NUM_THREADS": t, "TIMMYTIME_TORCH_THREADS": t, "PYTORCH_MPS_HIGH_WATERMARK_RATIO": a.gpu_ratio,
+                        "MKL_NUM_THREADS": t, "TEXT2DATE_TORCH_THREADS": t, "PYTORCH_MPS_HIGH_WATERMARK_RATIO": a.gpu_ratio,
                         "PYTORCH_MPS_LOW_WATERMARK_RATIO": str(float(a.gpu_ratio) * 0.8)}  # torch wants low <= high
     proc = subprocess.Popen(["nice", "-n", "10", *cmd], env=env, start_new_session=True)
     _log(f"pid {proc.pid}: max {a.max_gb} GB (GPU included), {a.threads} threads, gpu ratio {a.gpu_ratio}, "

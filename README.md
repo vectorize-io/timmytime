@@ -1,27 +1,26 @@
-# timmytime
+# text2date
 
-**timmytime** (tiny time semantic parser) finds the dates a question talks about: "last week",
-"上上周", "since March", "the 3rd of last month". A 10 MB model, numpy only, about 1 ms per question,
-16 languages. Every model needs its timmy time.
+**text2date** finds the dates a question talks about: "last week", "上上周", "since March",
+"the 3rd of last month". A 10 MB model, numpy only, about 1 ms per question, 16 languages.
 
 ```python
 from datetime import date
-import timmytime
+import text2date
 
-timmytime.parse("what did I decide last week", anchor=date(2026, 11, 20))
+text2date.parse("what did I decide last week", anchor=date(2026, 11, 20))
 # [DateRange(start=date(2026, 11, 9), end=date(2026, 11, 15))]
 
-timmytime.parse("trips in May 2025 and June 2026", anchor=date(2026, 11, 20))
+text2date.parse("trips in May 2025 and June 2026", anchor=date(2026, 11, 20))
 # [DateRange(2025-05-01, 2025-05-31), DateRange(2026-06-01, 2026-06-30)]
 
-timmytime.parse("what is my wifi password")
+text2date.parse("what is my wifi password")
 # []   no date
 ```
 
 ## Install
 
 ```sh
-pip install timmytime
+pip install text2date
 ```
 
 Python 3.11+, `numpy` and `tzdata`. No torch, no network, no LLM at run time: the model ships inside
@@ -34,7 +33,7 @@ hand-written rules. Both were run on the same held-out questions (about 3,000 pe
 kind of date). **Exact** = every range right.
 **False dates** = a date found in a question that has none.
 
-| Language | dateparser exact | timmytime exact | dateparser false dates | timmytime false dates |
+| Language | dateparser exact | text2date exact | dateparser false dates | text2date false dates |
 |---|---|---|---|---|
 | English | 55.9% | **98.7%** | 24.4% | **1.1%** |
 | Chinese | 66.9% | **97.7%** | 3.1% | **0.4%** |
@@ -56,21 +55,21 @@ kind of date). **Exact** = every range right.
 
 The last row is Hindsight's query-analyzer tests and golden corpus (`data/test_hindsight.jsonl`).
 They were written for dateparser, so it does well there. Time per question: dateparser 0.1-16 ms
-(p95 up to 57 ms), timmytime about 1 ms (p95 1.5 ms).
+(p95 up to 57 ms), text2date about 1 ms (p95 1.5 ms).
 
 ## API
 
-`timmytime.parse(text, anchor=None, tz="UTC") -> list[DateRange]`
+`text2date.parse(text, anchor=None, tz="UTC") -> list[DateRange]`
 
 - `anchor`: when the question was asked. A `date` is that day in `tz`; a naive `datetime` is UTC;
   `None` is now.
 - `tz`: an IANA name like `"Europe/Rome"`. It sets what "today" is and the hemisphere for seasons.
 - Returns whole-day ranges `(start, end)` of `datetime.date`, both included, in the order the
   question names them. `None` is an open end ("before 2020"). `[]` = no date. Never raises on odd text.
-- Answers below `TIMMYTIME_MIN_CONFIDENCE` (default 0.5) become `[]`: a wrong date hides the right
+- Answers below `TEXT2DATE_MIN_CONFIDENCE` (default 0.5) become `[]`: a wrong date hides the right
   results, no date just searches everything.
 
-`timmytime.Parser(path)` loads other weights (a `.safetensors` file). `timmytime.hindsight.extract_temporal_constraint` has
+`text2date.Parser(path)` loads other weights (a `.safetensors` file). `text2date.hindsight.extract_temporal_constraint` has
 the shape hindsight's recall expects.
 
 ## What it understands
@@ -206,7 +205,7 @@ Thanksgiving, Lunar New Year, Mid-Autumn, Dragon Boat, Ramadan, the Eids, Golden
 ## How it works
 
 The model reads the question's bytes and writes a short code (`week -1`, `last 6 month`,
-`2025-05 ; 2026-06`, `none`). Plain Python (`timmytime/resolve.py`) turns the code into dates, so
+`2025-05 ; 2026-06`, `none`). Plain Python (`text2date/resolve.py`) turns the code into dates, so
 leap years, week starts and month lengths are always right.
 
 The model, [hs-date-1](https://huggingface.co/hindsight-ai/hs-date-1), is a byte-level

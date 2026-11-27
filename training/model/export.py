@@ -1,9 +1,9 @@
 """Turn a trained .npz into the files of the Hugging Face model repo (hindsight-ai/hs-date-N).
 
-    python -m training.model.export timmytime/weights/timmytime-d3p.npz hf/hs-date-1
+    python -m training.model.export text2date/weights/text2date-d3p.npz hf/hs-date-1
 
 Writes model.safetensors (the weights, plus the config as an int64 tensor), config.json and vocab.json
-(the output words, in id order). timmytime.runtime reads model.safetensors with numpy alone.
+(the output words, in id order). text2date.runtime reads model.safetensors with numpy alone.
 """
 
 import json
@@ -12,7 +12,7 @@ from pathlib import Path
 
 import numpy as np
 
-from timmytime.runtime import MAX_BYTES, MAX_OUT, VOCAB
+from text2date.runtime import MAX_BYTES, MAX_OUT, VOCAB
 
 DTYPE = {np.dtype(np.float16): "F16", np.dtype(np.float32): "F32", np.dtype(np.int64): "I64"}
 
@@ -36,7 +36,7 @@ def main() -> None:
     arrays = {k: z[k] for k in z.files}
     write_safetensors(arrays, out / "model.safetensors")
     heads, n_enc, n_dec, stride = (int(x) for x in z["config"])
-    config = {"model_type": "timmytime", "heads": heads, "encoder_layers": n_enc, "decoder_layers": n_dec,
+    config = {"model_type": "text2date", "heads": heads, "encoder_layers": n_enc, "decoder_layers": n_dec,
               "stride": stride, "d_model": int(z["tok_emb"].shape[1]), "vocab_size": len(VOCAB),
               "max_input_bytes": MAX_BYTES, "max_output_tokens": MAX_OUT,
               "parameters": int(sum(a.size for k, a in arrays.items() if k != "config"))}

@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Releases timmytime:  ./release.sh <X.Y.Z | patch | minor | major>
+# Releases text2date:  ./release.sh <X.Y.Z | patch | minor | major>
 # Bumps the version in pyproject.toml, commits, tags v<version> and pushes. The release workflow then
 # builds the package with the weights pinned in weights.lock, makes a GitHub release with the notes
 # from CHANGELOG.md, and publishes to PyPI. Write the CHANGELOG.md entry first.
@@ -26,4 +26,4 @@ if [ "$V" != "$CUR" ]; then
 fi
 git tag -a "v$V" -m "Release $V"
 git push -q && git push -q origin "v$V"
-echo "v$V pushed: https://github.com/vectorize-io/timmytime/actions"
+echo "v$V pushed: https://github.com/vectorize-io/text2date/actions"

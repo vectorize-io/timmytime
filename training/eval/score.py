@@ -2,9 +2,9 @@
 
     python -m training.eval.score baseline        # hindsight's current code
     python -m training.eval.score gemma           # the LLM writing codes itself (reference only)
-    python -m training.eval.score timmytime             # our model
-    python -m training.eval.score timmytime --lang es   # one language's test set (data/test_es.jsonl)
-    python -m training.eval.score timmytime --lang hindsight   # hindsight's own tests (data/test_hindsight.jsonl)
+    python -m training.eval.score text2date             # our model
+    python -m training.eval.score text2date --lang es   # one language's test set (data/test_es.jsonl)
+    python -m training.eval.score text2date --lang hindsight   # hindsight's own tests (data/test_hindsight.jsonl)
 
 Sets: data/test_en*.jsonl (LLM-written, checked; _3 = extra rows of the small kinds), data/hand_en.tsv (hand-written
 traps, asked on 2026-11-17), and the no-date questions of hindsight's golden corpus.
@@ -18,7 +18,7 @@ from collections import defaultdict
 from datetime import date, datetime
 from pathlib import Path
 
-from timmytime.resolve import resolve
+from text2date.resolve import resolve
 
 DATA = Path(__file__).resolve().parents[2] / "data"
 HAND_ANCHOR = date(2026, 11, 17)
@@ -76,8 +76,8 @@ def predictor(name: str):
         from training.data.gen import read_code
 
         return lambda q, anchor: _ranges(read_code(q), anchor)
-    if name == "timmytime":
-        from timmytime.runtime import Parser
+    if name == "text2date":
+        from text2date.runtime import Parser
 
         parser = Parser()
         return lambda q, anchor: [[s and s.isoformat(), e and e.isoformat()] for s, e in parser.parse(q, anchor)]
@@ -134,7 +134,7 @@ def main() -> None:
     run = predictor(name)
     show = "-v" in sys.argv
     lang = sys.argv[sys.argv.index("--lang") + 1] if "--lang" in sys.argv else "en"
-    if lang == "hindsight":  # hindsight's own analyzer tests and golden corpus, as timmytime codes
+    if lang == "hindsight":  # hindsight's own analyzer tests and golden corpus, as text2date codes
         all_sets = {"hindsight": [json.loads(line) for line in (DATA / "test_hindsight.jsonl").open()]}
     elif lang == "en":
         all_sets = load_sets()

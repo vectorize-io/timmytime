@@ -2,7 +2,7 @@
 
     python -m training.data.clean data/train_*.jsonl
 
-Rules (the conventions in timmytime/meanings.py; the LLM reads these phrases both ways):
+Rules (the conventions in text2date/meanings.py; the LLM reads these phrases both ways):
 Drops no-date rows with a weekday + part of day ("Friday Night Lights"): real users mean a day.
 "last Monday" (no "week" in the message) = mon, not week -1 mon; "last summer" = summer, not year -1 summer.
 Chinese 前两个月 / 前三周 (N >= 2, no 前 after it) = the last N months / weeks, not month -N (that is 两个月前);

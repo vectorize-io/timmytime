@@ -4,7 +4,7 @@ import random
 
 import pytest
 
-from timmytime.runtime import UNK, Parser, decode_code, encode_bytes, encode_code
+from text2date.runtime import UNK, Parser, decode_code, encode_bytes, encode_code
 from training.data.meanings import sample
 
 torch = pytest.importorskip("torch")
@@ -21,10 +21,10 @@ def test_codes_round_trip_through_tokens():
 
 
 def test_numpy_matches_torch(tmp_path):
-    from training.model.model import TimmyTime, greedy
+    from training.model.model import Text2Date, greedy
 
     torch.manual_seed(1)
-    model = TimmyTime().eval()
+    model = Text2Date().eval()
     for p in model.parameters():  # random weights, scaled so decoding picks varied tokens
         p.data.normal_(0, 0.3)
     path = tmp_path / "w.npz"

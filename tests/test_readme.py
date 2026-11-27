@@ -5,7 +5,7 @@ from pathlib import Path
 
 import pytest
 
-import timmytime
+import text2date
 
 README = (Path(__file__).parent.parent / "README.md").read_text()
 TABLE = README.split("<!-- examples:start -->")[1].split("<!-- examples:end -->")[0]
@@ -27,4 +27,4 @@ def test_table_is_there():
 
 @pytest.mark.parametrize("kind,question,tz,want", ROWS, ids=[r[1] for r in ROWS])
 def test_readme_row(kind, question, tz, want):
-    assert _fmt(timmytime.parse(question, TODAY, tz or "UTC")) == want
+    assert _fmt(text2date.parse(question, TODAY, tz or "UTC")) == want

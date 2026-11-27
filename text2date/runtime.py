@@ -1,11 +1,11 @@
 """Run the model with numpy only (no torch), then the calendar code.
 
-    from timmytime.runtime import Parser
+    from text2date.runtime import Parser
     Parser().parse("what did I decide yesterday", anchor)   # -> [DateRange(...)]
 
 The model reads the question's UTF-8 bytes and writes a meaning-code line, one
 word per step (greedy). The vocabulary and the network here must match
-timmytime/model.py op for op; tests/test_runtime.py checks they agree.
+text2date/model.py op for op; tests/test_runtime.py checks they agree.
 """
 
 import json
@@ -17,12 +17,12 @@ from zoneinfo import ZoneInfo
 
 import numpy as np
 
-from timmytime.resolve import DateRange, resolve
+from text2date.resolve import DateRange, resolve
 
 MAX_BYTES = 256
-MIN_CONFIDENCE = float(os.environ.get("TIMMYTIME_MIN_CONFIDENCE", "0.5"))  # picked on data/tune_*.jsonl by timmytime/tune.py
+MIN_CONFIDENCE = float(os.environ.get("TEXT2DATE_MIN_CONFIDENCE", "0.5"))  # picked on data/tune_*.jsonl by text2date/tune.py
 MAX_OUT = 24
-WEIGHTS = Path(os.environ.get("TIMMYTIME_WEIGHTS", Path(__file__).parent / "weights" / "model.safetensors"))
+WEIGHTS = Path(os.environ.get("TEXT2DATE_WEIGHTS", Path(__file__).parent / "weights" / "model.safetensors"))
 
 # --- output vocabulary: one token per code word; dates split into year / month / day.
 _WORDS = ("none now .. ; day week month quarter year last next before after around early mid late h1 h2 "

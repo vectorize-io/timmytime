@@ -4,7 +4,7 @@ __pycache__/
 .pytest_cache/
 dist/
 # The model is not in git: scripts/get_weights.sh fetches the Hugging Face file pinned in weights.lock.
-timmytime/weights/
+text2date/weights/
 # Training data (hs-date-1-data, downloaded by training/train.sh), new data, logs and scores.
 # Test, tuning and hand-written sets stay in git.
 data/*

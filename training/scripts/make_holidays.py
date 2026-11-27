@@ -1,4 +1,4 @@
-"""Writes timmytime/holidays.json: lunar holidays per Gregorian year, 1950-2076.
+"""Writes text2date/holidays.json: lunar holidays per Gregorian year, 1950-2076.
 
     uv run --no-project --with lunardate --with hijridate python training/scripts/make_holidays.py
 
@@ -36,5 +36,5 @@ for hy in range(1369, 1500):
     adha = Hijri(hy, 12, 10).to_gregorian()
     put("eidadha", adha, adha + timedelta(days=3))
 
-json.dump(out, open("timmytime/holidays.json", "w"), separators=(",", ":"), sort_keys=True)
+json.dump(out, open("text2date/holidays.json", "w"), separators=(",", ":"), sort_keys=True)
 print({k: len(v) for k, v in out.items()})

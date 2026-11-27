@@ -1,7 +1,7 @@
 """Average the weights of short fine-tunes of one trained model (--resume it, different --data-seed).
 
-    python -m training.model.soup timmytime/weights/timmytime-r1.pt timmytime/weights/timmytime-r2.pt \
-        --out timmytime/weights/timmytime-soup.npz --n-enc 6 --n-dec 1 --stride 4
+    python -m training.model.soup text2date/weights/text2date-r1.pt text2date/weights/text2date-r2.pt \
+        --out text2date/weights/text2date-soup.npz --n-enc 6 --n-dec 1 --stride 4
 
 Runs trained from scratch do not average, even from the same starting weights: they end up far apart
 (f1+f2+f3 broke 387 of 451 hindsight tests). Check the average against each run before shipping it.
@@ -12,7 +12,7 @@ from pathlib import Path
 
 import torch
 
-from training.model.model import Cfg, TimmyTime
+from training.model.model import Cfg, Text2Date
 
 
 def main():
@@ -26,7 +26,7 @@ def main():
     states = [torch.load(p, map_location="cpu") for p in a.runs]
     avg = {k: sum(s[k].float() for s in states) / len(states) for k in states[0]}
     Cfg.stride, Cfg.n_dec, Cfg.n_enc = a.stride, a.n_dec, a.n_enc
-    model = TimmyTime()
+    model = Text2Date()
     model.load_state_dict(avg)
     model.export(a.out)
     torch.save(avg, a.out.with_suffix(".pt"))

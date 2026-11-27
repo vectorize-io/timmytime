@@ -4,7 +4,7 @@ from datetime import datetime
 
 import pytest
 
-from timmytime.resolve import DateRange, resolve
+from text2date.resolve import DateRange, resolve
 from training.eval.baseline.temporal_extraction import extract_temporal_constraint
 
 # The old hand-written rules, as codes. The calendar must agree with them exactly.

@@ -22,11 +22,11 @@ jobs:
       - run: uv build
       - name: wheel has the weights and works on its own
         run: |
-          unzip -l dist/*.whl | grep -q timmytime/weights/model.safetensors
+          unzip -l dist/*.whl | grep -q text2date/weights/model.safetensors
           uv venv /tmp/clean && VIRTUAL_ENV=/tmp/clean uv pip install dist/*.whl
           cd /tmp && /tmp/clean/bin/python -c "
-          import timmytime, datetime
-          assert timmytime.parse('what did I do last week', datetime.date(2026, 11, 18)) == [(datetime.date(2026, 11, 9), datetime.date(2026, 11, 15))]"
+          import text2date, datetime
+          assert text2date.parse('what did I do last week', datetime.date(2026, 11, 18)) == [(datetime.date(2026, 11, 9), datetime.date(2026, 11, 15))]"
       - uses: actions/upload-artifact@v5
         with:
           name: dist
@@ -50,7 +50,7 @@ jobs:
           ' CHANGELOG.md > notes.md
           read -r REPO REV _ < weights.lock
           printf '\nModel: [%s](https://huggingface.co/%s/tree/%s)\n' "$REPO" "$REPO" "$REV" >> notes.md
-      - run: gh release create "$GITHUB_REF_NAME" dist/* --title "timmytime $GITHUB_REF_NAME" --notes-file notes.md
+      - run: gh release create "$GITHUB_REF_NAME" dist/* --title "text2date $GITHUB_REF_NAME" --notes-file notes.md
         env:
           GH_TOKEN: ${{ github.token }}
 

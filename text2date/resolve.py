@@ -1,4 +1,4 @@
-"""Meaning code -> date ranges. The calendar half of timmytime; it knows no language.
+"""Meaning code -> date ranges. The calendar half of text2date; it knows no language.
 
 The model writes one line in this code; this module turns it into dates.
 Whole days only. Weeks start on Monday. Tokens are split on spaces.
@@ -45,7 +45,7 @@ QUARTERS = ("q1", "q2", "q3", "q4")
 # First month of each season, northern hemisphere; the south is six months off.
 SEASONS = {"spring": 3, "summer": 6, "autumn": 9, "winter": 12}
 # Lunar holidays per year, from training/scripts/make_holidays.py (1950-2076).
-LUNAR = json.loads(resources.files("timmytime").joinpath("holidays.json").read_text())
+LUNAR = json.loads(resources.files("text2date").joinpath("holidays.json").read_text())
 HOLIDAYS = ("easter", "thanksgiving", *LUNAR)
 MODS = ("early", "mid", "late", "h1", "h2", "around")
 MAX_N = 10_000

@@ -12,8 +12,8 @@ import sys
 from collections import Counter
 from datetime import date, datetime
 
-from timmytime.resolve import resolve
-from timmytime.runtime import Parser
+from text2date.resolve import resolve
+from text2date.runtime import Parser
 
 
 def main() -> None:

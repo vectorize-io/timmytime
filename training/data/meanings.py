@@ -10,7 +10,7 @@ the latest summer already started.
 import calendar
 import random
 
-from timmytime.resolve import MONTHS, WEEKDAYS
+from text2date.resolve import MONTHS, WEEKDAYS
 
 MONTH_NAMES = ["January", "February", "March", "April", "May", "June", "July",
                "August", "September", "October", "November", "December"]

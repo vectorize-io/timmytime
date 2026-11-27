@@ -18,7 +18,7 @@ from pathlib import Path
 
 from training.data import llm
 from training.data.meanings import sample
-from timmytime.resolve import resolve
+from text2date.resolve import resolve
 
 LANGS = {"en": "English", "es": "Spanish", "de": "German", "zh": "Chinese (simplified)", "ar": "Arabic",
          "ja": "Japanese", "ko": "Korean", "hi": "Hindi (Devanagari, or sometimes Hinglish in Latin letters)",
@@ -113,7 +113,7 @@ WRITE_NONE = {
     ),
 }
 # The check: the LLM reads the message cold and writes the code; the row stays only
-# if that code gives the same dates as the label. Rules match timmytime/meanings.py.
+# if that code gives the same dates as the label. Rules match text2date/meanings.py.
 READ = """Read a message someone sent to their memory assistant and write the time period it refers to, as one line of a tiny code.
 
 Codes (N is a signed whole number; 0 = the current one, -1 = the previous one, 1 = the next one):
@@ -266,7 +266,7 @@ def main() -> None:
     ap.add_argument("--none-share", type=float, default=1 / 3)
     ap.add_argument("--style", default="", help="force this writing style for every call")
     ap.add_argument("--trap-filter", default="", help="regex: only trap ideas matching it (no-date rows)")
-    ap.add_argument("--kinds", default="", help="comma list: only these meaning kinds (see timmytime/meanings.py)")
+    ap.add_argument("--kinds", default="", help="comma list: only these meaning kinds (see text2date/meanings.py)")
     ap.add_argument("--far-share", type=float, default=None, help="share of years far from today (default 0.08)")
     ap.add_argument("--month-end-share", type=float, default=None, help="share of days on the 29th-31st (default 0.1)")
     ap.add_argument("--far-count-share", type=float, default=None, help='share of "N ago" with N up to 365 (default 0.08)')

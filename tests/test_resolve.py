@@ -2,7 +2,7 @@ from datetime import UTC, date, datetime
 
 import pytest
 
-from timmytime.resolve import DateRange, resolve
+from text2date.resolve import DateRange, resolve
 
 TUE = datetime(2026, 11, 17, 12, 0)  # the spec's examples are asked on this Tuesday
 

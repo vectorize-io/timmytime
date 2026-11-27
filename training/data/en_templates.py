@@ -9,7 +9,7 @@ import json
 import random
 from datetime import date, datetime, timedelta
 
-from timmytime.resolve import resolve
+from text2date.resolve import resolve
 from training.data.meanings import _day
 
 MONTHS = ["january", "february", "march", "april", "may", "june", "july", "august", "september", "october", "november", "december"]
