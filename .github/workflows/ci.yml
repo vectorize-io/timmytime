@@ -14,8 +14,8 @@ jobs:
       matrix:
         python: ["3.11", "3.13"]
     steps:
-      - uses: actions/checkout@v4
-      - uses: astral-sh/setup-uv@v6
+      - uses: actions/checkout@v5
+      - uses: astral-sh/setup-uv@v7
         with:
           python-version: ${{ matrix.python }}
       - run: scripts/get_weights.sh
@@ -26,8 +26,8 @@ jobs:
     # Numpy/torch parity, the code round trip and hindsight's old rules. CPU torch keeps it small.
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: astral-sh/setup-uv@v6
+      - uses: actions/checkout@v5
+      - uses: astral-sh/setup-uv@v7
         with:
           python-version: "3.11"
       - run: uv sync --no-default-groups --group dev

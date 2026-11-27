@@ -12,8 +12,8 @@ jobs:
     # The package with the weights pinned in weights.lock inside, checked in a clean install.
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: astral-sh/setup-uv@v6
+      - uses: actions/checkout@v5
+      - uses: astral-sh/setup-uv@v7
         with:
           python-version: "3.11"
       - name: tag matches the package version
@@ -27,7 +27,7 @@ jobs:
           cd /tmp && /tmp/clean/bin/python -c "
           import timmytime, datetime
           assert timmytime.parse('what did I do last week', datetime.date(2026, 11, 18)) == [(datetime.date(2026, 11, 9), datetime.date(2026, 11, 15))]"
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v5
         with:
           name: dist
           path: dist/
@@ -36,8 +36,8 @@ jobs:
     needs: build
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/download-artifact@v4
+      - uses: actions/checkout@v5
+      - uses: actions/download-artifact@v5
         with:
           name: dist
           path: dist
@@ -58,7 +58,7 @@ jobs:
     needs: [build, github-release]
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/download-artifact@v4
+      - uses: actions/download-artifact@v5
         with:
           name: dist
           path: dist
