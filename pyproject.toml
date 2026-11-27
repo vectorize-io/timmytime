@@ -3,8 +3,27 @@ name = "timmytime"
 version = "0.1.0"
 description = "Finds the date ranges in a question (\"last week\", \"early 2024\") with a 9 MB numpy model"
 readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [{ name = "Vectorize AI, Inc." }]
 requires-python = ">=3.11"
 dependencies = ["numpy>=1.26", "tzdata"]
+keywords = ["date parsing", "temporal expressions", "natural language", "multilingual", "hindsight"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Text Processing :: Linguistic",
+]
+
+[project.urls]
+Homepage = "https://github.com/vectorize-io/timmytime"
+Model = "https://huggingface.co/hindsight-ai/hs-date-1"
+Dataset = "https://huggingface.co/datasets/hindsight-ai/hs-date-1-data"
+Changelog = "https://github.com/vectorize-io/timmytime/blob/main/CHANGELOG.md"
 
 [dependency-groups]
 dev = ["pytest>=8"]
@@ -21,12 +40,12 @@ testpaths = ["tests", "training/tests"]
 requires = ["hatchling"]
 build-backend = "hatchling.build"
 
-# The package is timmytime/ only. The weights are not in git (see weights.lock): they are fetched
-# before building, and `artifacts` puts the git-ignored file into the package.
+# The package is timmytime/ only. The weights are not in git: scripts/get_weights.sh fetches the
+# Hugging Face file pinned in weights.lock before building, and `artifacts` puts it into the package.
 [tool.hatch.build.targets.wheel]
 packages = ["timmytime"]
-artifacts = ["timmytime/weights/timmytime.npz"]
+artifacts = ["timmytime/weights/model.safetensors"]
 
 [tool.hatch.build.targets.sdist]
-include = ["/timmytime", "/README.md", "/weights.lock"]
-artifacts = ["timmytime/weights/timmytime.npz"]
+include = ["/timmytime", "/README.md", "/LICENSE", "/weights.lock"]
+artifacts = ["timmytime/weights/model.safetensors"]

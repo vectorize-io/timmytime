@@ -5,32 +5,61 @@ on:
 
 permissions:
   contents: write
+  id-token: write  # PyPI trusted publishing
 
 jobs:
-  package:
-    # Builds timmytime with the weights pinned in weights.lock inside, checks a clean install, and
-    # attaches the wheel and sdist to a GitHub release named after the tag.
+  build:
+    # The package with the weights pinned in weights.lock inside, checked in a clean install.
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - uses: astral-sh/setup-uv@v6
         with:
           python-version: "3.11"
-      - run: scripts/get_weights.sh
-        env:
-          GH_TOKEN: ${{ github.token }}
       - name: tag matches the package version
         run: test "${GITHUB_REF_NAME#v}" = "$(grep -m1 '^version' pyproject.toml | cut -d'"' -f2)"
+      - run: scripts/get_weights.sh
       - run: uv build
       - name: wheel has the weights and works on its own
         run: |
-          unzip -l dist/*.whl | grep -q timmytime/weights/timmytime.npz
+          unzip -l dist/*.whl | grep -q timmytime/weights/model.safetensors
           uv venv /tmp/clean && VIRTUAL_ENV=/tmp/clean uv pip install dist/*.whl
           cd /tmp && /tmp/clean/bin/python -c "
           import timmytime, datetime
           assert timmytime.parse('what did I do last week', datetime.date(2026, 11, 18)) == [(datetime.date(2026, 11, 9), datetime.date(2026, 11, 15))]"
-      - name: attach to a release
+      - uses: actions/upload-artifact@v4
+        with:
+          name: dist
+          path: dist/
+
+  github-release:
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with:
+          name: dist
+          path: dist
+      - name: release notes from CHANGELOG.md
         run: |
-          gh release create "$GITHUB_REF_NAME" dist/* --title "timmytime $GITHUB_REF_NAME" --notes "Weights: $(cut -d' ' -f1 weights.lock)"
+          awk -v v="${GITHUB_REF_NAME#v}" '
+            $0 ~ "^## \\[" v "\\]" { found = 1; next }
+            found && /^## \[/ { exit }
+            found { print }
+          ' CHANGELOG.md > notes.md
+          read -r REPO REV _ < weights.lock
+          printf '\nModel: [%s](https://huggingface.co/%s/tree/%s)\n' "$REPO" "$REPO" "$REV" >> notes.md
+      - run: gh release create "$GITHUB_REF_NAME" dist/* --title "timmytime $GITHUB_REF_NAME" --notes-file notes.md
         env:
           GH_TOKEN: ${{ github.token }}
+
+  pypi:
+    needs: [build, github-release]
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          name: dist
+          path: dist
+      - uses: pypa/gh-action-pypi-publish@release/v1

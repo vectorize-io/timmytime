@@ -1,16 +1,17 @@
 #!/usr/bin/env bash
-# Publishes new weights and pins them:  scripts/publish_weights.sh <name> <file.npz>
-# Uploads the file as timmytime.npz to a GitHub release "weights-<name>", copies it to
-# timmytime/weights/timmytime.npz and rewrites weights.lock. Commit weights.lock; the next package release ships them.
+# Publishes trained weights to Hugging Face and pins them:  scripts/publish_weights.sh <repo> <weights.npz>
+#   scripts/publish_weights.sh hindsight-ai/hs-date-1 timmytime/weights/newp.npz
+# Writes model.safetensors, config.json and vocab.json next to the repo's model card, uploads them
+# (needs `hf auth login`), and rewrites weights.lock. Commit weights.lock; the next release ships them.
 set -euo pipefail
 cd "$(dirname "$0")/.."
-NAME=$1; FILE=$2
-SHA=$(shasum -a 256 "$FILE" | cut -d' ' -f1)
-TMP=$(mktemp -d)
-cp "$FILE" "$TMP/timmytime.npz"
-gh release create "weights-$NAME" "$TMP/timmytime.npz" --repo vectorize-io/timmytime \
-  --title "weights $NAME" --notes "Model weights $NAME, pinned by weights.lock. Not a package release."
-rm -r "$TMP"
-cp "$FILE" timmytime/weights/timmytime.npz
-echo "weights-$NAME $SHA" > weights.lock
-echo "pinned weights-$NAME ($SHA)"
+REPO=$1; FILE=$2
+DIR=$(mktemp -d)
+hf download "$REPO" README.md assets/banner.png --local-dir "$DIR" >/dev/null 2>&1 || true
+uv run python -m training.model.export "$FILE" "$DIR"
+REV=$(hf upload "$REPO" "$DIR" . --commit-message "weights from $(basename "$FILE")" | grep -oE 'commit/[0-9a-f]{40}' | cut -d/ -f2)
+SHA=$(shasum -a 256 "$DIR/model.safetensors" | cut -d' ' -f1)
+mkdir -p timmytime/weights && cp "$DIR/model.safetensors" timmytime/weights/model.safetensors
+rm -r "$DIR"
+echo "$REPO $REV $SHA" > weights.lock
+echo "pinned $REPO@${REV:0:7}"

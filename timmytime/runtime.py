@@ -8,6 +8,7 @@ word per step (greedy). The vocabulary and the network here must match
 timmytime/model.py op for op; tests/test_runtime.py checks they agree.
 """
 
+import json
 import os
 import re
 from datetime import date, datetime
@@ -21,7 +22,7 @@ from timmytime.resolve import DateRange, resolve
 MAX_BYTES = 256
 MIN_CONFIDENCE = float(os.environ.get("TIMMYTIME_MIN_CONFIDENCE", "0.5"))  # picked on data/tune_*.jsonl by timmytime/tune.py
 MAX_OUT = 24
-WEIGHTS = Path(os.environ.get("TIMMYTIME_WEIGHTS", Path(__file__).parent / "weights" / "timmytime.npz"))
+WEIGHTS = Path(os.environ.get("TIMMYTIME_WEIGHTS", Path(__file__).parent / "weights" / "model.safetensors"))
 
 # --- output vocabulary: one token per code word; dates split into year / month / day.
 _WORDS = ("none now .. ; day week month quarter year last next before after around early mid late h1 h2 "
@@ -103,14 +104,30 @@ def _conv(x, w, b, k, stride):
     return win.reshape(win.shape[0], -1) @ w + b
 
 
+_DTYPES = {"F16": np.float16, "F32": np.float32, "I64": np.int64}
+
+
+def load_weights(path: Path | str) -> dict[str, np.ndarray]:
+    """A .safetensors file (the released model) or a training .npz, as {name: array}, with numpy only."""
+    if str(path).endswith(".npz"):
+        z = np.load(path)
+        return {k: z[k] for k in z.files}
+    raw = Path(path).read_bytes()
+    n = int.from_bytes(raw[:8], "little")
+    head = json.loads(raw[8:8 + n])
+    head.pop("__metadata__", None)
+    return {k: np.frombuffer(raw, _DTYPES[v["dtype"]], int(np.prod(v["shape"])), 8 + n + v["data_offsets"][0])
+            .reshape(v["shape"]) for k, v in head.items()}
+
+
 class Parser:
     def __init__(self, weights: Path | str = WEIGHTS):
         if not Path(weights).exists():
             raise FileNotFoundError(f"no weights at {weights}. In a git checkout, run scripts/get_weights.sh; "
                                     "the installed package ships them.")
-        z = np.load(weights)
+        z = load_weights(weights)
         # Row-major float32 copies: column-major weights make each matmul ~8x slower.
-        self.w = {k: np.ascontiguousarray(z[k], dtype=np.float32) for k in z.files if k != "config"}
+        self.w = {k: np.ascontiguousarray(v, dtype=np.float32) for k, v in z.items() if k != "config"}
         for name in ("conv1", "conv2"):  # (out, in, k) -> (in*k, out), the shape _conv multiplies by
             cw = self.w.pop(f"{name}.w")
             self.w[f"{name}.k"] = cw.shape[2]

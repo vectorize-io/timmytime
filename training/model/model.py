@@ -372,7 +372,7 @@ def main():
     ap.add_argument("--stride", type=int, default=2)
     ap.add_argument("--n-dec", type=int, default=2)
     ap.add_argument("--n-enc", type=int, default=4)
-    ap.add_argument("--resume", type=Path, help="a .pt checkpoint to continue from")
+    ap.add_argument("--resume", type=Path, help="a .pt or .safetensors checkpoint to continue from")
     ap.add_argument("--start-epoch", type=int, default=0, help="epochs already done (keeps the learning-rate schedule)")
     a = ap.parse_args()
 
@@ -397,7 +397,11 @@ def main():
     sched = torch.optim.lr_scheduler.LambdaLR(
         opt, lambda s: min(1, (s + 1) / warm) * 0.5 * (1 + math.cos(math.pi * min(s, steps) / steps)))
     if a.resume:
-        state = torch.load(a.resume, map_location=device)
+        if a.resume.suffix == ".safetensors":  # the released checkpoint (hs-date-N/training/checkpoint.safetensors)
+            from timmytime.runtime import load_weights
+            state = {k: torch.tensor(v, device=device) for k, v in load_weights(a.resume).items()}
+        else:
+            state = torch.load(a.resume, map_location=device)
         old = state["tok_emb.weight"]
         if len(old) < len(VOCAB):  # words added to VOCAB since: keep the old rows, new ones start small
             state["tok_emb.weight"] = torch.cat([old, torch.randn(len(VOCAB) - len(old), old.shape[1], device=device) * 0.02])

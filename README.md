@@ -18,10 +18,20 @@ timmytime.parse("what is my wifi password")
 # []   no date
 ```
 
+## Install
+
+```sh
+pip install timmytime
+```
+
+Python 3.11+, `numpy` and `tzdata`. No torch, no network, no LLM at run time: the model ships inside
+the package.
+
 ## vs. dateparser
 
-Hindsight finds dates with dateparser plus hand-written rules today. Both were run on the same
-held-out questions (about 3,000 per language, every kind of date). **Exact** = every range right.
+[Hindsight](https://github.com/vectorize-io/hindsight) used to find dates with dateparser plus
+hand-written rules. Both were run on the same held-out questions (about 3,000 per language, every
+kind of date). **Exact** = every range right.
 **False dates** = a date found in a question that has none.
 
 | Language | dateparser exact | timmytime exact | dateparser false dates | timmytime false dates |
@@ -42,25 +52,11 @@ held-out questions (about 3,000 per language, every kind of date). **Exact** = e
 | Thai | 43.2% | **95.6%** | 10.0% | **1.2%** |
 | Hindi | 46.9% | **95.2%** | 16.9% | **1.3%** |
 | Russian | 53.3% | **95.4%** | 16.9% | **1.0%** |
-| hindsight's own tests (834) | 91.0% | **98.7%** | 5.2% | **1.5%** |
+| Hindsight's own tests (834) | 91.0% | **98.7%** | 5.2% | **1.5%** |
 
-The last row is hindsight's query-analyzer tests and golden corpus (`data/test_hindsight.jsonl`).
+The last row is Hindsight's query-analyzer tests and golden corpus (`data/test_hindsight.jsonl`).
 They were written for dateparser, so it does well there. Time per question: dateparser 0.1-16 ms
 (p95 up to 57 ms), timmytime about 1 ms (p95 1.5 ms).
-
-timmytime numbers are the release candidate `d3` (one clean run from scratch, then
-short fine-tunes of it, the last one teaching Chinese gaps), trained but not released yet. The shipped weights (`weights-g16p`) are 1-2 points lower,
-cover 11 languages, and get 64% on hindsight's tests.
-
-## Install
-
-Not on PyPI yet. Build it from a checkout (the weights live on a GitHub release, not in git):
-
-```sh
-scripts/get_weights.sh && uv build && pip install dist/timmytime-*.whl
-```
-
-Python 3.11+, `numpy` and `tzdata`. No torch, no network, no LLM at run time.
 
 ## API
 
@@ -74,7 +70,7 @@ Python 3.11+, `numpy` and `tzdata`. No torch, no network, no LLM at run time.
 - Answers below `TIMMYTIME_MIN_CONFIDENCE` (default 0.5) become `[]`: a wrong date hides the right
   results, no date just searches everything.
 
-`timmytime.Parser(path)` loads other weights. `timmytime.hindsight.extract_temporal_constraint` has
+`timmytime.Parser(path)` loads other weights (a `.safetensors` file). `timmytime.hindsight.extract_temporal_constraint` has
 the shape hindsight's recall expects.
 
 ## What it understands
@@ -213,14 +209,23 @@ The model reads the question's bytes and writes a short code (`week -1`, `last 6
 `2025-05 ; 2026-06`, `none`). Plain Python (`timmytime/resolve.py`) turns the code into dates, so
 leap years, week starts and month lengths are always right.
 
-The model is a byte-level encoder-decoder transformer with 5.2M weights: a semantic parser distilled
-from an LLM, trained on about 1.1M checked questions. Fixes and new languages come from training
-data, never from rules in the code. See [TRAINING.md](TRAINING.md).
+The model, [hs-date-1](https://huggingface.co/hindsight-ai/hs-date-1), is a byte-level
+encoder-decoder transformer with 4.8M weights: a semantic parser distilled from an LLM, trained on
+940k checked questions ([hs-date-1-data](https://huggingface.co/datasets/hindsight-ai/hs-date-1-data)).
+Fixes and new languages come from training data, never from rules in the code. See
+[TRAINING.md](TRAINING.md).
 
 ## Development
 
 ```sh
 uv sync
 scripts/get_weights.sh
-PYTEST_ADDOPTS= uv run pytest -q
+uv run pytest -q
 ```
+
+Releases: write the `CHANGELOG.md` entry, then `./release.sh patch` (or `minor`, `major`, `X.Y.Z`).
+The tag builds the package, makes a GitHub release and publishes to PyPI.
+
+## License
+
+MIT

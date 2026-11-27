@@ -19,8 +19,6 @@ jobs:
         with:
           python-version: ${{ matrix.python }}
       - run: scripts/get_weights.sh
-        env:
-          GH_TOKEN: ${{ github.token }}
       - run: uv sync --no-default-groups --group dev
       - run: uv run pytest -q tests
 
