@@ -72,6 +72,20 @@ They were written for dateparser, so it does well there. Time per question: date
 `text2date.Parser(path)` loads other weights (a `.safetensors` file). `text2date.hindsight.extract_temporal_constraint` has
 the shape hindsight's recall expects.
 
+### asyncio and threads
+
+`parse()` runs the model in the calling thread for about 1 ms. From an asyncio app, use
+`ProcessParser`, which runs the model in a small child process so the event loop never waits on it:
+
+```python
+parser = text2date.ProcessParser()   # starts the child on first use (or call parser.load())
+await parser.aparse("what did I decide last week")
+```
+
+A worker thread is not enough under load: the model's numpy steps hold the GIL, and with 64 parses at
+once the loop can stall for 30-60 ms; with `ProcessParser` it stays under ~8 ms. The math always runs
+on one thread, so text2date stays fast when other processes share the CPU.
+
 ## What it understands
 
 "Last week" and "this month" are whole calendar periods; weeks start on Monday. "N units ago" is

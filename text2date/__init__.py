@@ -10,8 +10,9 @@ from functools import lru_cache
 
 from text2date.resolve import DateRange
 from text2date.runtime import Parser
+from text2date.worker import ProcessParser
 
-__all__ = ["DateRange", "Parser", "parse"]
+__all__ = ["DateRange", "Parser", "ProcessParser", "parse"]
 
 
 @lru_cache(maxsize=1)

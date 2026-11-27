@@ -2,6 +2,12 @@
 
 All notable changes to text2date are documented in this file.
 
+## [0.1.2] - 2026-11-27
+
+### Added
+
+- `ProcessParser`: the model in a small child process, with `parse()` and `aparse()` for asyncio. In-process, the model's numpy steps hold the GIL, so even on a worker thread an event loop could stall for 30-60 ms with 64 parses at once; through `ProcessParser` it stays under ~8 ms. Same answers as `text2date.parse`; the child restarts if it dies and exits with its parent.
+
 ## [0.1.1] - 2026-11-27
 
 ### Fixed
